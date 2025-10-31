@@ -1,0 +1,11 @@
+circuit: SAUDI_ARABIA_CIRCUIT
+race_season: 2021
+team: ALPINE
+driver: FERNANDO_ALONSO
+starting_position: 13
+finals_time {
+  seconds: 7576
+  nanos: 118000000
+}
+final_position: 13
+

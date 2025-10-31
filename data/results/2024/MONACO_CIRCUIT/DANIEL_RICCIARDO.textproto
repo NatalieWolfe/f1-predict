@@ -1,0 +1,18 @@
+circuit: MONACO_CIRCUIT
+race_season: 2024
+team: RB
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 5045
+}
+qualification_time_2 {
+  seconds: 71
+  nanos: 482000000
+}
+starting_position: 12
+finals_time {
+  seconds: 8597
+  nanos: 554000000
+}
+final_position: 12
+

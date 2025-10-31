@@ -1,0 +1,23 @@
+circuit: SINGAPORE_CIRCUIT
+race_season: 2022
+team: FERRARI
+driver: CARLOS_SAINZ
+qualification_time_1 {
+  seconds: 114
+  nanos: 559000000
+}
+qualification_time_2 {
+  seconds: 113
+  nanos: 219000000
+}
+qualification_time_3 {
+  seconds: 109
+  nanos: 583000000
+}
+starting_position: 4
+finals_time {
+  seconds: 7350
+  nanos: 543000000
+}
+final_position: 3
+

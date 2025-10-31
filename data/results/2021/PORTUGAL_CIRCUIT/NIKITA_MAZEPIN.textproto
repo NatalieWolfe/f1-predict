@@ -1,0 +1,11 @@
+circuit: PORTUGAL_CIRCUIT
+race_season: 2021
+team: HAAS
+driver: NIKITA_MAZEPIN
+starting_position: 20
+finals_time {
+  seconds: 5673
+  nanos: 421000000
+}
+final_position: 19
+

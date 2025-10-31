@@ -1,0 +1,11 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2021
+team: FERRARI
+driver: CARLOS_SAINZ
+starting_position: 8
+finals_time {
+  seconds: 5590
+  nanos: 997000000
+}
+final_position: 8
+

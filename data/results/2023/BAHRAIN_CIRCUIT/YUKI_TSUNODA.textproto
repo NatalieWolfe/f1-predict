@@ -1,0 +1,19 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2023
+team: RB
+driver: YUKI_TSUNODA
+qualification_time_1 {
+  seconds: 91
+  nanos: 400000000
+}
+qualification_time_2 {
+  seconds: 92
+  nanos: 509000000
+}
+starting_position: 14
+finals_time {
+  seconds: 5727
+  nanos: 606000000
+}
+final_position: 11
+

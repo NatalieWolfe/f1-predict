@@ -1,0 +1,15 @@
+circuit: MIAMI_CIRCUIT
+race_season: 2025
+team: ASTON_MARTIN
+driver: FERNANDO_ALONSO
+qualification_time_1 {
+  seconds: 87
+  nanos: 604000000
+}
+starting_position: 17
+finals_time {
+  seconds: 5332
+  nanos: 587000000
+}
+final_position: 15
+

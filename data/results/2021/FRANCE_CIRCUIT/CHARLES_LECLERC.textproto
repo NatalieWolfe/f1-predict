@@ -1,0 +1,11 @@
+circuit: FRANCE_CIRCUIT
+race_season: 2021
+team: FERRARI
+driver: CHARLES_LECLERC
+starting_position: 7
+finals_time {
+  seconds: 5246
+  nanos: 770000000
+}
+final_position: 16
+

@@ -1,0 +1,11 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 2021
+team: RED_BULL_RACING
+driver: MAX_VERSTAPPEN
+starting_position: 1
+finals_time {
+  seconds: 207
+  nanos: 71000000
+}
+final_position: 1
+

@@ -1,0 +1,11 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2021
+team: ALPINE
+driver: FERNANDO_ALONSO
+starting_position: 7
+finals_time {
+  seconds: 7175
+  nanos: 377000000
+}
+final_position: 7
+

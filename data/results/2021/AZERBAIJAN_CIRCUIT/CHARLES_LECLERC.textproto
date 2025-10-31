@@ -1,0 +1,11 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2021
+team: FERRARI
+driver: CHARLES_LECLERC
+starting_position: 1
+finals_time {
+  seconds: 8020
+  nanos: 238000000
+}
+final_position: 4
+

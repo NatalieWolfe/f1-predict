@@ -1,0 +1,23 @@
+circuit: MONACO_CIRCUIT
+race_season: 2025
+team: RB
+driver: ISACK_HADJAR
+qualification_time_1 {
+  seconds: 71
+  nanos: 811000000
+}
+qualification_time_2 {
+  seconds: 71
+  nanos: 40000000
+}
+qualification_time_3 {
+  seconds: 70
+  nanos: 923000000
+}
+starting_position: 5
+finals_time {
+  seconds: 6034
+  nanos: 843000000
+}
+final_position: 6
+

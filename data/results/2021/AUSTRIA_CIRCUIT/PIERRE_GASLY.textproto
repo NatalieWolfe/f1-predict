@@ -1,0 +1,11 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2021
+team: RB
+driver: PIERRE_GASLY
+starting_position: 6
+finals_time {
+  seconds: 5096
+  nanos: 387000000
+}
+final_position: 9
+

@@ -1,0 +1,23 @@
+circuit: MONACO_CIRCUIT
+race_season: 2025
+team: MCLAREN
+driver: OSCAR_PIASTRI
+qualification_time_1 {
+  seconds: 71
+  nanos: 308000000
+}
+qualification_time_2 {
+  seconds: 70
+  nanos: 858000000
+}
+qualification_time_3 {
+  seconds: 70
+  nanos: 129000000
+}
+starting_position: 3
+finals_time {
+  seconds: 6037
+  nanos: 501000000
+}
+final_position: 3
+

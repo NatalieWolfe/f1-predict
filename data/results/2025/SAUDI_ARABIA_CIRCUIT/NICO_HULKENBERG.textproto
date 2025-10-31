@@ -1,0 +1,15 @@
+circuit: SAUDI_ARABIA_CIRCUIT
+race_season: 2025
+team: KICK_SAUBER
+driver: NICO_HULKENBERG
+qualification_time_1 {
+  seconds: 88
+  nanos: 782000000
+}
+starting_position: 18
+finals_time {
+  seconds: 4867
+  nanos: 758000000
+}
+final_position: 15
+

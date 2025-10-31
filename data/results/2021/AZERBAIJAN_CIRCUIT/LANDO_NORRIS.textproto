@@ -1,0 +1,11 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2021
+team: MCLAREN
+driver: LANDO_NORRIS
+starting_position: 9
+finals_time {
+  seconds: 8021
+  nanos: 164000000
+}
+final_position: 5
+

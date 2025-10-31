@@ -1,0 +1,15 @@
+circuit: JAPAN_CIRCUIT
+race_season: 2023
+team: KICK_SAUBER
+driver: GUANYU_ZHOU
+qualification_time_1 {
+  seconds: 91
+  nanos: 398000000
+}
+starting_position: 19
+finals_time {
+  seconds: 5459
+  nanos: 421000000
+}
+final_position: 13
+

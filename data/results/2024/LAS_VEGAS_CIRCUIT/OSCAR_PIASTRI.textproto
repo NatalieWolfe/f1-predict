@@ -1,0 +1,23 @@
+circuit: LAS_VEGAS_CIRCUIT
+race_season: 2024
+team: MCLAREN
+driver: OSCAR_PIASTRI
+qualification_time_1 {
+  seconds: 93
+  nanos: 450000000
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 24000000
+}
+qualification_time_3 {
+  seconds: 93
+  nanos: 33000000
+}
+starting_position: 8
+finals_time {
+  seconds: 4977
+  nanos: 334000000
+}
+final_position: 7
+

@@ -1,0 +1,11 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2021
+team: MCLAREN
+driver: DANIEL_RICCIARDO
+starting_position: 7
+finals_time {
+  seconds: 5661
+  nanos: 448000000
+}
+final_position: 6
+

@@ -1,0 +1,23 @@
+circuit: MEXICO_CIRCUIT
+race_season: 2024
+team: RED_BULL_RACING
+driver: MAX_VERSTAPPEN
+qualification_time_1 {
+  seconds: 76
+  nanos: 803000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 514000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 171000000
+}
+starting_position: 2
+finals_time {
+  seconds: 6115
+  nanos: 358000000
+}
+final_position: 6
+

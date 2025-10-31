@@ -1,0 +1,11 @@
+circuit: MEXICO_CIRCUIT
+race_season: 2021
+team: ASTON_MARTIN
+driver: SEBASTIAN_VETTEL
+starting_position: 9
+finals_time {
+  seconds: 5920
+  nanos: 86000000
+}
+final_position: 7
+

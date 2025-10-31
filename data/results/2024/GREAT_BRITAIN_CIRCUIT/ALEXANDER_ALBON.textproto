@@ -1,0 +1,23 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2024
+team: WILLIAMS
+driver: ALEXANDER_ALBON
+qualification_time_1 {
+  seconds: 91
+  nanos: 135000000
+}
+qualification_time_2 {
+  seconds: 86
+  nanos: 933000000
+}
+qualification_time_3 {
+  seconds: 86
+  nanos: 640000000
+}
+starting_position: 9
+finals_time {
+  seconds: 5015
+  nanos: 446000000
+}
+final_position: 9
+

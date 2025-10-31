@@ -1,0 +1,15 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2023
+team: HAAS
+driver: KEVIN_MAGNUSSEN
+qualification_time_1 {
+  seconds: 84
+  nanos: 764000000
+}
+starting_position: 17
+finals_time {
+  seconds: 5223
+  nanos: 624000000
+}
+final_position: 20
+

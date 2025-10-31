@@ -1,0 +1,23 @@
+circuit: CANADA_CIRCUIT
+race_season: 2024
+team: ASTON_MARTIN
+driver: FERNANDO_ALONSO
+qualification_time_1 {
+  seconds: 73
+  nanos: 117000000
+}
+qualification_time_2 {
+  seconds: 72
+  nanos: 635000000
+}
+qualification_time_3 {
+  seconds: 72
+  nanos: 228000000
+}
+starting_position: 6
+finals_time {
+  seconds: 6365
+  nanos: 437000000
+}
+final_position: 6
+

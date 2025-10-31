@@ -1,0 +1,11 @@
+circuit: FRANCE_CIRCUIT
+race_season: 2021
+team: RB
+driver: PIERRE_GASLY
+starting_position: 6
+finals_time {
+  seconds: 5322
+  nanos: 366000000
+}
+final_position: 7
+

@@ -1,0 +1,11 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2021
+team: ALPINE
+driver: FERNANDO_ALONSO
+starting_position: 8
+finals_time {
+  seconds: 8022
+  nanos: 792000000
+}
+final_position: 6
+

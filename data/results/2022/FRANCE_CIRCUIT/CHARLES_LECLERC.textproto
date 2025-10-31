@@ -1,0 +1,18 @@
+circuit: FRANCE_CIRCUIT
+race_season: 2022
+team: FERRARI
+driver: CHARLES_LECLERC
+qualification_time_1 {
+  seconds: 91
+  nanos: 727000000
+}
+qualification_time_2 {
+  seconds: 91
+  nanos: 216000000
+}
+qualification_time_3 {
+  seconds: 90
+  nanos: 872000000
+}
+starting_position: 1
+

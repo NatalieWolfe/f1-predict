@@ -1,0 +1,11 @@
+circuit: SAUDI_ARABIA_CIRCUIT
+race_season: 2021
+team: RB
+driver: PIERRE_GASLY
+starting_position: 6
+finals_time {
+  seconds: 7616
+  nanos: 731000000
+}
+final_position: 6
+

@@ -1,0 +1,23 @@
+circuit: CANADA_CIRCUIT
+race_season: 2025
+team: MERCEDES
+driver: KIMI_ANTONELLI
+qualification_time_1 {
+  seconds: 72
+  nanos: 279000000
+}
+qualification_time_2 {
+  seconds: 71
+  nanos: 974000000
+}
+qualification_time_3 {
+  seconds: 71
+  nanos: 391000000
+}
+starting_position: 4
+finals_time {
+  seconds: 5513
+  nanos: 702000000
+}
+final_position: 3
+

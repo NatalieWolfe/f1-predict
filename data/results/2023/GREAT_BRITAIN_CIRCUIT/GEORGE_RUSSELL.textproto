@@ -1,0 +1,23 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2023
+team: MERCEDES
+driver: GEORGE_RUSSELL
+qualification_time_1 {
+  seconds: 89
+  nanos: 412000000
+}
+qualification_time_2 {
+  seconds: 88
+  nanos: 782000000
+}
+qualification_time_3 {
+  seconds: 87
+  nanos: 155000000
+}
+starting_position: 6
+finals_time {
+  seconds: 5128
+  nanos: 144000000
+}
+final_position: 5
+

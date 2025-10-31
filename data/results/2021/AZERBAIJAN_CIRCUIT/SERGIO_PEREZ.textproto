@@ -1,0 +1,11 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2021
+team: RED_BULL_RACING
+driver: SERGIO_PEREZ
+starting_position: 6
+finals_time {
+  seconds: 8016
+  nanos: 410000000
+}
+final_position: 1
+

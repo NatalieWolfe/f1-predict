@@ -1,0 +1,11 @@
+circuit: FRANCE_CIRCUIT
+race_season: 2021
+team: ALPINE
+driver: FERNANDO_ALONSO
+starting_position: 9
+finals_time {
+  seconds: 5323
+  nanos: 465000000
+}
+final_position: 8
+

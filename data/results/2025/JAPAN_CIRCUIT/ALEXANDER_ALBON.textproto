@@ -1,0 +1,23 @@
+circuit: JAPAN_CIRCUIT
+race_season: 2025
+team: WILLIAMS
+driver: ALEXANDER_ALBON
+qualification_time_1 {
+  seconds: 88
+  nanos: 218000000
+}
+qualification_time_2 {
+  seconds: 87
+  nanos: 783000000
+}
+qualification_time_3 {
+  seconds: 87
+  nanos: 615000000
+}
+starting_position: 9
+finals_time {
+  seconds: 4967
+  nanos: 350000000
+}
+final_position: 9
+

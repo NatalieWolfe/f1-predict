@@ -1,0 +1,15 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2024
+team: WILLIAMS
+driver: LOGAN_SARGEANT
+qualification_time_1 {
+  seconds: 73
+  nanos: 509000000
+}
+starting_position: 19
+finals_time {
+  seconds: 5302
+  nanos: 227000000
+}
+final_position: 20
+

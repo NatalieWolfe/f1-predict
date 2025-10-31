@@ -1,0 +1,19 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2024
+team: ALPINE
+driver: PIERRE_GASLY
+qualification_time_1 {
+  seconds: 65
+  nanos: 598000000
+}
+qualification_time_2 {
+  seconds: 65
+  nanos: 359000000
+}
+starting_position: 13
+finals_time {
+  seconds: 5124
+  nanos: 564000000
+}
+final_position: 10
+

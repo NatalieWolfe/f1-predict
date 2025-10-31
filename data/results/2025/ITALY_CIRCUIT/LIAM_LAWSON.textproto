@@ -1,0 +1,15 @@
+circuit: ITALY_CIRCUIT
+race_season: 2025
+team: RB
+driver: LIAM_LAWSON
+qualification_time_1 {
+  seconds: 80
+  nanos: 279000000
+}
+starting_position: 18
+finals_time {
+  seconds: 155
+  nanos: 591000000
+}
+final_position: 14
+

@@ -1,0 +1,11 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2021
+team: FERRARI
+driver: CARLOS_SAINZ
+starting_position: 3
+finals_time {
+  seconds: 5594
+  nanos: 671000000
+}
+final_position: 6
+

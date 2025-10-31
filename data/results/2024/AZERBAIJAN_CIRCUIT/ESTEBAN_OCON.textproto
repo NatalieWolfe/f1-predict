@@ -1,0 +1,15 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2024
+team: ALPINE
+driver: ESTEBAN_OCON
+qualification_time_1 {
+  seconds: 104
+  nanos: 504000000
+}
+starting_position: 20
+finals_time {
+  seconds: 5579
+  nanos: 7000000
+}
+final_position: 15
+

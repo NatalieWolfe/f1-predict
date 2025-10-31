@@ -1,0 +1,11 @@
+circuit: SAUDI_ARABIA_CIRCUIT
+race_season: 2021
+team: KICK_SAUBER
+driver: KIMI_RAIKKONEN
+starting_position: 12
+finals_time {
+  seconds: 7576
+  nanos: 118000000
+}
+final_position: 15
+

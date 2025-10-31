@@ -1,0 +1,23 @@
+circuit: MEXICO_CIRCUIT
+race_season: 2025
+team: MCLAREN
+driver: LANDO_NORRIS
+qualification_time_1 {
+  seconds: 76
+  nanos: 899000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 251000000
+}
+qualification_time_3 {
+  seconds: 75
+  nanos: 586000000
+}
+starting_position: 1
+finals_time {
+  seconds: 5878
+  nanos: 574000000
+}
+final_position: 1
+

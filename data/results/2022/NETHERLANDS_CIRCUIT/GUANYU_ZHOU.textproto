@@ -1,0 +1,19 @@
+circuit: NETHERLANDS_CIRCUIT
+race_season: 2022
+team: KICK_SAUBER
+driver: GUANYU_ZHOU
+qualification_time_1 {
+  seconds: 71
+  nanos: 826000000
+}
+qualification_time_2 {
+  seconds: 71
+  nanos: 704000000
+}
+starting_position: 14
+finals_time {
+  seconds: 5840
+  nanos: 93000000
+}
+final_position: 16
+

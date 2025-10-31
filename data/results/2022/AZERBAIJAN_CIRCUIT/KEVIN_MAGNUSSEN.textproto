@@ -1,0 +1,10 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2022
+team: HAAS
+driver: KEVIN_MAGNUSSEN
+qualification_time_1 {
+  seconds: 104
+  nanos: 643000000
+}
+starting_position: 16
+

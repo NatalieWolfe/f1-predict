@@ -1,0 +1,18 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2022
+team: MERCEDES
+driver: GEORGE_RUSSELL
+qualification_time_1 {
+  seconds: 100
+  nanos: 28000000
+}
+qualification_time_2 {
+  seconds: 101
+  nanos: 725000000
+}
+qualification_time_3 {
+  seconds: 102
+  nanos: 161000000
+}
+starting_position: 8
+

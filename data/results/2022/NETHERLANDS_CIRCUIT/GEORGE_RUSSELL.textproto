@@ -1,0 +1,23 @@
+circuit: NETHERLANDS_CIRCUIT
+race_season: 2022
+team: MERCEDES
+driver: GEORGE_RUSSELL
+qualification_time_1 {
+  seconds: 71
+  nanos: 561000000
+}
+qualification_time_2 {
+  seconds: 70
+  nanos: 824000000
+}
+qualification_time_3 {
+  seconds: 71
+  nanos: 147000000
+}
+starting_position: 6
+finals_time {
+  seconds: 5806
+  nanos: 843000000
+}
+final_position: 2
+

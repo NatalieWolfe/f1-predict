@@ -1,0 +1,15 @@
+circuit: ITALY_CIRCUIT
+race_season: 2024
+team: WILLIAMS
+driver: FRANCO_COLAPINTO
+qualification_time_1 {
+  seconds: 81
+  nanos: 61000000
+}
+starting_position: 18
+finals_time {
+  seconds: 4562
+  nanos: 35000000
+}
+final_position: 12
+

@@ -1,0 +1,19 @@
+circuit: HUNGARY_CIRCUIT
+race_season: 2024
+team: KICK_SAUBER
+driver: VALTTERI_BOTTAS
+qualification_time_1 {
+  seconds: 77
+  nanos: 487000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 384000000
+}
+starting_position: 12
+finals_time {
+  seconds: 5882
+  nanos: 989000000
+}
+final_position: 16
+

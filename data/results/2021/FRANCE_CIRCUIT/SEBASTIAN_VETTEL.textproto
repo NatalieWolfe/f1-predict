@@ -1,0 +1,11 @@
+circuit: FRANCE_CIRCUIT
+race_season: 2021
+team: ASTON_MARTIN
+driver: SEBASTIAN_VETTEL
+starting_position: 12
+finals_time {
+  seconds: 5325
+  nanos: 436000000
+}
+final_position: 9
+

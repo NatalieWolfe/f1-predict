@@ -1,0 +1,23 @@
+circuit: JAPAN_CIRCUIT
+race_season: 2024
+team: MCLAREN
+driver: LANDO_NORRIS
+qualification_time_1 {
+  seconds: 89
+  nanos: 536000000
+}
+qualification_time_2 {
+  seconds: 88
+  nanos: 940000000
+}
+qualification_time_3 {
+  seconds: 88
+  nanos: 489000000
+}
+starting_position: 3
+finals_time {
+  seconds: 6893
+  nanos: 266000000
+}
+final_position: 5
+

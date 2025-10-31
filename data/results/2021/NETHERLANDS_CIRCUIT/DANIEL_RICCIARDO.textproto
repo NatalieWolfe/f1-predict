@@ -1,0 +1,11 @@
+circuit: NETHERLANDS_CIRCUIT
+race_season: 2021
+team: MCLAREN
+driver: DANIEL_RICCIARDO
+starting_position: 10
+finals_time {
+  seconds: 5406
+  nanos: 395000000
+}
+final_position: 11
+

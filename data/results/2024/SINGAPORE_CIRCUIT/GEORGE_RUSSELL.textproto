@@ -1,0 +1,23 @@
+circuit: SINGAPORE_CIRCUIT
+race_season: 2024
+team: MERCEDES
+driver: GEORGE_RUSSELL
+qualification_time_1 {
+  seconds: 90
+  nanos: 811000000
+}
+qualification_time_2 {
+  seconds: 90
+  nanos: 153000000
+}
+qualification_time_3 {
+  seconds: 89
+  nanos: 867000000
+}
+starting_position: 4
+finals_time {
+  seconds: 6113
+  nanos: 611000000
+}
+final_position: 4
+

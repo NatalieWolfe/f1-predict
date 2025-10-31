@@ -1,0 +1,11 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2021
+team: RED_BULL_RACING
+driver: MAX_VERSTAPPEN
+starting_position: 2
+finals_time {
+  seconds: 5553
+  nanos: 347000000
+}
+final_position: 2
+

@@ -1,0 +1,23 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2022
+team: HAAS
+driver: KEVIN_MAGNUSSEN
+qualification_time_1 {
+  seconds: 91
+  nanos: 955000000
+}
+qualification_time_2 {
+  seconds: 91
+  nanos: 461000000
+}
+qualification_time_3 {
+  seconds: 91
+  nanos: 808000000
+}
+starting_position: 7
+finals_time {
+  seconds: 5868
+  nanos: 338000000
+}
+final_position: 5
+

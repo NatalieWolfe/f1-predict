@@ -1,0 +1,11 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2021
+team: HAAS
+driver: MICK_SCHUMACHER
+starting_position: 18
+finals_time {
+  seconds: 7104
+  nanos: 284000000
+}
+final_position: 18
+

@@ -1,0 +1,11 @@
+circuit: TURKIYE_CIRCUIT
+race_season: 2021
+team: ALPINE
+driver: FERNANDO_ALONSO
+starting_position: 5
+finals_time {
+  seconds: 5465
+  nanos: 103000000
+}
+final_position: 16
+

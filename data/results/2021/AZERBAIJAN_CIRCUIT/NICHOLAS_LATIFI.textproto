@@ -1,0 +1,11 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2021
+team: WILLIAMS
+driver: NICHOLAS_LATIFI
+starting_position: 16
+finals_time {
+  seconds: 8058
+  nanos: 789000000
+}
+final_position: 16
+

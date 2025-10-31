@@ -1,0 +1,19 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2022
+team: KICK_SAUBER
+driver: VALTTERI_BOTTAS
+qualification_time_1 {
+  seconds: 66
+  nanos: 442000000
+}
+qualification_time_2 {
+  seconds: 66
+  nanos: 319000000
+}
+starting_position: 20
+finals_time {
+  seconds: 5065
+  nanos: 312000000
+}
+final_position: 11
+

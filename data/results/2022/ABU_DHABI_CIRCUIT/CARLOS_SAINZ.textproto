@@ -1,0 +1,23 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2022
+team: FERRARI
+driver: CARLOS_SAINZ
+qualification_time_1 {
+  seconds: 85
+  nanos: 90000000
+}
+qualification_time_2 {
+  seconds: 84
+  nanos: 521000000
+}
+qualification_time_3 {
+  seconds: 84
+  nanos: 242000000
+}
+starting_position: 4
+finals_time {
+  seconds: 5290
+  nanos: 806000000
+}
+final_position: 4
+

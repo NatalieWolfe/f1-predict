@@ -1,0 +1,23 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2025
+team: FERRARI
+driver: LEWIS_HAMILTON
+qualification_time_1 {
+  seconds: 91
+  nanos: 219000000
+}
+qualification_time_2 {
+  seconds: 91
+  nanos: 9000000
+}
+qualification_time_3 {
+  seconds: 90
+  nanos: 772000000
+}
+starting_position: 9
+finals_time {
+  seconds: 5767
+  nanos: 428000000
+}
+final_position: 5
+

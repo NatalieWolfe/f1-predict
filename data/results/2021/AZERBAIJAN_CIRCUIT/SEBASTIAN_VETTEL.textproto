@@ -1,0 +1,11 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2021
+team: ASTON_MARTIN
+driver: SEBASTIAN_VETTEL
+starting_position: 11
+finals_time {
+  seconds: 8017
+  nanos: 795000000
+}
+final_position: 2
+

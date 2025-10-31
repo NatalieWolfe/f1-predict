@@ -1,0 +1,23 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2023
+team: RB
+driver: YUKI_TSUNODA
+qualification_time_1 {
+  seconds: 102
+  nanos: 234000000
+}
+qualification_time_2 {
+  seconds: 101
+  nanos: 569000000
+}
+qualification_time_3 {
+  seconds: 101
+  nanos: 581000000
+}
+starting_position: 8
+finals_time {
+  seconds: 5646
+  nanos: 298000000
+}
+final_position: 10
+

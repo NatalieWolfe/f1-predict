@@ -1,0 +1,19 @@
+circuit: HUNGARY_CIRCUIT
+race_season: 2025
+team: MERCEDES
+driver: KIMI_ANTONELLI
+qualification_time_1 {
+  seconds: 75
+  nanos: 782000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 386000000
+}
+starting_position: 15
+finals_time {
+  seconds: 5722
+  nanos: 231000000
+}
+final_position: 10
+

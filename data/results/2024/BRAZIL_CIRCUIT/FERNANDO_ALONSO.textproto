@@ -1,0 +1,23 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2024
+team: ASTON_MARTIN
+driver: FERNANDO_ALONSO
+qualification_time_1 {
+  seconds: 90
+  nanos: 207000000
+}
+qualification_time_2 {
+  seconds: 85
+  nanos: 35000000
+}
+qualification_time_3 {
+  seconds: 88
+  nanos: 998000000
+}
+starting_position: 9
+finals_time {
+  seconds: 7692
+  nanos: 479000000
+}
+final_position: 14
+

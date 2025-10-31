@@ -1,0 +1,11 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2021
+team: MERCEDES
+driver: VALTTERI_BOTTAS
+starting_position: 10
+finals_time {
+  seconds: 8027
+  nanos: 674000000
+}
+final_position: 12
+

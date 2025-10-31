@@ -1,0 +1,23 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2024
+team: RB
+driver: YUKI_TSUNODA
+qualification_time_1 {
+  seconds: 77
+  nanos: 356000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 791000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 788000000
+}
+starting_position: 8
+finals_time {
+  seconds: 4922
+  nanos: 444000000
+}
+final_position: 7
+

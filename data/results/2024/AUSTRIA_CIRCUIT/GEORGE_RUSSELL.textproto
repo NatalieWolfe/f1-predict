@@ -1,0 +1,23 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2024
+team: MERCEDES
+driver: GEORGE_RUSSELL
+qualification_time_1 {
+  seconds: 65
+  nanos: 585000000
+}
+qualification_time_2 {
+  seconds: 65
+  nanos: 16000000
+}
+qualification_time_3 {
+  seconds: 64
+  nanos: 840000000
+}
+starting_position: 3
+finals_time {
+  seconds: 5062
+  nanos: 798000000
+}
+final_position: 1
+

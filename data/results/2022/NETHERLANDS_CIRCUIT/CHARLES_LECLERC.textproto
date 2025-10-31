@@ -1,0 +1,23 @@
+circuit: NETHERLANDS_CIRCUIT
+race_season: 2022
+team: FERRARI
+driver: CHARLES_LECLERC
+qualification_time_1 {
+  seconds: 71
+  nanos: 443000000
+}
+qualification_time_2 {
+  seconds: 70
+  nanos: 988000000
+}
+qualification_time_3 {
+  seconds: 70
+  nanos: 363000000
+}
+starting_position: 2
+finals_time {
+  seconds: 5813
+  nanos: 702000000
+}
+final_position: 3
+

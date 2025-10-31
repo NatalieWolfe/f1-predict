@@ -1,0 +1,11 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2021
+team: ASTON_MARTIN
+driver: SEBASTIAN_VETTEL
+starting_position: 20
+finals_time {
+  seconds: 5524
+  nanos: 897000000
+}
+final_position: 15
+

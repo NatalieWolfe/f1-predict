@@ -1,0 +1,11 @@
+circuit: PORTUGAL_CIRCUIT
+race_season: 2021
+team: ALPINE
+driver: FERNANDO_ALONSO
+starting_position: 13
+finals_time {
+  seconds: 5736
+  nanos: 229000000
+}
+final_position: 8
+

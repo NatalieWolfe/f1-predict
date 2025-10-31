@@ -1,0 +1,19 @@
+circuit: MONACO_CIRCUIT
+race_season: 2025
+team: KICK_SAUBER
+driver: NICO_HULKENBERG
+qualification_time_1 {
+  seconds: 71
+  nanos: 871000000
+}
+qualification_time_2 {
+  seconds: 71
+  nanos: 596000000
+}
+starting_position: 13
+finals_time {
+  seconds: 6035
+  nanos: 843000000
+}
+final_position: 16
+

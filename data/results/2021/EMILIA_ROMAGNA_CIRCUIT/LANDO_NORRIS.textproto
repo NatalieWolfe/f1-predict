@@ -1,0 +1,11 @@
+circuit: EMILIA_ROMAGNA_CIRCUIT
+race_season: 2021
+team: MCLAREN
+driver: LANDO_NORRIS
+starting_position: 7
+finals_time {
+  seconds: 7378
+  nanos: 300000000
+}
+final_position: 3
+

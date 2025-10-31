@@ -1,0 +1,19 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2022
+team: ALPINE
+driver: ESTEBAN_OCON
+qualification_time_1 {
+  seconds: 92
+  nanos: 40000000
+}
+qualification_time_2 {
+  seconds: 91
+  nanos: 782000000
+}
+starting_position: 11
+finals_time {
+  seconds: 5873
+  nanos: 7000000
+}
+final_position: 7
+

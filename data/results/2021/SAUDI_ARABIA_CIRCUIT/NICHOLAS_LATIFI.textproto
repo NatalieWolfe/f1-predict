@@ -1,0 +1,11 @@
+circuit: SAUDI_ARABIA_CIRCUIT
+race_season: 2021
+team: WILLIAMS
+driver: NICHOLAS_LATIFI
+starting_position: 16
+finals_time {
+  seconds: 7658
+  nanos: 367000000
+}
+final_position: 12
+

@@ -1,0 +1,23 @@
+circuit: CHINA_CIRCUIT
+race_season: 2024
+team: FERRARI
+driver: CHARLES_LECLERC
+qualification_time_1 {
+  seconds: 94
+  nanos: 797000000
+}
+qualification_time_2 {
+  seconds: 94
+  nanos: 399000000
+}
+qualification_time_3 {
+  seconds: 94
+  nanos: 289000000
+}
+starting_position: 6
+finals_time {
+  seconds: 6076
+  nanos: 177000000
+}
+final_position: 4
+

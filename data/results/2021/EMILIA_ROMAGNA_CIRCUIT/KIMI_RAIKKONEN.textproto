@@ -1,0 +1,11 @@
+circuit: EMILIA_ROMAGNA_CIRCUIT
+race_season: 2021
+team: KICK_SAUBER
+driver: KIMI_RAIKKONEN
+starting_position: 16
+finals_time {
+  seconds: 7449
+  nanos: 371000000
+}
+final_position: 13
+

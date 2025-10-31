@@ -1,0 +1,23 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2023
+team: ALPINE
+driver: ESTEBAN_OCON
+qualification_time_1 {
+  seconds: 73
+  nanos: 433000000
+}
+qualification_time_2 {
+  seconds: 73
+  nanos: 1000000
+}
+qualification_time_3 {
+  seconds: 73
+  nanos: 83000000
+}
+starting_position: 6
+finals_time {
+  seconds: 5347
+  nanos: 182000000
+}
+final_position: 8
+

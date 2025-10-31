@@ -1,0 +1,14 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2022
+team: ALPINE
+driver: ESTEBAN_OCON
+qualification_time_1 {
+  seconds: 101
+  nanos: 730000000
+}
+qualification_time_2 {
+  seconds: 105
+  nanos: 190000000
+}
+starting_position: 15
+

@@ -1,0 +1,11 @@
+circuit: QATAR_CIRCUIT
+race_season: 2021
+team: ASTON_MARTIN
+driver: LANCE_STROLL
+starting_position: 12
+finals_time {
+  seconds: 5149
+  nanos: 745000000
+}
+final_position: 6
+

@@ -1,0 +1,23 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2024
+team: MERCEDES
+driver: LEWIS_HAMILTON
+qualification_time_1 {
+  seconds: 72
+  nanos: 143000000
+}
+qualification_time_2 {
+  seconds: 71
+  nanos: 792000000
+}
+qualification_time_3 {
+  seconds: 71
+  nanos: 701000000
+}
+starting_position: 3
+finals_time {
+  seconds: 5318
+  nanos: 17000000
+}
+final_position: 3
+

@@ -1,0 +1,11 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2021
+team: RB
+driver: YUKI_TSUNODA
+starting_position: 7
+finals_time {
+  seconds: 8023
+  nanos: 34000000
+}
+final_position: 7
+

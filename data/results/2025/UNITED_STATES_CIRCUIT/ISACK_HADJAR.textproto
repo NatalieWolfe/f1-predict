@@ -1,0 +1,11 @@
+circuit: UNITED_STATES_CIRCUIT
+race_season: 2025
+team: RB
+driver: ISACK_HADJAR
+starting_position: 20
+finals_time {
+  seconds: 5732
+  nanos: 968000000
+}
+final_position: 16
+

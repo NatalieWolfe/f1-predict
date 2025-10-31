@@ -1,0 +1,23 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2024
+team: HAAS
+driver: NICO_HULKENBERG
+qualification_time_1 {
+  seconds: 65
+  nanos: 596000000
+}
+qualification_time_2 {
+  seconds: 65
+  nanos: 262000000
+}
+qualification_time_3 {
+  seconds: 65
+  nanos: 385000000
+}
+starting_position: 9
+finals_time {
+  seconds: 5116
+  nanos: 886000000
+}
+final_position: 6
+

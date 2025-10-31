@@ -1,0 +1,23 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2023
+team: RED_BULL_RACING
+driver: MAX_VERSTAPPEN
+qualification_time_1 {
+  seconds: 70
+  nanos: 436000000
+}
+qualification_time_2 {
+  seconds: 70
+  nanos: 162000000
+}
+qualification_time_3 {
+  seconds: 70
+  nanos: 727000000
+}
+starting_position: 1
+finals_time {
+  seconds: 7008
+  nanos: 894000000
+}
+final_position: 1
+

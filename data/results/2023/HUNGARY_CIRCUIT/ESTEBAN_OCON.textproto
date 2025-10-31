@@ -1,0 +1,14 @@
+circuit: HUNGARY_CIRCUIT
+race_season: 2023
+team: ALPINE
+driver: ESTEBAN_OCON
+qualification_time_1 {
+  seconds: 78
+  nanos: 854000000
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 841000000
+}
+starting_position: 12
+

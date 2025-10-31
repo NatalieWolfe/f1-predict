@@ -1,0 +1,23 @@
+circuit: FRANCE_CIRCUIT
+race_season: 2022
+team: MCLAREN
+driver: LANDO_NORRIS
+qualification_time_1 {
+  seconds: 92
+  nanos: 671000000
+}
+qualification_time_2 {
+  seconds: 92
+  nanos: 777000000
+}
+qualification_time_3 {
+  seconds: 92
+  nanos: 31000000
+}
+starting_position: 5
+finals_time {
+  seconds: 5454
+  nanos: 138000000
+}
+final_position: 7
+

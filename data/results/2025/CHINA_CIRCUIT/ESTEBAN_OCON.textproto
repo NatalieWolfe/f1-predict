@@ -1,0 +1,19 @@
+circuit: CHINA_CIRCUIT
+race_season: 2025
+team: HAAS
+driver: ESTEBAN_OCON
+qualification_time_1 {
+  seconds: 91
+  nanos: 876000000
+}
+qualification_time_2 {
+  seconds: 91
+  nanos: 625000000
+}
+starting_position: 11
+finals_time {
+  seconds: 5504
+  nanos: 995000000
+}
+final_position: 5
+

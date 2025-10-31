@@ -1,0 +1,15 @@
+circuit: CHINA_CIRCUIT
+race_season: 2024
+team: WILLIAMS
+driver: LOGAN_SARGEANT
+qualification_time_1 {
+  seconds: 96
+  nanos: 358000000
+}
+starting_position: 20
+finals_time {
+  seconds: 6147
+  nanos: 664000000
+}
+final_position: 17
+

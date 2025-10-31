@@ -1,0 +1,15 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2024
+team: HAAS
+driver: NICO_HULKENBERG
+qualification_time_1 {
+  seconds: 77
+  nanos: 976000000
+}
+starting_position: 16
+finals_time {
+  seconds: 4931
+  nanos: 396000000
+}
+final_position: 9
+

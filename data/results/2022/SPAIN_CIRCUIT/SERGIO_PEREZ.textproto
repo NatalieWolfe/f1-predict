@@ -1,0 +1,23 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2022
+team: RED_BULL_RACING
+driver: SERGIO_PEREZ
+qualification_time_1 {
+  seconds: 80
+  nanos: 447000000
+}
+qualification_time_2 {
+  seconds: 79
+  nanos: 830000000
+}
+qualification_time_3 {
+  seconds: 79
+  nanos: 420000000
+}
+starting_position: 5
+finals_time {
+  seconds: 5853
+  nanos: 547000000
+}
+final_position: 2
+

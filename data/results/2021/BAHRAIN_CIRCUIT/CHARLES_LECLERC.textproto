@@ -1,0 +1,11 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2021
+team: FERRARI
+driver: CHARLES_LECLERC
+starting_position: 4
+finals_time {
+  seconds: 5582
+  nanos: 987000000
+}
+final_position: 6
+

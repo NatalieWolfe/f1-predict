@@ -1,0 +1,11 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2021
+team: HAAS
+driver: NIKITA_MAZEPIN
+starting_position: 18
+finals_time {
+  seconds: 8030
+  nanos: 725000000
+}
+final_position: 14
+

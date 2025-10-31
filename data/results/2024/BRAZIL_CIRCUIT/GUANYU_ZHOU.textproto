@@ -1,0 +1,15 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2024
+team: KICK_SAUBER
+driver: GUANYU_ZHOU
+qualification_time_1 {
+  seconds: 92
+  nanos: 262000000
+}
+starting_position: 19
+finals_time {
+  seconds: 7694
+  nanos: 79000000
+}
+final_position: 15
+

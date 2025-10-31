@@ -1,0 +1,15 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2024
+team: KICK_SAUBER
+driver: GUANYU_ZHOU
+qualification_time_1 {
+  seconds: 90
+  nanos: 757000000
+}
+starting_position: 17
+finals_time {
+  seconds: 5505
+  nanos: 742000000
+}
+final_position: 11
+

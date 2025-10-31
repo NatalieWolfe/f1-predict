@@ -1,0 +1,19 @@
+circuit: NETHERLANDS_CIRCUIT
+race_season: 2024
+team: HAAS
+driver: NICO_HULKENBERG
+qualification_time_1 {
+  seconds: 71
+  nanos: 832000000
+}
+qualification_time_2 {
+  seconds: 71
+  nanos: 215000000
+}
+starting_position: 12
+finals_time {
+  seconds: 5446
+  nanos: 519000000
+}
+final_position: 11
+

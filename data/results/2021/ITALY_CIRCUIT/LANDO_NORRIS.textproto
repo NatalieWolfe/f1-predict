@@ -1,0 +1,11 @@
+circuit: ITALY_CIRCUIT
+race_season: 2021
+team: MCLAREN
+driver: LANDO_NORRIS
+starting_position: 3
+finals_time {
+  seconds: 4916
+  nanos: 112000000
+}
+final_position: 2
+

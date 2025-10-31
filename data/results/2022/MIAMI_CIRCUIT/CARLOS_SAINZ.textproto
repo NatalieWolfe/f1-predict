@@ -1,0 +1,23 @@
+circuit: MIAMI_CIRCUIT
+race_season: 2022
+team: FERRARI
+driver: CARLOS_SAINZ
+qualification_time_1 {
+  seconds: 90
+  nanos: 79000000
+}
+qualification_time_2 {
+  seconds: 89
+  nanos: 729000000
+}
+qualification_time_3 {
+  seconds: 88
+  nanos: 986000000
+}
+starting_position: 2
+finals_time {
+  seconds: 5672
+  nanos: 487000000
+}
+final_position: 3
+

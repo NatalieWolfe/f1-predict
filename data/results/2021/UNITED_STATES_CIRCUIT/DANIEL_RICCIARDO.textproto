@@ -1,0 +1,11 @@
+circuit: UNITED_STATES_CIRCUIT
+race_season: 2021
+team: MCLAREN
+driver: DANIEL_RICCIARDO
+starting_position: 6
+finals_time {
+  seconds: 5753
+  nanos: 406000000
+}
+final_position: 5
+

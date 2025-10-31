@@ -1,0 +1,23 @@
+circuit: HUNGARY_CIRCUIT
+race_season: 2024
+team: RB
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 77
+  nanos: 50000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 202000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 447000000
+}
+starting_position: 9
+finals_time {
+  seconds: 5882
+  nanos: 989000000
+}
+final_position: 12
+

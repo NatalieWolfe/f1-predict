@@ -1,0 +1,19 @@
+circuit: MONACO_CIRCUIT
+race_season: 2022
+team: MCLAREN
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 73
+  nanos: 338000000
+}
+qualification_time_2 {
+  seconds: 72
+  nanos: 964000000
+}
+starting_position: 14
+finals_time {
+  seconds: 7047
+  nanos: 900000000
+}
+final_position: 13
+

@@ -1,0 +1,23 @@
+circuit: SINGAPORE_CIRCUIT
+race_season: 2025
+team: HAAS
+driver: OLIVER_BEARMAN
+qualification_time_1 {
+  seconds: 90
+  nanos: 420000000
+}
+qualification_time_2 {
+  seconds: 90
+  nanos: 76000000
+}
+qualification_time_3 {
+  seconds: 89
+  nanos: 868000000
+}
+starting_position: 9
+finals_time {
+  seconds: 6115
+  nanos: 894000000
+}
+final_position: 9
+

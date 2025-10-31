@@ -1,0 +1,11 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2023
+team: RED_BULL_RACING
+driver: SERGIO_PEREZ
+starting_position: 20
+finals_time {
+  seconds: 9151
+  nanos: 691000000
+}
+final_position: 5
+

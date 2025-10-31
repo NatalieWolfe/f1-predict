@@ -1,0 +1,23 @@
+circuit: NETHERLANDS_CIRCUIT
+race_season: 2023
+team: MERCEDES
+driver: GEORGE_RUSSELL
+qualification_time_1 {
+  seconds: 81
+  nanos: 345000000
+}
+qualification_time_2 {
+  seconds: 79
+  nanos: 620000000
+}
+qualification_time_3 {
+  seconds: 71
+  nanos: 294000000
+}
+starting_position: 3
+finals_time {
+  seconds: 8700
+  nanos: 165000000
+}
+final_position: 17
+

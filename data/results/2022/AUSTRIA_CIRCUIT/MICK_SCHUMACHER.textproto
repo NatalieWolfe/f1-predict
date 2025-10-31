@@ -1,0 +1,23 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2022
+team: HAAS
+driver: MICK_SCHUMACHER
+qualification_time_1 {
+  seconds: 66
+  nanos: 405000000
+}
+qualification_time_2 {
+  seconds: 66
+  nanos: 151000000
+}
+qualification_time_3 {
+  seconds: 66
+  nanos: 11000000
+}
+starting_position: 9
+finals_time {
+  seconds: 5065
+  nanos: 312000000
+}
+final_position: 6
+

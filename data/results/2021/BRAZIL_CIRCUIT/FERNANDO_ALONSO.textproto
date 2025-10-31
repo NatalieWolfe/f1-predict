@@ -1,0 +1,11 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2021
+team: ALPINE
+driver: FERNANDO_ALONSO
+starting_position: 12
+finals_time {
+  seconds: 5543
+  nanos: 851000000
+}
+final_position: 9
+

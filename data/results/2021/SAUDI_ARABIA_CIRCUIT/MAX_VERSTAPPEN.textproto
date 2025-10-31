@@ -1,0 +1,11 @@
+circuit: SAUDI_ARABIA_CIRCUIT
+race_season: 2021
+team: RED_BULL_RACING
+driver: MAX_VERSTAPPEN
+starting_position: 3
+finals_time {
+  seconds: 7596
+  nanos: 943000000
+}
+final_position: 2
+

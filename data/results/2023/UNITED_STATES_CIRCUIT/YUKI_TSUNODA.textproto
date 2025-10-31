@@ -1,0 +1,19 @@
+circuit: UNITED_STATES_CIRCUIT
+race_season: 2023
+team: RB
+driver: YUKI_TSUNODA
+qualification_time_1 {
+  seconds: 95
+  nanos: 913000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 697000000
+}
+starting_position: 11
+finals_time {
+  seconds: 5795
+  nanos: 747000000
+}
+final_position: 8
+

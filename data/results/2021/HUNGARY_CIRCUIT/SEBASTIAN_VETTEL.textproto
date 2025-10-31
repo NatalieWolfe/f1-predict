@@ -1,0 +1,10 @@
+circuit: HUNGARY_CIRCUIT
+race_season: 2021
+team: ASTON_MARTIN
+driver: SEBASTIAN_VETTEL
+starting_position: 10
+finals_time {
+  seconds: 7485
+  nanos: 58000000
+}
+

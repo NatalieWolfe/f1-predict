@@ -1,0 +1,23 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2024
+team: ALPINE
+driver: PIERRE_GASLY
+qualification_time_1 {
+  seconds: 83
+  nanos: 548000000
+}
+qualification_time_2 {
+  seconds: 83
+  nanos: 86000000
+}
+qualification_time_3 {
+  seconds: 82
+  nanos: 984000000
+}
+starting_position: 5
+finals_time {
+  seconds: 5265
+  nanos: 851000000
+}
+final_position: 7
+

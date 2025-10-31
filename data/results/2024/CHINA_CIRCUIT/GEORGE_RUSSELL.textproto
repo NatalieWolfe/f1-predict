@@ -1,0 +1,23 @@
+circuit: CHINA_CIRCUIT
+race_season: 2024
+team: MERCEDES
+driver: GEORGE_RUSSELL
+qualification_time_1 {
+  seconds: 95
+  nanos: 84000000
+}
+qualification_time_2 {
+  seconds: 94
+  nanos: 609000000
+}
+qualification_time_3 {
+  seconds: 94
+  nanos: 433000000
+}
+starting_position: 8
+finals_time {
+  seconds: 6091
+  nanos: 278000000
+}
+final_position: 6
+

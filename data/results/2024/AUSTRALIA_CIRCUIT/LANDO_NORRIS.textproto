@@ -1,0 +1,23 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2024
+team: MCLAREN
+driver: LANDO_NORRIS
+qualification_time_1 {
+  seconds: 77
+  nanos: 430000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 750000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 315000000
+}
+starting_position: 3
+finals_time {
+  seconds: 4832
+  nanos: 747000000
+}
+final_position: 3
+

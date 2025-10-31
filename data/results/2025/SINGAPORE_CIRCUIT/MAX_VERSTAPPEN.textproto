@@ -1,0 +1,23 @@
+circuit: SINGAPORE_CIRCUIT
+race_season: 2025
+team: RED_BULL_RACING
+driver: MAX_VERSTAPPEN
+qualification_time_1 {
+  seconds: 90
+  nanos: 28000000
+}
+qualification_time_2 {
+  seconds: 89
+  nanos: 572000000
+}
+qualification_time_3 {
+  seconds: 89
+  nanos: 340000000
+}
+starting_position: 2
+finals_time {
+  seconds: 6027
+  nanos: 797000000
+}
+final_position: 2
+

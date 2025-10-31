@@ -1,0 +1,11 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2021
+team: FERRARI
+driver: CARLOS_SAINZ
+starting_position: 5
+finals_time {
+  seconds: 8024
+  nanos: 119000000
+}
+final_position: 8
+

@@ -1,0 +1,11 @@
+circuit: NETHERLANDS_CIRCUIT
+race_season: 2021
+team: WILLIAMS
+driver: NICHOLAS_LATIFI
+starting_position: 19
+finals_time {
+  seconds: 5407
+  nanos: 395000000
+}
+final_position: 16
+

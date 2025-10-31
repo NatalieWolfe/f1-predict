@@ -1,0 +1,22 @@
+circuit: UNITED_STATES_CIRCUIT
+race_season: 2023
+team: MERCEDES
+driver: LEWIS_HAMILTON
+qualification_time_1 {
+  seconds: 95
+  nanos: 91000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 240000000
+}
+qualification_time_3 {
+  seconds: 94
+  nanos: 862000000
+}
+starting_position: 3
+finals_time {
+  seconds: 5723
+  nanos: 587000000
+}
+

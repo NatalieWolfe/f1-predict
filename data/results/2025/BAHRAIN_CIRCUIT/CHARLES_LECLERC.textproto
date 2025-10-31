@@ -1,0 +1,23 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2025
+team: FERRARI
+driver: CHARLES_LECLERC
+qualification_time_1 {
+  seconds: 91
+  nanos: 454000000
+}
+qualification_time_2 {
+  seconds: 90
+  nanos: 724000000
+}
+qualification_time_3 {
+  seconds: 90
+  nanos: 175000000
+}
+starting_position: 2
+finals_time {
+  seconds: 5759
+  nanos: 114000000
+}
+final_position: 4
+

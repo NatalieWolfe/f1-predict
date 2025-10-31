@@ -1,0 +1,23 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 2023
+team: RED_BULL_RACING
+driver: SERGIO_PEREZ
+qualification_time_1 {
+  seconds: 118
+  nanos: 899000000
+}
+qualification_time_2 {
+  seconds: 112
+  nanos: 353000000
+}
+qualification_time_3 {
+  seconds: 107
+  nanos: 45000000
+}
+starting_position: 2
+finals_time {
+  seconds: 4972
+  nanos: 755000000
+}
+final_position: 2
+

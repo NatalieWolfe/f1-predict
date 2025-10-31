@@ -1,0 +1,15 @@
+circuit: MIAMI_CIRCUIT
+race_season: 2025
+team: KICK_SAUBER
+driver: NICO_HULKENBERG
+qualification_time_1 {
+  seconds: 87
+  nanos: 473000000
+}
+starting_position: 16
+finals_time {
+  seconds: 5332
+  nanos: 587000000
+}
+final_position: 14
+

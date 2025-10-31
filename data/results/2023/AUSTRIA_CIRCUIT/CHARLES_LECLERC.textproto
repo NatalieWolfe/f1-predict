@@ -1,0 +1,23 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2023
+team: FERRARI
+driver: CHARLES_LECLERC
+qualification_time_1 {
+  seconds: 65
+  nanos: 577000000
+}
+qualification_time_2 {
+  seconds: 65
+  nanos: 87000000
+}
+qualification_time_3 {
+  seconds: 64
+  nanos: 439000000
+}
+starting_position: 2
+finals_time {
+  seconds: 5138
+  nanos: 762000000
+}
+final_position: 2
+

@@ -1,0 +1,11 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2021
+team: FERRARI
+driver: CHARLES_LECLERC
+starting_position: 6
+finals_time {
+  seconds: 5592
+  nanos: 368000000
+}
+final_position: 5
+

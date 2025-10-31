@@ -1,0 +1,21 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2022
+team: ALPINE
+driver: FERNANDO_ALONSO
+qualification_time_1 {
+  seconds: 79
+  nanos: 192000000
+}
+qualification_time_2 {
+  seconds: 78
+  nanos: 815000000
+}
+qualification_time_3 {
+}
+starting_position: 10
+finals_time {
+  seconds: 5267
+  nanos: 548000000
+}
+final_position: 17
+

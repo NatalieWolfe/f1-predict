@@ -1,0 +1,11 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2021
+team: FERRARI
+driver: CHARLES_LECLERC
+starting_position: 4
+finals_time {
+  seconds: 5642
+  nanos: 296000000
+}
+final_position: 4
+

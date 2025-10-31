@@ -1,0 +1,23 @@
+circuit: ITALY_CIRCUIT
+race_season: 2024
+team: WILLIAMS
+driver: ALEXANDER_ALBON
+qualification_time_1 {
+  seconds: 80
+  nanos: 542000000
+}
+qualification_time_2 {
+  seconds: 80
+  nanos: 314000000
+}
+qualification_time_3 {
+  seconds: 80
+  nanos: 299000000
+}
+starting_position: 9
+finals_time {
+  seconds: 4548
+  nanos: 183000000
+}
+final_position: 9
+

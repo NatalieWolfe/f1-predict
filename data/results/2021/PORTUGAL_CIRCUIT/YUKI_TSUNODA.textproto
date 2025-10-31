@@ -1,0 +1,11 @@
+circuit: PORTUGAL_CIRCUIT
+race_season: 2021
+team: RB
+driver: YUKI_TSUNODA
+starting_position: 14
+finals_time {
+  seconds: 5672
+  nanos: 421000000
+}
+final_position: 15
+

@@ -1,0 +1,15 @@
+circuit: MONACO_CIRCUIT
+race_season: 2023
+team: RED_BULL_RACING
+driver: SERGIO_PEREZ
+qualification_time_1 {
+  seconds: 73
+  nanos: 850000000
+}
+starting_position: 20
+finals_time {
+  seconds: 6533
+  nanos: 980000000
+}
+final_position: 16
+

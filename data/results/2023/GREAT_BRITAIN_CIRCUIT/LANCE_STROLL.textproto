@@ -1,0 +1,19 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2023
+team: ASTON_MARTIN
+driver: LANCE_STROLL
+qualification_time_1 {
+  seconds: 89
+  nanos: 448000000
+}
+qualification_time_2 {
+  seconds: 88
+  nanos: 935000000
+}
+starting_position: 12
+finals_time {
+  seconds: 5144
+  nanos: 421000000
+}
+final_position: 14
+

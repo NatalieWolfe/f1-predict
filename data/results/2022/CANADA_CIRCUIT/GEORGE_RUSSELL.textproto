@@ -1,0 +1,23 @@
+circuit: CANADA_CIRCUIT
+race_season: 2022
+team: MERCEDES
+driver: GEORGE_RUSSELL
+qualification_time_1 {
+  seconds: 93
+  nanos: 160000000
+}
+qualification_time_2 {
+  seconds: 84
+  nanos: 950000000
+}
+qualification_time_3 {
+  seconds: 83
+  nanos: 557000000
+}
+starting_position: 8
+finals_time {
+  seconds: 5794
+  nanos: 70000000
+}
+final_position: 4
+

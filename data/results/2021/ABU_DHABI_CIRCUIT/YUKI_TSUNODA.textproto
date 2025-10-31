@@ -1,0 +1,11 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2021
+team: RB
+driver: YUKI_TSUNODA
+starting_position: 8
+finals_time {
+  seconds: 5423
+  nanos: 37000000
+}
+final_position: 4
+

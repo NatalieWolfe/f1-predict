@@ -1,0 +1,23 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 2025
+team: MCLAREN
+driver: LANDO_NORRIS
+qualification_time_1 {
+  seconds: 101
+  nanos: 10000000
+}
+qualification_time_2 {
+  seconds: 100
+  nanos: 715000000
+}
+qualification_time_3 {
+  seconds: 100
+  nanos: 562000000
+}
+starting_position: 1
+finals_time {
+  seconds: 5126
+  nanos: 16000000
+}
+final_position: 2
+

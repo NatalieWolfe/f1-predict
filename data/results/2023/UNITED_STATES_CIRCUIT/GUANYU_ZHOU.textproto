@@ -1,0 +1,19 @@
+circuit: UNITED_STATES_CIRCUIT
+race_season: 2023
+team: KICK_SAUBER
+driver: GUANYU_ZHOU
+qualification_time_1 {
+  seconds: 96
+  nanos: 52000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 698000000
+}
+starting_position: 12
+finals_time {
+  seconds: 5722
+  nanos: 362000000
+}
+final_position: 13
+

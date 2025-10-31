@@ -1,0 +1,19 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2025
+team: RED_BULL_RACING
+driver: YUKI_TSUNODA
+qualification_time_1 {
+  seconds: 86
+  nanos: 275000000
+}
+qualification_time_2 {
+  seconds: 85
+  nanos: 826000000
+}
+starting_position: 11
+finals_time {
+  seconds: 5836
+  nanos: 735000000
+}
+final_position: 15
+

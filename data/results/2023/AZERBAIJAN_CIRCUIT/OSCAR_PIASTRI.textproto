@@ -1,0 +1,23 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2023
+team: MCLAREN
+driver: OSCAR_PIASTRI
+qualification_time_1 {
+  seconds: 102
+  nanos: 455000000
+}
+qualification_time_2 {
+  seconds: 101
+  nanos: 636000000
+}
+qualification_time_3 {
+  seconds: 101
+  nanos: 611000000
+}
+starting_position: 10
+finals_time {
+  seconds: 5648
+  nanos: 937000000
+}
+final_position: 11
+

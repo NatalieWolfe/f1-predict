@@ -1,0 +1,10 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2021
+team: RB
+driver: YUKI_TSUNODA
+finals_time {
+  seconds: 7185
+  nanos: 349000000
+}
+final_position: 10
+

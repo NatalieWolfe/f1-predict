@@ -1,0 +1,11 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2021
+team: HAAS
+driver: NIKITA_MAZEPIN
+starting_position: 20
+finals_time {
+  seconds: 5036
+  nanos: 543000000
+}
+final_position: 19
+

@@ -1,0 +1,15 @@
+circuit: MONACO_CIRCUIT
+race_season: 2023
+team: WILLIAMS
+driver: LOGAN_SARGEANT
+qualification_time_1 {
+  seconds: 73
+  nanos: 113000000
+}
+starting_position: 16
+finals_time {
+  seconds: 6533
+  nanos: 980000000
+}
+final_position: 18
+

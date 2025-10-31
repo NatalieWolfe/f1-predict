@@ -1,0 +1,11 @@
+circuit: UNITED_STATES_CIRCUIT
+race_season: 2021
+team: MCLAREN
+driver: LANDO_NORRIS
+starting_position: 7
+finals_time {
+  seconds: 5770
+  nanos: 947000000
+}
+final_position: 8
+

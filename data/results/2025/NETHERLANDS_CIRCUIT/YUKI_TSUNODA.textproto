@@ -1,0 +1,19 @@
+circuit: NETHERLANDS_CIRCUIT
+race_season: 2025
+team: RED_BULL_RACING
+driver: YUKI_TSUNODA
+qualification_time_1 {
+  seconds: 69
+  nanos: 954000000
+}
+qualification_time_2 {
+  seconds: 69
+  nanos: 622000000
+}
+starting_position: 12
+finals_time {
+  seconds: 5923
+  nanos: 446000000
+}
+final_position: 9
+

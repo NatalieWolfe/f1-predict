@@ -1,0 +1,18 @@
+circuit: FRANCE_CIRCUIT
+race_season: 2022
+team: RB
+driver: YUKI_TSUNODA
+qualification_time_1 {
+  seconds: 93
+  nanos: 394000000
+}
+qualification_time_2 {
+  seconds: 92
+  nanos: 836000000
+}
+qualification_time_3 {
+  seconds: 92
+  nanos: 780000000
+}
+starting_position: 8
+

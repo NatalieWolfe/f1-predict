@@ -1,0 +1,19 @@
+circuit: MEXICO_CIRCUIT
+race_season: 2025
+team: HAAS
+driver: ESTEBAN_OCON
+qualification_time_1 {
+  seconds: 76
+  nanos: 948000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 837000000
+}
+starting_position: 11
+finals_time {
+  seconds: 5954
+  nanos: 38000000
+}
+final_position: 9
+

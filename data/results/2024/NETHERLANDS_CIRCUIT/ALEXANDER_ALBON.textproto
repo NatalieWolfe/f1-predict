@@ -1,0 +1,11 @@
+circuit: NETHERLANDS_CIRCUIT
+race_season: 2024
+team: WILLIAMS
+driver: ALEXANDER_ALBON
+starting_position: 19
+finals_time {
+  seconds: 5446
+  nanos: 519000000
+}
+final_position: 14
+

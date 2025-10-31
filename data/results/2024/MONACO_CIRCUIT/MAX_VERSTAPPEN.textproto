@@ -1,0 +1,23 @@
+circuit: MONACO_CIRCUIT
+race_season: 2024
+team: RED_BULL_RACING
+driver: MAX_VERSTAPPEN
+qualification_time_1 {
+  seconds: 71
+  nanos: 711000000
+}
+qualification_time_2 {
+  seconds: 70
+  nanos: 745000000
+}
+qualification_time_3 {
+  seconds: 70
+  nanos: 567000000
+}
+starting_position: 6
+finals_time {
+  seconds: 8609
+  nanos: 407000000
+}
+final_position: 6
+

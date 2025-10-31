@@ -1,0 +1,11 @@
+circuit: UNITED_STATES_CIRCUIT
+race_season: 2021
+team: WILLIAMS
+driver: GEORGE_RUSSELL
+starting_position: 20
+finals_time {
+  seconds: 5677
+  nanos: 552000000
+}
+final_position: 14
+

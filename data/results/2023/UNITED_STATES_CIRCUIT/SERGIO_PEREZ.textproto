@@ -1,0 +1,23 @@
+circuit: UNITED_STATES_CIRCUIT
+race_season: 2023
+team: RED_BULL_RACING
+driver: SERGIO_PEREZ
+qualification_time_1 {
+  seconds: 95
+  nanos: 989000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 679000000
+}
+qualification_time_3 {
+  seconds: 95
+  nanos: 173000000
+}
+starting_position: 9
+finals_time {
+  seconds: 5739
+  nanos: 822000000
+}
+final_position: 4
+

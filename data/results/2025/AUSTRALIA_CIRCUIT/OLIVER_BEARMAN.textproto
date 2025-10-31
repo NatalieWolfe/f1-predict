@@ -1,0 +1,11 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2025
+team: HAAS
+driver: OLIVER_BEARMAN
+starting_position: 20
+finals_time {
+  seconds: 6166
+  nanos: 655000000
+}
+final_position: 14
+

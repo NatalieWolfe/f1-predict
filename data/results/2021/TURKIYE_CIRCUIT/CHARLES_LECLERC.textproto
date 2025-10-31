@@ -1,0 +1,11 @@
+circuit: TURKIYE_CIRCUIT
+race_season: 2021
+team: FERRARI
+driver: CHARLES_LECLERC
+starting_position: 3
+finals_time {
+  seconds: 5501
+  nanos: 917000000
+}
+final_position: 4
+

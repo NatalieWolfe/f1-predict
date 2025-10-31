@@ -1,0 +1,23 @@
+circuit: MONACO_CIRCUIT
+race_season: 2023
+team: FERRARI
+driver: CARLOS_SAINZ
+qualification_time_1 {
+  seconds: 72
+  nanos: 717000000
+}
+qualification_time_2 {
+  seconds: 72
+  nanos: 210000000
+}
+qualification_time_3 {
+  seconds: 71
+  nanos: 630000000
+}
+starting_position: 4
+finals_time {
+  seconds: 6595
+  nanos: 371000000
+}
+final_position: 8
+

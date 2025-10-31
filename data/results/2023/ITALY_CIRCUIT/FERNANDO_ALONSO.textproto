@@ -1,0 +1,23 @@
+circuit: ITALY_CIRCUIT
+race_season: 2023
+team: ASTON_MARTIN
+driver: FERNANDO_ALONSO
+qualification_time_1 {
+  seconds: 82
+  nanos: 43000000
+}
+qualification_time_2 {
+  seconds: 81
+  nanos: 543000000
+}
+qualification_time_3 {
+  seconds: 81
+  nanos: 417000000
+}
+starting_position: 10
+finals_time {
+  seconds: 4467
+  nanos: 437000000
+}
+final_position: 9
+

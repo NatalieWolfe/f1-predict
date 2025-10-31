@@ -1,0 +1,23 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2023
+team: MCLAREN
+driver: OSCAR_PIASTRI
+qualification_time_1 {
+  seconds: 84
+  nanos: 487000000
+}
+qualification_time_2 {
+  seconds: 84
+  nanos: 278000000
+}
+qualification_time_3 {
+  seconds: 83
+  nanos: 782000000
+}
+starting_position: 3
+finals_time {
+  seconds: 5254
+  nanos: 111000000
+}
+final_position: 6
+

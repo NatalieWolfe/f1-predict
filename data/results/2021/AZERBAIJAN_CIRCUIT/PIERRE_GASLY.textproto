@@ -1,0 +1,11 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2021
+team: RB
+driver: PIERRE_GASLY
+starting_position: 4
+finals_time {
+  seconds: 8019
+  nanos: 172000000
+}
+final_position: 3
+

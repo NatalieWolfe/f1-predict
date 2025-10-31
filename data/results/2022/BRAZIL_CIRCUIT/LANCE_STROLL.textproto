@@ -1,0 +1,19 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2022
+team: ASTON_MARTIN
+driver: LANCE_STROLL
+qualification_time_1 {
+  seconds: 74
+  nanos: 398000000
+}
+qualification_time_2 {
+  seconds: 72
+  nanos: 210000000
+}
+starting_position: 15
+finals_time {
+  seconds: 5937
+  nanos: 596000000
+}
+final_position: 10
+

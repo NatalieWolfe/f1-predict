@@ -1,0 +1,19 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2024
+team: ASTON_MARTIN
+driver: FERNANDO_ALONSO
+qualification_time_1 {
+  seconds: 65
+  nanos: 656000000
+}
+qualification_time_2 {
+  seconds: 65
+  nanos: 639000000
+}
+starting_position: 15
+finals_time {
+  seconds: 5063
+  nanos: 798000000
+}
+final_position: 18
+

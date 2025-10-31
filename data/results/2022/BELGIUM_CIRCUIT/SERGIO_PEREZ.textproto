@@ -1,0 +1,23 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 2022
+team: RED_BULL_RACING
+driver: SERGIO_PEREZ
+qualification_time_1 {
+  seconds: 105
+  nanos: 377000000
+}
+qualification_time_2 {
+  seconds: 104
+  nanos: 794000000
+}
+qualification_time_3 {
+  seconds: 104
+  nanos: 462000000
+}
+starting_position: 2
+finals_time {
+  seconds: 5170
+  nanos: 735000000
+}
+final_position: 2
+

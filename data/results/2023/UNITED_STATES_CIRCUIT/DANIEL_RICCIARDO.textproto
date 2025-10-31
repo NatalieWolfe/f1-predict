@@ -1,0 +1,19 @@
+circuit: UNITED_STATES_CIRCUIT
+race_season: 2023
+team: RB
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 96
+  nanos: 213000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 974000000
+}
+starting_position: 14
+finals_time {
+  seconds: 5722
+  nanos: 362000000
+}
+final_position: 15
+

@@ -1,0 +1,23 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2023
+team: ASTON_MARTIN
+driver: LANCE_STROLL
+qualification_time_1 {
+  seconds: 91
+  nanos: 184000000
+}
+qualification_time_2 {
+  seconds: 91
+  nanos: 127000000
+}
+qualification_time_3 {
+  seconds: 90
+  nanos: 836000000
+}
+starting_position: 8
+finals_time {
+  seconds: 5691
+  nanos: 238000000
+}
+final_position: 6
+

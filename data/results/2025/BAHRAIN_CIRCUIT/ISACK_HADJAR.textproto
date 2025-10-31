@@ -1,0 +1,19 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2025
+team: RB
+driver: ISACK_HADJAR
+qualification_time_1 {
+  seconds: 91
+  nanos: 591000000
+}
+qualification_time_2 {
+  seconds: 91
+  nanos: 271000000
+}
+starting_position: 12
+finals_time {
+  seconds: 5795
+  nanos: 749000000
+}
+final_position: 13
+

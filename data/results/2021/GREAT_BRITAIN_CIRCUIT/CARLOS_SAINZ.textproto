@@ -1,0 +1,11 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2021
+team: FERRARI
+driver: CARLOS_SAINZ
+starting_position: 10
+finals_time {
+  seconds: 7146
+  nanos: 738000000
+}
+final_position: 6
+

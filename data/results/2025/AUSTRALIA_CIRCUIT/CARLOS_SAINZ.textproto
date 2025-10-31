@@ -1,0 +1,18 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2025
+team: WILLIAMS
+driver: CARLOS_SAINZ
+qualification_time_1 {
+  seconds: 76
+  nanos: 360000000
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 931000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 62000000
+}
+starting_position: 10
+

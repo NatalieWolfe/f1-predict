@@ -1,0 +1,19 @@
+circuit: UNITED_STATES_CIRCUIT
+race_season: 2025
+team: KICK_SAUBER
+driver: NICO_HULKENBERG
+qualification_time_1 {
+  seconds: 93
+  nanos: 551000000
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 334000000
+}
+starting_position: 11
+finals_time {
+  seconds: 5697
+  nanos: 410000000
+}
+final_position: 8
+

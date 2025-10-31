@@ -1,0 +1,11 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2021
+team: MCLAREN
+driver: DANIEL_RICCIARDO
+starting_position: 13
+finals_time {
+  seconds: 8025
+  nanos: 284000000
+}
+final_position: 9
+

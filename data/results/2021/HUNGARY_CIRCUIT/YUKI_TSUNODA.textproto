@@ -1,0 +1,11 @@
+circuit: HUNGARY_CIRCUIT
+race_season: 2021
+team: RB
+driver: YUKI_TSUNODA
+starting_position: 16
+finals_time {
+  seconds: 7559
+  nanos: 2000000
+}
+final_position: 6
+

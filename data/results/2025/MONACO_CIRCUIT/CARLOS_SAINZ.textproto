@@ -1,0 +1,19 @@
+circuit: MONACO_CIRCUIT
+race_season: 2025
+team: WILLIAMS
+driver: CARLOS_SAINZ
+qualification_time_1 {
+  seconds: 71
+  nanos: 707000000
+}
+qualification_time_2 {
+  seconds: 71
+  nanos: 362000000
+}
+starting_position: 11
+finals_time {
+  seconds: 6035
+  nanos: 843000000
+}
+final_position: 10
+

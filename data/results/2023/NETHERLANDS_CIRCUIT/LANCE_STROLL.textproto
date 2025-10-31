@@ -1,0 +1,19 @@
+circuit: NETHERLANDS_CIRCUIT
+race_season: 2023
+team: ASTON_MARTIN
+driver: LANCE_STROLL
+qualification_time_1 {
+  seconds: 81
+  nanos: 570000000
+}
+qualification_time_2 {
+  seconds: 80
+  nanos: 121000000
+}
+starting_position: 11
+finals_time {
+  seconds: 8664
+  nanos: 498000000
+}
+final_position: 11
+

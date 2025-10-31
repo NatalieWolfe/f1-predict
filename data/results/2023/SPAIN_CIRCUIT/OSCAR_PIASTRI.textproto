@@ -1,0 +1,23 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2023
+team: MCLAREN
+driver: OSCAR_PIASTRI
+qualification_time_1 {
+  seconds: 73
+  nanos: 691000000
+}
+qualification_time_2 {
+  seconds: 73
+  nanos: 59000000
+}
+qualification_time_3 {
+  seconds: 73
+  nanos: 682000000
+}
+starting_position: 9
+finals_time {
+  seconds: 5278
+  nanos: 940000000
+}
+final_position: 13
+

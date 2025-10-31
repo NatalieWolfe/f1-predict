@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+import "google/protobuf/duration.proto";
+import "data/constants.proto";
+
+package f1_predict;
+
+message DriverResult {
+  constants.Circuit circuit = 1;
+  int32 race_season = 2;
+  constants.Team team = 3;
+  constants.Driver driver = 4;
+  google.protobuf.Duration qualification_time_1 = 5;
+  google.protobuf.Duration qualification_time_2 = 6;
+  google.protobuf.Duration qualification_time_3 = 7;
+  int32 starting_position = 8;
+  google.protobuf.Duration finals_time = 9;
+  int32 final_position = 10;
+}
+
+message RaceResult {
+  constants.Circuit circuit = 1;
+  int32 race_season = 2;
+  repeated DriverResult results = 3;
+}

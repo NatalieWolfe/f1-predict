@@ -1,0 +1,15 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2025
+team: ASTON_MARTIN
+driver: LANCE_STROLL
+qualification_time_1 {
+  seconds: 86
+  nanos: 504000000
+}
+starting_position: 17
+finals_time {
+  seconds: 5896
+  nanos: 338000000
+}
+final_position: 7
+
