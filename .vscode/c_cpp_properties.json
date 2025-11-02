@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/bazel-bin",
+                "${workspaceFolder}/bazel-f1-predict/external/**"
+            ],
+            "recursiveIncludes": {
+                "reduce": "never"
+            },
+            "defines": [],
+            "cStandard": "c23",
+            "intelliSenseMode": "linux-gcc-x64",
+            "cppStandard": "c++23"
+        }
+    ],
+    "version": 4
+}
