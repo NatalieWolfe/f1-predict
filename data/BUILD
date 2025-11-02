@@ -1,6 +1,6 @@
 load("@protobuf//bazel:cc_proto_library.bzl", "cc_proto_library")
 load("@protobuf//bazel:proto_library.bzl", "proto_library")
-load("@rules_cc//cc:defs.bzl", "cc_binary")
+load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
 
 proto_library(
     name = "constants_proto",
@@ -10,6 +10,13 @@ proto_library(
 cc_proto_library(
     name = "constants_cc_proto",
     deps = [":constants_proto"],
+)
+
+cc_library(
+    name = "constants_maps",
+    srcs = ["constants_maps.cc"],
+    hdrs = ["constants_maps.h"],
+    deps = [":constants_cc_proto"],
 )
 
 proto_library(
@@ -31,7 +38,9 @@ cc_binary(
     srcs = ["importer.cc"],
     deps = [
         ":constants_cc_proto",
+        ":constants_maps",
         ":race_results_cc_proto",
+        "//strings:trim",
         "@abseil-cpp//absl/flags:flag",
         "@abseil-cpp//absl/flags:parse",
         "@protobuf",

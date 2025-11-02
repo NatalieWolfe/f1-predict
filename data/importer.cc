@@ -13,13 +13,16 @@
 #include "absl/flags/flag.h"
 #include "absl/flags/parse.h"
 #include "data/constants.pb.h"
+#include "data/constants_maps.h"
 #include "data/race_results.pb.h"
 #include "google/protobuf/duration.pb.h"
 #include "google/protobuf/text_format.h"
 #include "google/protobuf/util/time_util.h"
+#include "strings/trim.h"
 
 namespace fs = ::std::filesystem;
 
+using ::f1_predict::trim;
 using ::google::protobuf::TextFormat;
 using ::google::protobuf::util::TimeUtil;
 using ::std::chrono::hours;
@@ -52,130 +55,6 @@ constexpr std::string_view DNS = "DNS";
 constexpr std::string_view DSQ = "DSQ";
 constexpr std::string_view DQ = "DQ";
 constexpr std::string_view NC = "NC";
-
-const std::unordered_map<std::string_view, f1_predict::constants::Circuit>
-    NAME_TO_CIRCUIT_MAP = {
-        {"Australia", f1_predict::constants::AUSTRALIA_CIRCUIT},
-        {"China", f1_predict::constants::CHINA_CIRCUIT},
-        {"Japan", f1_predict::constants::JAPAN_CIRCUIT},
-        {"Bahrain", f1_predict::constants::BAHRAIN_CIRCUIT},
-        {"Saudi Arabia", f1_predict::constants::SAUDI_ARABIA_CIRCUIT},
-        {"Miami", f1_predict::constants::MIAMI_CIRCUIT},
-        {"Emilia-Romagna", f1_predict::constants::EMILIA_ROMAGNA_CIRCUIT},
-        {"Emilia Romagna", f1_predict::constants::EMILIA_ROMAGNA_CIRCUIT},
-        {"Monaco", f1_predict::constants::MONACO_CIRCUIT},
-        {"Spain", f1_predict::constants::SPAIN_CIRCUIT},
-        {"Canada", f1_predict::constants::CANADA_CIRCUIT},
-        {"Austria", f1_predict::constants::AUSTRIA_CIRCUIT},
-        {"Great Britain", f1_predict::constants::GREAT_BRITAIN_CIRCUIT},
-        {"Belgium", f1_predict::constants::BELGIUM_CIRCUIT},
-        {"Hungary", f1_predict::constants::HUNGARY_CIRCUIT},
-        {"Netherlands", f1_predict::constants::NETHERLANDS_CIRCUIT},
-        {"Italy", f1_predict::constants::ITALY_CIRCUIT},
-        {"Azerbaijan", f1_predict::constants::AZERBAIJAN_CIRCUIT},
-        {"Singapore", f1_predict::constants::SINGAPORE_CIRCUIT},
-        {"United States", f1_predict::constants::UNITED_STATES_CIRCUIT},
-        {"Mexico", f1_predict::constants::MEXICO_CIRCUIT},
-        {"Brazil", f1_predict::constants::BRAZIL_CIRCUIT},
-        {"Las Vegas", f1_predict::constants::LAS_VEGAS_CIRCUIT},
-        {"Qatar", f1_predict::constants::QATAR_CIRCUIT},
-        {"Abu Dhabi", f1_predict::constants::ABU_DHABI_CIRCUIT},
-        {"France", f1_predict::constants::FRANCE_CIRCUIT},
-        {"Portugal", f1_predict::constants::PORTUGAL_CIRCUIT},
-        {"Styria", f1_predict::constants::STYRIA_CIRCUIT},
-        {"Russia", f1_predict::constants::RUSSIA_CIRCUIT},
-        {"Turkiye", f1_predict::constants::TURKIYE_CIRCUIT},
-        {"Turkey", f1_predict::constants::TURKIYE_CIRCUIT}};
-
-const std::unordered_map<std::string_view, f1_predict::constants::Team>
-    NAME_TO_TEAM_MAP = {
-        {"McLaren", f1_predict::constants::MCLAREN},
-        {"McLaren Mercedes", f1_predict::constants::MCLAREN},
-        {"Ferrari", f1_predict::constants::FERRARI},
-        {"Red Bull Racing", f1_predict::constants::RED_BULL_RACING},
-        {"Red Bull Racing Honda RBPT", f1_predict::constants::RED_BULL_RACING},
-        {"Red Bull Racing honda RBPT", f1_predict::constants::RED_BULL_RACING},
-        {"Red Bull Racing Honda EBPT", f1_predict::constants::RED_BULL_RACING},
-        {"Red Bull Racing RBPT", f1_predict::constants::RED_BULL_RACING},
-        {"Red Bull Racing Honda", f1_predict::constants::RED_BULL_RACING},
-        {"Mercedes", f1_predict::constants::MERCEDES},
-        {"Aston Martin", f1_predict::constants::ASTON_MARTIN},
-        {"Aston Martin Aramco Mercedes", f1_predict::constants::ASTON_MARTIN},
-        {"Aston Martin Mercedes", f1_predict::constants::ASTON_MARTIN},
-        {"Alpine", f1_predict::constants::ALPINE},
-        {"Alpine Renault", f1_predict::constants::ALPINE},
-        {"Haas", f1_predict::constants::HAAS},
-        {"Haas Ferrari", f1_predict::constants::HAAS},
-        {"RB", f1_predict::constants::RB},
-        {"Racing Bulls Honda RBPT", f1_predict::constants::RB},
-        {"Racing bulls Honda RBPT", f1_predict::constants::RB},
-        {"Racing Honda RBPT", f1_predict::constants::RB},
-        {"RB Honda RBPT", f1_predict::constants::RB},
-        {"AlphaTauri", f1_predict::constants::RB},
-        {"AlphaTauri RBPT", f1_predict::constants::RB},
-        {"AlphaTauri Honda RBPT", f1_predict::constants::RB},
-        {"AlphaTauri Honda", f1_predict::constants::RB},
-        {"Williams", f1_predict::constants::WILLIAMS},
-        {"Williams Mercedes", f1_predict::constants::WILLIAMS},
-        {"Kick Sauber", f1_predict::constants::KICK_SAUBER},
-        {"Kick Sauber Ferrari", f1_predict::constants::KICK_SAUBER},
-        {"Alfa Romeo Ferrari", f1_predict::constants::KICK_SAUBER},
-        {"Alfa Romeo Racing Ferrari", f1_predict::constants::KICK_SAUBER}};
-
-const std::unordered_map<std::string_view, f1_predict::constants::Driver>
-    NAME_TO_DRIVER_MAP = {
-        {"Alexander Albon", f1_predict::constants::ALEXANDER_ALBON},
-        {"Carlos Sainz", f1_predict::constants::CARLOS_SAINZ},
-        {"Charles Leclerc", f1_predict::constants::CHARLES_LECLERC},
-        {"Esteban Ocon", f1_predict::constants::ESTEBAN_OCON},
-        {"Fernando Alonso", f1_predict::constants::FERNANDO_ALONSO},
-        {"Gabriel Bortoleto", f1_predict::constants::GABRIEL_BORTOLETO},
-        {"George Russell", f1_predict::constants::GEORGE_RUSSELL},
-        {"Isack Hadjar", f1_predict::constants::ISACK_HADJAR},
-        {"Jack Doohan", f1_predict::constants::JACK_DOOHAN},
-        {"Kimi Antonelli", f1_predict::constants::KIMI_ANTONELLI},
-        {"Lance Stroll", f1_predict::constants::LANCE_STROLL},
-        {"Lando Norris", f1_predict::constants::LANDO_NORRIS},
-        {"Lewis Hamilton", f1_predict::constants::LEWIS_HAMILTON},
-        {"Liam Lawson", f1_predict::constants::LIAM_LAWSON},
-        {"Max Verstappen", f1_predict::constants::MAX_VERSTAPPEN},
-        {"Nico Hulkenberg", f1_predict::constants::NICO_HULKENBERG},
-        {"Oliver Bearman", f1_predict::constants::OLIVER_BEARMAN},
-        {"Oscar Piastri", f1_predict::constants::OSCAR_PIASTRI},
-        {"Pierre Gasly", f1_predict::constants::PIERRE_GASLY},
-        {"Yuki Tsunoda", f1_predict::constants::YUKI_TSUNODA},
-        {"Franco Colapinto", f1_predict::constants::FRANCO_COLAPINTO},
-        {"Valtteri Bottas", f1_predict::constants::VALTTERI_BOTTAS},
-        {"Sergio Perez", f1_predict::constants::SERGIO_PEREZ},
-        {"Kevin Magnussen", f1_predict::constants::KEVIN_MAGNUSSEN},
-        {"Guanyu Zhou", f1_predict::constants::GUANYU_ZHOU},
-        {"Daniel Ricciardo", f1_predict::constants::DANIEL_RICCIARDO},
-        {"Logan Sargeant", f1_predict::constants::LOGAN_SARGEANT},
-        {"Nyck De Vries", f1_predict::constants::NYCK_DE_VRIES},
-        {"Sebastian Vettel", f1_predict::constants::SEBASTIAN_VETTEL},
-        {"Mick Schumacher", f1_predict::constants::MICK_SCHUMACHER},
-        {"Nicholas Latifi", f1_predict::constants::NICHOLAS_LATIFI},
-        {"Antonio Giovinazzi", f1_predict::constants::ANTONIO_GIOVINAZZI},
-        {"Kimi Raikkönen", f1_predict::constants::KIMI_RAIKKONEN},
-        {"Nikita Mazepin", f1_predict::constants::NIKITA_MAZEPIN},
-        {"Robert Kubica", f1_predict::constants::ROBERT_KUBICA}};
-
-std::string trim(std::string term) {
-  uint64_t start_pos = 0;
-  for (; start_pos < term.size() && std::isspace(term[start_pos]);
-       ++start_pos) {}
-  int64_t end_pos = term.size() - 1;
-  for (; end_pos >= 0 && std::isspace(term[end_pos]); --end_pos) {}
-
-  int64_t len = end_pos - start_pos + 1;
-  if (start_pos > 0) {
-    for (int64_t i = 0; i < len; ++i) {
-      term[i] = term[i] + start_pos;
-    }
-  }
-  term.resize(len);
-  return std::move(term);
-}
 
 std::vector<std::unordered_map<std::string, std::string>>
 load_input(const fs::path& input_path) {
@@ -290,8 +169,8 @@ int parse_position(std::string_view position_str) {
 }
 
 f1_predict::constants::Team lookup_team(std::string_view team_name) {
-  auto itr = NAME_TO_TEAM_MAP.find(team_name);
-  if (itr == NAME_TO_TEAM_MAP.end()) {
+  auto itr = f1_predict::NAME_TO_TEAM_MAP.find(team_name);
+  if (itr == f1_predict::NAME_TO_TEAM_MAP.end()) {
     std::cerr << "Unknown team name: " << team_name << std::endl;
     std::exit(1);
   }
@@ -299,8 +178,8 @@ f1_predict::constants::Team lookup_team(std::string_view team_name) {
 }
 
 f1_predict::constants::Driver lookup_driver(std::string_view driver_name) {
-  auto itr = NAME_TO_DRIVER_MAP.find(driver_name);
-  if (itr == NAME_TO_DRIVER_MAP.end()) {
+  auto itr = f1_predict::NAME_TO_DRIVER_MAP.find(driver_name);
+  if (itr == f1_predict::NAME_TO_DRIVER_MAP.end()) {
     std::cerr << "Unknown driver name: " << driver_name << std::endl;
     std::exit(1);
   }
@@ -446,8 +325,8 @@ int main(int argc, char** argv) {
       std::vector<std::unordered_map<std::string, std::string>>>
       races_to_results;
   for (const auto& row : data) {
-    auto itr = NAME_TO_CIRCUIT_MAP.find(row.at(CIRCUIT_COLUMN));
-    if (itr == NAME_TO_CIRCUIT_MAP.end()) {
+    auto itr = f1_predict::NAME_TO_CIRCUIT_MAP.find(row.at(CIRCUIT_COLUMN));
+    if (itr == f1_predict::NAME_TO_CIRCUIT_MAP.end()) {
       std::cerr << "Unknown circuit name: " << row.at(CIRCUIT_COLUMN)
                 << std::endl;
       return 1;
