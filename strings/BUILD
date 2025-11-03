@@ -8,6 +8,15 @@ cc_library(
     hdrs = ["parse.h"],
 )
 
+cc_test(
+    name = "parse_test",
+    srcs = ["parse_test.cc"],
+    deps = [
+        ":parse",
+        "@googletest//:gtest_main",
+    ],
+)
+
 cc_library(
     name = "trim",
     srcs = ["trim.cc"],
