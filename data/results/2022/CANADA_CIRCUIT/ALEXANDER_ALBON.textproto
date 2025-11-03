@@ -3,8 +3,6 @@ race_season: 2022
 team: WILLIAMS
 driver: ALEXANDER_ALBON
 qualification_time_1 {
-  seconds: 94
-  nanos: 47000000
 }
 qualification_time_2 {
   seconds: 86
@@ -16,4 +14,3 @@ finals_time {
   nanos: 650000000
 }
 final_position: 13
-

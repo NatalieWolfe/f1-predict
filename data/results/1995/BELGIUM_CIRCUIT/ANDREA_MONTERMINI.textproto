@@ -1,0 +1,9 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 1995
+driver: ANDREA_MONTERMINI
+qualification_time_1 {
+  seconds: 122
+  nanos: 405000000
+}
+starting_position: 21
+final_position: 21

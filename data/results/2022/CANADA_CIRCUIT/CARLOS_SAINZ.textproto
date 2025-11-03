@@ -3,8 +3,6 @@ race_season: 2022
 team: FERRARI
 driver: CARLOS_SAINZ
 qualification_time_1 {
-  seconds: 92
-  nanos: 781000000
 }
 qualification_time_2 {
   seconds: 85
@@ -20,4 +18,3 @@ finals_time {
   nanos: 750000000
 }
 final_position: 2
-

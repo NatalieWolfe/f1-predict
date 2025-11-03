@@ -2,10 +2,19 @@ circuit: SAUDI_ARABIA_CIRCUIT
 race_season: 2021
 team: RB
 driver: PIERRE_GASLY
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 88
+  nanos: 314000000
+}
+qualification_time_3 {
+  seconds: 88
+  nanos: 125000000
+}
 starting_position: 6
 finals_time {
   seconds: 7616
   nanos: 731000000
 }
 final_position: 6
-

@@ -1,0 +1,17 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2007
+driver: GIANCARLO_FISICHELLA
+qualification_time_1 {
+  seconds: 21
+  nanos: 701000000
+}
+qualification_time_2 {
+  seconds: 92
+  nanos: 889000000
+}
+qualification_time_3 {
+  seconds: 94
+  nanos: 56000000
+}
+starting_position: 7
+final_position: 8

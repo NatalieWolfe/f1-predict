@@ -1,0 +1,15 @@
+circuit: CANADA_CIRCUIT
+race_season: 2008
+driver: FELIPE_MASSA
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 353000000
+}
+qualification_time_3 {
+  seconds: 79
+  nanos: 48000000
+}
+starting_position: 6
+final_position: 5

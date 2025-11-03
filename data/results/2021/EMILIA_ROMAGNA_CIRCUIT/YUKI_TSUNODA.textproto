@@ -2,10 +2,11 @@ circuit: EMILIA_ROMAGNA_CIRCUIT
 race_season: 2021
 team: RB
 driver: YUKI_TSUNODA
+qualification_time_1 {
+}
 starting_position: 20
 finals_time {
   seconds: 7427
   nanos: 782000000
 }
 final_position: 12
-

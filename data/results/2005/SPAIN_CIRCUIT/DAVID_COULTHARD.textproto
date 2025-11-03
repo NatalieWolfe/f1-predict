@@ -1,0 +1,13 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2005
+driver: DAVID_COULTHARD
+qualification_time_1 {
+  seconds: 75
+  nanos: 795000000
+}
+qualification_time_2 {
+  seconds: 78
+  nanos: 373000000
+}
+starting_position: 9
+final_position: 8

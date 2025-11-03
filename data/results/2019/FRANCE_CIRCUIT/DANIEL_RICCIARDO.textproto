@@ -1,0 +1,17 @@
+circuit: FRANCE_CIRCUIT
+race_season: 2019
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 90
+  nanos: 954000000
+}
+qualification_time_2 {
+  seconds: 90
+  nanos: 369000000
+}
+qualification_time_3 {
+  seconds: 89
+  nanos: 918000000
+}
+starting_position: 8
+final_position: 11

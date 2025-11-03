@@ -2,10 +2,17 @@ circuit: UNITED_STATES_CIRCUIT
 race_season: 2021
 team: ASTON_MARTIN
 driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+  seconds: 95
+  nanos: 281000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 500000000
+}
 starting_position: 18
 finals_time {
   seconds: 5677
   nanos: 552000000
 }
 final_position: 10
-

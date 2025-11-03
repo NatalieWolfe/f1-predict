@@ -1,0 +1,9 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2016
+driver: RIO_HARYANTO
+qualification_time_1 {
+  seconds: 105
+  nanos: 665000000
+}
+starting_position: 16
+final_position: 18

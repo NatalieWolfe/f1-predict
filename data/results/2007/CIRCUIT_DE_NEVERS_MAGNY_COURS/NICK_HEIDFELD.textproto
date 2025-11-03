@@ -1,0 +1,15 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2007
+driver: NICK_HEIDFELD
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 149000000
+}
+qualification_time_3 {
+  seconds: 75
+  nanos: 900000000
+}
+starting_position: 7
+final_position: 5

@@ -1,0 +1,17 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2006
+driver: NICO_ROSBERG
+qualification_time_1 {
+  seconds: 76
+  nanos: 534000000
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 926000000
+}
+qualification_time_3 {
+  seconds: 78
+  nanos: 272000000
+}
+starting_position: 18
+final_position: 14

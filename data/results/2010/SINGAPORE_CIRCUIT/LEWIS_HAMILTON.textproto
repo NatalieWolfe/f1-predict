@@ -1,0 +1,17 @@
+circuit: SINGAPORE_CIRCUIT
+race_season: 2010
+driver: LEWIS_HAMILTON
+qualification_time_1 {
+  seconds: 108
+  nanos: 296000000
+}
+qualification_time_2 {
+  seconds: 106
+  nanos: 42000000
+}
+qualification_time_3 {
+  seconds: 105
+  nanos: 571000000
+}
+starting_position: 3
+final_position: 19

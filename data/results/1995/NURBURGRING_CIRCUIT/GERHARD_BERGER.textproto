@@ -1,0 +1,9 @@
+circuit: NURBURGRING_CIRCUIT
+race_season: 1995
+driver: GERHARD_BERGER
+qualification_time_1 {
+  seconds: 79
+  nanos: 821000000
+}
+starting_position: 4
+final_position: 19

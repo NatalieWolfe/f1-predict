@@ -4,16 +4,14 @@ team: KICK_SAUBER
 driver: GUANYU_ZHOU
 qualification_time_1 {
   seconds: 79
-  nanos: 370000000
+  nanos: 730000000
 }
 qualification_time_2 {
   seconds: 81
   nanos: 434000000
 }
-starting_position: 20
 finals_time {
   seconds: 5528
   nanos: 986000000
 }
 final_position: 15
-

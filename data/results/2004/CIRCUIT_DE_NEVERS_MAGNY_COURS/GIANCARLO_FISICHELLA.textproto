@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2004
+driver: GIANCARLO_FISICHELLA
+qualification_time_1 {
+  seconds: 76
+  nanos: 177000000
+}
+starting_position: 15
+final_position: 12

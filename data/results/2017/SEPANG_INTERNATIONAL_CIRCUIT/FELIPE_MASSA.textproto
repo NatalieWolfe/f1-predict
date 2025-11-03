@@ -1,0 +1,13 @@
+circuit: SEPANG_INTERNATIONAL_CIRCUIT
+race_season: 2017
+driver: FELIPE_MASSA
+qualification_time_1 {
+  seconds: 92
+  nanos: 267000000
+}
+qualification_time_2 {
+  seconds: 92
+  nanos: 34000000
+}
+starting_position: 11
+final_position: 9

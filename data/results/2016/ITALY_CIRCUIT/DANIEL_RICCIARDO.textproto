@@ -1,0 +1,15 @@
+circuit: ITALY_CIRCUIT
+race_season: 2016
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 82
+  nanos: 638000000
+}
+qualification_time_3 {
+  seconds: 82
+  nanos: 389000000
+}
+starting_position: 6
+final_position: 5

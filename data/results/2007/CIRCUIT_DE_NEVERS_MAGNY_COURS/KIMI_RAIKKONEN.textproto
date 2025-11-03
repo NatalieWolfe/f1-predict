@@ -1,0 +1,17 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2007
+driver: KIMI_RAIKKONEN
+qualification_time_1 {
+  seconds: 5454
+  nanos: 200000000
+}
+qualification_time_2 {
+  seconds: 74
+  nanos: 828000000
+}
+qualification_time_3 {
+  seconds: 75
+  nanos: 257000000
+}
+starting_position: 3
+final_position: 1

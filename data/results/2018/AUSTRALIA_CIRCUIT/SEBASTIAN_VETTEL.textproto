@@ -1,0 +1,17 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2018
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+  seconds: 5373
+  nanos: 283000000
+}
+qualification_time_2 {
+  seconds: 81
+  nanos: 944000000
+}
+qualification_time_3 {
+  seconds: 81
+  nanos: 838000000
+}
+starting_position: 3
+final_position: 1

@@ -3,8 +3,8 @@ race_season: 2024
 team: HAAS
 driver: KEVIN_MAGNUSSEN
 qualification_time_1 {
-  seconds: 80
-  nanos: 856000000
+  seconds: 8
+  nanos: 302000000
 }
 qualification_time_2 {
   seconds: 80
@@ -16,4 +16,3 @@ finals_time {
   nanos: 29000000
 }
 final_position: 10
-

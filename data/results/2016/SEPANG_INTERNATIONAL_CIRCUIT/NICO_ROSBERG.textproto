@@ -1,0 +1,15 @@
+circuit: SEPANG_INTERNATIONAL_CIRCUIT
+race_season: 2016
+driver: NICO_ROSBERG
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 609000000
+}
+qualification_time_3 {
+  seconds: 93
+  nanos: 264000000
+}
+starting_position: 2
+final_position: 3

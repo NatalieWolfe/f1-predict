@@ -1,0 +1,11 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2018
+driver: FERNANDO_ALONSO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 83
+  nanos: 692000000
+}
+starting_position: 10
+final_position: 5

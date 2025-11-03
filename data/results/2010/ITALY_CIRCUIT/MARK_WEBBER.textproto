@@ -1,0 +1,15 @@
+circuit: ITALY_CIRCUIT
+race_season: 2010
+driver: MARK_WEBBER
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 82
+  nanos: 706000000
+}
+qualification_time_3 {
+  seconds: 82
+  nanos: 433000000
+}
+starting_position: 4
+final_position: 6

@@ -3,8 +3,8 @@ race_season: 2022
 team: RB
 driver: YUKI_TSUNODA
 qualification_time_1 {
-  seconds: 85
-  nanos: 630000000
+  seconds: 29
+  nanos: 371000000
 }
 qualification_time_2 {
   seconds: 85
@@ -16,4 +16,3 @@ finals_time {
   nanos: 285000000
 }
 final_position: 11
-

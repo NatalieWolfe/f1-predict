@@ -1,0 +1,15 @@
+circuit: RUSSIA_CIRCUIT
+race_season: 2016
+driver: KIMI_RAIKKONEN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 96
+  nanos: 741000000
+}
+qualification_time_3 {
+  seconds: 96
+  nanos: 663000000
+}
+starting_position: 3
+final_position: 3

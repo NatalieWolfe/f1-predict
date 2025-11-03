@@ -1,0 +1,11 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2019
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 63
+  nanos: 667000000
+}
+starting_position: 9
+final_position: 4

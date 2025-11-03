@@ -1,0 +1,9 @@
+circuit: NURBURGRING_CIRCUIT
+race_season: 1962
+driver: JO_SIFFERT
+qualification_time_1 {
+  seconds: 15
+  nanos: 500000000
+}
+starting_position: 17
+final_position: 12

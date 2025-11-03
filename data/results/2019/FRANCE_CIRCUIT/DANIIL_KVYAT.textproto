@@ -1,0 +1,9 @@
+circuit: FRANCE_CIRCUIT
+race_season: 2019
+driver: DANIIL_KVYAT
+qualification_time_1 {
+  seconds: 91
+  nanos: 564000000
+}
+starting_position: 19
+final_position: 14

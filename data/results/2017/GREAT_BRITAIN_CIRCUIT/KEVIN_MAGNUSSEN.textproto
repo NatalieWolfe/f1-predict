@@ -1,0 +1,9 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2017
+driver: KEVIN_MAGNUSSEN
+qualification_time_1 {
+  seconds: 102
+  nanos: 577000000
+}
+starting_position: 16
+final_position: 12

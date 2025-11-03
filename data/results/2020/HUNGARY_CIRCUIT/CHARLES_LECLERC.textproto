@@ -1,0 +1,17 @@
+circuit: HUNGARY_CIRCUIT
+race_season: 2020
+driver: CHARLES_LECLERC
+qualification_time_1 {
+  seconds: 75
+  nanos: 793000000
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 6000000
+}
+qualification_time_3 {
+  seconds: 74
+  nanos: 817000000
+}
+starting_position: 6
+final_position: 11

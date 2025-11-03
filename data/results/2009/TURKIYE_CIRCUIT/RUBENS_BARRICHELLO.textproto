@@ -1,0 +1,17 @@
+circuit: TURKIYE_CIRCUIT
+race_season: 2009
+driver: RUBENS_BARRICHELLO
+qualification_time_1 {
+  seconds: 87
+  nanos: 371000000
+}
+qualification_time_2 {
+  seconds: 87
+  nanos: 418000000
+}
+qualification_time_3 {
+  seconds: 88
+  nanos: 579000000
+}
+starting_position: 3
+final_position: 19

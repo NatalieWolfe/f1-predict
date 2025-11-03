@@ -1,0 +1,11 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2008
+driver: MARK_WEBBER
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 92
+  nanos: 371000000
+}
+starting_position: 11
+final_position: 7

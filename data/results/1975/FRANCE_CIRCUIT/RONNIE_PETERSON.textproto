@@ -1,0 +1,9 @@
+circuit: FRANCE_CIRCUIT
+race_season: 1975
+driver: RONNIE_PETERSON
+qualification_time_1 {
+  seconds: 36
+  nanos: 20000000
+}
+starting_position: 17
+final_position: 10

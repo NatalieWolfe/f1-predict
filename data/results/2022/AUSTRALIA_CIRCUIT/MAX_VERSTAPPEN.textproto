@@ -3,7 +3,8 @@ race_season: 2022
 team: RED_BULL_RACING
 driver: MAX_VERSTAPPEN
 qualification_time_1 {
-  seconds: 5260
+  seconds: 78
+  nanos: 580000000
 }
 qualification_time_2 {
   seconds: 78
@@ -14,4 +15,4 @@ qualification_time_3 {
   nanos: 154000000
 }
 starting_position: 2
-
+final_position: 18

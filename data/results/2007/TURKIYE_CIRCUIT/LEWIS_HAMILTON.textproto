@@ -1,0 +1,15 @@
+circuit: TURKIYE_CIRCUIT
+race_season: 2007
+driver: LEWIS_HAMILTON
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 86
+  nanos: 936000000
+}
+qualification_time_3 {
+  seconds: 87
+  nanos: 373000000
+}
+starting_position: 2
+final_position: 5

@@ -1,0 +1,17 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2007
+driver: JARNO_TRULLI
+qualification_time_1 {
+  seconds: 76
+  nanos: 117000000
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 379000000
+}
+qualification_time_3 {
+  seconds: 75
+  nanos: 935000000
+}
+starting_position: 8
+final_position: 21

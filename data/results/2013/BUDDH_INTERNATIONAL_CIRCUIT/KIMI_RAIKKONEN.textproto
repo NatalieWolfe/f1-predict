@@ -1,0 +1,17 @@
+circuit: BUDDH_INTERNATIONAL_CIRCUIT
+race_season: 2013
+driver: KIMI_RAIKKONEN
+qualification_time_1 {
+  seconds: 7
+  nanos: 988000000
+}
+qualification_time_2 {
+  seconds: 85
+  nanos: 191000000
+}
+qualification_time_3 {
+  seconds: 85
+  nanos: 248000000
+}
+starting_position: 6
+final_position: 7

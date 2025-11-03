@@ -1,0 +1,9 @@
+circuit: ITALY_CIRCUIT
+race_season: 1971
+driver: PETER_GETHIN
+qualification_time_1 {
+  seconds: 4692
+  nanos: 600000000
+}
+starting_position: 11
+final_position: 1

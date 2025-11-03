@@ -6,5 +6,4 @@ qualification_time_1 {
   seconds: 78
   nanos: 166000000
 }
-starting_position: 20
-
+final_position: 20

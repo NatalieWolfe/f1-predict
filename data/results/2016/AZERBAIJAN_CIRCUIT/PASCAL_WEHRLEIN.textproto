@@ -1,0 +1,9 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2016
+driver: PASCAL_WEHRLEIN
+qualification_time_1 {
+  seconds: 105
+  nanos: 750000000
+}
+starting_position: 17
+final_position: 20

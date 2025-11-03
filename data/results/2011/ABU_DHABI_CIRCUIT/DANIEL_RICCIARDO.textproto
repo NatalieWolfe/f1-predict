@@ -1,0 +1,9 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2011
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 104
+  nanos: 641000000
+}
+starting_position: 20
+final_position: 21

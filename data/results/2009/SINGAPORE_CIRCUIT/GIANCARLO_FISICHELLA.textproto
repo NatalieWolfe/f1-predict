@@ -1,0 +1,9 @@
+circuit: SINGAPORE_CIRCUIT
+race_season: 2009
+driver: GIANCARLO_FISICHELLA
+qualification_time_1 {
+  seconds: 19
+  nanos: 890000000
+}
+starting_position: 17
+final_position: 13

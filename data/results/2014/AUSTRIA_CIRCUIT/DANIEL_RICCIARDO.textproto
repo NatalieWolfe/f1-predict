@@ -1,0 +1,15 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2014
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 69
+  nanos: 638000000
+}
+qualification_time_3 {
+  seconds: 69
+  nanos: 466000000
+}
+starting_position: 5
+final_position: 8

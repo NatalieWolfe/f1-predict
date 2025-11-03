@@ -3,8 +3,8 @@ race_season: 2024
 team: HAAS
 driver: NICO_HULKENBERG
 qualification_time_1 {
-  seconds: 103
-  nanos: 101000000
+  seconds: 33
+  nanos: 465000000
 }
 qualification_time_2 {
   seconds: 103
@@ -16,4 +16,3 @@ finals_time {
   nanos: 472000000
 }
 final_position: 11
-

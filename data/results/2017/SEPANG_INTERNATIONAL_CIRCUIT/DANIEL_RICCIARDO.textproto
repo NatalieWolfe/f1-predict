@@ -1,0 +1,15 @@
+circuit: SEPANG_INTERNATIONAL_CIRCUIT
+race_season: 2017
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 91
+  nanos: 61000000
+}
+qualification_time_3 {
+  seconds: 90
+  nanos: 595000000
+}
+starting_position: 4
+final_position: 3

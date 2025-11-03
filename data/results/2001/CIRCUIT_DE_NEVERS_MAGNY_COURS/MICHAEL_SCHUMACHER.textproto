@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2001
+driver: MICHAEL_SCHUMACHER
+qualification_time_1 {
+  seconds: 5615
+  nanos: 636000000
+}
+starting_position: 2
+final_position: 1

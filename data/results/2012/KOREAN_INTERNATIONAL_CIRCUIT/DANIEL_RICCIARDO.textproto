@@ -1,0 +1,11 @@
+circuit: KOREAN_INTERNATIONAL_CIRCUIT
+race_season: 2012
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 99
+  nanos: 84000000
+}
+starting_position: 21
+final_position: 9

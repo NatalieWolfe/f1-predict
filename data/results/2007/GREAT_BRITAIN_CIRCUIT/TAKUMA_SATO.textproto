@@ -1,0 +1,9 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2007
+driver: TAKUMA_SATO
+qualification_time_1 {
+  seconds: 82
+  nanos: 45000000
+}
+starting_position: 21
+final_position: 14

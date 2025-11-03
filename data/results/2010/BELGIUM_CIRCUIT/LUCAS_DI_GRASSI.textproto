@@ -1,0 +1,9 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 2010
+driver: LUCAS_DI_GRASSI
+qualification_time_1 {
+  seconds: 138
+  nanos: 754000000
+}
+starting_position: 22
+final_position: 17

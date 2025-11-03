@@ -3,8 +3,6 @@ race_season: 2024
 team: ALPINE
 driver: PIERRE_GASLY
 qualification_time_1 {
-  seconds: 73
-  nanos: 289000000
 }
 qualification_time_2 {
   seconds: 72
@@ -16,4 +14,3 @@ finals_time {
   nanos: 948000000
 }
 final_position: 9
-

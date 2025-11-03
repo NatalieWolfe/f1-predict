@@ -1,0 +1,17 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2014
+driver: FELIPE_MASSA
+qualification_time_1 {
+  seconds: 91
+  nanos: 228000000
+}
+qualification_time_2 {
+  seconds: 104
+  nanos: 242000000
+}
+qualification_time_3 {
+  seconds: 108
+  nanos: 79000000
+}
+starting_position: 9
+final_position: 20

@@ -3,8 +3,8 @@ race_season: 2023
 team: MERCEDES
 driver: GEORGE_RUSSELL
 qualification_time_1 {
-  seconds: 119
-  nanos: 35000000
+  seconds: 3
+  nanos: 101000000
 }
 qualification_time_2 {
   seconds: 112
@@ -20,4 +20,3 @@ finals_time {
   nanos: 551000000
 }
 final_position: 6
-

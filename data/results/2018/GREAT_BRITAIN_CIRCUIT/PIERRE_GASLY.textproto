@@ -1,0 +1,11 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2018
+driver: PIERRE_GASLY
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 88
+  nanos: 343000000
+}
+starting_position: 14
+final_position: 13

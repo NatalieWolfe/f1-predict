@@ -2,10 +2,21 @@ circuit: SPAIN_CIRCUIT
 race_season: 2021
 team: MCLAREN
 driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 13
+  nanos: 768000000
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 719000000
+}
+qualification_time_3 {
+  seconds: 77
+  nanos: 622000000
+}
 starting_position: 7
 finals_time {
   seconds: 5661
   nanos: 448000000
 }
 final_position: 6
-

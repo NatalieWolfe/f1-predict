@@ -3,8 +3,8 @@ race_season: 2023
 team: MCLAREN
 driver: LANDO_NORRIS
 qualification_time_1 {
-  seconds: 119
-  nanos: 981000000
+  seconds: 13
+  nanos: 719000000
 }
 qualification_time_2 {
   seconds: 112
@@ -20,4 +20,3 @@ finals_time {
   nanos: 169000000
 }
 final_position: 7
-

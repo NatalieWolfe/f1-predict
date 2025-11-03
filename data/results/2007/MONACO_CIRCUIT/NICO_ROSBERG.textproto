@@ -1,0 +1,17 @@
+circuit: MONACO_CIRCUIT
+race_season: 2007
+driver: NICO_ROSBERG
+qualification_time_1 {
+  seconds: 76
+  nanos: 870000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 100000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 439000000
+}
+starting_position: 5
+final_position: 12

@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 1993
+driver: ALAIN_PROST
+qualification_time_1 {
+  seconds: 5915
+  nanos: 241000000
+}
+starting_position: 2
+final_position: 1

@@ -1,0 +1,9 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 1990
+driver: ALAIN_PROST
+qualification_time_1 {
+  seconds: 5841
+  nanos: 258000000
+}
+starting_position: 6
+final_position: 1

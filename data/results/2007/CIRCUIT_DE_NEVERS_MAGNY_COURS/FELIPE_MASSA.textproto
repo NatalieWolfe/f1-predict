@@ -1,0 +1,15 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2007
+driver: FELIPE_MASSA
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 74
+  nanos: 822000000
+}
+qualification_time_3 {
+  seconds: 75
+  nanos: 34000000
+}
+starting_position: 1
+final_position: 2

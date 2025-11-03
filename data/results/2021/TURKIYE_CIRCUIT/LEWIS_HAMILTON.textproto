@@ -2,10 +2,19 @@ circuit: TURKIYE_CIRCUIT
 race_season: 2021
 team: MERCEDES
 driver: LEWIS_HAMILTON
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 83
+  nanos: 82000000
+}
+qualification_time_3 {
+  seconds: 82
+  nanos: 868000000
+}
 starting_position: 11
 finals_time {
   seconds: 5505
   nanos: 915000000
 }
 final_position: 5
-

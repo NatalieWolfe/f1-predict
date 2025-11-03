@@ -1,0 +1,9 @@
+circuit: ITALY_CIRCUIT
+race_season: 2004
+driver: NICK_HEIDFELD
+qualification_time_1 {
+  seconds: 82
+  nanos: 301000000
+}
+starting_position: 20
+final_position: 14

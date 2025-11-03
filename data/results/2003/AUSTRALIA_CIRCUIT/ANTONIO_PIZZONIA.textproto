@@ -1,0 +1,9 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2003
+driver: ANTONIO_PIZZONIA
+qualification_time_1 {
+  seconds: 91
+  nanos: 723000000
+}
+starting_position: 18
+final_position: 13

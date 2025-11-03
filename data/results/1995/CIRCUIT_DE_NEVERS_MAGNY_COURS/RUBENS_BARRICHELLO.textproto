@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 1995
+driver: RUBENS_BARRICHELLO
+qualification_time_1 {
+  seconds: 78
+  nanos: 810000000
+}
+starting_position: 5
+final_position: 6

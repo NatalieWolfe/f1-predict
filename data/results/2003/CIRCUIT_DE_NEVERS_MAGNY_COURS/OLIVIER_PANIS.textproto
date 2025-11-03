@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2003
+driver: OLIVIER_PANIS
+qualification_time_1 {
+  seconds: 76
+  nanos: 344000000
+}
+starting_position: 10
+final_position: 8

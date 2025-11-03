@@ -1,0 +1,15 @@
+circuit: CHINA_CIRCUIT
+race_season: 2010
+driver: FERNANDO_ALONSO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 235000000
+}
+qualification_time_3 {
+  seconds: 94
+  nanos: 913000000
+}
+starting_position: 3
+final_position: 4

@@ -1,0 +1,11 @@
+circuit: RUSSIA_CIRCUIT
+race_season: 2019
+driver: SERGIO_PEREZ
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 958000000
+}
+starting_position: 11
+final_position: 7

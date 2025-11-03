@@ -1,0 +1,9 @@
+circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
+race_season: 1996
+driver: JOHNNY_HERBERT
+qualification_time_1 {
+  seconds: 93
+  nanos: 256000000
+}
+starting_position: 17
+final_position: 9

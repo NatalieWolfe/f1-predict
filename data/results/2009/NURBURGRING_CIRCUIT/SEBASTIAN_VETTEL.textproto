@@ -1,0 +1,15 @@
+circuit: NURBURGRING_CIRCUIT
+race_season: 2009
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 99
+  nanos: 504000000
+}
+qualification_time_3 {
+  seconds: 92
+  nanos: 479000000
+}
+starting_position: 4
+final_position: 2

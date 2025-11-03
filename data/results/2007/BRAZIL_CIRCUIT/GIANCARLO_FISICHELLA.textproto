@@ -1,0 +1,13 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2007
+driver: GIANCARLO_FISICHELLA
+qualification_time_1 {
+  seconds: 73
+  nanos: 482000000
+}
+qualification_time_2 {
+  seconds: 72
+  nanos: 968000000
+}
+starting_position: 12
+final_position: 22

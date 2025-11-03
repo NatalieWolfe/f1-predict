@@ -1,0 +1,13 @@
+circuit: ITALY_CIRCUIT
+race_season: 2018
+driver: KEVIN_MAGNUSSEN
+qualification_time_1 {
+  seconds: 81
+  nanos: 783000000
+}
+qualification_time_2 {
+  seconds: 81
+  nanos: 669000000
+}
+starting_position: 11
+final_position: 16

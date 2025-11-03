@@ -1,0 +1,9 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2012
+driver: HEIKKI_KOVALAINEN
+qualification_time_1 {
+  seconds: 109
+  nanos: 477000000
+}
+starting_position: 19
+final_position: 17

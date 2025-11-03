@@ -1,0 +1,13 @@
+circuit: MONACO_CIRCUIT
+race_season: 2007
+driver: HEIKKI_KOVALAINEN
+qualification_time_1 {
+  seconds: 77
+  nanos: 836000000
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 125000000
+}
+starting_position: 15
+final_position: 13

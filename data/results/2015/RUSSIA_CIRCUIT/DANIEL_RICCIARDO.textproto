@@ -1,0 +1,17 @@
+circuit: RUSSIA_CIRCUIT
+race_season: 2015
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 99
+  nanos: 574000000
+}
+qualification_time_2 {
+  seconds: 99
+  nanos: 5000000
+}
+qualification_time_3 {
+  seconds: 99
+  nanos: 728000000
+}
+starting_position: 10
+final_position: 15

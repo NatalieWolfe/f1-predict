@@ -1,0 +1,11 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2018
+driver: KEVIN_MAGNUSSEN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 104
+  nanos: 759000000
+}
+starting_position: 15
+final_position: 13

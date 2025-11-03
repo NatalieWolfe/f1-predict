@@ -3,8 +3,6 @@ race_season: 2024
 team: FERRARI
 driver: CHARLES_LECLERC
 qualification_time_1 {
-  seconds: 83
-  nanos: 302000000
 }
 qualification_time_2 {
   seconds: 83
@@ -16,4 +14,3 @@ finals_time {
   nanos: 219000000
 }
 final_position: 3
-

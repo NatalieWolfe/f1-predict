@@ -1,0 +1,17 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2006
+driver: MICHAEL_SCHUMACHER
+qualification_time_1 {
+  seconds: 5527
+  nanos: 803000000
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 111000000
+}
+qualification_time_3 {
+  seconds: 75
+  nanos: 493000000
+}
+starting_position: 1
+final_position: 1

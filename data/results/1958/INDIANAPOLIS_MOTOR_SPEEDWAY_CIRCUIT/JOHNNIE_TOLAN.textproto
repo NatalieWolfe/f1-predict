@@ -1,0 +1,9 @@
+circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
+race_season: 1958
+driver: JOHNNIE_TOLAN
+qualification_time_1 {
+  seconds: 52
+  nanos: 240000000
+}
+starting_position: 30
+final_position: 13

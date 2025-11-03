@@ -1,0 +1,17 @@
+circuit: HOCKENHEIMRING_CIRCUIT
+race_season: 2018
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+  seconds: 72
+  nanos: 538000000
+}
+qualification_time_2 {
+  seconds: 72
+  nanos: 505000000
+}
+qualification_time_3 {
+  seconds: 71
+  nanos: 212000000
+}
+starting_position: 1
+final_position: 18

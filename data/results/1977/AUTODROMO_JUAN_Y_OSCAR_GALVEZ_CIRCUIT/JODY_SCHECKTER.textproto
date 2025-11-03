@@ -1,0 +1,9 @@
+circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
+race_season: 1977
+driver: JODY_SCHECKTER
+qualification_time_1 {
+  seconds: 6011
+  nanos: 190000000
+}
+starting_position: 11
+final_position: 1

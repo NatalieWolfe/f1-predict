@@ -1,0 +1,12 @@
+circuit: SEPANG_INTERNATIONAL_CIRCUIT
+race_season: 2009
+driver: LEWIS_HAMILTON
+qualification_time_1 {
+  nanos: 733000000
+}
+qualification_time_2 {
+  seconds: 94
+  nanos: 905000000
+}
+starting_position: 12
+final_position: 7

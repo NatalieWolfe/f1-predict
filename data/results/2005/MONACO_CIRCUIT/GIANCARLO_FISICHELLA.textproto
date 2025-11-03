@@ -1,0 +1,13 @@
+circuit: MONACO_CIRCUIT
+race_season: 2005
+driver: GIANCARLO_FISICHELLA
+qualification_time_1 {
+  seconds: 74
+  nanos: 783000000
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 317000000
+}
+starting_position: 4
+final_position: 12

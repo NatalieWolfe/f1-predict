@@ -1,0 +1,15 @@
+circuit: MONACO_CIRCUIT
+race_season: 2006
+driver: RUBENS_BARRICHELLO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 74
+  nanos: 312000000
+}
+qualification_time_3 {
+  seconds: 75
+  nanos: 804000000
+}
+starting_position: 5
+final_position: 4

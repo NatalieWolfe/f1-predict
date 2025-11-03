@@ -3,8 +3,6 @@ race_season: 2024
 team: MERCEDES
 driver: GEORGE_RUSSELL
 qualification_time_1 {
-  seconds: 89
-  nanos: 121000000
 }
 qualification_time_2 {
   seconds: 86
@@ -12,7 +10,7 @@ qualification_time_2 {
 }
 qualification_time_3 {
   seconds: 83
-  nanos: 587000000
+  nanos: 578000000
 }
 starting_position: 2
 finals_time {
@@ -20,4 +18,3 @@ finals_time {
   nanos: 695000000
 }
 final_position: 4
-

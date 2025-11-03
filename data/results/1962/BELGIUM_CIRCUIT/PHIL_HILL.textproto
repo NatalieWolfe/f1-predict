@@ -1,0 +1,9 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 1962
+driver: PHIL_HILL
+qualification_time_1 {
+  seconds: 6
+  nanos: 500000000
+}
+starting_position: 4
+final_position: 3

@@ -2,10 +2,15 @@ circuit: ITALY_CIRCUIT
 race_season: 2021
 team: ALPINE
 driver: FERNANDO_ALONSO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 81
+  nanos: 69000000
+}
 starting_position: 10
 finals_time {
   seconds: 4931
   nanos: 566000000
 }
 final_position: 8
-

@@ -1,0 +1,15 @@
+circuit: TURKIYE_CIRCUIT
+race_season: 2007
+driver: GIANCARLO_FISICHELLA
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 87
+  nanos: 880000000
+}
+qualification_time_3 {
+  seconds: 89
+  nanos: 322000000
+}
+starting_position: 10
+final_position: 9

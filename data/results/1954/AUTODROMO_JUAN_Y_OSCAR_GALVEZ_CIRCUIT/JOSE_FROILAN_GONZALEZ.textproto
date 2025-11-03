@@ -1,0 +1,8 @@
+circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
+race_season: 1954
+driver: JOSE_FROILAN_GONZALEZ
+qualification_time_1 {
+  seconds: 1
+}
+starting_position: 2
+final_position: 3

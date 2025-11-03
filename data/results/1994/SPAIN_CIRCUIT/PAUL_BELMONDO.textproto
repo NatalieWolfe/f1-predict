@@ -1,0 +1,9 @@
+circuit: SPAIN_CIRCUIT
+race_season: 1994
+driver: PAUL_BELMONDO
+qualification_time_1 {
+  seconds: 90
+  nanos: 657000000
+}
+starting_position: 26
+final_position: 25

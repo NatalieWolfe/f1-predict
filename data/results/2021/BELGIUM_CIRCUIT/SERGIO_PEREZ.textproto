@@ -2,10 +2,18 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2021
 team: RED_BULL_RACING
 driver: SERGIO_PEREZ
-starting_position: 7
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 116
+  nanos: 886000000
+}
+qualification_time_3 {
+  seconds: 122
+  nanos: 112000000
+}
 finals_time {
   seconds: 245
   nanos: 276000000
 }
 final_position: 19
-

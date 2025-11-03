@@ -1,0 +1,15 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2017
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 65
+  nanos: 161000000
+}
+qualification_time_3 {
+  seconds: 64
+  nanos: 896000000
+}
+starting_position: 4
+final_position: 3

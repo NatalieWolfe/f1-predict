@@ -1,0 +1,15 @@
+circuit: HOCKENHEIMRING_CIRCUIT
+race_season: 2008
+driver: KIMI_RAIKKONEN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 74
+  nanos: 949000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 389000000
+}
+starting_position: 6
+final_position: 6

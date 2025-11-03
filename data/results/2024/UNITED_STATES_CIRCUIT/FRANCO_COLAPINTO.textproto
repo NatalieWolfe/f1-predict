@@ -3,8 +3,8 @@ race_season: 2024
 team: WILLIAMS
 driver: FRANCO_COLAPINTO
 qualification_time_1 {
-  seconds: 94
-  nanos: 62000000
+  seconds: 11
+  nanos: 979000000
 }
 starting_position: 15
 finals_time {
@@ -12,4 +12,3 @@ finals_time {
   nanos: 618000000
 }
 final_position: 10
-

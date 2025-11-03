@@ -1,0 +1,15 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2006
+driver: JACQUES_VILLENEUVE
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 86
+  nanos: 714000000
+}
+qualification_time_3 {
+  seconds: 89
+  nanos: 239000000
+}
+starting_position: 19
+final_position: 6

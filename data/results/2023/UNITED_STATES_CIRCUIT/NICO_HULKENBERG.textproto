@@ -3,13 +3,11 @@ race_season: 2023
 team: HAAS
 driver: NICO_HULKENBERG
 qualification_time_1 {
-  seconds: 96
-  nanos: 225000000
+  seconds: 29
+  nanos: 904000000
 }
-starting_position: 18
 finals_time {
   seconds: 5811
   nanos: 266000000
 }
 final_position: 11
-

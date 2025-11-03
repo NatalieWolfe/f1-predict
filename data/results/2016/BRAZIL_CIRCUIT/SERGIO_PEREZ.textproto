@@ -1,0 +1,15 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2016
+driver: SERGIO_PEREZ
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 72
+  nanos: 331000000
+}
+qualification_time_3 {
+  seconds: 72
+  nanos: 165000000
+}
+starting_position: 9
+final_position: 4

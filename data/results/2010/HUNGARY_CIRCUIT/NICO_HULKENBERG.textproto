@@ -1,0 +1,17 @@
+circuit: HUNGARY_CIRCUIT
+race_season: 2010
+driver: NICO_HULKENBERG
+qualification_time_1 {
+  seconds: 16
+  nanos: 723000000
+}
+qualification_time_2 {
+  seconds: 81
+  nanos: 275000000
+}
+qualification_time_3 {
+  seconds: 81
+  nanos: 710000000
+}
+starting_position: 10
+final_position: 6

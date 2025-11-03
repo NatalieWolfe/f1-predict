@@ -1,0 +1,17 @@
+circuit: UNITED_STATES_CIRCUIT
+race_season: 2019
+driver: LANDO_NORRIS
+qualification_time_1 {
+  seconds: 30
+  nanos: 764000000
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 316000000
+}
+qualification_time_3 {
+  seconds: 93
+  nanos: 175000000
+}
+starting_position: 8
+final_position: 7

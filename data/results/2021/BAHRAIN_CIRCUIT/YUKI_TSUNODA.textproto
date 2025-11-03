@@ -2,10 +2,15 @@ circuit: BAHRAIN_CIRCUIT
 race_season: 2021
 team: RB
 driver: YUKI_TSUNODA
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 91
+  nanos: 203000000
+}
 starting_position: 13
 finals_time {
   seconds: 5609
   nanos: 589000000
 }
 final_position: 9
-

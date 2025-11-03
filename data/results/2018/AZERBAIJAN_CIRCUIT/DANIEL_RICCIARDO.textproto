@@ -1,0 +1,17 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2018
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 102
+  nanos: 857000000
+}
+qualification_time_2 {
+  seconds: 103
+  nanos: 482000000
+}
+qualification_time_3 {
+  seconds: 101
+  nanos: 911000000
+}
+starting_position: 4
+final_position: 17

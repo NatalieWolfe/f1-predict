@@ -1,0 +1,17 @@
+circuit: JAPAN_CIRCUIT
+race_season: 2019
+driver: VALTTERI_BOTTAS
+qualification_time_1 {
+  seconds: 4906
+  nanos: 755000000
+}
+qualification_time_2 {
+  seconds: 87
+  nanos: 688000000
+}
+qualification_time_3 {
+  seconds: 87
+  nanos: 293000000
+}
+starting_position: 3
+final_position: 1

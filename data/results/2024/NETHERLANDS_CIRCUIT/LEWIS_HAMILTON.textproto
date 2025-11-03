@@ -3,8 +3,6 @@ race_season: 2024
 team: MERCEDES
 driver: LEWIS_HAMILTON
 qualification_time_1 {
-  seconds: 71
-  nanos: 375000000
 }
 qualification_time_2 {
   seconds: 70
@@ -16,4 +14,3 @@ finals_time {
   nanos: 118000000
 }
 final_position: 8
-

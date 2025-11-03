@@ -1,0 +1,15 @@
+circuit: UNITED_STATES_CIRCUIT
+race_season: 2018
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 79000000
+}
+qualification_time_3 {
+  seconds: 92
+  nanos: 298000000
+}
+starting_position: 5
+final_position: 4

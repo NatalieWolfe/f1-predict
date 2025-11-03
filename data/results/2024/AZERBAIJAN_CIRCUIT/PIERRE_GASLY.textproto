@@ -2,10 +2,17 @@ circuit: AZERBAIJAN_CIRCUIT
 race_season: 2024
 team: ALPINE
 driver: PIERRE_GASLY
+qualification_time_1 {
+  seconds: 57
+  nanos: 189000000
+}
+qualification_time_2 {
+  seconds: 103
+  nanos: 179000000
+}
 starting_position: 18
 finals_time {
   seconds: 5695
   nanos: 196000000
 }
 final_position: 12
-

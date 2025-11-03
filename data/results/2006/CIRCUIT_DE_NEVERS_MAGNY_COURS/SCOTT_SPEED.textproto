@@ -1,0 +1,13 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2006
+driver: SCOTT_SPEED
+qualification_time_1 {
+  seconds: 77
+  nanos: 117000000
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 63000000
+}
+starting_position: 14
+final_position: 10

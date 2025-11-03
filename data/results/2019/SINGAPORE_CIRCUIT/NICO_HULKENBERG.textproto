@@ -1,0 +1,15 @@
+circuit: SINGAPORE_CIRCUIT
+race_season: 2019
+driver: NICO_HULKENBERG
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 98
+  nanos: 580000000
+}
+qualification_time_3 {
+  seconds: 98
+  nanos: 264000000
+}
+starting_position: 8
+final_position: 9

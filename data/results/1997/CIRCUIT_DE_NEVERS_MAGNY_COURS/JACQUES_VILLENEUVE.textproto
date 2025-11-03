@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 1997
+driver: JACQUES_VILLENEUVE
+qualification_time_1 {
+  seconds: 21
+  nanos: 784000000
+}
+starting_position: 4
+final_position: 4

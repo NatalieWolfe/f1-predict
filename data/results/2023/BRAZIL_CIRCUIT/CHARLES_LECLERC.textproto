@@ -14,5 +14,4 @@ qualification_time_3 {
   seconds: 71
   nanos: 21000000
 }
-starting_position: 2
-
+final_position: 20

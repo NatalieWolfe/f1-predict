@@ -1,0 +1,9 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 2014
+driver: ANDRE_LOTTERER
+qualification_time_1 {
+  seconds: 133
+  nanos: 469000000
+}
+starting_position: 21
+final_position: 22

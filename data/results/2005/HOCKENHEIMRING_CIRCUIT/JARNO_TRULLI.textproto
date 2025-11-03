@@ -1,0 +1,9 @@
+circuit: HOCKENHEIMRING_CIRCUIT
+race_season: 2005
+driver: JARNO_TRULLI
+qualification_time_1 {
+  seconds: 75
+  nanos: 532000000
+}
+starting_position: 9
+final_position: 14

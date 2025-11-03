@@ -1,0 +1,9 @@
+circuit: HOCKENHEIMRING_CIRCUIT
+race_season: 2010
+driver: HEIKKI_KOVALAINEN
+qualification_time_1 {
+  seconds: 78
+  nanos: 300000000
+}
+starting_position: 18
+final_position: 20

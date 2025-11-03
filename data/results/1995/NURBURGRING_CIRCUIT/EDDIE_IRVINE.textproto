@@ -1,0 +1,9 @@
+circuit: NURBURGRING_CIRCUIT
+race_season: 1995
+driver: EDDIE_IRVINE
+qualification_time_1 {
+  seconds: 80
+  nanos: 488000000
+}
+starting_position: 5
+final_position: 6

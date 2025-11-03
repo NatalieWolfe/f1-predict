@@ -2,10 +2,21 @@ circuit: FRANCE_CIRCUIT
 race_season: 2021
 team: FERRARI
 driver: CARLOS_SAINZ
+qualification_time_1 {
+  seconds: 39
+  nanos: 337000000
+}
+qualification_time_2 {
+  seconds: 91
+  nanos: 146000000
+}
+qualification_time_3 {
+  seconds: 90
+  nanos: 840000000
+}
 starting_position: 5
 finals_time {
   seconds: 5345
   nanos: 107000000
 }
 final_position: 11
-

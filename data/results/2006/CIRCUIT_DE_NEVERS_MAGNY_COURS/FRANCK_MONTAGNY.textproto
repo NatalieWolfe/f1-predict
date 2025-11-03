@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2006
+driver: FRANCK_MONTAGNY
+qualification_time_1 {
+  seconds: 78
+  nanos: 637000000
+}
+starting_position: 20
+final_position: 16

@@ -1,0 +1,13 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2006
+driver: JARNO_TRULLI
+qualification_time_1 {
+  seconds: 93
+  nanos: 987000000
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 66000000
+}
+starting_position: 14
+final_position: 16

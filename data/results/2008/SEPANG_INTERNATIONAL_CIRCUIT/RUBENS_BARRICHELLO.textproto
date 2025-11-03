@@ -1,0 +1,13 @@
+circuit: SEPANG_INTERNATIONAL_CIRCUIT
+race_season: 2008
+driver: RUBENS_BARRICHELLO
+qualification_time_1 {
+  seconds: 96
+  nanos: 198000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 622000000
+}
+starting_position: 14
+final_position: 13

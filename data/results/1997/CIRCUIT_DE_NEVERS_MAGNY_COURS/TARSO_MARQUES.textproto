@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 1997
+driver: TARSO_MARQUES
+qualification_time_1 {
+  seconds: 78
+  nanos: 280000000
+}
+starting_position: 22
+final_position: 22

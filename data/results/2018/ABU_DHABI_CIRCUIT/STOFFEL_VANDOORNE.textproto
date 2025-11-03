@@ -1,0 +1,9 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2018
+driver: STOFFEL_VANDOORNE
+qualification_time_1 {
+  seconds: 98
+  nanos: 577000000
+}
+starting_position: 18
+final_position: 14

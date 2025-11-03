@@ -1,0 +1,9 @@
+circuit: VALENCIA_STREET_CIRCUIT
+race_season: 2011
+driver: JARNO_TRULLI
+qualification_time_1 {
+  seconds: 102
+  nanos: 234000000
+}
+starting_position: 20
+final_position: 20

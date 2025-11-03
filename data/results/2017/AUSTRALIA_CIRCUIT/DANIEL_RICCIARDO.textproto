@@ -1,0 +1,12 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2017
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 85
+  nanos: 383000000
+}
+qualification_time_2 {
+  seconds: 83
+  nanos: 989000000
+}
+final_position: 17

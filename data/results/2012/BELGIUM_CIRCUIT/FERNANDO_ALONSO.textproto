@@ -1,0 +1,17 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 2012
+driver: FERNANDO_ALONSO
+qualification_time_1 {
+  seconds: 109
+  nanos: 401000000
+}
+qualification_time_2 {
+  seconds: 108
+  nanos: 598000000
+}
+qualification_time_3 {
+  seconds: 108
+  nanos: 313000000
+}
+starting_position: 5
+final_position: 22

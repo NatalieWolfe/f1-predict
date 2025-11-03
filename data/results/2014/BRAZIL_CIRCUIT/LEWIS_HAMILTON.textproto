@@ -1,0 +1,15 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2014
+driver: LEWIS_HAMILTON
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 70
+  nanos: 712000000
+}
+qualification_time_3 {
+  seconds: 70
+  nanos: 56000000
+}
+starting_position: 2
+final_position: 2

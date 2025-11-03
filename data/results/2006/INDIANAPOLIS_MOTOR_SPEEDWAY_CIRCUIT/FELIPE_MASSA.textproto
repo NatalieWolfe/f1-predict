@@ -1,0 +1,15 @@
+circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
+race_season: 2006
+driver: FELIPE_MASSA
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 71
+  nanos: 146000000
+}
+qualification_time_3 {
+  seconds: 71
+  nanos: 435000000
+}
+starting_position: 2
+final_position: 2

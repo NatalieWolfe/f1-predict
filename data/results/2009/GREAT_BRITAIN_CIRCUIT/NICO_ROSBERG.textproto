@@ -1,0 +1,15 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2009
+driver: NICO_ROSBERG
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 78
+  nanos: 591000000
+}
+qualification_time_3 {
+  seconds: 80
+  nanos: 361000000
+}
+starting_position: 7
+final_position: 5

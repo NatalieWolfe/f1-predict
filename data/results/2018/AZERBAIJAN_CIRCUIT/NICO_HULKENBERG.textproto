@@ -1,0 +1,17 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2018
+driver: NICO_HULKENBERG
+qualification_time_1 {
+  seconds: 103
+  nanos: 746000000
+}
+qualification_time_2 {
+  seconds: 103
+  nanos: 232000000
+}
+qualification_time_3 {
+  seconds: 103
+  nanos: 66000000
+}
+starting_position: 14
+final_position: 18

@@ -1,0 +1,9 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2019
+driver: LANCE_STROLL
+qualification_time_1 {
+  seconds: 83
+  nanos: 17000000
+}
+starting_position: 16
+final_position: 9

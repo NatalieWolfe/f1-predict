@@ -3,8 +3,6 @@ race_season: 2022
 team: MERCEDES
 driver: LEWIS_HAMILTON
 qualification_time_1 {
-  seconds: 78
-  nanos: 374000000
 }
 qualification_time_2 {
   seconds: 78
@@ -20,4 +18,3 @@ finals_time {
   nanos: 746000000
 }
 final_position: 2
-

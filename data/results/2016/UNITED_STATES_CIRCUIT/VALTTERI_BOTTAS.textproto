@@ -1,0 +1,17 @@
+circuit: UNITED_STATES_CIRCUIT
+race_season: 2016
+driver: VALTTERI_BOTTAS
+qualification_time_1 {
+  seconds: 97
+  nanos: 456000000
+}
+qualification_time_2 {
+  seconds: 97
+  nanos: 202000000
+}
+qualification_time_3 {
+  seconds: 97
+  nanos: 116000000
+}
+starting_position: 8
+final_position: 16

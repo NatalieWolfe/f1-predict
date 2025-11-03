@@ -1,0 +1,9 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 1999
+driver: JOHNNY_HERBERT
+qualification_time_1 {
+  seconds: 78
+  nanos: 374000000
+}
+starting_position: 10
+final_position: 20

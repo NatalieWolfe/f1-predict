@@ -1,0 +1,13 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2014
+driver: PASTOR_MALDONADO
+qualification_time_1 {
+  seconds: 70
+  nanos: 821000000
+}
+qualification_time_2 {
+  seconds: 69
+  nanos: 939000000
+}
+starting_position: 13
+final_position: 12

@@ -1,0 +1,17 @@
+circuit: TURKIYE_CIRCUIT
+race_season: 2010
+driver: KAMUI_KOBAYASHI
+qualification_time_1 {
+  seconds: 5
+  nanos: 650000000
+}
+qualification_time_2 {
+  seconds: 87
+  nanos: 434000000
+}
+qualification_time_3 {
+  seconds: 88
+  nanos: 122000000
+}
+starting_position: 10
+final_position: 10

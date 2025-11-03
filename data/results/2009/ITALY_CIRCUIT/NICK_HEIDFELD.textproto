@@ -1,0 +1,13 @@
+circuit: ITALY_CIRCUIT
+race_season: 2009
+driver: NICK_HEIDFELD
+qualification_time_1 {
+  seconds: 22
+  nanos: 412000000
+}
+qualification_time_2 {
+  seconds: 84
+  nanos: 275000000
+}
+starting_position: 15
+final_position: 7

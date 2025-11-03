@@ -2,10 +2,19 @@ circuit: BRAZIL_CIRCUIT
 race_season: 2021
 team: RED_BULL_RACING
 driver: MAX_VERSTAPPEN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 68
+  nanos: 499000000
+}
+qualification_time_3 {
+  seconds: 68
+  nanos: 372000000
+}
 starting_position: 2
 finals_time {
   seconds: 5553
   nanos: 347000000
 }
 final_position: 2
-

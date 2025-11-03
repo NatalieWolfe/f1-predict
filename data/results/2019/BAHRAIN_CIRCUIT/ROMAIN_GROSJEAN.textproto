@@ -1,0 +1,17 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2019
+driver: ROMAIN_GROSJEAN
+qualification_time_1 {
+  seconds: 89
+  nanos: 688000000
+}
+qualification_time_2 {
+  seconds: 89
+  nanos: 249000000
+}
+qualification_time_3 {
+  seconds: 89
+  nanos: 15000000
+}
+starting_position: 11
+final_position: 20

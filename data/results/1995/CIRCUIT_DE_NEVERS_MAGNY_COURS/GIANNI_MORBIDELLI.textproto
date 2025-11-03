@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 1995
+driver: GIANNI_MORBIDELLI
+qualification_time_1 {
+  seconds: 81
+  nanos: 76000000
+}
+starting_position: 16
+final_position: 14

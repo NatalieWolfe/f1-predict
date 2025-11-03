@@ -1,0 +1,8 @@
+circuit: JAPAN_CIRCUIT
+race_season: 2005
+driver: RUBENS_BARRICHELLO
+qualification_time_1 {
+  nanos: 633000000
+}
+starting_position: 9
+final_position: 11

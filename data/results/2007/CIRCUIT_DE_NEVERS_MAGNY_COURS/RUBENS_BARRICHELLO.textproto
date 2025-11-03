@@ -1,0 +1,13 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2007
+driver: RUBENS_BARRICHELLO
+qualification_time_1 {
+  seconds: 76
+  nanos: 140000000
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 761000000
+}
+starting_position: 13
+final_position: 11

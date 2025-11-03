@@ -1,0 +1,13 @@
+circuit: CHINA_CIRCUIT
+race_season: 2007
+driver: ANTHONY_DAVIDSON
+qualification_time_1 {
+  seconds: 97
+  nanos: 203000000
+}
+qualification_time_2 {
+  seconds: 97
+  nanos: 247000000
+}
+starting_position: 14
+final_position: 22

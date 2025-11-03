@@ -3,8 +3,8 @@ race_season: 2023
 team: FERRARI
 driver: CARLOS_SAINZ
 qualification_time_1 {
-  seconds: 92
-  nanos: 339000000
+  seconds: 6397
+  nanos: 418000000
 }
 qualification_time_2 {
   seconds: 91
@@ -20,4 +20,3 @@ finals_time {
   nanos: 418000000
 }
 final_position: 1
-

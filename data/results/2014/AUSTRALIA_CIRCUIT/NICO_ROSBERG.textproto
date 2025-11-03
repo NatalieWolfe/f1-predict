@@ -1,0 +1,17 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2014
+driver: NICO_ROSBERG
+qualification_time_1 {
+  seconds: 5578
+  nanos: 710000000
+}
+qualification_time_2 {
+  seconds: 102
+  nanos: 264000000
+}
+qualification_time_3 {
+  seconds: 104
+  nanos: 595000000
+}
+starting_position: 3
+final_position: 1

@@ -1,0 +1,15 @@
+circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
+race_season: 2007
+driver: JARNO_TRULLI
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 72
+  nanos: 828000000
+}
+qualification_time_3 {
+  seconds: 73
+  nanos: 789000000
+}
+starting_position: 8
+final_position: 6

@@ -1,0 +1,9 @@
+circuit: HOCKENHEIMRING_CIRCUIT
+race_season: 1993
+driver: ALAIN_PROST
+qualification_time_1 {
+  seconds: 4720
+  nanos: 885000000
+}
+starting_position: 1
+final_position: 1

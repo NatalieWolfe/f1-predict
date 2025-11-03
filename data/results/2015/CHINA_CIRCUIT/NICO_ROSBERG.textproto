@@ -1,0 +1,15 @@
+circuit: CHINA_CIRCUIT
+race_season: 2015
+driver: NICO_ROSBERG
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 96
+  nanos: 747000000
+}
+qualification_time_3 {
+  seconds: 95
+  nanos: 828000000
+}
+starting_position: 2
+final_position: 2

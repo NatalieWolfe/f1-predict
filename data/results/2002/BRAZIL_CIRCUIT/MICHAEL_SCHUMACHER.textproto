@@ -1,0 +1,9 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2002
+driver: MICHAEL_SCHUMACHER
+qualification_time_1 {
+  seconds: 5503
+  nanos: 662000000
+}
+starting_position: 2
+final_position: 1

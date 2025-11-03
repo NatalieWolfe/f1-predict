@@ -1,0 +1,15 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2011
+driver: FERNANDO_ALONSO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 72
+  nanos: 870000000
+}
+qualification_time_3 {
+  seconds: 72
+  nanos: 591000000
+}
+starting_position: 5
+final_position: 4

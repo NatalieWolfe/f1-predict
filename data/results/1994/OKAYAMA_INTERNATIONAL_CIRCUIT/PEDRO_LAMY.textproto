@@ -1,0 +1,9 @@
+circuit: OKAYAMA_INTERNATIONAL_CIRCUIT
+race_season: 1994
+driver: PEDRO_LAMY
+qualification_time_1 {
+  seconds: 74
+  nanos: 657000000
+}
+starting_position: 24
+final_position: 8

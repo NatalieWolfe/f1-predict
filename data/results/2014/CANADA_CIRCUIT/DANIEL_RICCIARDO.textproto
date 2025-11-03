@@ -1,0 +1,17 @@
+circuit: CANADA_CIRCUIT
+race_season: 2014
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 5952
+  nanos: 830000000
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 897000000
+}
+qualification_time_3 {
+  seconds: 75
+  nanos: 589000000
+}
+starting_position: 6
+final_position: 1

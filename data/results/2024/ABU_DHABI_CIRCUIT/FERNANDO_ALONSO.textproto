@@ -3,8 +3,8 @@ race_season: 2024
 team: ASTON_MARTIN
 driver: FERNANDO_ALONSO
 qualification_time_1 {
-  seconds: 83
-  nanos: 794000000
+  seconds: 22
+  nanos: 373000000
 }
 qualification_time_2 {
   seconds: 83
@@ -20,4 +20,3 @@ finals_time {
   nanos: 664000000
 }
 final_position: 9
-

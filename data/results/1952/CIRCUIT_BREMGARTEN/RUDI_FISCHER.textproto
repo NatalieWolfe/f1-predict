@@ -1,0 +1,9 @@
+circuit: CIRCUIT_BREMGARTEN
+race_season: 1952
+driver: RUDI_FISCHER
+qualification_time_1 {
+  seconds: 37
+  nanos: 200000000
+}
+starting_position: 5
+final_position: 2

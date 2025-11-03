@@ -1,0 +1,13 @@
+circuit: SEPANG_INTERNATIONAL_CIRCUIT
+race_season: 2009
+driver: HEIKKI_KOVALAINEN
+qualification_time_1 {
+  seconds: 95
+  nanos: 23000000
+}
+qualification_time_2 {
+  seconds: 94
+  nanos: 924000000
+}
+starting_position: 14
+final_position: 20

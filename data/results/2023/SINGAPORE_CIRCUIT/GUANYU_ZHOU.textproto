@@ -3,13 +3,11 @@ race_season: 2023
 team: KICK_SAUBER
 driver: GUANYU_ZHOU
 qualification_time_1 {
-  seconds: 93
-  nanos: 258000000
+  seconds: 23
+  nanos: 649000000
 }
-starting_position: 19
 finals_time {
   seconds: 6481
   nanos: 67000000
 }
 final_position: 12
-

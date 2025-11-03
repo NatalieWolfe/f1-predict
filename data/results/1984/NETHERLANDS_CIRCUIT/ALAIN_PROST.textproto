@@ -1,0 +1,9 @@
+circuit: NETHERLANDS_CIRCUIT
+race_season: 1984
+driver: ALAIN_PROST
+qualification_time_1 {
+  seconds: 5841
+  nanos: 468000000
+}
+starting_position: 1
+final_position: 1

@@ -1,0 +1,13 @@
+circuit: JAPAN_CIRCUIT
+race_season: 2014
+driver: DANIIL_KVYAT
+qualification_time_1 {
+  seconds: 95
+  nanos: 210000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 92000000
+}
+starting_position: 12
+final_position: 11

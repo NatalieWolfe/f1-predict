@@ -3,17 +3,15 @@ race_season: 2023
 team: ALPINE
 driver: ESTEBAN_OCON
 qualification_time_1 {
-  seconds: 102
-  nanos: 622000000
+  seconds: 37
+  nanos: 794000000
 }
 qualification_time_2 {
   seconds: 101
   nanos: 798000000
 }
-starting_position: 19
 finals_time {
   seconds: 5660
   nanos: 230000000
 }
 final_position: 15
-

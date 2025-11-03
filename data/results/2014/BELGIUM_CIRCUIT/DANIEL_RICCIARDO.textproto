@@ -1,0 +1,17 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 2014
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 5076
+  nanos: 556000000
+}
+qualification_time_2 {
+  seconds: 128
+  nanos: 989000000
+}
+qualification_time_3 {
+  seconds: 127
+  nanos: 911000000
+}
+starting_position: 5
+final_position: 1

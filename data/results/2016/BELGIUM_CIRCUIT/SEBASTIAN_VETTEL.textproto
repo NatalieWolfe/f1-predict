@@ -1,0 +1,15 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 2016
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 107
+  nanos: 944000000
+}
+qualification_time_3 {
+  seconds: 107
+  nanos: 108000000
+}
+starting_position: 4
+final_position: 6

@@ -1,0 +1,17 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2009
+driver: FELIPE_MASSA
+qualification_time_1 {
+  seconds: 93
+  nanos: 297000000
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 14000000
+}
+qualification_time_3 {
+  seconds: 94
+  nanos: 818000000
+}
+starting_position: 8
+final_position: 14

@@ -1,0 +1,9 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 1999
+driver: JOHNNY_HERBERT
+qualification_time_1 {
+  seconds: 17
+  nanos: 709000000
+}
+starting_position: 11
+final_position: 12

@@ -1,0 +1,15 @@
+circuit: NURBURGRING_CIRCUIT
+race_season: 2013
+driver: ROMAIN_GROSJEAN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 90
+  nanos: 5000000
+}
+qualification_time_3 {
+  seconds: 89
+  nanos: 959000000
+}
+starting_position: 5
+final_position: 3

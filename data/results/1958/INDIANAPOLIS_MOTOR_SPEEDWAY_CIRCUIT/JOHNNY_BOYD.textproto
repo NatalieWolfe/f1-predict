@@ -1,0 +1,9 @@
+circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
+race_season: 1958
+driver: JOHNNY_BOYD
+qualification_time_1 {
+  seconds: 9
+  nanos: 670000000
+}
+starting_position: 8
+final_position: 3

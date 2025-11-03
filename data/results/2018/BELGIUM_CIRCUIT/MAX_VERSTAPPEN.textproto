@@ -1,0 +1,15 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 2018
+driver: MAX_VERSTAPPEN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 102
+  nanos: 554000000
+}
+qualification_time_3 {
+  seconds: 122
+  nanos: 769000000
+}
+starting_position: 7
+final_position: 3

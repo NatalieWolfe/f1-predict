@@ -1,0 +1,17 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2017
+driver: DANIIL_KVYAT
+qualification_time_1 {
+  seconds: 85
+  nanos: 970000000
+}
+qualification_time_2 {
+  seconds: 84
+  nanos: 864000000
+}
+qualification_time_3 {
+  seconds: 84
+  nanos: 512000000
+}
+starting_position: 9
+final_position: 9

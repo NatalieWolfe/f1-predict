@@ -1,0 +1,8 @@
+circuit: CHINA_CIRCUIT
+race_season: 2012
+driver: NARAIN_KARTHIKEYAN
+qualification_time_1 {
+  seconds: 101
+}
+starting_position: 23
+final_position: 22

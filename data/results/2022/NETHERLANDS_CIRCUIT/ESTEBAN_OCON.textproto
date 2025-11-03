@@ -3,8 +3,6 @@ race_season: 2022
 team: ALPINE
 driver: ESTEBAN_OCON
 qualification_time_1 {
-  seconds: 71
-  nanos: 748000000
 }
 qualification_time_2 {
   seconds: 71
@@ -16,4 +14,3 @@ finals_time {
   nanos: 890000000
 }
 final_position: 9
-

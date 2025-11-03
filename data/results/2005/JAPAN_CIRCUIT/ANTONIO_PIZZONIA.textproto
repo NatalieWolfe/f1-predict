@@ -1,0 +1,9 @@
+circuit: JAPAN_CIRCUIT
+race_season: 2005
+driver: ANTONIO_PIZZONIA
+qualification_time_1 {
+  seconds: 108
+  nanos: 898000000
+}
+starting_position: 12
+final_position: 17

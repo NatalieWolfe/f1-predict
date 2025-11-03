@@ -1,0 +1,9 @@
+circuit: CANADA_CIRCUIT
+race_season: 2018
+driver: SERGEY_SIROTKIN
+qualification_time_1 {
+  seconds: 73
+  nanos: 643000000
+}
+starting_position: 18
+final_position: 17

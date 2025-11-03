@@ -2,10 +2,19 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2021
 team: MCLAREN
 driver: DANIEL_RICCIARDO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 117
+  nanos: 127000000
+}
+qualification_time_3 {
+  seconds: 120
+  nanos: 864000000
+}
 starting_position: 4
 finals_time {
   seconds: 211
   nanos: 567000000
 }
 final_position: 4
-

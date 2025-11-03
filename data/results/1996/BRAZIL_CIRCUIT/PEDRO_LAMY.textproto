@@ -1,0 +1,9 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 1996
+driver: PEDRO_LAMY
+qualification_time_1 {
+  seconds: 81
+  nanos: 491000000
+}
+starting_position: 18
+final_position: 10

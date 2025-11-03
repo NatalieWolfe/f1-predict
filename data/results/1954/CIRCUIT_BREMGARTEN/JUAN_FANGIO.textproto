@@ -1,0 +1,9 @@
+circuit: CIRCUIT_BREMGARTEN
+race_season: 1954
+driver: JUAN_FANGIO
+qualification_time_1 {
+  seconds: 10834
+  nanos: 500000000
+}
+starting_position: 2
+final_position: 1

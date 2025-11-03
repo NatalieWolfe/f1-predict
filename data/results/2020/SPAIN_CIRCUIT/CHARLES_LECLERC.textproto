@@ -1,0 +1,17 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2020
+driver: CHARLES_LECLERC
+qualification_time_1 {
+  seconds: 77
+  nanos: 256000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 953000000
+}
+qualification_time_3 {
+  seconds: 77
+  nanos: 87000000
+}
+starting_position: 9
+final_position: 20

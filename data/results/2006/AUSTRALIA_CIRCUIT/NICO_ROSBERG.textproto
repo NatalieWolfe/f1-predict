@@ -1,0 +1,13 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2006
+driver: NICO_ROSBERG
+qualification_time_1 {
+  seconds: 88
+  nanos: 351000000
+}
+qualification_time_2 {
+  seconds: 89
+  nanos: 422000000
+}
+starting_position: 14
+final_position: 21

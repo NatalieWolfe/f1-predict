@@ -1,0 +1,13 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2020
+driver: DANIIL_KVYAT
+qualification_time_1 {
+  seconds: 79
+  nanos: 824000000
+}
+qualification_time_2 {
+  seconds: 79
+  nanos: 717000000
+}
+starting_position: 13
+final_position: 12

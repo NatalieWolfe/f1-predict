@@ -2,10 +2,17 @@ circuit: HUNGARY_CIRCUIT
 race_season: 2021
 team: MCLAREN
 driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 77
+  nanos: 664000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 871000000
+}
 starting_position: 11
 finals_time {
   seconds: 7484
   nanos: 199000000
 }
 final_position: 11
-

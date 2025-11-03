@@ -1,0 +1,13 @@
+circuit: JAPAN_CIRCUIT
+race_season: 2011
+driver: RUBENS_BARRICHELLO
+qualification_time_1 {
+  seconds: 14
+  nanos: 191000000
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 79000000
+}
+starting_position: 13
+final_position: 17

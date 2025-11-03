@@ -1,0 +1,17 @@
+circuit: CHINA_CIRCUIT
+race_season: 2012
+driver: MICHAEL_SCHUMACHER
+qualification_time_1 {
+  seconds: 96
+  nanos: 797000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 794000000
+}
+qualification_time_3 {
+  seconds: 95
+  nanos: 691000000
+}
+starting_position: 2
+final_position: 24

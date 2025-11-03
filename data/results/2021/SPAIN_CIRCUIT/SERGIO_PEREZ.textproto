@@ -2,10 +2,21 @@ circuit: SPAIN_CIRCUIT
 race_season: 2021
 team: RED_BULL_RACING
 driver: SERGIO_PEREZ
+qualification_time_1 {
+  seconds: 3
+  nanos: 671000000
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 669000000
+}
+qualification_time_3 {
+  seconds: 77
+  nanos: 701000000
+}
 starting_position: 8
 finals_time {
   seconds: 5651
   nanos: 351000000
 }
 final_position: 5
-

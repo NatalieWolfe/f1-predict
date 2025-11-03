@@ -3,8 +3,6 @@ race_season: 2023
 team: ASTON_MARTIN
 driver: FERNANDO_ALONSO
 qualification_time_1 {
-  seconds: 72
-  nanos: 886000000
 }
 qualification_time_2 {
   seconds: 72
@@ -20,4 +18,3 @@ finals_time {
   nanos: 901000000
 }
 final_position: 2
-

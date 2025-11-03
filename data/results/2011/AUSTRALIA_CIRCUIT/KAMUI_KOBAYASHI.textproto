@@ -1,0 +1,17 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2011
+driver: KAMUI_KOBAYASHI
+qualification_time_1 {
+  seconds: 85
+  nanos: 717000000
+}
+qualification_time_2 {
+  seconds: 85
+  nanos: 405000000
+}
+qualification_time_3 {
+  seconds: 85
+  nanos: 626000000
+}
+starting_position: 9
+final_position: 21

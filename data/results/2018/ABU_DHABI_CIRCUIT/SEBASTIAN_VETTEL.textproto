@@ -1,0 +1,15 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2018
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 96
+  nanos: 345000000
+}
+qualification_time_3 {
+  seconds: 95
+  nanos: 125000000
+}
+starting_position: 3
+final_position: 2

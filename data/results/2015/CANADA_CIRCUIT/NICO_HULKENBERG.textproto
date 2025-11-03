@@ -1,0 +1,17 @@
+circuit: CANADA_CIRCUIT
+race_season: 2015
+driver: NICO_HULKENBERG
+qualification_time_1 {
+  seconds: 76
+  nanos: 186000000
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 706000000
+}
+qualification_time_3 {
+  seconds: 75
+  nanos: 614000000
+}
+starting_position: 7
+final_position: 8

@@ -1,0 +1,17 @@
+circuit: NURBURGRING_CIRCUIT
+race_season: 2009
+driver: MARK_WEBBER
+qualification_time_1 {
+  seconds: 5803
+  nanos: 310000000
+}
+qualification_time_2 {
+  seconds: 98
+  nanos: 38000000
+}
+qualification_time_3 {
+  seconds: 92
+  nanos: 229000000
+}
+starting_position: 1
+final_position: 1

@@ -3,8 +3,6 @@ race_season: 2024
 team: FERRARI
 driver: CARLOS_SAINZ
 qualification_time_1 {
-  seconds: 94
-  nanos: 970000000
 }
 qualification_time_2 {
   seconds: 94
@@ -20,4 +18,3 @@ finals_time {
   nanos: 537000000
 }
 final_position: 5
-

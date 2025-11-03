@@ -1,0 +1,9 @@
+circuit: AUTODROMO_DO_ESTORIL_CIRCUIT
+race_season: 1995
+driver: JEAN_DENIS_DELETRAZ
+qualification_time_1 {
+  seconds: 92
+  nanos: 769000000
+}
+starting_position: 24
+final_position: 20

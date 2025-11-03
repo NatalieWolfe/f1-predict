@@ -1,0 +1,15 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2019
+driver: VALTTERI_BOTTAS
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 674000000
+}
+qualification_time_3 {
+  seconds: 94
+  nanos: 973000000
+}
+starting_position: 20
+final_position: 4

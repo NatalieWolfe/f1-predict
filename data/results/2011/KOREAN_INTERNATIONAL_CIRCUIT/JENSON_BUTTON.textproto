@@ -1,0 +1,15 @@
+circuit: KOREAN_INTERNATIONAL_CIRCUIT
+race_season: 2011
+driver: JENSON_BUTTON
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 97
+  nanos: 302000000
+}
+qualification_time_3 {
+  seconds: 96
+  nanos: 126000000
+}
+starting_position: 3
+final_position: 4

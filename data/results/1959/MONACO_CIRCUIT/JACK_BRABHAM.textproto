@@ -1,0 +1,9 @@
+circuit: MONACO_CIRCUIT
+race_season: 1959
+driver: JACK_BRABHAM
+qualification_time_1 {
+  seconds: 10551
+  nanos: 300000000
+}
+starting_position: 3
+final_position: 1

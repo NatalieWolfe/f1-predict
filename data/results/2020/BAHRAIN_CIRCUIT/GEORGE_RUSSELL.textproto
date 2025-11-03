@@ -1,0 +1,15 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2020
+driver: GEORGE_RUSSELL
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 53
+  nanos: 819000000
+}
+qualification_time_3 {
+  seconds: 53
+  nanos: 403000000
+}
+starting_position: 14
+final_position: 12

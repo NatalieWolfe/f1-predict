@@ -1,0 +1,9 @@
+circuit: NURBURGRING_CIRCUIT
+race_season: 1996
+driver: RICARDO_ROSSET
+qualification_time_1 {
+  seconds: 83
+  nanos: 620000000
+}
+starting_position: 20
+final_position: 11

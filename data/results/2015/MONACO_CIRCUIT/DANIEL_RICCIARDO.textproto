@@ -1,0 +1,15 @@
+circuit: MONACO_CIRCUIT
+race_season: 2015
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 706000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 41000000
+}
+starting_position: 4
+final_position: 5

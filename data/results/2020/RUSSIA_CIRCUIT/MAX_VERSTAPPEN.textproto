@@ -1,0 +1,15 @@
+circuit: RUSSIA_CIRCUIT
+race_season: 2020
+driver: MAX_VERSTAPPEN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 157000000
+}
+qualification_time_3 {
+  seconds: 91
+  nanos: 867000000
+}
+starting_position: 2
+final_position: 2

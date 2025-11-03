@@ -1,0 +1,17 @@
+circuit: CHINA_CIRCUIT
+race_season: 2011
+driver: PAUL_DI_RESTA
+qualification_time_1 {
+  seconds: 8
+  nanos: 757000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 858000000
+}
+qualification_time_3 {
+  seconds: 96
+  nanos: 190000000
+}
+starting_position: 8
+final_position: 11

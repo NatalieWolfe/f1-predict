@@ -1,0 +1,9 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 1988
+driver: IVAN_CAPELLI
+qualification_time_1 {
+  seconds: 15
+  nanos: 768000000
+}
+starting_position: 14
+final_position: 3

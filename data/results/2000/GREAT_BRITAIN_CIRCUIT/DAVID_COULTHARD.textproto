@@ -1,0 +1,9 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2000
+driver: DAVID_COULTHARD
+qualification_time_1 {
+  seconds: 5330
+  nanos: 108000000
+}
+starting_position: 4
+final_position: 1

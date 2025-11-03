@@ -1,0 +1,15 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2009
+driver: KIMI_RAIKKONEN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 92
+  nanos: 827000000
+}
+qualification_time_3 {
+  seconds: 95
+  nanos: 380000000
+}
+starting_position: 10
+final_position: 6

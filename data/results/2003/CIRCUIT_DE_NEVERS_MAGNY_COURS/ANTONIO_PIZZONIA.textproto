@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2003
+driver: ANTONIO_PIZZONIA
+qualification_time_1 {
+  seconds: 76
+  nanos: 965000000
+}
+starting_position: 11
+final_position: 10

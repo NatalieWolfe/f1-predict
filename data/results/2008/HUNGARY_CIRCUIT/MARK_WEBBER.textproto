@@ -1,0 +1,15 @@
+circuit: HUNGARY_CIRCUIT
+race_season: 2008
+driver: MARK_WEBBER
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 80
+  nanos: 46000000
+}
+qualification_time_3 {
+  seconds: 81
+  nanos: 732000000
+}
+starting_position: 8
+final_position: 9

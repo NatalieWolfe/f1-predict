@@ -1,0 +1,17 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2018
+driver: KEVIN_MAGNUSSEN
+qualification_time_1 {
+  seconds: 78
+  nanos: 169000000
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 618000000
+}
+qualification_time_3 {
+  seconds: 77
+  nanos: 676000000
+}
+starting_position: 7
+final_position: 6

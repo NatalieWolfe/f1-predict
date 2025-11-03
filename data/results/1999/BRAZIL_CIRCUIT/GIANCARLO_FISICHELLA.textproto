@@ -1,0 +1,9 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 1999
+driver: GIANCARLO_FISICHELLA
+qualification_time_1 {
+  seconds: 77
+  nanos: 810000000
+}
+starting_position: 5
+final_position: 15

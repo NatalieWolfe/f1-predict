@@ -1,0 +1,17 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2010
+driver: FELIPE_MASSA
+qualification_time_1 {
+  seconds: 5
+  nanos: 767000000
+}
+qualification_time_2 {
+  seconds: 81
+  nanos: 841000000
+}
+qualification_time_3 {
+  seconds: 81
+  nanos: 585000000
+}
+starting_position: 9
+final_position: 6

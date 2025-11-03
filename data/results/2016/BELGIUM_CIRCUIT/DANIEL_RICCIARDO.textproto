@@ -1,0 +1,15 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 2016
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 108
+  nanos: 27000000
+}
+qualification_time_3 {
+  seconds: 107
+  nanos: 216000000
+}
+starting_position: 5
+final_position: 2

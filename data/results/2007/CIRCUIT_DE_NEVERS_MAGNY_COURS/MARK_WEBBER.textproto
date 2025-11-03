@@ -1,0 +1,13 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2007
+driver: MARK_WEBBER
+qualification_time_1 {
+  seconds: 75
+  nanos: 746000000
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 806000000
+}
+starting_position: 14
+final_position: 12

@@ -1,0 +1,17 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2016
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+  seconds: 91
+  nanos: 636000000
+}
+qualification_time_2 {
+  seconds: 90
+  nanos: 409000000
+}
+qualification_time_3 {
+  seconds: 90
+  nanos: 12000000
+}
+starting_position: 3
+final_position: 21

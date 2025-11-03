@@ -3,8 +3,6 @@ race_season: 2023
 team: FERRARI
 driver: CHARLES_LECLERC
 qualification_time_1 {
-  seconds: 89
-  nanos: 376000000
 }
 qualification_time_2 {
   seconds: 88
@@ -20,4 +18,3 @@ finals_time {
   nanos: 56000000
 }
 final_position: 7
-

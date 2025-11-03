@@ -1,0 +1,9 @@
+circuit: JAPAN_CIRCUIT
+race_season: 1994
+driver: FRANCK_LAGORCE
+qualification_time_1 {
+  seconds: 100
+  nanos: 577000000
+}
+starting_position: 20
+final_position: 19

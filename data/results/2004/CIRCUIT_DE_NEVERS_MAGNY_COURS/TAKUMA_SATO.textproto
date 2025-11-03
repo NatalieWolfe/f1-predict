@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2004
+driver: TAKUMA_SATO
+qualification_time_1 {
+  seconds: 74
+  nanos: 240000000
+}
+starting_position: 7
+final_position: 20

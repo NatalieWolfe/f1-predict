@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2005
+driver: JACQUES_VILLENEUVE
+qualification_time_1 {
+  seconds: 75
+  nanos: 699000000
+}
+starting_position: 10
+final_position: 8

@@ -1,0 +1,17 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2016
+driver: FELIPE_MASSA
+qualification_time_1 {
+  seconds: 92
+  nanos: 45000000
+}
+qualification_time_2 {
+  seconds: 91
+  nanos: 374000000
+}
+qualification_time_3 {
+  seconds: 91
+  nanos: 155000000
+}
+starting_position: 7
+final_position: 8

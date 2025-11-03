@@ -1,0 +1,9 @@
+circuit: ITALY_CIRCUIT
+race_season: 1955
+driver: JEAN_BEHRA
+qualification_time_1 {
+  seconds: 57
+  nanos: 500000000
+}
+starting_position: 6
+final_position: 4

@@ -2,10 +2,17 @@ circuit: SPAIN_CIRCUIT
 race_season: 2021
 team: ASTON_MARTIN
 driver: LANCE_STROLL
+qualification_time_1 {
+  seconds: 78
+  nanos: 241000000
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 974000000
+}
 starting_position: 11
 finals_time {
   seconds: 5588
   nanos: 680000000
 }
 final_position: 11
-

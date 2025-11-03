@@ -1,0 +1,17 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2006
+driver: DAVID_COULTHARD
+qualification_time_1 {
+  seconds: 76
+  nanos: 350000000
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 974000000
+}
+qualification_time_3 {
+  seconds: 78
+  nanos: 663000000
+}
+starting_position: 9
+final_position: 9

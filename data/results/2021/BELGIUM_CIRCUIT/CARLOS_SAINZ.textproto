@@ -2,10 +2,15 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2021
 team: FERRARI
 driver: CARLOS_SAINZ
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 118
+  nanos: 137000000
+}
 starting_position: 11
 finals_time {
   seconds: 223
   nanos: 237000000
 }
 final_position: 10
-

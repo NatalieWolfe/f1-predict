@@ -3,8 +3,8 @@ race_season: 2023
 team: ALPINE
 driver: PIERRE_GASLY
 qualification_time_1 {
-  seconds: 104
-  nanos: 853000000
+  seconds: 31
+  nanos: 332000000
 }
 starting_position: 17
 finals_time {
@@ -12,4 +12,3 @@ finals_time {
   nanos: 768000000
 }
 final_position: 14
-

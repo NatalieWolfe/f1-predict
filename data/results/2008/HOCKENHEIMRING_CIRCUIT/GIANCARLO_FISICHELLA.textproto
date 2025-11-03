@@ -1,0 +1,9 @@
+circuit: HOCKENHEIMRING_CIRCUIT
+race_season: 2008
+driver: GIANCARLO_FISICHELLA
+qualification_time_1 {
+  seconds: 24
+  nanos: 93000000
+}
+starting_position: 20
+final_position: 16

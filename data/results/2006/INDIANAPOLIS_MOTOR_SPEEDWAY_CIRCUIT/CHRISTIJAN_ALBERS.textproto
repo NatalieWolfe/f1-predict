@@ -1,0 +1,13 @@
+circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
+race_season: 2006
+driver: CHRISTIJAN_ALBERS
+qualification_time_1 {
+  seconds: 72
+  nanos: 711000000
+}
+qualification_time_2 {
+  seconds: 72
+  nanos: 854000000
+}
+starting_position: 14
+final_position: 11

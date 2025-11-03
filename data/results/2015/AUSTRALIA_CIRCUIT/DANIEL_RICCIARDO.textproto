@@ -1,0 +1,17 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2015
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 89
+  nanos: 788000000
+}
+qualification_time_2 {
+  seconds: 88
+  nanos: 679000000
+}
+qualification_time_3 {
+  seconds: 88
+  nanos: 329000000
+}
+starting_position: 6
+final_position: 6

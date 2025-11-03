@@ -1,0 +1,13 @@
+circuit: MONACO_CIRCUIT
+race_season: 2005
+driver: JACQUES_VILLENEUVE
+qualification_time_1 {
+  seconds: 75
+  nanos: 921000000
+}
+qualification_time_2 {
+  seconds: 79
+  nanos: 15000000
+}
+starting_position: 9
+final_position: 11

@@ -1,0 +1,15 @@
+circuit: ITALY_CIRCUIT
+race_season: 2020
+driver: VALTTERI_BOTTAS
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 78
+  nanos: 952000000
+}
+qualification_time_3 {
+  seconds: 78
+  nanos: 956000000
+}
+starting_position: 2
+final_position: 5

@@ -1,0 +1,9 @@
+circuit: RUSSIA_CIRCUIT
+race_season: 2018
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 20
+  nanos: 451000000
+}
+starting_position: 18
+final_position: 6

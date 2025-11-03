@@ -1,0 +1,9 @@
+circuit: ITALY_CIRCUIT
+race_season: 1976
+driver: JOHN_WATSON
+qualification_time_1 {
+  seconds: 42
+  nanos: 200000000
+}
+starting_position: 26
+final_position: 11

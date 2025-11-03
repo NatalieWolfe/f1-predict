@@ -3,8 +3,7 @@ race_season: 2022
 team: MCLAREN
 driver: DANIEL_RICCIARDO
 qualification_time_1 {
-  seconds: 93
-  nanos: 404000000
+  nanos: 372000000
 }
 qualification_time_2 {
   seconds: 92
@@ -16,4 +15,3 @@ finals_time {
   nanos: 484000000
 }
 final_position: 9
-

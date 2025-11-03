@@ -3,8 +3,8 @@ race_season: 2022
 team: ASTON_MARTIN
 driver: SEBASTIAN_VETTEL
 qualification_time_1 {
-  seconds: 96
-  nanos: 995000000
+  seconds: 5
+  nanos: 354000000
 }
 qualification_time_2 {
   seconds: 96
@@ -16,4 +16,3 @@ finals_time {
   nanos: 41000000
 }
 final_position: 8
-

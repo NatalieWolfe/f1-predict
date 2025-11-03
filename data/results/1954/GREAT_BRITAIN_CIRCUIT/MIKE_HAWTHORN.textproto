@@ -1,0 +1,8 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 1954
+driver: MIKE_HAWTHORN
+qualification_time_1 {
+  seconds: 10
+}
+starting_position: 3
+final_position: 2

@@ -1,0 +1,13 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2006
+driver: NICK_HEIDFELD
+qualification_time_1 {
+  seconds: 76
+  nanos: 686000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 294000000
+}
+starting_position: 11
+final_position: 8

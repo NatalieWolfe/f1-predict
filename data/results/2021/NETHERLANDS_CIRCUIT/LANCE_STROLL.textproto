@@ -2,10 +2,17 @@ circuit: NETHERLANDS_CIRCUIT
 race_season: 2021
 team: ASTON_MARTIN
 driver: LANCE_STROLL
+qualification_time_1 {
+  seconds: 70
+  nanos: 438000000
+}
+qualification_time_2 {
+  seconds: 70
+  nanos: 367000000
+}
 starting_position: 12
 finals_time {
   seconds: 5407
   nanos: 395000000
 }
 final_position: 12
-

@@ -1,0 +1,13 @@
+circuit: SEPANG_INTERNATIONAL_CIRCUIT
+race_season: 2016
+driver: CARLOS_SAINZ
+qualification_time_1 {
+  seconds: 38
+  nanos: 878000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 374000000
+}
+starting_position: 16
+final_position: 11

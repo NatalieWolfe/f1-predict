@@ -1,0 +1,13 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2011
+driver: RUBENS_BARRICHELLO
+qualification_time_1 {
+  seconds: 74
+  nanos: 117000000
+}
+qualification_time_2 {
+  seconds: 73
+  nanos: 801000000
+}
+starting_position: 12
+final_position: 14

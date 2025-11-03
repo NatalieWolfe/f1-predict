@@ -1,0 +1,15 @@
+circuit: ITALY_CIRCUIT
+race_season: 2014
+driver: VALTTERI_BOTTAS
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 84
+  nanos: 858000000
+}
+qualification_time_3 {
+  seconds: 84
+  nanos: 697000000
+}
+starting_position: 3
+final_position: 4

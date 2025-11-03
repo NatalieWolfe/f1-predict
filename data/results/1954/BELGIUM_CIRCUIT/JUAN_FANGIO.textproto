@@ -1,0 +1,9 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 1954
+driver: JUAN_FANGIO
+qualification_time_1 {
+  seconds: 9882
+  nanos: 400000000
+}
+starting_position: 1
+final_position: 1

@@ -1,0 +1,11 @@
+circuit: KOREAN_INTERNATIONAL_CIRCUIT
+race_season: 2012
+driver: PAUL_DI_RESTA
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 98
+  nanos: 643000000
+}
+starting_position: 14
+final_position: 12

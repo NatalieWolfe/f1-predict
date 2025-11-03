@@ -1,0 +1,9 @@
+circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
+race_season: 1973
+driver: EMERSON_FITTIPALDI
+qualification_time_1 {
+  seconds: 6978
+  nanos: 220000000
+}
+starting_position: 2
+final_position: 1

@@ -2,10 +2,13 @@ circuit: BAHRAIN_CIRCUIT
 race_season: 2021
 team: ALPINE
 driver: ESTEBAN_OCON
+qualification_time_1 {
+  seconds: 91
+  nanos: 724000000
+}
 starting_position: 16
 finals_time {
   seconds: 5524
   nanos: 897000000
 }
 final_position: 13
-

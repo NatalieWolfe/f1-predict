@@ -2,10 +2,17 @@ circuit: BAHRAIN_CIRCUIT
 race_season: 2021
 team: WILLIAMS
 driver: GEORGE_RUSSELL
+qualification_time_1 {
+  seconds: 91
+  nanos: 316000000
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 430000000
+}
 starting_position: 15
 finals_time {
   seconds: 5524
   nanos: 897000000
 }
 final_position: 14
-

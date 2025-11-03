@@ -1,0 +1,9 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2004
+driver: CRISTIANO_DA_MATTA
+qualification_time_1 {
+  seconds: 77
+  nanos: 38000000
+}
+starting_position: 11
+final_position: 13

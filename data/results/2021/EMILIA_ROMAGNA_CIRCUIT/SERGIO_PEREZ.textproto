@@ -2,10 +2,19 @@ circuit: EMILIA_ROMAGNA_CIRCUIT
 race_season: 2021
 team: RED_BULL_RACING
 driver: SERGIO_PEREZ
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 74
+  nanos: 716000000
+}
+qualification_time_3 {
+  seconds: 74
+  nanos: 446000000
+}
 starting_position: 2
 finals_time {
   seconds: 7421
   nanos: 749000000
 }
 final_position: 11
-

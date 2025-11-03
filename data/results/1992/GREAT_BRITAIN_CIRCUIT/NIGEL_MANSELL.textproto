@@ -1,0 +1,9 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 1992
+driver: NIGEL_MANSELL
+qualification_time_1 {
+  seconds: 5142
+  nanos: 991000000
+}
+starting_position: 1
+final_position: 1

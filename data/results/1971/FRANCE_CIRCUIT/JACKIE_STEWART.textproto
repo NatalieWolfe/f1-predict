@@ -1,0 +1,9 @@
+circuit: FRANCE_CIRCUIT
+race_season: 1971
+driver: JACKIE_STEWART
+qualification_time_1 {
+  seconds: 6402
+  nanos: 300000000
+}
+starting_position: 1
+final_position: 1

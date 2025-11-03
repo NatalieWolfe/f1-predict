@@ -1,0 +1,15 @@
+circuit: ITALY_CIRCUIT
+race_season: 2018
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 79
+  nanos: 629000000
+}
+qualification_time_3 {
+  seconds: 79
+  nanos: 280000000
+}
+starting_position: 2
+final_position: 4

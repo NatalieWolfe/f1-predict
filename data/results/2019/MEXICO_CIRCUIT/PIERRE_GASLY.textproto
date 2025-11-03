@@ -1,0 +1,17 @@
+circuit: MEXICO_CIRCUIT
+race_season: 2019
+driver: PIERRE_GASLY
+qualification_time_1 {
+  seconds: 77
+  nanos: 65000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 679000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 586000000
+}
+starting_position: 10
+final_position: 9

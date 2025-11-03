@@ -1,0 +1,17 @@
+circuit: TURKIYE_CIRCUIT
+race_season: 2020
+driver: VALTTERI_BOTTAS
+qualification_time_1 {
+  seconds: 127
+  nanos: 1000000
+}
+qualification_time_2 {
+  seconds: 113
+  nanos: 767000000
+}
+qualification_time_3 {
+  seconds: 113
+  nanos: 258000000
+}
+starting_position: 9
+final_position: 14

@@ -1,0 +1,9 @@
+circuit: CIRCUIT_BREMGARTEN
+race_season: 1951
+driver: NINO_FARINA
+qualification_time_1 {
+  seconds: 19
+  nanos: 310000000
+}
+starting_position: 2
+final_position: 3

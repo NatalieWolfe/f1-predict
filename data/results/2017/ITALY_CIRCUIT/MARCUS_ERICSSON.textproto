@@ -1,0 +1,9 @@
+circuit: ITALY_CIRCUIT
+race_season: 2017
+driver: MARCUS_ERICSSON
+qualification_time_1 {
+  seconds: 101
+  nanos: 732000000
+}
+starting_position: 11
+final_position: 18

@@ -1,0 +1,15 @@
+circuit: ITALY_CIRCUIT
+race_season: 2013
+driver: NICO_ROSBERG
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 84
+  nanos: 393000000
+}
+qualification_time_3 {
+  seconds: 84
+  nanos: 192000000
+}
+starting_position: 6
+final_position: 6

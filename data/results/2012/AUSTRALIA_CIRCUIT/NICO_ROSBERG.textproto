@@ -1,0 +1,15 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2012
+driver: NICO_ROSBERG
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 85
+  nanos: 469000000
+}
+qualification_time_3 {
+  seconds: 85
+  nanos: 686000000
+}
+starting_position: 7
+final_position: 12

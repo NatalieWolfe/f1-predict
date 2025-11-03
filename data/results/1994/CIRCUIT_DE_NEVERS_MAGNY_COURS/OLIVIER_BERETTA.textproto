@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 1994
+driver: OLIVIER_BERETTA
+qualification_time_1 {
+  seconds: 79
+  nanos: 863000000
+}
+starting_position: 25
+final_position: 18

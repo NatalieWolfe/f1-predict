@@ -1,0 +1,17 @@
+circuit: CANADA_CIRCUIT
+race_season: 2015
+driver: PASTOR_MALDONADO
+qualification_time_1 {
+  seconds: 6
+  nanos: 664000000
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 622000000
+}
+qualification_time_3 {
+  seconds: 75
+  nanos: 329000000
+}
+starting_position: 6
+final_position: 7

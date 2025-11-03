@@ -1,0 +1,17 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2020
+driver: MAX_VERSTAPPEN
+qualification_time_1 {
+  seconds: 5788
+  nanos: 645000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 641000000
+}
+qualification_time_3 {
+  seconds: 95
+  nanos: 246000000
+}
+starting_position: 1
+final_position: 1

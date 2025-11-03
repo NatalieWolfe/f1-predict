@@ -1,0 +1,15 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2018
+driver: VALTTERI_BOTTAS
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 88
+  nanos: 794000000
+}
+qualification_time_3 {
+  seconds: 88
+  nanos: 124000000
+}
+starting_position: 3
+final_position: 2

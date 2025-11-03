@@ -1,0 +1,9 @@
+circuit: EMILIA_ROMAGNA_CIRCUIT
+race_season: 2001
+driver: RALF_SCHUMACHER
+qualification_time_1 {
+  seconds: 5444
+  nanos: 817000000
+}
+starting_position: 3
+final_position: 1

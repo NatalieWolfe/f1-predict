@@ -3,8 +3,6 @@ race_season: 2024
 team: MCLAREN
 driver: LANDO_NORRIS
 qualification_time_1 {
-  seconds: 81
-  nanos: 578000000
 }
 qualification_time_2 {
   seconds: 80
@@ -20,4 +18,3 @@ finals_time {
   nanos: 85000000
 }
 final_position: 10
-

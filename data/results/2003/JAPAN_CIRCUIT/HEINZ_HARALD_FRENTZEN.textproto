@@ -1,0 +1,9 @@
+circuit: JAPAN_CIRCUIT
+race_season: 2003
+driver: HEINZ_HARALD_FRENTZEN
+qualification_time_1 {
+  seconds: 93
+  nanos: 896000000
+}
+starting_position: 12
+final_position: 19

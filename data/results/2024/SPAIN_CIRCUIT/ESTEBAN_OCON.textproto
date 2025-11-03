@@ -3,8 +3,8 @@ race_season: 2024
 team: ALPINE
 driver: ESTEBAN_OCON
 qualification_time_1 {
-  seconds: 72
-  nanos: 691000000
+  seconds: 11
+  nanos: 889000000
 }
 qualification_time_2 {
   seconds: 72
@@ -20,4 +20,3 @@ finals_time {
   nanos: 116000000
 }
 final_position: 10
-

@@ -1,0 +1,9 @@
+circuit: HOCKENHEIMRING_CIRCUIT
+race_season: 2006
+driver: TIAGO_MONTEIRO
+qualification_time_1 {
+  seconds: 77
+  nanos: 836000000
+}
+starting_position: 18
+final_position: 22

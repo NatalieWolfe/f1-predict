@@ -3,8 +3,8 @@ race_season: 2024
 team: ASTON_MARTIN
 driver: LANCE_STROLL
 qualification_time_1 {
-  seconds: 76
-  nanos: 458000000
+  seconds: 19
+  nanos: 556000000
 }
 qualification_time_2 {
   seconds: 75
@@ -16,4 +16,3 @@ finals_time {
   nanos: 808000000
 }
 final_position: 9
-

@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 1997
+driver: JAN_MAGNUSSEN
+qualification_time_1 {
+  seconds: 76
+  nanos: 149000000
+}
+starting_position: 15
+final_position: 18

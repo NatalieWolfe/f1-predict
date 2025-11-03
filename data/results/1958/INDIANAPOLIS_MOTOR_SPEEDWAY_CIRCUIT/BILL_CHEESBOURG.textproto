@@ -1,0 +1,9 @@
+circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
+race_season: 1958
+driver: BILL_CHEESBOURG
+qualification_time_1 {
+  seconds: 3
+  nanos: 590000000
+}
+starting_position: 33
+final_position: 10

@@ -1,0 +1,9 @@
+circuit: SEPANG_INTERNATIONAL_CIRCUIT
+race_season: 2006
+driver: YUJI_IDE
+qualification_time_1 {
+  seconds: 100
+  nanos: 720000000
+}
+starting_position: 18
+final_position: 17

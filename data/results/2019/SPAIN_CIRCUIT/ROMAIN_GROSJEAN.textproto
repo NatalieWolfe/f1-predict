@@ -1,0 +1,15 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2019
+driver: ROMAIN_GROSJEAN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 66000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 911000000
+}
+starting_position: 7
+final_position: 10

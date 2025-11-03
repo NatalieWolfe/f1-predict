@@ -1,0 +1,17 @@
+circuit: EMILIA_ROMAGNA_CIRCUIT
+race_season: 2020
+driver: MAX_VERSTAPPEN
+qualification_time_1 {
+  seconds: 75
+  nanos: 34000000
+}
+qualification_time_2 {
+  seconds: 74
+  nanos: 974000000
+}
+qualification_time_3 {
+  seconds: 74
+  nanos: 176000000
+}
+starting_position: 3
+final_position: 17

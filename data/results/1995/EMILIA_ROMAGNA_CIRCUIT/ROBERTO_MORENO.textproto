@@ -1,0 +1,9 @@
+circuit: EMILIA_ROMAGNA_CIRCUIT
+race_season: 1995
+driver: ROBERTO_MORENO
+qualification_time_1 {
+  seconds: 96
+  nanos: 65000000
+}
+starting_position: 25
+final_position: 16

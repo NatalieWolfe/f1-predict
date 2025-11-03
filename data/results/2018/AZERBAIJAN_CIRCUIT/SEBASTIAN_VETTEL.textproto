@@ -1,0 +1,15 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2018
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 103
+  nanos: 15000000
+}
+qualification_time_3 {
+  seconds: 101
+  nanos: 498000000
+}
+starting_position: 1
+final_position: 4

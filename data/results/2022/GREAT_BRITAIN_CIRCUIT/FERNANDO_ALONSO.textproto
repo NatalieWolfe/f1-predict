@@ -3,8 +3,6 @@ race_season: 2022
 team: ALPINE
 driver: FERNANDO_ALONSO
 qualification_time_1 {
-  seconds: 101
-  nanos: 598000000
 }
 qualification_time_2 {
   seconds: 102
@@ -20,4 +18,3 @@ finals_time {
   nanos: 882000000
 }
 final_position: 5
-

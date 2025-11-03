@@ -1,0 +1,9 @@
+circuit: MONACO_CIRCUIT
+race_season: 2017
+driver: LANCE_STROLL
+qualification_time_1 {
+  seconds: 74
+  nanos: 893000000
+}
+starting_position: 17
+final_position: 15

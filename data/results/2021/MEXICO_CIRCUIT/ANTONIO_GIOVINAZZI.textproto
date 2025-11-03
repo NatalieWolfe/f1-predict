@@ -2,10 +2,17 @@ circuit: MEXICO_CIRCUIT
 race_season: 2021
 team: KICK_SAUBER
 driver: ANTONIO_GIOVINAZZI
+qualification_time_1 {
+  seconds: 77
+  nanos: 897000000
+}
+qualification_time_2 {
+  seconds: 78
+  nanos: 290000000
+}
 starting_position: 11
 finals_time {
   seconds: 5920
   nanos: 86000000
 }
 final_position: 11
-

@@ -1,0 +1,17 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2020
+driver: CHARLES_LECLERC
+qualification_time_1 {
+  seconds: 95
+  nanos: 881000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 932000000
+}
+qualification_time_3 {
+  seconds: 96
+  nanos: 65000000
+}
+starting_position: 12
+final_position: 13

@@ -1,0 +1,15 @@
+circuit: HUNGARY_CIRCUIT
+race_season: 2007
+driver: FERNANDO_ALONSO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 79
+  nanos: 661000000
+}
+qualification_time_3 {
+  seconds: 79
+  nanos: 674000000
+}
+starting_position: 6
+final_position: 4

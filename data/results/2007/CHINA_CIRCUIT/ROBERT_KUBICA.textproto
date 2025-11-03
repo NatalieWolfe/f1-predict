@@ -1,0 +1,17 @@
+circuit: CHINA_CIRCUIT
+race_season: 2007
+driver: ROBERT_KUBICA
+qualification_time_1 {
+  seconds: 96
+  nanos: 309000000
+}
+qualification_time_2 {
+  seconds: 96
+  nanos: 116000000
+}
+qualification_time_3 {
+  seconds: 98
+  nanos: 472000000
+}
+starting_position: 9
+final_position: 18

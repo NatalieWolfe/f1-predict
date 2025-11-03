@@ -1,0 +1,17 @@
+circuit: RUSSIA_CIRCUIT
+race_season: 2017
+driver: VALTTERI_BOTTAS
+qualification_time_1 {
+  seconds: 5288
+  nanos: 743000000
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 264000000
+}
+qualification_time_3 {
+  seconds: 93
+  nanos: 289000000
+}
+starting_position: 3
+final_position: 1

@@ -1,0 +1,9 @@
+circuit: JAPAN_CIRCUIT
+race_season: 2004
+driver: RUBENS_BARRICHELLO
+qualification_time_1 {
+  seconds: 98
+  nanos: 637000000
+}
+starting_position: 15
+final_position: 19

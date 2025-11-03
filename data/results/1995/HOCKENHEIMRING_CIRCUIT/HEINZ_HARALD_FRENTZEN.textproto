@@ -1,0 +1,9 @@
+circuit: HOCKENHEIMRING_CIRCUIT
+race_season: 1995
+driver: HEINZ_HARALD_FRENTZEN
+qualification_time_1 {
+  seconds: 106
+  nanos: 801000000
+}
+starting_position: 11
+final_position: 11

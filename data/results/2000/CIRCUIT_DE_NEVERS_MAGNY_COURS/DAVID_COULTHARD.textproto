@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2000
+driver: DAVID_COULTHARD
+qualification_time_1 {
+  seconds: 5885
+  nanos: 538000000
+}
+starting_position: 2
+final_position: 1

@@ -1,0 +1,17 @@
+circuit: RUSSIA_CIRCUIT
+race_season: 2016
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+  seconds: 96
+  nanos: 555000000
+}
+qualification_time_2 {
+  seconds: 96
+  nanos: 623000000
+}
+qualification_time_3 {
+  seconds: 96
+  nanos: 123000000
+}
+starting_position: 7
+final_position: 20

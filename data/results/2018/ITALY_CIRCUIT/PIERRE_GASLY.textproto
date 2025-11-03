@@ -1,0 +1,17 @@
+circuit: ITALY_CIRCUIT
+race_season: 2018
+driver: PIERRE_GASLY
+qualification_time_1 {
+  seconds: 81
+  nanos: 834000000
+}
+qualification_time_2 {
+  seconds: 81
+  nanos: 667000000
+}
+qualification_time_3 {
+  seconds: 81
+  nanos: 350000000
+}
+starting_position: 9
+final_position: 14

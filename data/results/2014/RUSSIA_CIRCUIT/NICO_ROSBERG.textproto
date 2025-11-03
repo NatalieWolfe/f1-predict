@@ -1,0 +1,15 @@
+circuit: RUSSIA_CIRCUIT
+race_season: 2014
+driver: NICO_ROSBERG
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 98
+  nanos: 606000000
+}
+qualification_time_3 {
+  seconds: 98
+  nanos: 713000000
+}
+starting_position: 2
+final_position: 2

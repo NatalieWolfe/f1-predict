@@ -1,0 +1,11 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2014
+driver: ROMAIN_GROSJEAN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 908000000
+}
+starting_position: 16
+final_position: 12

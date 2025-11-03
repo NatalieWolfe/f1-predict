@@ -1,0 +1,9 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 1995
+driver: DAVID_COULTHARD
+qualification_time_1 {
+  seconds: 116
+  nanos: 254000000
+}
+starting_position: 5
+final_position: 22

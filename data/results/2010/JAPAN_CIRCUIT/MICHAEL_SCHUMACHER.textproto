@@ -1,0 +1,15 @@
+circuit: JAPAN_CIRCUIT
+race_season: 2010
+driver: MICHAEL_SCHUMACHER
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 92
+  nanos: 73000000
+}
+qualification_time_3 {
+  seconds: 91
+  nanos: 846000000
+}
+starting_position: 10
+final_position: 6

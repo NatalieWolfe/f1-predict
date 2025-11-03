@@ -1,0 +1,17 @@
+circuit: VALENCIA_STREET_CIRCUIT
+race_season: 2010
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+  seconds: 6029
+  nanos: 571000000
+}
+qualification_time_2 {
+  seconds: 98
+  nanos: 15000000
+}
+qualification_time_3 {
+  seconds: 97
+  nanos: 587000000
+}
+starting_position: 1
+final_position: 1

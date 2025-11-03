@@ -1,0 +1,17 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2012
+driver: KIMI_RAIKKONEN
+qualification_time_1 {
+  seconds: 6358
+  nanos: 667000000
+}
+qualification_time_2 {
+  seconds: 101
+  nanos: 532000000
+}
+qualification_time_3 {
+  seconds: 101
+  nanos: 260000000
+}
+starting_position: 4
+final_position: 1

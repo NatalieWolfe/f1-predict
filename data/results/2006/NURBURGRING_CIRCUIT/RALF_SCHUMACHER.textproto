@@ -1,0 +1,13 @@
+circuit: NURBURGRING_CIRCUIT
+race_season: 2006
+driver: RALF_SCHUMACHER
+qualification_time_1 {
+  seconds: 91
+  nanos: 470000000
+}
+qualification_time_2 {
+  seconds: 90
+  nanos: 944000000
+}
+starting_position: 10
+final_position: 14

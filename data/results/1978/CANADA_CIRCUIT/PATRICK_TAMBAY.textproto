@@ -1,0 +1,9 @@
+circuit: CANADA_CIRCUIT
+race_season: 1978
+driver: PATRICK_TAMBAY
+qualification_time_1 {
+  seconds: 26
+  nanos: 560000000
+}
+starting_position: 17
+final_position: 8

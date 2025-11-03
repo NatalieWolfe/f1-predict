@@ -1,0 +1,17 @@
+circuit: JAPAN_CIRCUIT
+race_season: 2014
+driver: FELIPE_MASSA
+qualification_time_1 {
+  seconds: 55
+  nanos: 126000000
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 551000000
+}
+qualification_time_3 {
+  seconds: 93
+  nanos: 527000000
+}
+starting_position: 4
+final_position: 7

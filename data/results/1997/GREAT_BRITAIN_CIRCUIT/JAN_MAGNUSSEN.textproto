@@ -1,0 +1,9 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 1997
+driver: JAN_MAGNUSSEN
+qualification_time_1 {
+  seconds: 84
+  nanos: 67000000
+}
+starting_position: 16
+final_position: 13

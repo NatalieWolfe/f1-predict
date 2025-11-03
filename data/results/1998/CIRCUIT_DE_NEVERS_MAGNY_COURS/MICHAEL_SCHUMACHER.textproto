@@ -1,0 +1,8 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 1998
+driver: MICHAEL_SCHUMACHER
+qualification_time_1 {
+  seconds: 5685
+}
+starting_position: 2
+final_position: 1

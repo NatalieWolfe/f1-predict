@@ -2,5 +2,17 @@ circuit: BRAZIL_CIRCUIT
 race_season: 2021
 team: MCLAREN
 driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 69
+  nanos: 374000000
+}
+qualification_time_2 {
+  seconds: 69
+  nanos: 93000000
+}
+qualification_time_3 {
+  seconds: 69
+  nanos: 39000000
+}
 starting_position: 11
-
+final_position: 19

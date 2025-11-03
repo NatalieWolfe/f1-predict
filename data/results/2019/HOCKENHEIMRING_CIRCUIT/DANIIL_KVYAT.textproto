@@ -1,0 +1,11 @@
+circuit: HOCKENHEIMRING_CIRCUIT
+race_season: 2019
+driver: DANIIL_KVYAT
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 73
+  nanos: 135000000
+}
+starting_position: 14
+final_position: 3

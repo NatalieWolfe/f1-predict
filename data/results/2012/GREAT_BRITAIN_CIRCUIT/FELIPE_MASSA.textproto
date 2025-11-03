@@ -1,0 +1,15 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2012
+driver: FELIPE_MASSA
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 116
+  nanos: 388000000
+}
+qualification_time_3 {
+  seconds: 113
+  nanos: 65000000
+}
+starting_position: 5
+final_position: 4

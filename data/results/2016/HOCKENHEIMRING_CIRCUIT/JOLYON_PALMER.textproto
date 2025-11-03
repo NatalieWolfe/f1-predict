@@ -1,0 +1,13 @@
+circuit: HOCKENHEIMRING_CIRCUIT
+race_season: 2016
+driver: JOLYON_PALMER
+qualification_time_1 {
+  seconds: 76
+  nanos: 636000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 665000000
+}
+starting_position: 14
+final_position: 19

@@ -1,0 +1,13 @@
+circuit: MONACO_CIRCUIT
+race_season: 2018
+driver: STOFFEL_VANDOORNE
+qualification_time_1 {
+  seconds: 72
+  nanos: 463000000
+}
+qualification_time_2 {
+  seconds: 72
+  nanos: 440000000
+}
+starting_position: 12
+final_position: 14

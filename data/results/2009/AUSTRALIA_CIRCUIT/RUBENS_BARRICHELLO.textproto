@@ -1,0 +1,15 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2009
+driver: RUBENS_BARRICHELLO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 84
+  nanos: 783000000
+}
+qualification_time_3 {
+  seconds: 86
+  nanos: 505000000
+}
+starting_position: 2
+final_position: 2

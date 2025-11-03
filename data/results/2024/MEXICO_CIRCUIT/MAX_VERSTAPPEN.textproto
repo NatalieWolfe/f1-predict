@@ -3,8 +3,6 @@ race_season: 2024
 team: RED_BULL_RACING
 driver: MAX_VERSTAPPEN
 qualification_time_1 {
-  seconds: 76
-  nanos: 803000000
 }
 qualification_time_2 {
   seconds: 76
@@ -20,4 +18,3 @@ finals_time {
   nanos: 358000000
 }
 final_position: 6
-

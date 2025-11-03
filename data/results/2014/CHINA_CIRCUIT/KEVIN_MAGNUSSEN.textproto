@@ -1,0 +1,13 @@
+circuit: CHINA_CIRCUIT
+race_season: 2014
+driver: KEVIN_MAGNUSSEN
+qualification_time_1 {
+  seconds: 117
+  nanos: 369000000
+}
+qualification_time_2 {
+  seconds: 117
+  nanos: 675000000
+}
+starting_position: 15
+final_position: 13

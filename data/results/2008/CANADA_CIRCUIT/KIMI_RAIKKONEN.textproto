@@ -1,0 +1,17 @@
+circuit: CANADA_CIRCUIT
+race_season: 2008
+driver: KIMI_RAIKKONEN
+qualification_time_1 {
+  seconds: 77
+  nanos: 301000000
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 364000000
+}
+qualification_time_3 {
+  seconds: 78
+  nanos: 735000000
+}
+starting_position: 3
+final_position: 18

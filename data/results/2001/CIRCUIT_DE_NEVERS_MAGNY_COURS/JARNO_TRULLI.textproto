@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2001
+driver: JARNO_TRULLI
+qualification_time_1 {
+  seconds: 8
+  nanos: 285000000
+}
+starting_position: 5
+final_position: 5

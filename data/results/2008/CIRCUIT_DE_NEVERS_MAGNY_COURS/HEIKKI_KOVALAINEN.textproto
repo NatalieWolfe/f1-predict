@@ -1,0 +1,15 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2008
+driver: HEIKKI_KOVALAINEN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 639000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 944000000
+}
+starting_position: 10
+final_position: 4

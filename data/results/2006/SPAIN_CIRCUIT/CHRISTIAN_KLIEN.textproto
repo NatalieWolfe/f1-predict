@@ -1,0 +1,13 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2006
+driver: CHRISTIAN_KLIEN
+qualification_time_1 {
+  seconds: 76
+  nanos: 627000000
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 928000000
+}
+starting_position: 14
+final_position: 13

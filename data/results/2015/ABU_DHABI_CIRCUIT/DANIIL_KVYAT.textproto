@@ -1,0 +1,17 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2015
+driver: DANIIL_KVYAT
+qualification_time_1 {
+  seconds: 42
+  nanos: 371000000
+}
+qualification_time_2 {
+  seconds: 102
+  nanos: 328000000
+}
+qualification_time_3 {
+  seconds: 101
+  nanos: 933000000
+}
+starting_position: 9
+final_position: 10

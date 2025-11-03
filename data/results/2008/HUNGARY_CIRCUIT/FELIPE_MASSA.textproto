@@ -1,0 +1,17 @@
+circuit: HUNGARY_CIRCUIT
+race_season: 2008
+driver: FELIPE_MASSA
+qualification_time_1 {
+  seconds: 79
+  nanos: 578000000
+}
+qualification_time_2 {
+  seconds: 79
+  nanos: 68000000
+}
+qualification_time_3 {
+  seconds: 81
+  nanos: 191000000
+}
+starting_position: 3
+final_position: 17

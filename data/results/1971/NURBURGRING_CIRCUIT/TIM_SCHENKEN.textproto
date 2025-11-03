@@ -1,0 +1,9 @@
+circuit: NURBURGRING_CIRCUIT
+race_season: 1971
+driver: TIM_SCHENKEN
+qualification_time_1 {
+  seconds: 58
+  nanos: 600000000
+}
+starting_position: 9
+final_position: 6

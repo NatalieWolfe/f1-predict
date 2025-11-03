@@ -1,0 +1,9 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 1994
+driver: ERIC_BERNARD
+qualification_time_1 {
+  seconds: 146
+  nanos: 44000000
+}
+starting_position: 16
+final_position: 10

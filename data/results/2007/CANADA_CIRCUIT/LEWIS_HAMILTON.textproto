@@ -1,0 +1,17 @@
+circuit: CANADA_CIRCUIT
+race_season: 2007
+driver: LEWIS_HAMILTON
+qualification_time_1 {
+  seconds: 6251
+  nanos: 292000000
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 486000000
+}
+qualification_time_3 {
+  seconds: 75
+  nanos: 707000000
+}
+starting_position: 1
+final_position: 1

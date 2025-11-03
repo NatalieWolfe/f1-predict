@@ -3,8 +3,6 @@ race_season: 2022
 team: MERCEDES
 driver: GEORGE_RUSSELL
 qualification_time_1 {
-  seconds: 80
-  nanos: 383000000
 }
 qualification_time_2 {
   seconds: 80
@@ -16,4 +14,3 @@ finals_time {
   nanos: 492000000
 }
 final_position: 4
-

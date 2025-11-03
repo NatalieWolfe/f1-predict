@@ -1,0 +1,15 @@
+circuit: SINGAPORE_CIRCUIT
+race_season: 2008
+driver: NICK_HEIDFELD
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 104
+  nanos: 520000000
+}
+qualification_time_3 {
+  seconds: 105
+  nanos: 964000000
+}
+starting_position: 9
+final_position: 6

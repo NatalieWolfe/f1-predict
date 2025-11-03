@@ -1,0 +1,15 @@
+circuit: SINGAPORE_CIRCUIT
+race_season: 2012
+driver: MARK_WEBBER
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 107
+  nanos: 513000000
+}
+qualification_time_3 {
+  seconds: 107
+  nanos: 475000000
+}
+starting_position: 7
+final_position: 11

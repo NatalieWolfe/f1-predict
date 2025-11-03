@@ -1,0 +1,17 @@
+circuit: NURBURGRING_CIRCUIT
+race_season: 2009
+driver: KIMI_RAIKKONEN
+qualification_time_1 {
+  seconds: 91
+  nanos: 869000000
+}
+qualification_time_2 {
+  seconds: 101
+  nanos: 730000000
+}
+qualification_time_3 {
+  seconds: 94
+  nanos: 710000000
+}
+starting_position: 9
+final_position: 19

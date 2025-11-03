@@ -3,8 +3,6 @@ race_season: 2024
 team: KICK_SAUBER
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
-  seconds: 81
-  nanos: 927000000
 }
 qualification_time_2 {
   seconds: 81
@@ -16,4 +14,3 @@ finals_time {
   nanos: 566000000
 }
 final_position: 11
-

@@ -2,10 +2,17 @@ circuit: MONACO_CIRCUIT
 race_season: 2021
 team: MCLAREN
 driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 71
+  nanos: 747000000
+}
+qualification_time_2 {
+  seconds: 71
+  nanos: 598000000
+}
 starting_position: 12
 finals_time {
   seconds: 5937
   nanos: 820000000
 }
 final_position: 12
-

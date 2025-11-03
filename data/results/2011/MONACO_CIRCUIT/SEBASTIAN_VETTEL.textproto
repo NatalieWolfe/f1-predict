@@ -1,0 +1,17 @@
+circuit: MONACO_CIRCUIT
+race_season: 2011
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+  seconds: 7778
+  nanos: 373000000
+}
+qualification_time_2 {
+  seconds: 74
+  nanos: 277000000
+}
+qualification_time_3 {
+  seconds: 73
+  nanos: 556000000
+}
+starting_position: 1
+final_position: 1

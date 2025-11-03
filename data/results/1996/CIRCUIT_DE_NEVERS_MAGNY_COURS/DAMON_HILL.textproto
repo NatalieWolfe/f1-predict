@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 1996
+driver: DAMON_HILL
+qualification_time_1 {
+  seconds: 5789
+  nanos: 200000000
+}
+starting_position: 2
+final_position: 1

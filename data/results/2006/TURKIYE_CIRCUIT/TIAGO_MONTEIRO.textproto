@@ -1,0 +1,9 @@
+circuit: TURKIYE_CIRCUIT
+race_season: 2006
+driver: TIAGO_MONTEIRO
+qualification_time_1 {
+  seconds: 89
+  nanos: 901000000
+}
+starting_position: 19
+final_position: 22

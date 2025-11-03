@@ -1,0 +1,9 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2017
+driver: STOFFEL_VANDOORNE
+qualification_time_1 {
+  seconds: 32
+  nanos: 159000000
+}
+starting_position: 18
+final_position: 12

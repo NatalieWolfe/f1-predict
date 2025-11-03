@@ -1,0 +1,9 @@
+circuit: EMILIA_ROMAGNA_CIRCUIT
+race_season: 1994
+driver: GERHARD_BERGER
+qualification_time_1 {
+  seconds: 82
+  nanos: 113000000
+}
+starting_position: 3
+final_position: 21

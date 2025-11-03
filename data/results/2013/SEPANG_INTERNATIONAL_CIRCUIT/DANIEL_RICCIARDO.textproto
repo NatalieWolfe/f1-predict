@@ -1,0 +1,13 @@
+circuit: SEPANG_INTERNATIONAL_CIRCUIT
+race_season: 2013
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+  seconds: 97
+  nanos: 722000000
+}
+qualification_time_2 {
+  seconds: 98
+  nanos: 822000000
+}
+starting_position: 13
+final_position: 18

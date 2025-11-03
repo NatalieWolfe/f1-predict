@@ -2,10 +2,11 @@ circuit: AZERBAIJAN_CIRCUIT
 race_season: 2021
 team: HAAS
 driver: MICK_SCHUMACHER
+qualification_time_1 {
+}
 starting_position: 17
 finals_time {
   seconds: 8030
   nanos: 651000000
 }
 final_position: 13
-

@@ -1,0 +1,13 @@
+circuit: BUDDH_INTERNATIONAL_CIRCUIT
+race_season: 2011
+driver: SEBASTIEN_BUEMI
+qualification_time_1 {
+  seconds: 86
+  nanos: 608000000
+}
+qualification_time_2 {
+  seconds: 86
+  nanos: 161000000
+}
+starting_position: 9
+final_position: 21

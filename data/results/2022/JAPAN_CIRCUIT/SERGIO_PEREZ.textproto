@@ -3,12 +3,10 @@ race_season: 2022
 team: RED_BULL_RACING
 driver: SERGIO_PEREZ
 qualification_time_1 {
-  seconds: 90
-  nanos: 622000000
 }
 qualification_time_2 {
   seconds: 89
-  nanos: 250000000
+  nanos: 925000000
 }
 qualification_time_3 {
   seconds: 89
@@ -20,4 +18,3 @@ finals_time {
   nanos: 70000000
 }
 final_position: 2
-

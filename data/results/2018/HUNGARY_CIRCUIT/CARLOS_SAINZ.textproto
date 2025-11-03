@@ -1,0 +1,17 @@
+circuit: HUNGARY_CIRCUIT
+race_season: 2018
+driver: CARLOS_SAINZ
+qualification_time_1 {
+  seconds: 77
+  nanos: 829000000
+}
+qualification_time_2 {
+  seconds: 90
+  nanos: 771000000
+}
+qualification_time_3 {
+  seconds: 96
+  nanos: 743000000
+}
+starting_position: 5
+final_position: 9

@@ -3,8 +3,6 @@ race_season: 2023
 team: ASTON_MARTIN
 driver: LANCE_STROLL
 qualification_time_1 {
-  seconds: 102
-  nanos: 524000000
 }
 qualification_time_2 {
   seconds: 101
@@ -20,4 +18,3 @@ finals_time {
   nanos: 53000000
 }
 final_position: 7
-

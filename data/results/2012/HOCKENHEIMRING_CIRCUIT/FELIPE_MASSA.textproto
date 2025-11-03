@@ -1,0 +1,11 @@
+circuit: HOCKENHEIMRING_CIRCUIT
+race_season: 2012
+driver: FELIPE_MASSA
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 100
+  nanos: 212000000
+}
+starting_position: 13
+final_position: 12

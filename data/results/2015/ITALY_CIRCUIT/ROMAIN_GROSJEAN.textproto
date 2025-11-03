@@ -1,0 +1,17 @@
+circuit: ITALY_CIRCUIT
+race_season: 2015
+driver: ROMAIN_GROSJEAN
+qualification_time_1 {
+  seconds: 85
+  nanos: 144000000
+}
+qualification_time_2 {
+  seconds: 84
+  nanos: 448000000
+}
+qualification_time_3 {
+  seconds: 85
+  nanos: 54000000
+}
+starting_position: 8
+final_position: 19

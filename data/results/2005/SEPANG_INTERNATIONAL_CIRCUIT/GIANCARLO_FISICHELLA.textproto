@@ -1,0 +1,13 @@
+circuit: SEPANG_INTERNATIONAL_CIRCUIT
+race_season: 2005
+driver: GIANCARLO_FISICHELLA
+qualification_time_1 {
+  seconds: 92
+  nanos: 765000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 683000000
+}
+starting_position: 3
+final_position: 15

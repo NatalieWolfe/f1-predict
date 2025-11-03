@@ -1,0 +1,13 @@
+circuit: EMILIA_ROMAGNA_CIRCUIT
+race_season: 2005
+driver: TIAGO_MONTEIRO
+qualification_time_1 {
+  seconds: 85
+  nanos: 100000000
+}
+qualification_time_2 {
+  seconds: 89
+  nanos: 152000000
+}
+starting_position: 17
+final_position: 13

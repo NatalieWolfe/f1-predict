@@ -1,0 +1,17 @@
+circuit: GREAT_BRITAIN_CIRCUIT
+race_season: 2006
+driver: JUAN_PABLO_MONTOYA
+qualification_time_1 {
+  seconds: 4
+  nanos: 769000000
+}
+qualification_time_2 {
+  seconds: 80
+  nanos: 816000000
+}
+qualification_time_3 {
+  seconds: 81
+  nanos: 107000000
+}
+starting_position: 8
+final_position: 6

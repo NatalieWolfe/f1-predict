@@ -1,0 +1,15 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2014
+driver: KEVIN_MAGNUSSEN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 69
+  nanos: 473000000
+}
+qualification_time_3 {
+  seconds: 69
+  nanos: 515000000
+}
+starting_position: 6
+final_position: 7

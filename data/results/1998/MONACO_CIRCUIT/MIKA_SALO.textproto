@@ -1,0 +1,8 @@
+circuit: MONACO_CIRCUIT
+race_season: 1998
+driver: MIKA_SALO
+qualification_time_1 {
+  nanos: 363000000
+}
+starting_position: 8
+final_position: 4

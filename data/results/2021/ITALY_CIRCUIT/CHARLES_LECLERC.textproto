@@ -2,10 +2,19 @@ circuit: ITALY_CIRCUIT
 race_season: 2021
 team: FERRARI
 driver: CHARLES_LECLERC
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 80
+  nanos: 767000000
+}
+qualification_time_3 {
+  seconds: 80
+  nanos: 510000000
+}
 starting_position: 5
 finals_time {
   seconds: 4921
   nanos: 674000000
 }
 final_position: 4
-

@@ -1,0 +1,15 @@
+circuit: MEXICO_CIRCUIT
+race_season: 2015
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 80
+  nanos: 783000000
+}
+qualification_time_3 {
+  seconds: 80
+  nanos: 399000000
+}
+starting_position: 5
+final_position: 5

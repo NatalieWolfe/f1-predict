@@ -1,0 +1,15 @@
+circuit: CHINA_CIRCUIT
+race_season: 2010
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 280000000
+}
+qualification_time_3 {
+  seconds: 94
+  nanos: 558000000
+}
+starting_position: 1
+final_position: 6

@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 1997
+driver: RUBENS_BARRICHELLO
+qualification_time_1 {
+  seconds: 75
+  nanos: 876000000
+}
+starting_position: 13
+final_position: 17

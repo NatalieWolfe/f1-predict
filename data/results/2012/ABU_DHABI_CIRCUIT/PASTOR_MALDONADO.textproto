@@ -1,0 +1,15 @@
+circuit: ABU_DHABI_CIRCUIT
+race_season: 2012
+driver: PASTOR_MALDONADO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 101
+  nanos: 907000000
+}
+qualification_time_3 {
+  seconds: 101
+  nanos: 226000000
+}
+starting_position: 3
+final_position: 5

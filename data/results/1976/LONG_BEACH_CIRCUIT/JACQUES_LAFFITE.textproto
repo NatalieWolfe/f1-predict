@@ -1,0 +1,9 @@
+circuit: LONG_BEACH_CIRCUIT
+race_season: 1976
+driver: JACQUES_LAFFITE
+qualification_time_1 {
+  seconds: 12
+  nanos: 828000000
+}
+starting_position: 12
+final_position: 4

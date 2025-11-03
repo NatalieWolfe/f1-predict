@@ -1,0 +1,9 @@
+circuit: NURBURGRING_CIRCUIT
+race_season: 1958
+driver: ROY_SALVADORI
+qualification_time_1 {
+  seconds: 29
+  nanos: 700000000
+}
+starting_position: 6
+final_position: 2

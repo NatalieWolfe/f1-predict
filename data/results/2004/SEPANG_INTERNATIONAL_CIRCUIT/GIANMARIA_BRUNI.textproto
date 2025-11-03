@@ -1,0 +1,9 @@
+circuit: SEPANG_INTERNATIONAL_CIRCUIT
+race_season: 2004
+driver: GIANMARIA_BRUNI
+qualification_time_1 {
+  seconds: 98
+  nanos: 577000000
+}
+starting_position: 16
+final_position: 14

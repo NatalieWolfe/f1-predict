@@ -3,8 +3,6 @@ race_season: 2023
 team: WILLIAMS
 driver: LOGAN_SARGEANT
 qualification_time_1 {
-  seconds: 94
-  nanos: 525000000
 }
 qualification_time_2 {
   seconds: 93
@@ -20,4 +18,3 @@ finals_time {
   nanos: 171000000
 }
 final_position: 16
-

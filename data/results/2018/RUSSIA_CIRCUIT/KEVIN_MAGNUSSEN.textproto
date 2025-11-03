@@ -1,0 +1,17 @@
+circuit: RUSSIA_CIRCUIT
+race_season: 2018
+driver: KEVIN_MAGNUSSEN
+qualification_time_1 {
+  seconds: 94
+  nanos: 78000000
+}
+qualification_time_2 {
+  seconds: 93
+  nanos: 747000000
+}
+qualification_time_3 {
+  seconds: 93
+  nanos: 181000000
+}
+starting_position: 5
+final_position: 8

@@ -1,0 +1,9 @@
+circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
+race_season: 2001
+driver: JOS_VERSTAPPEN
+qualification_time_1 {
+  seconds: 74
+  nanos: 138000000
+}
+starting_position: 20
+final_position: 17

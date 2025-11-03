@@ -1,0 +1,17 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2007
+driver: GIANCARLO_FISICHELLA
+qualification_time_1 {
+  seconds: 6
+  nanos: 469000000
+}
+qualification_time_2 {
+  seconds: 85
+  nanos: 944000000
+}
+qualification_time_3 {
+  seconds: 87
+  nanos: 634000000
+}
+starting_position: 6
+final_position: 5

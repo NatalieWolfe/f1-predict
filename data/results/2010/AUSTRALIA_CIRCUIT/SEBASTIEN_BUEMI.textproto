@@ -1,0 +1,13 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2010
+driver: SEBASTIEN_BUEMI
+qualification_time_1 {
+  seconds: 86
+  nanos: 61000000
+}
+qualification_time_2 {
+  seconds: 85
+  nanos: 638000000
+}
+starting_position: 12
+final_position: 21

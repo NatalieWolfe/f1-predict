@@ -2,5 +2,13 @@ circuit: HUNGARY_CIRCUIT
 race_season: 2021
 team: ASTON_MARTIN
 driver: LANCE_STROLL
+qualification_time_1 {
+  seconds: 77
+  nanos: 38000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 893000000
+}
 starting_position: 12
-
+final_position: 19

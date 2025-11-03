@@ -1,0 +1,17 @@
+circuit: CANADA_CIRCUIT
+race_season: 2018
+driver: SEBASTIAN_VETTEL
+qualification_time_1 {
+  seconds: 5311
+  nanos: 377000000
+}
+qualification_time_2 {
+  seconds: 71
+  nanos: 524000000
+}
+qualification_time_3 {
+  seconds: 70
+  nanos: 764000000
+}
+starting_position: 1
+final_position: 1

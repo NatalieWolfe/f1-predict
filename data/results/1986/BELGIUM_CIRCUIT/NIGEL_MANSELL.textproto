@@ -1,0 +1,9 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 1986
+driver: NIGEL_MANSELL
+qualification_time_1 {
+  seconds: 5277
+  nanos: 925000000
+}
+starting_position: 5
+final_position: 1

@@ -1,0 +1,15 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 2020
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 102
+  nanos: 487000000
+}
+qualification_time_3 {
+  seconds: 102
+  nanos: 61000000
+}
+starting_position: 4
+final_position: 4

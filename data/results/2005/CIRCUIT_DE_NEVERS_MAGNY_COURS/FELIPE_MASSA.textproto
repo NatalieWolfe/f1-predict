@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2005
+driver: FELIPE_MASSA
+qualification_time_1 {
+  seconds: 75
+  nanos: 566000000
+}
+starting_position: 9
+final_position: 19

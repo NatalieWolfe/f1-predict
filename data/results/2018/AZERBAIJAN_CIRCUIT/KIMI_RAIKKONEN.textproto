@@ -1,0 +1,15 @@
+circuit: AZERBAIJAN_CIRCUIT
+race_season: 2018
+driver: KIMI_RAIKKONEN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 102
+  nanos: 510000000
+}
+qualification_time_3 {
+  seconds: 102
+  nanos: 490000000
+}
+starting_position: 6
+final_position: 2

@@ -1,0 +1,17 @@
+circuit: FRANCE_CIRCUIT
+race_season: 2019
+driver: ANTONIO_GIOVINAZZI
+qualification_time_1 {
+  seconds: 91
+  nanos: 180000000
+}
+qualification_time_2 {
+  seconds: 90
+  nanos: 408000000
+}
+qualification_time_3 {
+  seconds: 93
+  nanos: 420000000
+}
+starting_position: 10
+final_position: 16

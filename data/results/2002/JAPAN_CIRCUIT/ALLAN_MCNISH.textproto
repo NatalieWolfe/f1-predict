@@ -1,0 +1,9 @@
+circuit: JAPAN_CIRCUIT
+race_season: 2002
+driver: ALLAN_MCNISH
+qualification_time_1 {
+  seconds: 95
+  nanos: 191000000
+}
+starting_position: 18
+final_position: 20

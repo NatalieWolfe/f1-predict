@@ -1,0 +1,13 @@
+circuit: MONACO_CIRCUIT
+race_season: 2018
+driver: SERGEY_SIROTKIN
+qualification_time_1 {
+  seconds: 72
+  nanos: 706000000
+}
+qualification_time_2 {
+  seconds: 72
+  nanos: 521000000
+}
+starting_position: 13
+final_position: 16

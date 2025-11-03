@@ -1,0 +1,13 @@
+circuit: SINGAPORE_CIRCUIT
+race_season: 2008
+driver: JARNO_TRULLI
+qualification_time_1 {
+  seconds: 105
+  nanos: 642000000
+}
+qualification_time_2 {
+  seconds: 105
+  nanos: 38000000
+}
+starting_position: 11
+final_position: 16

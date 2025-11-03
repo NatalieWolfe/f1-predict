@@ -1,0 +1,13 @@
+circuit: SEPANG_INTERNATIONAL_CIRCUIT
+race_season: 2007
+driver: GIANCARLO_FISICHELLA
+qualification_time_1 {
+  seconds: 5
+  nanos: 638000000
+}
+qualification_time_2 {
+  seconds: 95
+  nanos: 706000000
+}
+starting_position: 12
+final_position: 6

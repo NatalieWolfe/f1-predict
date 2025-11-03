@@ -1,0 +1,15 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2019
+driver: ALEXANDER_ALBON
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 68
+  nanos: 117000000
+}
+qualification_time_3 {
+  seconds: 67
+  nanos: 935000000
+}
+starting_position: 5
+final_position: 14

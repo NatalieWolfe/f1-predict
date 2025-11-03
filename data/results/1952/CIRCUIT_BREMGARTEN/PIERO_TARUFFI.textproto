@@ -1,0 +1,9 @@
+circuit: CIRCUIT_BREMGARTEN
+race_season: 1952
+driver: PIERO_TARUFFI
+qualification_time_1 {
+  seconds: 10906
+  nanos: 100000000
+}
+starting_position: 2
+final_position: 1

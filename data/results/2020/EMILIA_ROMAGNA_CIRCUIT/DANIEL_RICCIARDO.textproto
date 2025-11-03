@@ -1,0 +1,15 @@
+circuit: EMILIA_ROMAGNA_CIRCUIT
+race_season: 2020
+driver: DANIEL_RICCIARDO
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 74
+  nanos: 953000000
+}
+qualification_time_3 {
+  seconds: 74
+  nanos: 520000000
+}
+starting_position: 5
+final_position: 3

@@ -1,0 +1,15 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2006
+driver: PEDRO_DE_LA_ROSA
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 75
+  nanos: 902000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 632000000
+}
+starting_position: 8
+final_position: 7

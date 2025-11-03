@@ -2,6 +2,17 @@ circuit: AZERBAIJAN_CIRCUIT
 race_season: 2021
 team: RED_BULL_RACING
 driver: MAX_VERSTAPPEN
+qualification_time_1 {
+  seconds: 101
+  nanos: 760000000
+}
+qualification_time_2 {
+  seconds: 101
+  nanos: 625000000
+}
+qualification_time_3 {
+  seconds: 101
+  nanos: 563000000
+}
 starting_position: 3
 final_position: 18
-

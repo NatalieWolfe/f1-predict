@@ -1,0 +1,15 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2020
+driver: VALTTERI_BOTTAS
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 152000000
+}
+qualification_time_3 {
+  seconds: 75
+  nanos: 643000000
+}
+starting_position: 2
+final_position: 3

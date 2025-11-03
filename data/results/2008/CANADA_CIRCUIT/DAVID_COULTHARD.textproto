@@ -1,0 +1,11 @@
+circuit: CANADA_CIRCUIT
+race_season: 2008
+driver: DAVID_COULTHARD
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 78
+  nanos: 238000000
+}
+starting_position: 13
+final_position: 3

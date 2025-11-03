@@ -1,0 +1,17 @@
+circuit: SPAIN_CIRCUIT
+race_season: 2017
+driver: VALTTERI_BOTTAS
+qualification_time_1 {
+  seconds: 80
+  nanos: 991000000
+}
+qualification_time_2 {
+  seconds: 80
+  nanos: 300000000
+}
+qualification_time_3 {
+  seconds: 79
+  nanos: 373000000
+}
+starting_position: 3
+final_position: 17

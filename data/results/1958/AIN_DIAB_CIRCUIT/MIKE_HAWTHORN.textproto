@@ -1,0 +1,9 @@
+circuit: AIN_DIAB_CIRCUIT
+race_season: 1958
+driver: MIKE_HAWTHORN
+qualification_time_1 {
+  seconds: 24
+  nanos: 700000000
+}
+starting_position: 1
+final_position: 2

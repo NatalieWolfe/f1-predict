@@ -1,0 +1,15 @@
+circuit: MONACO_CIRCUIT
+race_season: 2013
+driver: ADRIAN_SUTIL
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 261000000
+}
+qualification_time_3 {
+  seconds: 75
+  nanos: 383000000
+}
+starting_position: 8
+final_position: 5

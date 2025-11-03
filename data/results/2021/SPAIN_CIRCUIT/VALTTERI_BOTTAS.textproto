@@ -2,10 +2,19 @@ circuit: SPAIN_CIRCUIT
 race_season: 2021
 team: MERCEDES
 driver: VALTTERI_BOTTAS
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 142000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 873000000
+}
 starting_position: 3
 finals_time {
   seconds: 5614
   nanos: 290000000
 }
 final_position: 3
-

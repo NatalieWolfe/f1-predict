@@ -1,0 +1,11 @@
+circuit: HOCKENHEIMRING_CIRCUIT
+race_season: 2019
+driver: ANTONIO_GIOVINAZZI
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 72
+  nanos: 786000000
+}
+starting_position: 11
+final_position: 13

@@ -1,0 +1,8 @@
+circuit: REIMS_GUEUX_CIRCUIT
+race_season: 1951
+driver: JUAN_FANGIO
+qualification_time_1 {
+  seconds: 12131
+}
+starting_position: 7
+final_position: 1

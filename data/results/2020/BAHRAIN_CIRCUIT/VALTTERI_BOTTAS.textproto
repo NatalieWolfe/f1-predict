@@ -1,0 +1,15 @@
+circuit: BAHRAIN_CIRCUIT
+race_season: 2020
+driver: VALTTERI_BOTTAS
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 53
+  nanos: 803000000
+}
+qualification_time_3 {
+  seconds: 53
+  nanos: 377000000
+}
+starting_position: 2
+final_position: 8

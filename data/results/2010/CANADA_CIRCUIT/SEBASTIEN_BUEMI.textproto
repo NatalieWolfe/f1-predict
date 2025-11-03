@@ -1,0 +1,13 @@
+circuit: CANADA_CIRCUIT
+race_season: 2010
+driver: SEBASTIEN_BUEMI
+qualification_time_1 {
+  seconds: 77
+  nanos: 356000000
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 928000000
+}
+starting_position: 15
+final_position: 8

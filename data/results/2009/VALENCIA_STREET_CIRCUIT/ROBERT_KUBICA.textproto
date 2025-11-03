@@ -1,0 +1,15 @@
+circuit: VALENCIA_STREET_CIRCUIT
+race_season: 2009
+driver: ROBERT_KUBICA
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 98
+  nanos: 747000000
+}
+qualification_time_3 {
+  seconds: 100
+  nanos: 512000000
+}
+starting_position: 10
+final_position: 8

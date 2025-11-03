@@ -1,0 +1,17 @@
+circuit: BELGIUM_CIRCUIT
+race_season: 2018
+driver: SERGIO_PEREZ
+qualification_time_1 {
+  seconds: 11
+  nanos: 23000000
+}
+qualification_time_2 {
+  seconds: 103
+  nanos: 14000000
+}
+qualification_time_3 {
+  seconds: 121
+  nanos: 894000000
+}
+starting_position: 4
+final_position: 5

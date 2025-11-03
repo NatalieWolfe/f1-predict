@@ -3,8 +3,6 @@ race_season: 2024
 team: RB
 driver: DANIEL_RICCIARDO
 qualification_time_1 {
-  seconds: 73
-  nanos: 240000000
 }
 qualification_time_2 {
   seconds: 72
@@ -20,4 +18,3 @@ finals_time {
   nanos: 599000000
 }
 final_position: 8
-

@@ -1,0 +1,9 @@
+circuit: ADELAIDE_STREET_CIRCUIT
+race_season: 1994
+driver: EDDIE_IRVINE
+qualification_time_1 {
+  seconds: 77
+  nanos: 667000000
+}
+starting_position: 6
+final_position: 25

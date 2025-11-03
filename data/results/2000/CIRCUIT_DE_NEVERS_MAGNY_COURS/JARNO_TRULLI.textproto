@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2000
+driver: JARNO_TRULLI
+qualification_time_1 {
+  seconds: 15
+  nanos: 605000000
+}
+starting_position: 9
+final_position: 6

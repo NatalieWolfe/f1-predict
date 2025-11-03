@@ -1,0 +1,13 @@
+circuit: CANADA_CIRCUIT
+race_season: 2014
+driver: ADRIAN_SUTIL
+qualification_time_1 {
+  seconds: 77
+  nanos: 519000000
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 314000000
+}
+starting_position: 16
+final_position: 13

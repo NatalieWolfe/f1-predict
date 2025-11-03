@@ -1,0 +1,17 @@
+circuit: ITALY_CIRCUIT
+race_season: 2007
+driver: HEIKKI_KOVALAINEN
+qualification_time_1 {
+  seconds: 6
+  nanos: 751000000
+}
+qualification_time_2 {
+  seconds: 83
+  nanos: 134000000
+}
+qualification_time_3 {
+  seconds: 84
+  nanos: 102000000
+}
+starting_position: 7
+final_position: 7

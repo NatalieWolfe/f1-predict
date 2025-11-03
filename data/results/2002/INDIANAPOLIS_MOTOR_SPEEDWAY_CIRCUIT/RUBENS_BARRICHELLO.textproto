@@ -1,0 +1,8 @@
+circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
+race_season: 2002
+driver: RUBENS_BARRICHELLO
+qualification_time_1 {
+  seconds: 5468
+}
+starting_position: 2
+final_position: 1

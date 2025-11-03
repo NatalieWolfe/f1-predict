@@ -1,0 +1,15 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2007
+driver: NICK_HEIDFELD
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 85
+  nanos: 358000000
+}
+qualification_time_3 {
+  seconds: 86
+  nanos: 556000000
+}
+starting_position: 3
+final_position: 4

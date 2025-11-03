@@ -3,8 +3,6 @@ race_season: 2022
 team: WILLIAMS
 driver: NICHOLAS_LATIFI
 qualification_time_1 {
-  seconds: 101
-  nanos: 998000000
 }
 qualification_time_2 {
   seconds: 103
@@ -20,4 +18,3 @@ finals_time {
   nanos: 822000000
 }
 final_position: 12
-

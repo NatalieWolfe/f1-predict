@@ -2,10 +2,21 @@ circuit: MEXICO_CIRCUIT
 race_season: 2021
 team: FERRARI
 driver: CHARLES_LECLERC
+qualification_time_1 {
+  seconds: 21
+  nanos: 37000000
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 34000000
+}
+qualification_time_3 {
+  seconds: 76
+  nanos: 837000000
+}
 starting_position: 8
 finals_time {
   seconds: 6000
   nanos: 123000000
 }
 final_position: 5
-

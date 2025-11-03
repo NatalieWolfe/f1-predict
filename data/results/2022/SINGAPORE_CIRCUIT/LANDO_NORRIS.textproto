@@ -3,8 +3,6 @@ race_season: 2022
 team: MCLAREN
 driver: LANDO_NORRIS
 qualification_time_1 {
-  seconds: 115
-  nanos: 914000000
 }
 qualification_time_2 {
   seconds: 113
@@ -20,4 +18,3 @@ finals_time {
   nanos: 371000000
 }
 final_position: 4
-

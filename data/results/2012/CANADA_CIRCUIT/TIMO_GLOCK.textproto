@@ -1,0 +1,9 @@
+circuit: CANADA_CIRCUIT
+race_season: 2012
+driver: TIMO_GLOCK
+qualification_time_1 {
+  seconds: 77
+  nanos: 901000000
+}
+starting_position: 21
+final_position: 21

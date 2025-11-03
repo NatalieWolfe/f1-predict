@@ -1,0 +1,17 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2008
+driver: LEWIS_HAMILTON
+qualification_time_1 {
+  seconds: 5690
+  nanos: 616000000
+}
+qualification_time_2 {
+  seconds: 85
+  nanos: 187000000
+}
+qualification_time_3 {
+  seconds: 86
+  nanos: 714000000
+}
+starting_position: 1
+final_position: 1

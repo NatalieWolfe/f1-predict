@@ -3,8 +3,8 @@ race_season: 2022
 team: RB
 driver: PIERRE_GASLY
 qualification_time_1 {
-  seconds: 115
-  nanos: 606000000
+  seconds: 9
+  nanos: 576000000
 }
 qualification_time_2 {
   seconds: 113
@@ -20,4 +20,3 @@ finals_time {
   nanos: 814000000
 }
 final_position: 10
-

@@ -1,0 +1,15 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2020
+driver: SERGIO_PEREZ
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 63
+  nanos: 860000000
+}
+qualification_time_3 {
+  seconds: 63
+  nanos: 868000000
+}
+starting_position: 6
+final_position: 6

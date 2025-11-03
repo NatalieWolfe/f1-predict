@@ -3,8 +3,6 @@ race_season: 2022
 team: HAAS
 driver: KEVIN_MAGNUSSEN
 qualification_time_1 {
-  seconds: 102
-  nanos: 159000000
 }
 starting_position: 17
 finals_time {
@@ -12,4 +10,3 @@ finals_time {
   nanos: 901000000
 }
 final_position: 10
-

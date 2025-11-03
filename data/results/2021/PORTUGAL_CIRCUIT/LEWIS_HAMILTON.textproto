@@ -2,10 +2,21 @@ circuit: PORTUGAL_CIRCUIT
 race_season: 2021
 team: MERCEDES
 driver: LEWIS_HAMILTON
+qualification_time_1 {
+  seconds: 5671
+  nanos: 421000000
+}
+qualification_time_2 {
+  seconds: 77
+  nanos: 968000000
+}
+qualification_time_3 {
+  seconds: 78
+  nanos: 355000000
+}
 starting_position: 2
 finals_time {
   seconds: 5671
   nanos: 421000000
 }
 final_position: 1
-

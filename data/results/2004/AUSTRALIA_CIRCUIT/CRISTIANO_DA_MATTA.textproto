@@ -1,0 +1,9 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2004
+driver: CRISTIANO_DA_MATTA
+qualification_time_1 {
+  seconds: 87
+  nanos: 823000000
+}
+starting_position: 13
+final_position: 12

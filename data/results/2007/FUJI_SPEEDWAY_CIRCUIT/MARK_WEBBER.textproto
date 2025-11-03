@@ -1,0 +1,17 @@
+circuit: FUJI_SPEEDWAY_CIRCUIT
+race_season: 2007
+driver: MARK_WEBBER
+qualification_time_1 {
+  seconds: 85
+  nanos: 970000000
+}
+qualification_time_2 {
+  seconds: 85
+  nanos: 535000000
+}
+qualification_time_3 {
+  seconds: 86
+  nanos: 914000000
+}
+starting_position: 7
+final_position: 20

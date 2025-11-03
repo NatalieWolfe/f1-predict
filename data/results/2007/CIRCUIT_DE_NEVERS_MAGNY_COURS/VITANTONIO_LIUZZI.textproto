@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2007
+driver: VITANTONIO_LIUZZI
+qualification_time_1 {
+  seconds: 76
+  nanos: 142000000
+}
+starting_position: 17
+final_position: 22

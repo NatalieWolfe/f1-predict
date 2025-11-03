@@ -3,8 +3,8 @@ race_season: 2022
 team: KICK_SAUBER
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
-  seconds: 79
-  nanos: 251000000
+  seconds: 8
+  nanos: 439000000
 }
 qualification_time_2 {
   seconds: 79
@@ -16,4 +16,3 @@ finals_time {
   nanos: 987000000
 }
 final_position: 8
-

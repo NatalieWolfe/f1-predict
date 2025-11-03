@@ -1,0 +1,9 @@
+circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
+race_season: 1951
+driver: JACK_MCGRATH
+qualification_time_1 {
+  seconds: 51
+  nanos: 390000000
+}
+starting_position: 3
+final_position: 3

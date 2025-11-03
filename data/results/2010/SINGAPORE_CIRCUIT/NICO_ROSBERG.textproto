@@ -1,0 +1,15 @@
+circuit: SINGAPORE_CIRCUIT
+race_season: 2010
+driver: NICO_ROSBERG
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 106
+  nanos: 783000000
+}
+qualification_time_3 {
+  seconds: 106
+  nanos: 443000000
+}
+starting_position: 7
+final_position: 5

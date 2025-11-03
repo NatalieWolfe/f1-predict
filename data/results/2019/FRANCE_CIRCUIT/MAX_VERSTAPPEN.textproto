@@ -1,0 +1,15 @@
+circuit: FRANCE_CIRCUIT
+race_season: 2019
+driver: MAX_VERSTAPPEN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 90
+  nanos: 99000000
+}
+qualification_time_3 {
+  seconds: 89
+  nanos: 409000000
+}
+starting_position: 4
+final_position: 4

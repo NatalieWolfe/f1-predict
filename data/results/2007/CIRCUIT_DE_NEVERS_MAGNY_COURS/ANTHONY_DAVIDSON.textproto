@@ -1,0 +1,9 @@
+circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
+race_season: 2007
+driver: ANTHONY_DAVIDSON
+qualification_time_1 {
+  seconds: 76
+  nanos: 366000000
+}
+starting_position: 19
+final_position: 20

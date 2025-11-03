@@ -1,0 +1,9 @@
+circuit: ZOLDER_CIRCUIT
+race_season: 1981
+driver: BRUNO_GIACOMELLI
+qualification_time_1 {
+  seconds: 35
+  nanos: 580000000
+}
+starting_position: 17
+final_position: 9

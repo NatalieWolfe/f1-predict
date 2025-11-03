@@ -2,10 +2,19 @@ circuit: PORTUGAL_CIRCUIT
 race_season: 2021
 team: RED_BULL_RACING
 driver: MAX_VERSTAPPEN
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 78
+  nanos: 650000000
+}
+qualification_time_3 {
+  seconds: 78
+  nanos: 746000000
+}
 starting_position: 3
 finals_time {
   seconds: 5700
   nanos: 569000000
 }
 final_position: 2
-

@@ -1,0 +1,17 @@
+circuit: AUSTRIA_CIRCUIT
+race_season: 2014
+driver: DANIIL_KVYAT
+qualification_time_1 {
+  seconds: 69
+  nanos: 678000000
+}
+qualification_time_2 {
+  seconds: 69
+  nanos: 490000000
+}
+qualification_time_3 {
+  seconds: 69
+  nanos: 619000000
+}
+starting_position: 7
+final_position: 22

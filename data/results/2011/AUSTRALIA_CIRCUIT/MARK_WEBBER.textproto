@@ -1,0 +1,15 @@
+circuit: AUSTRALIA_CIRCUIT
+race_season: 2011
+driver: MARK_WEBBER
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 84
+  nanos: 658000000
+}
+qualification_time_3 {
+  seconds: 84
+  nanos: 395000000
+}
+starting_position: 3
+final_position: 5

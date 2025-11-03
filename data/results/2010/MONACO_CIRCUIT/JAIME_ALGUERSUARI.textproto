@@ -1,0 +1,11 @@
+circuit: MONACO_CIRCUIT
+race_season: 2010
+driver: JAIME_ALGUERSUARI
+qualification_time_1 {
+}
+qualification_time_2 {
+  seconds: 76
+  nanos: 175000000
+}
+starting_position: 17
+final_position: 11

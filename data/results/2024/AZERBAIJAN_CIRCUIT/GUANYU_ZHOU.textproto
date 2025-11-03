@@ -3,8 +3,8 @@ race_season: 2024
 team: KICK_SAUBER
 driver: GUANYU_ZHOU
 qualification_time_1 {
-  seconds: 104
-  nanos: 246000000
+  seconds: 28
+  nanos: 841000000
 }
 starting_position: 17
 finals_time {
@@ -12,4 +12,3 @@ finals_time {
   nanos: 848000000
 }
 final_position: 14
-

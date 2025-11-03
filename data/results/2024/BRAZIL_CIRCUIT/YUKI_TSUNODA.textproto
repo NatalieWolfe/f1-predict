@@ -3,8 +3,6 @@ race_season: 2024
 team: RB
 driver: YUKI_TSUNODA
 qualification_time_1 {
-  seconds: 89
-  nanos: 172000000
 }
 qualification_time_2 {
   seconds: 86
@@ -20,4 +18,3 @@ finals_time {
   nanos: 486000000
 }
 final_position: 7
-
