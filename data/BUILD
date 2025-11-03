@@ -40,6 +40,7 @@ cc_binary(
         ":constants_cc_proto",
         ":constants_maps",
         ":race_results_cc_proto",
+        "//strings:parse",
         "//strings:trim",
         "@abseil-cpp//absl/flags:flag",
         "@abseil-cpp//absl/flags:parse",

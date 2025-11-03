@@ -1,12 +1,10 @@
 #include <cctype>
-#include <charconv>
 #include <filesystem>
 #include <fstream>
 #include <iostream>
 #include <sstream>
 #include <string>
 #include <string_view>
-#include <system_error>
 #include <unordered_map>
 #include <vector>
 
@@ -18,10 +16,14 @@
 #include "google/protobuf/duration.pb.h"
 #include "google/protobuf/text_format.h"
 #include "google/protobuf/util/time_util.h"
+#include "strings/parse.h"
 #include "strings/trim.h"
 
 namespace fs = ::std::filesystem;
 
+using ::f1_predict::parse_duration;
+using ::f1_predict::parse_gap;
+using ::f1_predict::parse_int;
 using ::f1_predict::trim;
 using ::google::protobuf::TextFormat;
 using ::google::protobuf::util::TimeUtil;
@@ -49,7 +51,6 @@ const std::string QUAL_2_COLUMN = "Q2";
 const std::string QUAL_3_COLUMN = "Q3";
 constexpr std::string_view INPUT_EXTENSION = ".csv";
 constexpr char DELIM = ',';
-constexpr std::errc NO_ERROR{};
 constexpr std::string_view DNF = "DNF";
 constexpr std::string_view DNS = "DNS";
 constexpr std::string_view DSQ = "DSQ";
@@ -94,78 +95,6 @@ f1_predict::DriverResult load_result(const fs::path& file_path) {
     std::exit(1);
   }
   return result;
-}
-
-milliseconds parse_duration(std::string_view duration_str) {
-  std::vector<std::string_view> chunks;
-  chunks.reserve(3);
-  uint64_t pos = 0;
-  for (uint64_t i = 0; i < duration_str.size(); ++i) {
-    if (duration_str[i] == ':') {
-      chunks.push_back(duration_str.substr(pos, i - pos));
-      pos = i + 1;
-    }
-  }
-  if (pos < duration_str.size() - 1) chunks.push_back(duration_str.substr(pos));
-
-  milliseconds duration{0};
-  switch (chunks.size()) {
-    case 3: { // Hours
-      int64_t val;
-      if (std::from_chars(
-              chunks[0].data(), chunks[0].data() + chunks[0].size(), val)
-              .ec == NO_ERROR) {
-        duration += hours{val};
-      }
-      [[fallthrough]];
-    }
-    case 2: { // Minutes
-      int i = chunks.size() - 2;
-      int64_t val;
-      if (std::from_chars(
-              chunks[i].data(), chunks[i].data() + chunks[i].size(), val)
-              .ec == NO_ERROR) {
-        duration += minutes{val};
-      }
-      [[fallthrough]];
-    }
-    case 1: { // Seconds
-      int i = chunks.size() - 1;
-      double val;
-      if (std::from_chars(
-              chunks[i].data(), chunks[i].data() + chunks[i].size(), val)
-              .ec == NO_ERROR) {
-        duration += milliseconds{static_cast<int64_t>(val * 1000)};
-      }
-    }
-  }
-  return duration;
-}
-
-milliseconds parse_gap(std::string_view duration_str) {
-  double val;
-  if (duration_str.front() == '+') duration_str = duration_str.substr(1);
-  if (std::from_chars(
-          duration_str.data(), duration_str.data() + duration_str.size(), val)
-          .ec != NO_ERROR) {
-    std::cerr << "Failed to parse time gap: " << duration_str << std::endl;
-    std::exit(1);
-  }
-  return milliseconds{static_cast<int64_t>(val * 1000)};
-}
-
-int parse_position(std::string_view position_str) {
-  int position;
-  if (std::from_chars(
-          position_str.data(),
-          position_str.data() + position_str.size(),
-          position)
-          .ec != NO_ERROR) {
-    std::cerr << "Failed to parse race position: \"" << position_str << '"'
-              << std::endl;
-    std::exit(1);
-  }
-  return position;
 }
 
 f1_predict::constants::Team lookup_team(std::string_view team_name) {
@@ -226,12 +155,11 @@ void save_race_results(
 
     if (!result.at(STARTING_POSITION_COLUMN).empty()) {
       proto_result.set_starting_position(
-          parse_position(result.at(STARTING_POSITION_COLUMN)));
+          parse_int(result.at(STARTING_POSITION_COLUMN)));
     }
     if (!result.at(POSITION_COLUMN).empty() &&
         result.at(POSITION_COLUMN) != NC && result.at(POSITION_COLUMN) != DQ) {
-      proto_result.set_final_position(
-          parse_position(result.at(POSITION_COLUMN)));
+      proto_result.set_final_position(parse_int(result.at(POSITION_COLUMN)));
     }
     if (proto_result.final_position() == 1) {
       *proto_result.mutable_finals_time() = to_proto_duration(fastest_time);
