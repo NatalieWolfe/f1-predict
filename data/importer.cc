@@ -21,6 +21,9 @@
 
 namespace fs = ::std::filesystem;
 
+using ::f1_predict::lookup_circuit;
+using ::f1_predict::lookup_driver;
+using ::f1_predict::lookup_team;
 using ::f1_predict::parse_duration;
 using ::f1_predict::parse_gap;
 using ::f1_predict::parse_int;
@@ -95,24 +98,6 @@ f1_predict::DriverResult load_result(const fs::path& file_path) {
     std::exit(1);
   }
   return result;
-}
-
-f1_predict::constants::Team lookup_team(std::string_view team_name) {
-  auto itr = f1_predict::NAME_TO_TEAM_MAP.find(team_name);
-  if (itr == f1_predict::NAME_TO_TEAM_MAP.end()) {
-    std::cerr << "Unknown team name: " << team_name << std::endl;
-    std::exit(1);
-  }
-  return itr->second;
-}
-
-f1_predict::constants::Driver lookup_driver(std::string_view driver_name) {
-  auto itr = f1_predict::NAME_TO_DRIVER_MAP.find(driver_name);
-  if (itr == f1_predict::NAME_TO_DRIVER_MAP.end()) {
-    std::cerr << "Unknown driver name: " << driver_name << std::endl;
-    std::exit(1);
-  }
-  return itr->second;
 }
 
 google::protobuf::Duration to_proto_duration(milliseconds duration) {
@@ -253,13 +238,8 @@ int main(int argc, char** argv) {
       std::vector<std::unordered_map<std::string, std::string>>>
       races_to_results;
   for (const auto& row : data) {
-    auto itr = f1_predict::NAME_TO_CIRCUIT_MAP.find(row.at(CIRCUIT_COLUMN));
-    if (itr == f1_predict::NAME_TO_CIRCUIT_MAP.end()) {
-      std::cerr << "Unknown circuit name: " << row.at(CIRCUIT_COLUMN)
-                << std::endl;
-      return 1;
-    }
-    races_to_results[itr->second].push_back(std::move(row));
+    races_to_results[lookup_circuit(row.at(CIRCUIT_COLUMN))].push_back(
+        std::move(row));
   }
 
   std::string season_name = std::to_string(absl::GetFlag(FLAGS_season));

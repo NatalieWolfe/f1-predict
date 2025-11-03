@@ -6,6 +6,7 @@
 #include "data/constants.pb.h"
 
 namespace f1_predict {
+namespace {
 
 const std::unordered_map<std::string_view, constants::Circuit>
     NAME_TO_CIRCUIT_MAP = {
@@ -112,5 +113,32 @@ const std::unordered_map<std::string_view, constants::Driver>
         {"Kimi Raikkönen", constants::KIMI_RAIKKONEN},
         {"Nikita Mazepin", constants::NIKITA_MAZEPIN},
         {"Robert Kubica", constants::ROBERT_KUBICA}};
+
+template <typename Enum>
+Enum do_lookup(
+    std::string_view name,
+    const std::unordered_map<std::string_view, Enum>& mapping,
+    std::string_view error_name) {
+  auto itr = mapping.find(name);
+  if (itr == mapping.end()) {
+    std::cerr << "Unknown " << error_name << " name: " << name << std::endl;
+    std::exit(1);
+  }
+  return itr->second;
+}
+
+} // namespace
+
+constants::Circuit lookup_circuit(std::string_view circuit_name) {
+  return do_lookup(circuit_name, NAME_TO_CIRCUIT_MAP, "circuit");
+}
+
+constants::Driver lookup_driver(std::string_view driver_name) {
+  return do_lookup(driver_name, NAME_TO_DRIVER_MAP, "driver");
+}
+
+constants::Team lookup_team(std::string_view team_name) {
+  return do_lookup(team_name, NAME_TO_TEAM_MAP, "team");
+}
 
 } // namespace f1_predict
