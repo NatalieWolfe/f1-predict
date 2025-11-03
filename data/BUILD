@@ -47,11 +47,39 @@ cc_binary(
         ":constants_cc_proto",
         ":constants_maps",
         ":csv",
+        ":proto_utils",
         ":race_results_cc_proto",
         "//strings:parse",
         "//strings:trim",
         "@abseil-cpp//absl/flags:flag",
         "@abseil-cpp//absl/flags:parse",
+    ],
+)
+
+cc_binary(
+    name = "kaggle_importer",
+    srcs = ["kaggle_importer.cc"],
+    deps = [
+        ":constants_cc_proto",
+        ":constants_maps",
+        ":csv",
+        ":proto_utils",
+        ":race_results_cc_proto",
+        "//strings:parse",
+        "//strings:trim",
+        "@abseil-cpp//absl/flags:flag",
+        "@abseil-cpp//absl/flags:parse",
+        "@protobuf",
+        "@protobuf//:duration_cc_proto",
+    ],
+)
+
+cc_library(
+    name = "proto_utils",
+    srcs = ["proto_utils.cc"],
+    hdrs = ["proto_utils.h"],
+    deps = [
+        ":race_results_cc_proto",
         "@protobuf",
         "@protobuf//:duration_cc_proto",
         "@protobuf//:time_util",

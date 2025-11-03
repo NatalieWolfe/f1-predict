@@ -13,25 +13,24 @@
 #include "data/constants.pb.h"
 #include "data/constants_maps.h"
 #include "data/csv.h"
+#include "data/proto_utils.h"
 #include "data/race_results.pb.h"
-#include "google/protobuf/duration.pb.h"
-#include "google/protobuf/text_format.h"
-#include "google/protobuf/util/time_util.h"
 #include "strings/parse.h"
 #include "strings/trim.h"
 
 namespace fs = ::std::filesystem;
 
 using ::f1_predict::load_csv;
+using ::f1_predict::load_result;
 using ::f1_predict::lookup_circuit;
 using ::f1_predict::lookup_driver;
 using ::f1_predict::lookup_team;
 using ::f1_predict::parse_duration;
 using ::f1_predict::parse_gap;
 using ::f1_predict::parse_int;
+using ::f1_predict::save_result;
+using ::f1_predict::to_proto_duration;
 using ::f1_predict::trim;
-using ::google::protobuf::TextFormat;
-using ::google::protobuf::util::TimeUtil;
 using ::std::chrono::hours;
 using ::std::chrono::milliseconds;
 using ::std::chrono::minutes;
@@ -61,22 +60,6 @@ constexpr std::string_view DNS = "DNS";
 constexpr std::string_view DSQ = "DSQ";
 constexpr std::string_view DQ = "DQ";
 constexpr std::string_view NC = "NC";
-
-f1_predict::DriverResult load_result(const fs::path& file_path) {
-  std::ifstream stream(file_path);
-  std::stringstream data;
-  data << stream.rdbuf();
-  f1_predict::DriverResult result;
-  if (!TextFormat::ParseFromString(data.str(), &result)) {
-    std::cerr << "Failed to parse result from " << file_path << std::endl;
-    std::exit(1);
-  }
-  return result;
-}
-
-google::protobuf::Duration to_proto_duration(milliseconds duration) {
-  return TimeUtil::MillisecondsToDuration(duration.count());
-}
 
 void save_race_results(
     const std::vector<std::unordered_map<std::string, std::string>>& results,
@@ -129,13 +112,7 @@ void save_race_results(
           to_proto_duration(fastest_time + parse_gap(result.at(TIME_COLUMN)));
     }
 
-    std::string output;
-    if (!TextFormat::PrintToString(proto_result, &output)) {
-      std::cerr << "Failed to print out race results.";
-      std::exit(1);
-    }
-    std::ofstream out_stream{out_path};
-    out_stream << output << std::endl;
+    save_result(out_path, proto_result);
   }
 }
 
@@ -173,13 +150,7 @@ void save_qualification_results(
       }
     }
 
-    std::string output;
-    if (!TextFormat::PrintToString(proto_result, &output)) {
-      std::cerr << "Failed to print out race results.";
-      std::exit(1);
-    }
-    std::ofstream out_stream{out_path};
-    out_stream << output << std::endl;
+    save_result(out_path, proto_result);
   }
 }
 

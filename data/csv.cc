@@ -15,29 +15,43 @@ namespace {
 
 constexpr char DELIM = ',';
 
+std::vector<std::string> readline(std::istream& input) {
+  std::vector<std::string> row;
+  row.emplace_back();
+  char c;
+  bool in_quotes = false;
+  while (input.get(c)) {
+    if (!in_quotes && c == ',') {
+      row.emplace_back();
+      continue;
+    }
+    if (c == '"') {
+      in_quotes = !in_quotes;
+      continue;
+    }
+    if (c == '\n') break;
+    if (c == '\\') input >> c;
+    row.back().push_back(c);
+  }
+  if (row.size() == 1 && row.front() == "") return {};
+  return row;
 }
+
+} // namespace
 
 std::vector<std::unordered_map<std::string, std::string>>
 load_csv(std::istream& input) {
-  std::string header_line;
-  if (!std::getline(input, header_line)) {
+  std::vector<std::string> column_names = readline(input);
+  if (column_names.empty()) {
     std::cerr << "Input is empty." << std::endl;
     std::exit(1);
   }
 
-  std::stringstream header_stream(header_line);
-  std::vector<std::string> column_names;
-  for (std::string column; std::getline(header_stream, column, DELIM);) {
-    column_names.emplace_back(trim(column));
-  }
-
   std::vector<std::unordered_map<std::string, std::string>> content;
-  for (std::string line; std::getline(input, line);) {
-    std::stringstream line_stream(line);
+  for (std::vector<std::string> line; line = readline(input), !line.empty();) {
     auto& row = content.emplace_back();
-    std::string column;
-    for (int i = 0; std::getline(line_stream, column, DELIM); ++i) {
-      row[column_names[i]] = trim(column);
+    for (int i = 0; i < line.size(); ++i) {
+      row[column_names[i]] = trim(line[i]);
     }
   }
   return content;
