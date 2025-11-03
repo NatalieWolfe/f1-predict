@@ -19,6 +19,13 @@ cc_library(
     deps = [":constants_cc_proto"],
 )
 
+cc_library(
+    name = "csv",
+    srcs = ["csv.cc"],
+    hdrs = ["csv.h"],
+    deps = ["//strings:trim"],
+)
+
 proto_library(
     name = "race_results_proto",
     srcs = ["race_results.proto"],
@@ -39,6 +46,7 @@ cc_binary(
     deps = [
         ":constants_cc_proto",
         ":constants_maps",
+        ":csv",
         ":race_results_cc_proto",
         "//strings:parse",
         "//strings:trim",

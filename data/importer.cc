@@ -12,6 +12,7 @@
 #include "absl/flags/parse.h"
 #include "data/constants.pb.h"
 #include "data/constants_maps.h"
+#include "data/csv.h"
 #include "data/race_results.pb.h"
 #include "google/protobuf/duration.pb.h"
 #include "google/protobuf/text_format.h"
@@ -21,6 +22,7 @@
 
 namespace fs = ::std::filesystem;
 
+using ::f1_predict::load_csv;
 using ::f1_predict::lookup_circuit;
 using ::f1_predict::lookup_driver;
 using ::f1_predict::lookup_team;
@@ -59,34 +61,6 @@ constexpr std::string_view DNS = "DNS";
 constexpr std::string_view DSQ = "DSQ";
 constexpr std::string_view DQ = "DQ";
 constexpr std::string_view NC = "NC";
-
-std::vector<std::unordered_map<std::string, std::string>>
-load_input(const fs::path& input_path) {
-  std::ifstream file(input_path);
-
-  std::string header_line;
-  if (!std::getline(file, header_line)) {
-    std::cerr << "Input file is empty." << std::endl;
-    std::exit(1);
-  }
-
-  std::stringstream header_stream(header_line);
-  std::vector<std::string> column_names;
-  for (std::string column; std::getline(header_stream, column, DELIM);) {
-    column_names.emplace_back(trim(std::move(column)));
-  }
-
-  std::vector<std::unordered_map<std::string, std::string>> content;
-  for (std::string line; std::getline(file, line);) {
-    std::stringstream line_stream(line);
-    auto& row = content.emplace_back();
-    std::string column;
-    for (int i = 0; std::getline(line_stream, column, DELIM); ++i) {
-      row[column_names[i]] = column;
-    }
-  }
-  return content;
-}
 
 f1_predict::DriverResult load_result(const fs::path& file_path) {
   std::ifstream stream(file_path);
@@ -212,8 +186,8 @@ void save_qualification_results(
 int main(int argc, char** argv) {
   absl::ParseCommandLine(argc, argv);
 
-  fs::path input = absl::GetFlag(FLAGS_input_file);
-  if (input.extension() != INPUT_EXTENSION) {
+  fs::path input_path = absl::GetFlag(FLAGS_input_file);
+  if (input_path.extension() != INPUT_EXTENSION) {
     std::cerr << "Input file must be a CSV." << std::endl;
     return 1;
   }
@@ -227,7 +201,8 @@ int main(int argc, char** argv) {
     return 1;
   }
 
-  auto data = load_input(input);
+  std::ifstream input_stream{input_path};
+  auto data = load_csv(input_stream);
   if (data.empty()) {
     std::cerr << "No data loaded." << std::endl;
     return 1;
