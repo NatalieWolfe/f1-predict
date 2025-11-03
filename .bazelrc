@@ -1,1 +1,2 @@
 build --cxxopt='-std=c++23' --cxxopt='-Wall'
+test --test_output=errors --compilation_mode=dbg

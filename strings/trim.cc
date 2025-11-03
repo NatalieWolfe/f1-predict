@@ -22,20 +22,6 @@ int64_t find_last_non_space(std::string_view str) {
 
 } // namespace
 
-std::string trim(std::string term) {
-  int64_t start_pos = find_first_non_space(term);
-  int64_t end_pos = find_last_non_space(term);
-
-  int64_t len = end_pos - start_pos + 1;
-  if (start_pos > 0) {
-    for (int64_t i = 0; i < len; ++i) {
-      term[i] = term[i] + start_pos;
-    }
-  }
-  term.resize(len);
-  return std::move(term);
-}
-
 std::string_view trim(std::string_view term) {
   int64_t start_pos = find_first_non_space(term);
   int64_t end_pos = find_last_non_space(term);

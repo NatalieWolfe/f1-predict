@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}",
                 "${workspaceFolder}/bazel-bin",
-                "${workspaceFolder}/bazel-f1-predict/external/**"
+                "${workspaceFolder}/bazel-f1-predict/external/**",
+                "${workspaceFolder}/bazel-f1-predict/external/googletest+/googletest/include"
             ],
             "recursiveIncludes": {
                 "reduce": "never"

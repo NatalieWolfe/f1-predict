@@ -70,7 +70,7 @@ load_input(const fs::path& input_path) {
   std::stringstream header_stream(header_line);
   std::vector<std::string> column_names;
   for (std::string column; std::getline(header_stream, column, DELIM);) {
-    column_names.push_back(trim(std::move(column)));
+    column_names.emplace_back(trim(std::move(column)));
   }
 
   std::vector<std::unordered_map<std::string, std::string>> content;
