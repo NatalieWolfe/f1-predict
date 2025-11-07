@@ -3,3 +3,8 @@ race_season: 2004
 driver: FELIPE_MASSA
 starting_position: 17
 final_position: 11
+finals_lap_count: 62
+finals_fastest_lap_time {
+  seconds: 75
+  nanos: 560000000
+}

@@ -3,3 +3,8 @@ race_season: 2016
 driver: PASCAL_WEHRLEIN
 starting_position: 21
 final_position: 18
+finals_lap_count: 55
+finals_fastest_lap_time {
+  seconds: 101
+  nanos: 489000000
+}

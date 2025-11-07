@@ -3,3 +3,8 @@ race_season: 2005
 driver: NARAIN_KARTHIKEYAN
 starting_position: 18
 final_position: 14
+finals_lap_count: 55
+finals_fastest_lap_time {
+  seconds: 89
+  nanos: 286000000
+}

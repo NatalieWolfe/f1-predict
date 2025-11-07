@@ -10,3 +10,8 @@ qualification_time_2 {
   nanos: 515000000
 }
 final_position: 15
+finals_lap_count: 52
+finals_fastest_lap_time {
+  seconds: 84
+  nanos: 419000000
+}

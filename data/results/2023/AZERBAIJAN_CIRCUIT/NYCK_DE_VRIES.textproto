@@ -4,3 +4,8 @@ team: RB
 driver: NYCK_DE_VRIES
 starting_position: 18
 final_position: 20
+finals_lap_count: 9
+finals_fastest_lap_time {
+  seconds: 108
+  nanos: 781000000
+}

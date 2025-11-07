@@ -3,3 +3,8 @@ race_season: 2015
 driver: JENSON_BUTTON
 starting_position: 20
 final_position: 19
+finals_lap_count: 54
+finals_fastest_lap_time {
+  seconds: 78
+  nanos: 856000000
+}

@@ -3,3 +3,8 @@ race_season: 2017
 driver: PIERRE_GASLY
 starting_position: 20
 final_position: 13
+finals_lap_count: 70
+finals_fastest_lap_time {
+  seconds: 80
+  nanos: 859000000
+}

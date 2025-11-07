@@ -3,3 +3,8 @@ race_season: 2012
 driver: NICO_HULKENBERG
 starting_position: 24
 final_position: 21
+finals_lap_count: 50
+finals_fastest_lap_time {
+  seconds: 88
+  nanos: 578000000
+}

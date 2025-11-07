@@ -3,3 +3,8 @@ race_season: 2011
 driver: NARAIN_KARTHIKEYAN
 starting_position: 22
 final_position: 17
+finals_lap_count: 74
+finals_fastest_lap_time {
+  seconds: 82
+  nanos: 731000000
+}

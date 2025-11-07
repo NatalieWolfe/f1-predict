@@ -3,3 +3,8 @@ race_season: 2019
 driver: ANTONIO_GIOVINAZZI
 starting_position: 19
 final_position: 15
+finals_lap_count: 55
+finals_fastest_lap_time {
+  seconds: 98
+  nanos: 48000000
+}

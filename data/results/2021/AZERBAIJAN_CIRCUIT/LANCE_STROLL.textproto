@@ -4,3 +4,8 @@ team: ASTON_MARTIN
 driver: LANCE_STROLL
 starting_position: 19
 final_position: 19
+finals_lap_count: 29
+finals_fastest_lap_time {
+  seconds: 106
+  nanos: 207000000
+}

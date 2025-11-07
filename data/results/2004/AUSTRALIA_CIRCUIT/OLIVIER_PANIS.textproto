@@ -3,3 +3,8 @@ race_season: 2004
 driver: OLIVIER_PANIS
 starting_position: 18
 final_position: 13
+finals_lap_count: 56
+finals_fastest_lap_time {
+  seconds: 87
+  nanos: 807000000
+}

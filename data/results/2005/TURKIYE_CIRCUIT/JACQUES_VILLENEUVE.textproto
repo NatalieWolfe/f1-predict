@@ -3,3 +3,8 @@ race_season: 2005
 driver: JACQUES_VILLENEUVE
 starting_position: 16
 final_position: 11
+finals_lap_count: 57
+finals_fastest_lap_time {
+  seconds: 86
+  nanos: 967000000
+}

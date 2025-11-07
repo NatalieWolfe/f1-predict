@@ -2,3 +2,8 @@ circuit: JAPAN_CIRCUIT
 race_season: 2019
 driver: ROBERT_KUBICA
 final_position: 17
+finals_lap_count: 50
+finals_fastest_lap_time {
+  seconds: 96
+  nanos: 332000000
+}

@@ -3,3 +3,8 @@ race_season: 2004
 driver: CHRISTIAN_KLIEN
 starting_position: 19
 final_position: 11
+finals_lap_count: 56
+finals_fastest_lap_time {
+  seconds: 87
+  nanos: 840000000
+}

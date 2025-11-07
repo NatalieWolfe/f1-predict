@@ -3,3 +3,8 @@ race_season: 2012
 driver: NARAIN_KARTHIKEYAN
 starting_position: 23
 final_position: 20
+finals_lap_count: 53
+finals_fastest_lap_time {
+  seconds: 107
+  nanos: 68000000
+}

@@ -20,3 +20,4 @@ finals_time {
   nanos: 650000000
 }
 final_position: 7
+finals_lap_count: 1

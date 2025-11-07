@@ -3,3 +3,8 @@ race_season: 2018
 driver: ROMAIN_GROSJEAN
 starting_position: 20
 final_position: 12
+finals_lap_count: 67
+finals_fastest_lap_time {
+  seconds: 75
+  nanos: 470000000
+}

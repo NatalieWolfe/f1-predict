@@ -3,3 +3,8 @@ race_season: 2004
 driver: GIANMARIA_BRUNI
 starting_position: 20
 final_position: 14
+finals_lap_count: 57
+finals_fastest_lap_time {
+  seconds: 95
+  nanos: 555000000
+}

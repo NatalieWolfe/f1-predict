@@ -3,3 +3,8 @@ race_season: 2006
 driver: SAKON_YAMAMOTO
 starting_position: 22
 final_position: 17
+finals_lap_count: 50
+finals_fastest_lap_time {
+  seconds: 95
+  nanos: 594000000
+}

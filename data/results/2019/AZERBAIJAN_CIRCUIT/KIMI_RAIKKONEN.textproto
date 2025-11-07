@@ -2,3 +2,8 @@ circuit: AZERBAIJAN_CIRCUIT
 race_season: 2019
 driver: KIMI_RAIKKONEN
 final_position: 10
+finals_lap_count: 50
+finals_fastest_lap_time {
+  seconds: 106
+  nanos: 479000000
+}

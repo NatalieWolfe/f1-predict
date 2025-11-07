@@ -3,3 +3,8 @@ race_season: 2007
 driver: CHRISTIJAN_ALBERS
 starting_position: 22
 final_position: 19
+finals_lap_count: 70
+finals_fastest_lap_time {
+  seconds: 77
+  nanos: 689000000
+}

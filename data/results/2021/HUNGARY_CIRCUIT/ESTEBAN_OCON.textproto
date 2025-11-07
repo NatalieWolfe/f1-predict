@@ -20,3 +20,8 @@ finals_time {
   nanos: 199000000
 }
 final_position: 1
+finals_lap_count: 70
+finals_fastest_lap_time {
+  seconds: 81
+  nanos: 421000000
+}

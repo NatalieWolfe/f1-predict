@@ -3,3 +3,8 @@ race_season: 2014
 driver: ESTEBAN_GUTIERREZ
 starting_position: 22
 final_position: 14
+finals_lap_count: 64
+finals_fastest_lap_time {
+  seconds: 80
+  nanos: 112000000
+}

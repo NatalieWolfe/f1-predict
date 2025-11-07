@@ -2,3 +2,8 @@ circuit: MONACO_CIRCUIT
 race_season: 2016
 driver: FELIPE_NASR
 final_position: 17
+finals_lap_count: 48
+finals_fastest_lap_time {
+  seconds: 81
+  nanos: 889000000
+}

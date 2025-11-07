@@ -3,3 +3,8 @@ race_season: 2007
 driver: SCOTT_SPEED
 starting_position: 22
 final_position: 18
+finals_lap_count: 9
+finals_fastest_lap_time {
+  seconds: 86
+  nanos: 238000000
+}

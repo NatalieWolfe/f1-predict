@@ -3,3 +3,8 @@ race_season: 2018
 driver: BRENDON_HARTLEY
 starting_position: 20
 final_position: 12
+finals_lap_count: 64
+finals_fastest_lap_time {
+  seconds: 81
+  nanos: 439000000
+}

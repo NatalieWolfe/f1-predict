@@ -11,3 +11,8 @@ qualification_time_2 {
 }
 starting_position: 19
 final_position: 18
+finals_lap_count: 66
+finals_fastest_lap_time {
+  seconds: 80
+  nanos: 13000000
+}

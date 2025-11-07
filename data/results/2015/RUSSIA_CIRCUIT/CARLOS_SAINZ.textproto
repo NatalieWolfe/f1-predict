@@ -3,3 +3,8 @@ race_season: 2015
 driver: CARLOS_SAINZ
 starting_position: 20
 final_position: 16
+finals_lap_count: 45
+finals_fastest_lap_time {
+  seconds: 102
+  nanos: 258000000
+}

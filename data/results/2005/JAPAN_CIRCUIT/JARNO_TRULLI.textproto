@@ -3,3 +3,8 @@ race_season: 2005
 driver: JARNO_TRULLI
 starting_position: 19
 final_position: 18
+finals_lap_count: 9
+finals_fastest_lap_time {
+  seconds: 97
+  nanos: 428000000
+}

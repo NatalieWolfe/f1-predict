@@ -3,3 +3,8 @@ race_season: 2006
 driver: DAVID_COULTHARD
 starting_position: 21
 final_position: 14
+finals_lap_count: 65
+finals_fastest_lap_time {
+  seconds: 77
+  nanos: 862000000
+}

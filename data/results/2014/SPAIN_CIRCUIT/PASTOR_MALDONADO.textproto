@@ -3,3 +3,8 @@ race_season: 2014
 driver: PASTOR_MALDONADO
 starting_position: 22
 final_position: 15
+finals_lap_count: 65
+finals_fastest_lap_time {
+  seconds: 91
+  nanos: 235000000
+}

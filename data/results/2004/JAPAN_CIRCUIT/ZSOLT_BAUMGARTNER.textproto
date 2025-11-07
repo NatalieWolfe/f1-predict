@@ -3,3 +3,8 @@ race_season: 2004
 driver: ZSOLT_BAUMGARTNER
 starting_position: 20
 final_position: 17
+finals_lap_count: 41
+finals_fastest_lap_time {
+  seconds: 99
+  nanos: 434000000
+}

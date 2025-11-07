@@ -3,3 +3,8 @@ race_season: 2005
 driver: ROBERT_DOORNBOS
 starting_position: 17
 final_position: 13
+finals_lap_count: 55
+finals_fastest_lap_time {
+  seconds: 89
+  nanos: 229000000
+}

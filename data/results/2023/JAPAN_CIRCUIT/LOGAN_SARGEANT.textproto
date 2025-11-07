@@ -3,3 +3,8 @@ race_season: 2023
 team: WILLIAMS
 driver: LOGAN_SARGEANT
 final_position: 17
+finals_lap_count: 22
+finals_fastest_lap_time {
+  seconds: 98
+  nanos: 848000000
+}

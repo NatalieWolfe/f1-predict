@@ -4,3 +4,8 @@ team: WILLIAMS
 driver: LOGAN_SARGEANT
 starting_position: 19
 final_position: 16
+finals_lap_count: 70
+finals_fastest_lap_time {
+  seconds: 83
+  nanos: 3000000
+}

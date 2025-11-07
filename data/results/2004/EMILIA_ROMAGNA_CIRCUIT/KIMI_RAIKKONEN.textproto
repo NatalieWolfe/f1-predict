@@ -3,3 +3,8 @@ race_season: 2004
 driver: KIMI_RAIKKONEN
 starting_position: 20
 final_position: 8
+finals_lap_count: 61
+finals_fastest_lap_time {
+  seconds: 82
+  nanos: 500000000
+}

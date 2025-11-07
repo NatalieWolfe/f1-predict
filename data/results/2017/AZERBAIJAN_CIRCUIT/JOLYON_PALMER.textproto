@@ -3,3 +3,8 @@ race_season: 2017
 driver: JOLYON_PALMER
 starting_position: 20
 final_position: 20
+finals_lap_count: 7
+finals_fastest_lap_time {
+  seconds: 111
+  nanos: 673000000
+}

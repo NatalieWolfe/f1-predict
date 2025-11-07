@@ -3,3 +3,8 @@ race_season: 2014
 driver: MARCUS_ERICSSON
 starting_position: 22
 final_position: 18
+finals_lap_count: 65
+finals_fastest_lap_time {
+  seconds: 83
+  nanos: 230000000
+}

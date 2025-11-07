@@ -3,3 +3,8 @@ race_season: 2016
 driver: JOLYON_PALMER
 starting_position: 21
 final_position: 14
+finals_lap_count: 70
+finals_fastest_lap_time {
+  seconds: 84
+  nanos: 574000000
+}

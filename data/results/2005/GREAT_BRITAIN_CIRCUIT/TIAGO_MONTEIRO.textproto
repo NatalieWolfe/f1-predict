@@ -3,3 +3,8 @@ race_season: 2005
 driver: TIAGO_MONTEIRO
 starting_position: 20
 final_position: 17
+finals_lap_count: 58
+finals_fastest_lap_time {
+  seconds: 84
+  nanos: 247000000
+}

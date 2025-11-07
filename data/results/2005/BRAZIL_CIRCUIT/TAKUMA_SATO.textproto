@@ -3,3 +3,8 @@ race_season: 2005
 driver: TAKUMA_SATO
 starting_position: 19
 final_position: 10
+finals_lap_count: 70
+finals_fastest_lap_time {
+  seconds: 74
+  nanos: 394000000
+}

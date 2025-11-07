@@ -3,3 +3,8 @@ race_season: 2006
 driver: FELIPE_MASSA
 starting_position: 21
 final_position: 9
+finals_lap_count: 77
+finals_fastest_lap_time {
+  seconds: 76
+  nanos: 612000000
+}

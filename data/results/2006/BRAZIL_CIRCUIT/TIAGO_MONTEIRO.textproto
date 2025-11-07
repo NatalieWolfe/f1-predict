@@ -3,3 +3,8 @@ race_season: 2006
 driver: TIAGO_MONTEIRO
 starting_position: 21
 final_position: 15
+finals_lap_count: 69
+finals_fastest_lap_time {
+  seconds: 74
+  nanos: 410000000
+}

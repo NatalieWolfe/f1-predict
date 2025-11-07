@@ -2,3 +2,8 @@ circuit: AZERBAIJAN_CIRCUIT
 race_season: 2019
 driver: PIERRE_GASLY
 final_position: 17
+finals_lap_count: 38
+finals_fastest_lap_time {
+  seconds: 105
+  nanos: 712000000
+}
