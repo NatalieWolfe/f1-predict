@@ -30,13 +30,14 @@ namespace fs = ::std::filesystem;
 using ::f1_predict::load_result;
 using ::f1_predict::to_milliseconds;
 
-using race_results = ::std::vector<::f1_predict::DriverResult>;
-using circuit_to_drivers_map_t =
-    ::std::unordered_map<::f1_predict::constants::Circuit, ::race_results>;
+using driver_to_results_map_t = ::std::
+    unordered_map<::f1_predict::constants::Driver, ::f1_predict::DriverResult>;
+using circuit_to_drivers_map_t = ::std::
+    unordered_map<::f1_predict::constants::Circuit, ::driver_to_results_map_t>;
 using season_to_circuit_map_t =
     ::std::unordered_map<int, ::circuit_to_drivers_map_t>;
 
-constexpr int PLACEHOLDER_TIME = 9999999;
+constexpr int64_t PLACEHOLDER_TIME = 99999999;
 
 std::vector<f1_predict::DriverResult>
 load_all_data(std::span<char*> file_paths) {
@@ -62,16 +63,43 @@ season_to_circuit_map_t
 organize_data(std::vector<f1_predict::DriverResult> raw_data) {
   season_to_circuit_map_t organized;
   for (f1_predict::DriverResult& result : raw_data) {
-    organized[result.race_season()][result.circuit()].push_back(
-        std::move(result));
+    organized[result.race_season()][result.circuit()][result.driver()] =
+        std::move(result);
   }
   return organized;
+}
+
+bool is_valid_duration(const google::protobuf::Duration& duration) {
+  return duration.seconds() || duration.nanos();
+}
+
+void filter_data(season_to_circuit_map_t& data) {
+  season_to_circuit_map_t filtered;
+
+  for (auto& [season, circuits] : data) {
+    for (auto& [circuit, drivers] : circuits) {
+      for (auto& [driver, results] : drivers) {
+        if (is_valid_duration(results.qualification_time_1()) ||
+            is_valid_duration(results.qualification_time_2()) ||
+            is_valid_duration(results.qualification_time_3())) {
+          filtered[season][circuit][driver] = std::move(results);
+        }
+      }
+      if (filtered[season][circuit].size() < 5) {
+        filtered[season].erase(circuit);
+      }
+    }
+    if (filtered[season].empty()) filtered.erase(season);
+  }
+
+  data = std::move(filtered);
 }
 
 season_to_circuit_map_t extract_tests(season_to_circuit_map_t& data) {
   absl::BitGen bit_gen;
   season_to_circuit_map_t tests;
   for (auto& [season, circuits] : data) {
+    if (circuits.size() == 1) continue;
     std::size_t pick = absl::Uniform(bit_gen, 0u, circuits.size());
     std::size_t i = 0;
     for (auto& [circuit, results] : circuits) {
@@ -97,9 +125,15 @@ void save_data(
   f1_predict::writer out{output_path};
   out.write_header();
 
-  for (const auto& circuits : data | std::views::values) {
-    for (const auto& results : circuits | std::views::values) {
-      out.write_race(results);
+  auto [first_season, last_season] =
+      std::ranges::minmax_element(data | std::views::keys);
+
+  for (int season = *first_season; season <= *last_season; ++season) {
+    auto itr = data.find(season);
+    if (itr == data.end()) continue;
+    for (const auto& results : itr->second | std::views::values) {
+      out.write_race(
+          results | std::views::values | std::ranges::to<std::vector>());
     }
   }
 }
@@ -131,6 +165,7 @@ int main(int argc, char** argv) {
 
   auto raw_data = load_all_data(input_files);
   season_to_circuit_map_t data = organize_data(std::move(raw_data));
+  filter_data(data);
   season_to_circuit_map_t tests = extract_tests(data);
 
   save_data(data, training_file);

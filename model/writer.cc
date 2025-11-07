@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <chrono>
 #include <fstream>
+#include <iomanip>
 #include <ostream>
 #include <span>
 #include <string>
@@ -23,11 +24,15 @@ using ::std::chrono::duration_cast;
 using ::std::chrono::milliseconds;
 
 constexpr milliseconds DEFAULT_TIME{9999999};
+constexpr milliseconds ZERO_MS{0};
 
 struct aggregate_data {
   size_t race_id;
   size_t race_size;
   milliseconds best_qual_time;
+  milliseconds worst_qual_time;
+  milliseconds qual_spread;
+  milliseconds median_qual_time;
 };
 
 struct result_data {
@@ -134,6 +139,21 @@ public:
   }
 };
 
+class qual_spread_column : public writer_internal::column_writer {
+public:
+  void write_header(std::ostream& out) const override {
+    out << "qual_spread_msec";
+  }
+  void write_column(
+      std::ostream& out,
+      const result_data& result,
+      const aggregate_data& aggregate) const override {
+    out << duration_cast<milliseconds>(
+               aggregate.worst_qual_time - aggregate.best_qual_time)
+               .count();
+  }
+};
+
 class starting_position_column : public writer_internal::column_writer {
 public:
   void write_header(std::ostream& out) const override {
@@ -207,6 +227,59 @@ public:
   }
 };
 
+class gap_to_median_qual_time_column : public writer_internal::column_writer {
+public:
+  void write_header(std::ostream& out) const override {
+    out << "gap_to_median_qual_time_msec";
+  }
+  void write_column(
+      std::ostream& out,
+      const result_data& result,
+      const aggregate_data& aggregate) const override {
+    out << best_qual_time(result.driver).count() -
+            duration_cast<milliseconds>(aggregate.median_qual_time).count();
+  }
+};
+
+class qual_consistency_column : public writer_internal::column_writer {
+public:
+  void write_header(std::ostream& out) const override {
+    out << "qual_consistency_stddev";
+  }
+  void write_column(
+      std::ostream& out,
+      const result_data& result,
+      const aggregate_data&) const override {
+    std::vector<double> qual_times;
+    if (to_milliseconds(result.driver.qualification_time_1()) != ZERO_MS) {
+      qual_times.push_back(
+          to_milliseconds(result.driver.qualification_time_1()).count());
+    }
+    if (to_milliseconds(result.driver.qualification_time_2()) != ZERO_MS) {
+      qual_times.push_back(
+          to_milliseconds(result.driver.qualification_time_2()).count());
+    }
+    if (to_milliseconds(result.driver.qualification_time_3()) != ZERO_MS) {
+      qual_times.push_back(
+          to_milliseconds(result.driver.qualification_time_3()).count());
+    }
+    if (qual_times.size() <= 1) {
+      out << 0;
+      return;
+    }
+    double mean = std::accumulate(qual_times.begin(), qual_times.end(), 0.0) /
+        qual_times.size();
+    double sq_diff_sum = std::accumulate(
+        qual_times.begin(), qual_times.end(), 0, [mean](double x, double v) {
+          double diff = v - mean;
+          return x + (diff * diff);
+        });
+    double stddev = std::sqrt(sq_diff_sum / qual_times.size());
+    out << std::setprecision(6) << std::fixed
+        << (std::isnan(stddev) ? 0.0 : stddev);
+  }
+};
+
 template <typename... ColumnWriters>
 std::vector<std::shared_ptr<writer_internal::column_writer>> make_columns() {
   std::vector<std::shared_ptr<writer_internal::column_writer>> columns;
@@ -225,17 +298,20 @@ writer::writer(std::filesystem::path output_path, writer_options opts)
                               season_id_column,
                               team_id_column,
                               driver_id_column,
+                              qual_spread_column,
                               starting_position_column,
                               q1_time_column,
                               q2_time_column,
                               q3_time_column,
                               driver_best_qual_time_column,
-                              gap_to_best_qual_time_column>()} {}
+                              gap_to_best_qual_time_column,
+                              qual_consistency_column>()} {}
 
 void writer::write_header() {
+  int column_counter = 0;
   for (const auto& column : _columns) {
+    if (++column_counter > 1) _out << _options.delim;
     column->write_header(_out);
-    _out << _options.delim;
   }
   _out << '\n' << std::flush;
 }
@@ -253,8 +329,13 @@ void writer::write_race(std::span<const DriverResult> race_results) {
 
   std::vector<const DriverResult*> sorted_results;
   for (const DriverResult& result : race_results) {
+    milliseconds driver_best_qual_time = best_qual_time(result);
     aggregate.best_qual_time =
-        std::min(aggregate.best_qual_time, best_qual_time(result));
+        std::min(aggregate.best_qual_time, driver_best_qual_time);
+    if (driver_best_qual_time != DEFAULT_TIME) {
+      aggregate.worst_qual_time =
+          std::max(aggregate.worst_qual_time, driver_best_qual_time);
+    }
     sorted_results.push_back(&result);
   }
 
@@ -264,6 +345,17 @@ void writer::write_race(std::span<const DriverResult> race_results) {
     }
     return a->final_position() < b->final_position();
   });
+
+  if (sorted_results.size() % 2 == 1) {
+    aggregate.median_qual_time =
+        best_qual_time(*sorted_results[sorted_results.size() / 2]);
+  } else {
+    aggregate.median_qual_time =
+        (best_qual_time(*sorted_results[sorted_results.size() / 2]) +
+         best_qual_time(*sorted_results[(sorted_results.size() / 2) - 1])) /
+        2;
+  }
+
   std::span<const f1_predict::DriverResult*> results_span{
       sorted_results.begin(), sorted_results.end()};
   if (results_span.size() > _options.race_size_limit) {
@@ -272,10 +364,11 @@ void writer::write_race(std::span<const DriverResult> race_results) {
   }
 
   for (size_t i = 0; i < results_span.size(); ++i) {
+    size_t column_counter = 0;
     for (const auto& column : _columns) {
+      if (++column_counter > 1) _out << _options.delim;
       column->write_column(
           _out, {.index = i, .driver = *results_span[i]}, aggregate);
-      _out << _options.delim;
     }
     _out << '\n';
   }
