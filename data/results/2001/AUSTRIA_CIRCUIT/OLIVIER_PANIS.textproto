@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 2001
 driver: OLIVIER_PANIS
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 5319
+  nanos: 702000000
+}
 final_position: 5

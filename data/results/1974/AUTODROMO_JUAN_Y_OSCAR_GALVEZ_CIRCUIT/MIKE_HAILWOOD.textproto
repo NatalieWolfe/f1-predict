@@ -1,7 +1,9 @@
 circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
 race_season: 1974
 driver: MIKE_HAILWOOD
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 6093
+  nanos: 800000000
+}
 final_position: 4

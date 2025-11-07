@@ -2,8 +2,12 @@ circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 2002
 driver: RALF_SCHUMACHER
 qualification_time_1 {
+  seconds: 96
+  nanos: 28000000
+}
+starting_position: 4
+finals_time {
   seconds: 5652
   nanos: 912000000
 }
-starting_position: 4
 final_position: 1

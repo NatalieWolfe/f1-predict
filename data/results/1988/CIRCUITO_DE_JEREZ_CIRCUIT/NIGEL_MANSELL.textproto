@@ -1,7 +1,9 @@
 circuit: CIRCUITO_DE_JEREZ_CIRCUIT
 race_season: 1988
 driver: NIGEL_MANSELL
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 6550
+  nanos: 83000000
+}
 final_position: 2

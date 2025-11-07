@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1969
 driver: PIERS_COURAGE
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5984
+  nanos: 700000000
+}
 final_position: 5

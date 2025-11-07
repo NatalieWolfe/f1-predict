@@ -2,6 +2,8 @@ circuit: AUSTRIA_CIRCUIT
 race_season: 2020
 driver: ALEXANDER_ALBON
 qualification_time_1 {
+  seconds: 80
+  nanos: 882000000
 }
 qualification_time_2 {
   seconds: 79
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 11000000
 }
 starting_position: 4
+finals_time {
+  seconds: 5015
+  nanos: 83000000
+}
 final_position: 13

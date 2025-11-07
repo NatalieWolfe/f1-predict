@@ -1,9 +1,9 @@
 circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1996
 driver: DAMON_HILL
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 4903
   nanos: 417000000
 }
-starting_position: 1
 final_position: 1

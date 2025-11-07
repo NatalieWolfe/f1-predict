@@ -1,7 +1,9 @@
 circuit: WATKINS_GLEN_CIRCUIT
 race_season: 1980
 driver: DIDIER_PIRONI
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 5688
+  nanos: 620000000
+}
 final_position: 3

@@ -1,9 +1,9 @@
 circuit: CIRCUIT_BREMGARTEN
 race_season: 1953
 driver: ALBERTO_ASCARI
-qualification_time_1 {
+starting_position: 2
+finals_time {
   seconds: 10894
   nanos: 400000000
 }
-starting_position: 2
 final_position: 1

@@ -2,6 +2,12 @@ circuit: BELGIUM_CIRCUIT
 race_season: 1995
 driver: JOHNNY_HERBERT
 qualification_time_1 {
+  seconds: 116
+  nanos: 85000000
 }
 starting_position: 4
+finals_time {
+  seconds: 5861
+  nanos: 918000000
+}
 final_position: 7

@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1973
 driver: JACKIE_STEWART
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 5390
+  nanos: 200000000
+}
 final_position: 4

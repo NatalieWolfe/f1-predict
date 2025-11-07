@@ -2,6 +2,8 @@ circuit: SINGAPORE_CIRCUIT
 race_season: 2008
 driver: LEWIS_HAMILTON
 qualification_time_1 {
+  seconds: 104
+  nanos: 501000000
 }
 qualification_time_2 {
   seconds: 104
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 465000000
 }
 starting_position: 2
+finals_time {
+  seconds: 7042
+  nanos: 221000000
+}
 final_position: 3

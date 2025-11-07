@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1972
 driver: PETER_REVSON
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 5434
+  nanos: 100000000
+}
 final_position: 4

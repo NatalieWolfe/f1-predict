@@ -1,9 +1,9 @@
 circuit: NETHERLANDS_CIRCUIT
 race_season: 1970
 driver: JOCHEN_RINDT
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 6643
   nanos: 400000000
 }
-starting_position: 1
 final_position: 1

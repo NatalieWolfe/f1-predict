@@ -1,9 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 1958
 driver: PETER_COLLINS
-qualification_time_1 {
+starting_position: 6
+finals_time {
   seconds: 7744
   nanos: 200000000
 }
-starting_position: 6
 final_position: 1

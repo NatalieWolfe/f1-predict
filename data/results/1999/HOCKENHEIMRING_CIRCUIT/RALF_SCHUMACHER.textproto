@@ -1,7 +1,9 @@
 circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1999
 driver: RALF_SCHUMACHER
-qualification_time_1 {
-}
 starting_position: 11
+finals_time {
+  seconds: 4931
+  nanos: 403000000
+}
 final_position: 4

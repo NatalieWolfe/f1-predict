@@ -2,8 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2009
 driver: LEWIS_HAMILTON
 qualification_time_1 {
-  seconds: 11
-  nanos: 866000000
+  seconds: 95
+  nanos: 776000000
 }
 qualification_time_2 {
   seconds: 95
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 595000000
 }
 starting_position: 9
+finals_time {
+  seconds: 7135
+  nanos: 351000000
+}
 final_position: 6

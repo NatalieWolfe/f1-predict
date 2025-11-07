@@ -1,7 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 2000
 driver: DAVID_COULTHARD
-qualification_time_1 {
-}
 starting_position: 5
+finals_time {
+  seconds: 5337
+  nanos: 775000000
+}
 final_position: 4

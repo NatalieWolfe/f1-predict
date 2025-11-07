@@ -3,6 +3,8 @@ race_season: 2021
 team: RED_BULL_RACING
 driver: MAX_VERSTAPPEN
 qualification_time_1 {
+  seconds: 81
+  nanos: 996000000
 }
 qualification_time_2 {
   seconds: 81

@@ -1,7 +1,9 @@
 circuit: CANADA_CIRCUIT
 race_season: 2002
 driver: JARNO_TRULLI
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 5665
+  nanos: 58000000
+}
 final_position: 6

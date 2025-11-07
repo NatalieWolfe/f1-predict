@@ -1,8 +1,9 @@
 circuit: MEXICO_CIRCUIT
 race_season: 1965
 driver: MIKE_SPENCE
-qualification_time_1 {
-  nanos: 150000000
-}
 starting_position: 6
+finals_time {
+  seconds: 7772
+  nanos: 250000000
+}
 final_position: 3

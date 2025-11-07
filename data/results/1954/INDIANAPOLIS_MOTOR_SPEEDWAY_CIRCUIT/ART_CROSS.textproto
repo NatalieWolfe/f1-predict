@@ -1,9 +1,9 @@
 circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
 race_season: 1954
 driver: ART_CROSS
-qualification_time_1 {
-  seconds: 22
-  nanos: 190000000
-}
 starting_position: 27
+finals_time {
+  seconds: 14259
+  nanos: 460000000
+}
 final_position: 11

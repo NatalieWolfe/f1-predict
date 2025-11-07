@@ -1,7 +1,9 @@
 circuit: SPAIN_CIRCUIT
 race_season: 1993
 driver: AYRTON_SENNA
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 5564
+  nanos: 558000000
+}
 final_position: 2

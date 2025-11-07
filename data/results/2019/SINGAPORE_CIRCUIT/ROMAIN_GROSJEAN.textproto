@@ -2,6 +2,12 @@ circuit: SINGAPORE_CIRCUIT
 race_season: 2019
 driver: ROMAIN_GROSJEAN
 qualification_time_1 {
+  seconds: 100
+  nanos: 277000000
 }
 starting_position: 17
+finals_time {
+  seconds: 7149
+  nanos: 103000000
+}
 final_position: 11

@@ -2,6 +2,8 @@ circuit: MONACO_CIRCUIT
 race_season: 2019
 driver: SEBASTIAN_VETTEL
 qualification_time_1 {
+  seconds: 71
+  nanos: 434000000
 }
 qualification_time_2 {
   seconds: 71
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 947000000
 }
 starting_position: 4
+finals_time {
+  seconds: 6211
+  nanos: 39000000
+}
 final_position: 2

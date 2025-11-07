@@ -1,7 +1,9 @@
 circuit: MOSPORT_INTERNATIONAL_RACEWAY_CIRCUIT
 race_season: 1973
 driver: JEAN_PIERRE_BELTOISE
-qualification_time_1 {
-}
 starting_position: 16
+finals_time {
+  seconds: 7180
+  nanos: 597000000
+}
 final_position: 4

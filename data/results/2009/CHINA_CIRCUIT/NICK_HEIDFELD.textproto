@@ -2,12 +2,16 @@ circuit: CHINA_CIRCUIT
 race_season: 2009
 driver: NICK_HEIDFELD
 qualification_time_1 {
-  seconds: 35
-  nanos: 834000000
+  seconds: 96
+  nanos: 525000000
 }
 qualification_time_2 {
   seconds: 95
   nanos: 975000000
 }
 starting_position: 11
+finals_time {
+  seconds: 7159
+  nanos: 319000000
+}
 final_position: 12

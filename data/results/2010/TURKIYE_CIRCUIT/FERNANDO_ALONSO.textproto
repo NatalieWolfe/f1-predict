@@ -2,10 +2,16 @@ circuit: TURKIYE_CIRCUIT
 race_season: 2010
 driver: FERNANDO_ALONSO
 qualification_time_1 {
+  seconds: 87
+  nanos: 857000000
 }
 qualification_time_2 {
   seconds: 87
   nanos: 612000000
 }
 starting_position: 12
+finals_time {
+  seconds: 5374
+  nanos: 164000000
+}
 final_position: 8

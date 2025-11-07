@@ -1,7 +1,9 @@
 circuit: FRANCE_CIRCUIT
 race_season: 1980
 driver: JACQUES_LAFFITE
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 5593
+  nanos: 660000000
+}
 final_position: 3

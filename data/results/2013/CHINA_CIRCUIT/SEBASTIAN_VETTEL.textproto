@@ -2,10 +2,16 @@ circuit: CHINA_CIRCUIT
 race_season: 2013
 driver: SEBASTIAN_VETTEL
 qualification_time_1 {
+  seconds: 96
+  nanos: 537000000
 }
 qualification_time_2 {
   seconds: 95
   nanos: 343000000
 }
 starting_position: 9
+finals_time {
+  seconds: 5799
+  nanos: 470000000
+}
 final_position: 4

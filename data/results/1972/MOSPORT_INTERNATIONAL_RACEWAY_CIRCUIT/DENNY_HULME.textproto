@@ -1,7 +1,9 @@
 circuit: MOSPORT_INTERNATIONAL_RACEWAY_CIRCUIT
 race_season: 1972
 driver: DENNY_HULME
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 6251
+  nanos: 700000000
+}
 final_position: 3

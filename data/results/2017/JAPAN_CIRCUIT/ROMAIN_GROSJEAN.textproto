@@ -2,8 +2,12 @@ circuit: JAPAN_CIRCUIT
 race_season: 2017
 driver: ROMAIN_GROSJEAN
 qualification_time_1 {
-  seconds: 29
-  nanos: 883000000
+  seconds: 90
+  nanos: 849000000
 }
 starting_position: 13
+finals_time {
+  seconds: 5341
+  nanos: 77000000
+}
 final_position: 9

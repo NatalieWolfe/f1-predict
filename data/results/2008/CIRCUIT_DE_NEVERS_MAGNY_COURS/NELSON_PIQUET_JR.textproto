@@ -2,10 +2,16 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2008
 driver: NELSON_PIQUET_JR
 qualification_time_1 {
+  seconds: 75
+  nanos: 848000000
 }
 qualification_time_2 {
   seconds: 75
   nanos: 770000000
 }
 starting_position: 9
+finals_time {
+  seconds: 5551
+  nanos: 278000000
+}
 final_position: 7

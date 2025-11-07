@@ -1,9 +1,9 @@
 circuit: KYALAMI_CIRCUIT
 race_season: 1972
 driver: DENNY_HULME
-qualification_time_1 {
+starting_position: 5
+finals_time {
   seconds: 6349
   nanos: 100000000
 }
-starting_position: 5
 final_position: 1

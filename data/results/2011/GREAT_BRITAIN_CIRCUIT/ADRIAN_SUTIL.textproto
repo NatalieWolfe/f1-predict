@@ -2,12 +2,16 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2011
 driver: ADRIAN_SUTIL
 qualification_time_1 {
-  seconds: 19
-  nanos: 712000000
+  seconds: 94
+  nanos: 454000000
 }
 qualification_time_2 {
   seconds: 92
   nanos: 616000000
 }
 starting_position: 11
+finals_time {
+  seconds: 5400
+  nanos: 908000000
+}
 final_position: 11

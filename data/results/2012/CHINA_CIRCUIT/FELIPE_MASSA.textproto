@@ -2,10 +2,16 @@ circuit: CHINA_CIRCUIT
 race_season: 2012
 driver: FELIPE_MASSA
 qualification_time_1 {
+  seconds: 96
+  nanos: 556000000
 }
 qualification_time_2 {
   seconds: 96
   nanos: 255000000
 }
 starting_position: 12
+finals_time {
+  seconds: 5829
+  nanos: 708000000
+}
 final_position: 13

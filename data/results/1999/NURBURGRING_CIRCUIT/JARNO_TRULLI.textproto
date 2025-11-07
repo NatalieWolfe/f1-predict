@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1999
 driver: JARNO_TRULLI
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 6136
+  nanos: 933000000
+}
 final_position: 2

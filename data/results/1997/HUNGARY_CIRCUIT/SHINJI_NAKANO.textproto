@@ -1,7 +1,9 @@
 circuit: HUNGARY_CIRCUIT
 race_season: 1997
 driver: SHINJI_NAKANO
-qualification_time_1 {
-}
 starting_position: 16
+finals_time {
+  seconds: 6388
+  nanos: 661000000
+}
 final_position: 6

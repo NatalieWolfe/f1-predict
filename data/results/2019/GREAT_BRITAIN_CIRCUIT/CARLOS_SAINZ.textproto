@@ -2,10 +2,16 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2019
 driver: CARLOS_SAINZ
 qualification_time_1 {
+  seconds: 86
+  nanos: 203000000
 }
 qualification_time_2 {
   seconds: 86
   nanos: 578000000
 }
 starting_position: 13
+finals_time {
+  seconds: 4922
+  nanos: 91000000
+}
 final_position: 6

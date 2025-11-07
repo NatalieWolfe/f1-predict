@@ -3,6 +3,8 @@ race_season: 2021
 team: FERRARI
 driver: CARLOS_SAINZ
 qualification_time_1 {
+  seconds: 75
+  nanos: 406000000
 }
 qualification_time_2 {
   seconds: 75

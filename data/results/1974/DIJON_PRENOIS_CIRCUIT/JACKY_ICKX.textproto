@@ -1,7 +1,9 @@
 circuit: DIJON_PRENOIS_CIRCUIT
 race_season: 1974
 driver: JACKY_ICKX
-qualification_time_1 {
-}
 starting_position: 13
+finals_time {
+  seconds: 4952
+  nanos: 560000000
+}
 final_position: 5

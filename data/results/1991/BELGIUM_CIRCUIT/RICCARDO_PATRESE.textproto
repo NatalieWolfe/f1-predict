@@ -1,7 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 1991
 driver: RICCARDO_PATRESE
-qualification_time_1 {
-}
 starting_position: 17
+finals_time {
+  seconds: 5294
+  nanos: 856000000
+}
 final_position: 5

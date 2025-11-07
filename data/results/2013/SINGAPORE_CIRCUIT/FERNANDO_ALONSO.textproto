@@ -2,6 +2,8 @@ circuit: SINGAPORE_CIRCUIT
 race_season: 2013
 driver: FERNANDO_ALONSO
 qualification_time_1 {
+  seconds: 105
+  nanos: 115000000
 }
 qualification_time_2 {
   seconds: 104
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 938000000
 }
 starting_position: 7
+finals_time {
+  seconds: 7185
+  nanos: 759000000
+}
 final_position: 2

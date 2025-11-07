@@ -2,6 +2,8 @@ circuit: BAHRAIN_CIRCUIT
 race_season: 2018
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
+  seconds: 89
+  nanos: 275000000
 }
 qualification_time_2 {
   seconds: 88
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 124000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5522
+  nanos: 639000000
+}
 final_position: 2

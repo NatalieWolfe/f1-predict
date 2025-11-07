@@ -1,9 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1974
 driver: DEREK_BELL
-qualification_time_1 {
-  seconds: 17
+starting_position: 25
+finals_time {
+  seconds: 6412
   nanos: 700000000
 }
-starting_position: 25
 final_position: 11

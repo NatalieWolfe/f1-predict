@@ -2,8 +2,8 @@ circuit: SPAIN_CIRCUIT
 race_season: 2016
 driver: CARLOS_SAINZ
 qualification_time_1 {
-  seconds: 1
-  nanos: 395000000
+  seconds: 84
+  nanos: 496000000
 }
 qualification_time_2 {
   seconds: 84
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 643000000
 }
 starting_position: 8
+finals_time {
+  seconds: 6161
+  nanos: 412000000
+}
 final_position: 6

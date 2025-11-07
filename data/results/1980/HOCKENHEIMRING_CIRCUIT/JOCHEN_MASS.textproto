@@ -1,9 +1,9 @@
 circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1980
 driver: JOCHEN_MASS
-qualification_time_1 {
-  seconds: 47
-  nanos: 750000000
-}
 starting_position: 17
+finals_time {
+  seconds: 5147
+  nanos: 480000000
+}
 final_position: 8

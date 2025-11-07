@@ -2,10 +2,16 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2010
 driver: KAMUI_KOBAYASHI
 qualification_time_1 {
+  seconds: 91
+  nanos: 851000000
 }
 qualification_time_2 {
   seconds: 91
   nanos: 421000000
 }
 starting_position: 12
+finals_time {
+  seconds: 5110
+  nanos: 371000000
+}
 final_position: 6

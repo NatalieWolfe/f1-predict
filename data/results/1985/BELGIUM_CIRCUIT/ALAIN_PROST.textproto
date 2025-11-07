@@ -1,7 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 1985
 driver: ALAIN_PROST
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 5715
+  nanos: 2000000
+}
 final_position: 3

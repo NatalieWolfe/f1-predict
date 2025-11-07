@@ -2,6 +2,12 @@ circuit: EMILIA_ROMAGNA_CIRCUIT
 race_season: 2003
 driver: RALF_SCHUMACHER
 qualification_time_1 {
+  seconds: 82
+  nanos: 341000000
 }
 starting_position: 2
+finals_time {
+  seconds: 5300
+  nanos: 861000000
+}
 final_position: 4

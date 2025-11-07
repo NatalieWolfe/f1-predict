@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1996
 driver: GERHARD_BERGER
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5836
+  nanos: 59000000
+}
 final_position: 4

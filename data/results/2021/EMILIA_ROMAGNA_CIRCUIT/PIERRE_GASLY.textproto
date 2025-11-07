@@ -3,6 +3,8 @@ race_season: 2021
 team: RB
 driver: PIERRE_GASLY
 qualification_time_1 {
+  seconds: 75
+  nanos: 548000000
 }
 qualification_time_2 {
   seconds: 74

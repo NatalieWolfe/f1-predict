@@ -2,6 +2,8 @@ circuit: MONACO_CIRCUIT
 race_season: 2018
 driver: KIMI_RAIKKONEN
 qualification_time_1 {
+  seconds: 72
+  nanos: 639000000
 }
 qualification_time_2 {
   seconds: 71
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 266000000
 }
 starting_position: 4
+finals_time {
+  seconds: 6192
+  nanos: 934000000
+}
 final_position: 4

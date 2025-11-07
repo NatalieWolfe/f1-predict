@@ -2,8 +2,6 @@ circuit: AZERBAIJAN_CIRCUIT
 race_season: 2021
 team: KICK_SAUBER
 driver: ANTONIO_GIOVINAZZI
-qualification_time_1 {
-}
 starting_position: 20
 finals_time {
   seconds: 8026

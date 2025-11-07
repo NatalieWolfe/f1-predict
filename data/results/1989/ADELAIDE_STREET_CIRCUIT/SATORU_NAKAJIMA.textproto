@@ -1,7 +1,9 @@
 circuit: ADELAIDE_STREET_CIRCUIT
 race_season: 1989
 driver: SATORU_NAKAJIMA
-qualification_time_1 {
-}
 starting_position: 23
+finals_time {
+  seconds: 7259
+  nanos: 752000000
+}
 final_position: 4

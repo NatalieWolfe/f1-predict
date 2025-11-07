@@ -1,7 +1,9 @@
 circuit: SPAIN_CIRCUIT
 race_season: 1999
 driver: EDDIE_IRVINE
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 5683
+  nanos: 847000000
+}
 final_position: 4

@@ -2,6 +2,8 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2017
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
+  seconds: 99
+  nanos: 698000000
 }
 qualification_time_2 {
   seconds: 88
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 376000000
 }
 starting_position: 9
+finals_time {
+  seconds: 4901
+  nanos: 493000000
+}
 final_position: 2

@@ -1,7 +1,9 @@
 circuit: BRANDS_HATCH_CIRCUIT
 race_season: 1970
 driver: JACK_BRABHAM
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 7054
+  nanos: 900000000
+}
 final_position: 2

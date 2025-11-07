@@ -1,7 +1,9 @@
 circuit: CANADA_CIRCUIT
 race_season: 1978
 driver: CARLOS_REUTEMANN
-qualification_time_1 {
-}
 starting_position: 11
+finals_time {
+  seconds: 7088
+  nanos: 604000000
+}
 final_position: 3

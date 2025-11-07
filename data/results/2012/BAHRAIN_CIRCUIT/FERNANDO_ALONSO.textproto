@@ -2,10 +2,16 @@ circuit: BAHRAIN_CIRCUIT
 race_season: 2012
 driver: FERNANDO_ALONSO
 qualification_time_1 {
+  seconds: 94
+  nanos: 760000000
 }
 qualification_time_2 {
   seconds: 93
   nanos: 403000000
 }
 starting_position: 9
+finals_time {
+  seconds: 5768
+  nanos: 793000000
+}
 final_position: 7

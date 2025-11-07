@@ -1,7 +1,9 @@
 circuit: AUSTRALIA_CIRCUIT
 race_season: 2001
 driver: DAVID_COULTHARD
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 5908
+  nanos: 250000000
+}
 final_position: 2

@@ -2,10 +2,16 @@ circuit: AUSTRIA_CIRCUIT
 race_season: 2014
 driver: NICO_HULKENBERG
 qualification_time_1 {
+  seconds: 70
+  nanos: 389000000
 }
 qualification_time_2 {
   seconds: 69
   nanos: 624000000
 }
 starting_position: 10
+finals_time {
+  seconds: 5319
+  nanos: 113000000
+}
 final_position: 9

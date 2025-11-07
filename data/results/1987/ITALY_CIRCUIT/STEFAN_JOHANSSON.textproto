@@ -1,9 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1987
 driver: STEFAN_JOHANSSON
-qualification_time_1 {
-  seconds: 28
-  nanos: 787000000
-}
 starting_position: 11
+finals_time {
+  seconds: 4576
+  nanos: 494000000
+}
 final_position: 6

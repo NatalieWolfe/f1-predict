@@ -1,7 +1,9 @@
 circuit: MONTJUIC_CIRCUIT
 race_season: 1975
 driver: JACKY_ICKX
-qualification_time_1 {
-}
 starting_position: 16
+finals_time {
+  seconds: 2574
+  nanos: 800000000
+}
 final_position: 2

@@ -2,8 +2,12 @@ circuit: VALENCIA_STREET_CIRCUIT
 race_season: 2012
 driver: CHARLES_PIC
 qualification_time_1 {
-  seconds: 36
-  nanos: 551000000
+  seconds: 102
+  nanos: 675000000
 }
 starting_position: 23
+finals_time {
+  seconds: 6353
+  nanos: 200000000
+}
 final_position: 15

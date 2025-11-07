@@ -2,8 +2,12 @@ circuit: BAHRAIN_CIRCUIT
 race_season: 2010
 driver: JAIME_ALGUERSUARI
 qualification_time_1 {
-  seconds: 32
-  nanos: 656000000
+  seconds: 117
+  nanos: 71000000
 }
 starting_position: 18
+finals_time {
+  seconds: 6053
+  nanos: 52000000
+}
 final_position: 13

@@ -1,9 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1958
 driver: EDGAR_BARTH
-qualification_time_1 {
-  seconds: 32
+starting_position: 13
+finals_time {
+  seconds: 8867
   nanos: 400000000
 }
-starting_position: 13
 final_position: 6

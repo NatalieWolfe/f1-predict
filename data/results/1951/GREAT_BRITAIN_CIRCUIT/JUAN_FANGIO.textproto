@@ -1,7 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 1951
 driver: JUAN_FANGIO
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 9789
+  nanos: 200000000
+}
 final_position: 2

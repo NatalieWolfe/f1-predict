@@ -1,7 +1,9 @@
 circuit: JARAMA_CIRCUIT
 race_season: 1979
 driver: JEAN_PIERRE_JARIER
-qualification_time_1 {
-}
 starting_position: 12
+finals_time {
+  seconds: 5982
+  nanos: 230000000
+}
 final_position: 5

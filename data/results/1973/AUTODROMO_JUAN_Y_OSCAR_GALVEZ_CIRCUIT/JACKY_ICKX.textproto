@@ -1,7 +1,9 @@
 circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
 race_season: 1973
 driver: JACKY_ICKX
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 7020
+  nanos: 790000000
+}
 final_position: 4

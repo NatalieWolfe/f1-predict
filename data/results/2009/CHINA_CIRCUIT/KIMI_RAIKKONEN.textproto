@@ -2,8 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2009
 driver: KIMI_RAIKKONEN
 qualification_time_1 {
-  seconds: 31
-  nanos: 750000000
+  seconds: 96
+  nanos: 137000000
 }
 qualification_time_2 {
   seconds: 95
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 89000000
 }
 starting_position: 8
+finals_time {
+  seconds: 7155
+  nanos: 235000000
+}
 final_position: 10

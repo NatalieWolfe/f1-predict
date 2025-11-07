@@ -1,9 +1,9 @@
 circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
 race_season: 1957
 driver: PAT_O_CONNOR
-qualification_time_1 {
-  seconds: 33
-  nanos: 150000000
-}
 starting_position: 1
+finals_time {
+  seconds: 13607
+  nanos: 400000000
+}
 final_position: 8

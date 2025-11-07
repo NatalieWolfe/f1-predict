@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1976
 driver: PATRICK_DEPAILLER
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5471
+  nanos: 300000000
+}
 final_position: 6

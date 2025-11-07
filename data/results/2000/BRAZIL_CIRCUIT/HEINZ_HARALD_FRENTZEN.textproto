@@ -1,7 +1,9 @@
 circuit: BRAZIL_CIRCUIT
 race_season: 2000
 driver: HEINZ_HARALD_FRENTZEN
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 5537
+  nanos: 539000000
+}
 final_position: 3

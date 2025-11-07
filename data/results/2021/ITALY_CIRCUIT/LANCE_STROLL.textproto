@@ -3,6 +3,8 @@ race_season: 2021
 team: ASTON_MARTIN
 driver: LANCE_STROLL
 qualification_time_1 {
+  seconds: 81
+  nanos: 415000000
 }
 qualification_time_2 {
   seconds: 81

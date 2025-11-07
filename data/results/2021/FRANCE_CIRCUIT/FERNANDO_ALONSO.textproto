@@ -3,8 +3,8 @@ race_season: 2021
 team: ALPINE
 driver: FERNANDO_ALONSO
 qualification_time_1 {
-  seconds: 17
-  nanos: 695000000
+  seconds: 92
+  nanos: 158000000
 }
 qualification_time_2 {
   seconds: 91

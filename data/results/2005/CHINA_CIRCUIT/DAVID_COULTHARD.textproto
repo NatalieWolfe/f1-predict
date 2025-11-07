@@ -2,6 +2,12 @@ circuit: CHINA_CIRCUIT
 race_season: 2005
 driver: DAVID_COULTHARD
 qualification_time_1 {
+  seconds: 95
+  nanos: 428000000
 }
 starting_position: 7
+finals_time {
+  seconds: 6037
+  nanos: 818000000
+}
 final_position: 9

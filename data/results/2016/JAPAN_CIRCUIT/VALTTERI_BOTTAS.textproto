@@ -2,12 +2,16 @@ circuit: JAPAN_CIRCUIT
 race_season: 2016
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
-  seconds: 38
-  nanos: 323000000
+  seconds: 92
+  nanos: 383000000
 }
 qualification_time_2 {
   seconds: 92
   nanos: 314000000
 }
 starting_position: 11
+finals_time {
+  seconds: 5301
+  nanos: 656000000
+}
 final_position: 10

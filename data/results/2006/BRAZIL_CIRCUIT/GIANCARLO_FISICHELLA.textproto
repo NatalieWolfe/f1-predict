@@ -2,6 +2,8 @@ circuit: BRAZIL_CIRCUIT
 race_season: 2006
 driver: GIANCARLO_FISICHELLA
 qualification_time_1 {
+  seconds: 72
+  nanos: 42000000
 }
 qualification_time_2 {
   seconds: 71
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 629000000
 }
 starting_position: 6
+finals_time {
+  seconds: 5544
+  nanos: 38000000
+}
 final_position: 6

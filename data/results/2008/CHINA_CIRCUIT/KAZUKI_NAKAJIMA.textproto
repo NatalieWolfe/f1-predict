@@ -2,8 +2,12 @@ circuit: CHINA_CIRCUIT
 race_season: 2008
 driver: KAZUKI_NAKAJIMA
 qualification_time_1 {
-  seconds: 30
-  nanos: 847000000
+  seconds: 96
+  nanos: 863000000
 }
 starting_position: 17
+finals_time {
+  seconds: 5608
+  nanos: 250000000
+}
 final_position: 12

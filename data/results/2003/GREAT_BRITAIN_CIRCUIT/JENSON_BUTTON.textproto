@@ -1,7 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2003
 driver: JENSON_BUTTON
-qualification_time_1 {
-}
 starting_position: 20
+finals_time {
+  seconds: 5363
+  nanos: 32000000
+}
 final_position: 8

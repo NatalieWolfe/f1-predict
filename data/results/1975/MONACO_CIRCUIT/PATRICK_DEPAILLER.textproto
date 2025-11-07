@@ -1,7 +1,9 @@
 circuit: MONACO_CIRCUIT
 race_season: 1975
 driver: PATRICK_DEPAILLER
-qualification_time_1 {
-}
 starting_position: 12
+finals_time {
+  seconds: 7322
+  nanos: 170000000
+}
 final_position: 5

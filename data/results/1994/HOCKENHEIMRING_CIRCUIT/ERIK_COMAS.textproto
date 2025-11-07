@@ -2,8 +2,12 @@ circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1994
 driver: ERIK_COMAS
 qualification_time_1 {
-  seconds: 45
-  nanos: 445000000
+  seconds: 108
+  nanos: 229000000
 }
 starting_position: 22
+finals_time {
+  seconds: 5062
+  nanos: 645000000
+}
 final_position: 6

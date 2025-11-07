@@ -1,8 +1,8 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 1950
 driver: NINO_FARINA
-qualification_time_1 {
-  seconds: 5
-}
 starting_position: 1
+finals_time {
+  seconds: 10291
+}
 final_position: 4

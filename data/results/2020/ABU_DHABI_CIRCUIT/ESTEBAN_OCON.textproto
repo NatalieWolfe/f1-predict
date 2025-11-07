@@ -2,12 +2,16 @@ circuit: ABU_DHABI_CIRCUIT
 race_season: 2020
 driver: ESTEBAN_OCON
 qualification_time_1 {
-  seconds: 41
-  nanos: 69000000
+  seconds: 96
+  nanos: 783000000
 }
 qualification_time_2 {
   seconds: 96
   nanos: 359000000
 }
 starting_position: 10
+finals_time {
+  seconds: 5799
+  nanos: 996000000
+}
 final_position: 9

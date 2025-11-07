@@ -2,6 +2,8 @@ circuit: KOREAN_INTERNATIONAL_CIRCUIT
 race_season: 2012
 driver: ROMAIN_GROSJEAN
 qualification_time_1 {
+  seconds: 98
+  nanos: 863000000
 }
 qualification_time_2 {
   seconds: 98
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 934000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5843
+  nanos: 463000000
+}
 final_position: 7

@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1962
 driver: WILLY_MAIRESSE
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 9006
+  nanos: 600000000
+}
 final_position: 4

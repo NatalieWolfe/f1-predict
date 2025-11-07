@@ -2,8 +2,8 @@ circuit: TURKIYE_CIRCUIT
 race_season: 2011
 driver: MICHAEL_SCHUMACHER
 qualification_time_1 {
-  seconds: 25
-  nanos: 444000000
+  seconds: 87
+  nanos: 697000000
 }
 qualification_time_2 {
   seconds: 86
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 646000000
 }
 starting_position: 8
+finals_time {
+  seconds: 5503
+  nanos: 2000000
+}
 final_position: 12

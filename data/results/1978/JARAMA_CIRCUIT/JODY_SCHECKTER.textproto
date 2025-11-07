@@ -1,8 +1,9 @@
 circuit: JARAMA_CIRCUIT
 race_season: 1978
 driver: JODY_SCHECKTER
-qualification_time_1 {
-  nanos: 60000000
-}
 starting_position: 9
+finals_time {
+  seconds: 6167
+  nanos: 120000000
+}
 final_position: 4

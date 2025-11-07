@@ -1,7 +1,9 @@
 circuit: CANADA_CIRCUIT
 race_season: 1985
 driver: ELIO_DE_ANGELIS
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 6405
+  nanos: 162000000
+}
 final_position: 5

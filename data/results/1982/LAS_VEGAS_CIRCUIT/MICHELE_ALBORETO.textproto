@@ -1,9 +1,9 @@
 circuit: LAS_VEGAS_CIRCUIT
 race_season: 1982
 driver: MICHELE_ALBORETO
-qualification_time_1 {
+starting_position: 3
+finals_time {
   seconds: 6116
   nanos: 888000000
 }
-starting_position: 3
 final_position: 1

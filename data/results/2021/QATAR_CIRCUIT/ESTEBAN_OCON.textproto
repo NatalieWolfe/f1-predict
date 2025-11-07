@@ -3,8 +3,8 @@ race_season: 2021
 team: ALPINE
 driver: ESTEBAN_OCON
 qualification_time_1 {
-  seconds: 20
-  nanos: 570000000
+  seconds: 82
+  nanos: 565000000
 }
 qualification_time_2 {
   seconds: 82

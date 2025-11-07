@@ -1,9 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 1985
 driver: KEKE_ROSBERG
-qualification_time_1 {
-  seconds: 15
-  nanos: 290000000
-}
 starting_position: 10
+finals_time {
+  seconds: 5735
+  nanos: 183000000
+}
 final_position: 4

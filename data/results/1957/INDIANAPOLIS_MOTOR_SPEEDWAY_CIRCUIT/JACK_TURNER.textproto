@@ -1,9 +1,9 @@
 circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
 race_season: 1957
 driver: JACK_TURNER
-qualification_time_1 {
-  seconds: 56
-  nanos: 70000000
-}
 starting_position: 19
+finals_time {
+  seconds: 13750
+  nanos: 320000000
+}
 final_position: 11

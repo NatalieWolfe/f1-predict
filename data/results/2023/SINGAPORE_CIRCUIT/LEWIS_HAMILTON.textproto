@@ -3,6 +3,8 @@ race_season: 2023
 team: MERCEDES
 driver: LEWIS_HAMILTON
 qualification_time_1 {
+  seconds: 92
+  nanos: 651000000
 }
 qualification_time_2 {
   seconds: 92

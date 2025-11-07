@@ -2,6 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2006
 driver: PEDRO_DE_LA_ROSA
 qualification_time_1 {
+  seconds: 104
+  nanos: 808000000
 }
 qualification_time_2 {
   seconds: 105
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 877000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5929
+  nanos: 884000000
+}
 final_position: 5

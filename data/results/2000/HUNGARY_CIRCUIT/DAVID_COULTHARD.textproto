@@ -1,7 +1,9 @@
 circuit: HUNGARY_CIRCUIT
 race_season: 2000
 driver: DAVID_COULTHARD
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 6342
+  nanos: 324000000
+}
 final_position: 3

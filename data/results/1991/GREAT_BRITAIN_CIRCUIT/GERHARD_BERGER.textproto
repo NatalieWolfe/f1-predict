@@ -1,7 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 1991
 driver: GERHARD_BERGER
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5297
+  nanos: 772000000
+}
 final_position: 2

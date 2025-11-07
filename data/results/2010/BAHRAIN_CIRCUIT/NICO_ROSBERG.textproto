@@ -2,6 +2,8 @@ circuit: BAHRAIN_CIRCUIT
 race_season: 2010
 driver: NICO_ROSBERG
 qualification_time_1 {
+  seconds: 115
+  nanos: 463000000
 }
 qualification_time_2 {
   seconds: 114
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 241000000
 }
 starting_position: 5
+finals_time {
+  seconds: 6000
+  nanos: 609000000
+}
 final_position: 5

@@ -2,6 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2008
 driver: FELIPE_MASSA
 qualification_time_1 {
+  seconds: 95
+  nanos: 971000000
 }
 qualification_time_2 {
   seconds: 95
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 889000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5532
+  nanos: 328000000
+}
 final_position: 2

@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1991
 driver: ANDREA_DE_CESARIS
-qualification_time_1 {
-}
 starting_position: 14
+finals_time {
+  seconds: 4725
+  nanos: 455000000
+}
 final_position: 7

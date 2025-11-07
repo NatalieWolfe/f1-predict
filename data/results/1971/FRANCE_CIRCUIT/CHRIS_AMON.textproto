@@ -1,7 +1,9 @@
 circuit: FRANCE_CIRCUIT
 race_season: 1971
 driver: CHRIS_AMON
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 6443
+  nanos: 380000000
+}
 final_position: 5

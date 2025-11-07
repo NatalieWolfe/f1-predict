@@ -1,7 +1,9 @@
 circuit: BRAZIL_CIRCUIT
 race_season: 1976
 driver: TOM_PRYCE
-qualification_time_1 {
-}
 starting_position: 12
+finals_time {
+  seconds: 6340
+  nanos: 620000000
+}
 final_position: 3

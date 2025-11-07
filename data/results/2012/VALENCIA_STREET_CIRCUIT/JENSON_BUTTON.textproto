@@ -2,6 +2,8 @@ circuit: VALENCIA_STREET_CIRCUIT
 race_season: 2012
 driver: JENSON_BUTTON
 qualification_time_1 {
+  seconds: 99
+  nanos: 622000000
 }
 qualification_time_2 {
   seconds: 98
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 801000000
 }
 starting_position: 9
+finals_time {
+  seconds: 6281
+  nanos: 302000000
+}
 final_position: 8

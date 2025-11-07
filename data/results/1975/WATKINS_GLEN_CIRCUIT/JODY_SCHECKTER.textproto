@@ -1,7 +1,9 @@
 circuit: WATKINS_GLEN_CIRCUIT
 race_season: 1975
 driver: JODY_SCHECKTER
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 6228
+  nanos: 496000000
+}
 final_position: 6

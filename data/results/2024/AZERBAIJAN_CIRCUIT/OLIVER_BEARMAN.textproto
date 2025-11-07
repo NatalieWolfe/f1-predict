@@ -3,8 +3,8 @@ race_season: 2024
 team: HAAS
 driver: OLIVER_BEARMAN
 qualification_time_1 {
-  seconds: 33
-  nanos: 127000000
+  seconds: 103
+  nanos: 471000000
 }
 qualification_time_2 {
   seconds: 102

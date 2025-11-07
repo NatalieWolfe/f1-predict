@@ -3,6 +3,8 @@ race_season: 2023
 team: RED_BULL_RACING
 driver: SERGIO_PEREZ
 qualification_time_1 {
+  seconds: 81
+  nanos: 911000000
 }
 qualification_time_2 {
   seconds: 81

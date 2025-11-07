@@ -1,7 +1,9 @@
 circuit: MONACO_CIRCUIT
 race_season: 1991
 driver: JEAN_ALESI
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 6829
+  nanos: 789000000
+}
 final_position: 3

@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 2000
 driver: MIKA_HAKKINEN
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 6134
+  nanos: 129000000
+}
 final_position: 2

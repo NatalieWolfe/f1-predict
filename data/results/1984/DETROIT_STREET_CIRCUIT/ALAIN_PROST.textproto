@@ -1,9 +1,9 @@
 circuit: DETROIT_STREET_CIRCUIT
 race_season: 1984
 driver: ALAIN_PROST
-qualification_time_1 {
-  seconds: 55
-  nanos: 258000000
-}
 starting_position: 2
+finals_time {
+  seconds: 7057
+  nanos: 100000000
+}
 final_position: 4

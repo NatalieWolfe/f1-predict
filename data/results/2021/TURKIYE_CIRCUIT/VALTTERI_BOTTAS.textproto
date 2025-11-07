@@ -3,8 +3,8 @@ race_season: 2021
 team: MERCEDES
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
-  seconds: 5464
-  nanos: 103000000
+  seconds: 85
+  nanos: 47000000
 }
 qualification_time_2 {
   seconds: 83

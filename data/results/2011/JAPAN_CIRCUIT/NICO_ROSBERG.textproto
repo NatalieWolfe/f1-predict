@@ -1,7 +1,9 @@
 circuit: JAPAN_CIRCUIT
 race_season: 2011
 driver: NICO_ROSBERG
-qualification_time_1 {
-}
 starting_position: 23
+finals_time {
+  seconds: 5497
+  nanos: 749000000
+}
 final_position: 10

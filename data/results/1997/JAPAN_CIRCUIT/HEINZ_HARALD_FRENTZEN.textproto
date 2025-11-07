@@ -1,7 +1,9 @@
 circuit: JAPAN_CIRCUIT
 race_season: 1997
 driver: HEINZ_HARALD_FRENTZEN
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 5389
+  nanos: 824000000
+}
 final_position: 2

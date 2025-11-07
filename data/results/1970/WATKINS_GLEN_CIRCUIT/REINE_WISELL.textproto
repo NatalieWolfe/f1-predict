@@ -1,7 +1,9 @@
 circuit: WATKINS_GLEN_CIRCUIT
 race_season: 1970
 driver: REINE_WISELL
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 7097
+  nanos: 960000000
+}
 final_position: 3

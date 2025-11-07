@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1999
 driver: RUBENS_BARRICHELLO
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 7147
+  nanos: 775000000
+}
 final_position: 3

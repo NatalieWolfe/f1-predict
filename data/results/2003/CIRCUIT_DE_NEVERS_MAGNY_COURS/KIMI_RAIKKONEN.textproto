@@ -2,6 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2003
 driver: KIMI_RAIKKONEN
 qualification_time_1 {
+  seconds: 75
+  nanos: 533000000
 }
 starting_position: 4
+finals_time {
+  seconds: 5487
+  nanos: 260000000
+}
 final_position: 4

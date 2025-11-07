@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2000
 driver: RUBENS_BARRICHELLO
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 5917
+  nanos: 947000000
+}
 final_position: 3

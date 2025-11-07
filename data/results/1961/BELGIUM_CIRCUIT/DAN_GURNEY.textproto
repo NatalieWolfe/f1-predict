@@ -1,8 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 1961
 driver: DAN_GURNEY
-qualification_time_1 {
-  seconds: 31
-}
 starting_position: 10
+finals_time {
+  seconds: 7474
+  nanos: 800000000
+}
 final_position: 6

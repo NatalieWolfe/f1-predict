@@ -2,6 +2,8 @@ circuit: RUSSIA_CIRCUIT
 race_season: 2014
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
+  seconds: 99
+  nanos: 125000000
 }
 qualification_time_2 {
   seconds: 98
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 920000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5528
+  nanos: 169000000
+}
 final_position: 3

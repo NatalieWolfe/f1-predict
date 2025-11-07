@@ -1,7 +1,9 @@
 circuit: REIMS_GUEUX_CIRCUIT
 race_season: 1951
 driver: ALBERTO_ASCARI
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 12189
+  nanos: 200000000
+}
 final_position: 18

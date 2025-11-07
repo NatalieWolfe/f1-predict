@@ -1,9 +1,9 @@
 circuit: BRAZIL_CIRCUIT
 race_season: 1976
 driver: CLAY_REGAZZONI
-qualification_time_1 {
-  seconds: 15
-  nanos: 240000000
-}
 starting_position: 4
+finals_time {
+  seconds: 6452
+  nanos: 20000000
+}
 final_position: 7

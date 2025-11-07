@@ -2,10 +2,16 @@ circuit: MONACO_CIRCUIT
 race_season: 2005
 driver: RUBENS_BARRICHELLO
 qualification_time_1 {
+  seconds: 76
+  nanos: 142000000
 }
 qualification_time_2 {
   seconds: 78
   nanos: 841000000
 }
 starting_position: 10
+finals_time {
+  seconds: 6353
+  nanos: 126000000
+}
 final_position: 8

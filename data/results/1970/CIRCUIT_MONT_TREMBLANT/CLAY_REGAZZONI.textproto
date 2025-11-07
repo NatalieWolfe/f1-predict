@@ -1,7 +1,9 @@
 circuit: CIRCUIT_MONT_TREMBLANT
 race_season: 1970
 driver: CLAY_REGAZZONI
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 4893
+  nanos: 200000000
+}
 final_position: 2

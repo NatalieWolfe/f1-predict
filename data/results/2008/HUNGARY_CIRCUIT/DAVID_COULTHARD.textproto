@@ -2,12 +2,16 @@ circuit: HUNGARY_CIRCUIT
 race_season: 2008
 driver: DAVID_COULTHARD
 qualification_time_1 {
-  seconds: 10
-  nanos: 407000000
+  seconds: 80
+  nanos: 505000000
 }
 qualification_time_2 {
   seconds: 80
   nanos: 502000000
 }
 starting_position: 13
+finals_time {
+  seconds: 5917
+  nanos: 474000000
+}
 final_position: 11

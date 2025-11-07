@@ -1,9 +1,9 @@
 circuit: AUTODROMO_DO_ESTORIL_CIRCUIT
 race_season: 1991
 driver: RICCARDO_PATRESE
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 5742
   nanos: 304000000
 }
-starting_position: 1
 final_position: 1

@@ -2,8 +2,8 @@ circuit: BAHRAIN_CIRCUIT
 race_season: 2010
 driver: ROBERT_KUBICA
 qualification_time_1 {
-  seconds: 9
-  nanos: 93000000
+  seconds: 115
+  nanos: 511000000
 }
 qualification_time_2 {
   seconds: 114
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 885000000
 }
 starting_position: 9
+finals_time {
+  seconds: 6029
+  nanos: 489000000
+}
 final_position: 11

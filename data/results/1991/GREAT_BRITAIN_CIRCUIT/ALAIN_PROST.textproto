@@ -1,8 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 1991
 driver: ALAIN_PROST
-qualification_time_1 {
-  nanos: 150000000
-}
 starting_position: 5
+finals_time {
+  seconds: 5315
+  nanos: 629000000
+}
 final_position: 3

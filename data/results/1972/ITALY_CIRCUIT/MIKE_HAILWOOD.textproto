@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1972
 driver: MIKE_HAILWOOD
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 5412
+  nanos: 900000000
+}
 final_position: 2

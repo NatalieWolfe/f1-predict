@@ -1,7 +1,9 @@
 circuit: AUTODROMO_DO_ESTORIL_CIRCUIT
 race_season: 1993
 driver: DAMON_HILL
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 5574
+  nanos: 515000000
+}
 final_position: 3

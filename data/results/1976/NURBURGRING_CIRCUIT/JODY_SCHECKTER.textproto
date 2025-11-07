@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1976
 driver: JODY_SCHECKTER
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 6130
+  nanos: 400000000
+}
 final_position: 2

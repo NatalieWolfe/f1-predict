@@ -1,7 +1,9 @@
 circuit: WATKINS_GLEN_CIRCUIT
 race_season: 1980
 driver: CARLOS_REUTEMANN
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 5680
+  nanos: 260000000
+}
 final_position: 2

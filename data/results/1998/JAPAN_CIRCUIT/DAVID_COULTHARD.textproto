@@ -1,7 +1,9 @@
 circuit: JAPAN_CIRCUIT
 race_season: 1998
 driver: DAVID_COULTHARD
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 5271
+  nanos: 62000000
+}
 final_position: 3

@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1997
 driver: DAMON_HILL
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 5293
+  nanos: 206000000
+}
 final_position: 7

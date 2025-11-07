@@ -2,6 +2,12 @@ circuit: KOREAN_INTERNATIONAL_CIRCUIT
 race_season: 2013
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
+  seconds: 99
+  nanos: 470000000
 }
 starting_position: 17
+finals_time {
+  seconds: 6240
+  nanos: 750000000
+}
 final_position: 12

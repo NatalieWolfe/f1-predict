@@ -1,7 +1,9 @@
 circuit: MONACO_CIRCUIT
 race_season: 1984
 driver: ELIO_DE_ANGELIS
-qualification_time_1 {
-}
 starting_position: 11
+finals_time {
+  seconds: 3712
+  nanos: 179000000
+}
 final_position: 5

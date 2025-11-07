@@ -1,7 +1,9 @@
 circuit: ADELAIDE_STREET_CIRCUIT
 race_season: 1989
 driver: ALESSANDRO_NANNINI
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 7246
+  nanos: 79000000
+}
 final_position: 2

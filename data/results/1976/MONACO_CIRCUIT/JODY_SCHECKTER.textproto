@@ -1,7 +1,9 @@
 circuit: MONACO_CIRCUIT
 race_season: 1976
 driver: JODY_SCHECKTER
-qualification_time_1 {
-}
 starting_position: 5
+finals_time {
+  seconds: 7202
+  nanos: 600000000
+}
 final_position: 2

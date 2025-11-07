@@ -1,8 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1962
 driver: TONY_MAGGS
-qualification_time_1 {
-  seconds: 7
-}
 starting_position: 23
+finals_time {
+  seconds: 9832
+  nanos: 300000000
+}
 final_position: 9

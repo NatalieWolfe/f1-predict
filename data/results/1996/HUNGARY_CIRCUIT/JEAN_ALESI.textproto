@@ -1,7 +1,9 @@
 circuit: HUNGARY_CIRCUIT
 race_season: 1996
 driver: JEAN_ALESI
-qualification_time_1 {
-}
 starting_position: 5
+finals_time {
+  seconds: 6465
+  nanos: 346000000
+}
 final_position: 3

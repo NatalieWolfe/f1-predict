@@ -1,7 +1,9 @@
 circuit: RIVERSIDE_INTERNATIONAL_RACEWAY_CIRCUIT
 race_season: 1960
 driver: INNES_IRELAND
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 8970
+  nanos: 200000000
+}
 final_position: 2

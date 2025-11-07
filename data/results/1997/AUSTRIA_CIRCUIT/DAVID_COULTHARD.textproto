@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1997
 driver: DAVID_COULTHARD
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 5258
+  nanos: 908000000
+}
 final_position: 2

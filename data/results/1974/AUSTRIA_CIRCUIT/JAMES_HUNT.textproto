@@ -1,9 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1974
 driver: JAMES_HUNT
-qualification_time_1 {
-  seconds: 1
-  nanos: 540000000
-}
 starting_position: 7
+finals_time {
+  seconds: 5386
+  nanos: 260000000
+}
 final_position: 3

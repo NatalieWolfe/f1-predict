@@ -1,9 +1,9 @@
 circuit: CIRCUITO_DE_JEREZ_CIRCUIT
 race_season: 1997
 driver: MIKA_HAKKINEN
-qualification_time_1 {
+starting_position: 5
+finals_time {
   seconds: 5937
   nanos: 771000000
 }
-starting_position: 5
 final_position: 1

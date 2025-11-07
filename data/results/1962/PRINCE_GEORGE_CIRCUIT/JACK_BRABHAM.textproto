@@ -1,7 +1,9 @@
 circuit: PRINCE_GEORGE_CIRCUIT
 race_season: 1962
 driver: JACK_BRABHAM
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 7737
+  nanos: 100000000
+}
 final_position: 4

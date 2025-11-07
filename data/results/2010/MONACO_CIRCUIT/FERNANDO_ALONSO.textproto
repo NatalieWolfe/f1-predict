@@ -1,7 +1,9 @@
 circuit: MONACO_CIRCUIT
 race_season: 2010
 driver: FERNANDO_ALONSO
-qualification_time_1 {
-}
 starting_position: 24
+finals_time {
+  seconds: 6619
+  nanos: 696000000
+}
 final_position: 6

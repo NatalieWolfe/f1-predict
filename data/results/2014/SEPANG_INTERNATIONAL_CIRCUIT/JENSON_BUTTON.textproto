@@ -2,8 +2,8 @@ circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 2014
 driver: JENSON_BUTTON
 qualification_time_1 {
-  seconds: 23
-  nanos: 691000000
+  seconds: 120
+  nanos: 889000000
 }
 qualification_time_2 {
   seconds: 121
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 53000000
 }
 starting_position: 10
+finals_time {
+  seconds: 6109
+  nanos: 665000000
+}
 final_position: 6

@@ -1,7 +1,9 @@
 circuit: HUNGARY_CIRCUIT
 race_season: 2002
 driver: KIMI_RAIKKONEN
-qualification_time_1 {
-}
 starting_position: 11
+finals_time {
+  seconds: 6138
+  nanos: 480000000
+}
 final_position: 4

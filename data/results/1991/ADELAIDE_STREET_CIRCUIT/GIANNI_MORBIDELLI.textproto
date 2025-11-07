@@ -1,7 +1,9 @@
 circuit: ADELAIDE_STREET_CIRCUIT
 race_season: 1991
 driver: GIANNI_MORBIDELLI
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 1525
+  nanos: 968000000
+}
 final_position: 6

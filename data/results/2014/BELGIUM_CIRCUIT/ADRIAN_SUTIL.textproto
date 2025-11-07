@@ -2,12 +2,16 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2014
 driver: ADRIAN_SUTIL
 qualification_time_1 {
-  seconds: 22
-  nanos: 447000000
+  seconds: 131
+  nanos: 51000000
 }
 qualification_time_2 {
   seconds: 130
   nanos: 238000000
 }
 starting_position: 14
+finals_time {
+  seconds: 5159
+  nanos: 3000000
+}
 final_position: 14

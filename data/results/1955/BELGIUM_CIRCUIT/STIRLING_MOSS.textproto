@@ -1,7 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 1955
 driver: STIRLING_MOSS
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 9577
+  nanos: 100000000
+}
 final_position: 2

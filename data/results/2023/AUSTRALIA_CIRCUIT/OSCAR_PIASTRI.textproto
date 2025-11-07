@@ -3,10 +3,12 @@ race_season: 2023
 team: MCLAREN
 driver: OSCAR_PIASTRI
 qualification_time_1 {
+  seconds: 78
+  nanos: 517000000
 }
 starting_position: 16
 finals_time {
-  seconds: 9153
+  seconds: 9163
   nanos: 753000000
 }
 final_position: 8

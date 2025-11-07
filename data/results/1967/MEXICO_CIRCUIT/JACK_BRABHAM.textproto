@@ -1,9 +1,9 @@
 circuit: MEXICO_CIRCUIT
 race_season: 1967
 driver: JACK_BRABHAM
-qualification_time_1 {
-  seconds: 25
-  nanos: 360000000
-}
 starting_position: 5
+finals_time {
+  seconds: 7254
+  nanos: 60000000
+}
 final_position: 2

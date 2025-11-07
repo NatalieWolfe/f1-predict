@@ -2,12 +2,16 @@ circuit: BUDDH_INTERNATIONAL_CIRCUIT
 race_season: 2012
 driver: DANIEL_RICCIARDO
 qualification_time_1 {
-  seconds: 26
-  nanos: 64000000
+  seconds: 87
+  nanos: 6000000
 }
 qualification_time_2 {
   seconds: 86
   nanos: 777000000
 }
 starting_position: 15
+finals_time {
+  seconds: 5556
+  nanos: 808000000
+}
 final_position: 13

@@ -1,7 +1,9 @@
 circuit: AUTODROMO_DO_ESTORIL_CIRCUIT
 race_season: 1984
 driver: NIKI_LAUDA
-qualification_time_1 {
-}
 starting_position: 11
+finals_time {
+  seconds: 6085
+  nanos: 178000000
+}
 final_position: 2

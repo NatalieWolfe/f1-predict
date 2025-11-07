@@ -1,7 +1,9 @@
 circuit: MEXICO_CIRCUIT
 race_season: 1969
 driver: JACK_BRABHAM
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 6887
+  nanos: 280000000
+}
 final_position: 3

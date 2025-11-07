@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1976
 driver: JOCHEN_MASS
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 6155
+  nanos: 100000000
+}
 final_position: 3

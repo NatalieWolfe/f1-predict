@@ -1,9 +1,9 @@
 circuit: MEXICO_CIRCUIT
 race_season: 1992
 driver: NIGEL_MANSELL
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 5513
   nanos: 587000000
 }
-starting_position: 1
 final_position: 1

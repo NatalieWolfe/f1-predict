@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1975
 driver: CARLOS_REUTEMANN
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 5017
+  nanos: 700000000
+}
 final_position: 4

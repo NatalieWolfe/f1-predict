@@ -1,7 +1,9 @@
 circuit: NETHERLANDS_CIRCUIT
 race_season: 1982
 driver: KEKE_ROSBERG
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 5905
+  nanos: 619000000
+}
 final_position: 3

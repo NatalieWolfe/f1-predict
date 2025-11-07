@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1983
 driver: NELSON_PIQUET
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5100
+  nanos: 404000000
+}
 final_position: 3

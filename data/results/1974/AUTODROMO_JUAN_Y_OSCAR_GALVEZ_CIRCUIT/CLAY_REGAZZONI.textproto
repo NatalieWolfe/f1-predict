@@ -1,7 +1,9 @@
 circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
 race_season: 1974
 driver: CLAY_REGAZZONI
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 6082
+  nanos: 420000000
+}
 final_position: 3

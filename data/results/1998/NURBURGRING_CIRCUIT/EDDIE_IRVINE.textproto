@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1998
 driver: EDDIE_IRVINE
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 5592
+  nanos: 971000000
+}
 final_position: 4

@@ -1,7 +1,9 @@
 circuit: JAPAN_CIRCUIT
 race_season: 1990
 driver: THIERRY_BOUTSEN
-qualification_time_1 {
-}
 starting_position: 5
+finals_time {
+  seconds: 5723
+  nanos: 708000000
+}
 final_position: 5

@@ -2,6 +2,8 @@ circuit: AUSTRALIA_CIRCUIT
 race_season: 2011
 driver: LEWIS_HAMILTON
 qualification_time_1 {
+  seconds: 85
+  nanos: 384000000
 }
 qualification_time_2 {
   seconds: 84
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 307000000
 }
 starting_position: 2
+finals_time {
+  seconds: 5392
+  nanos: 556000000
+}
 final_position: 2

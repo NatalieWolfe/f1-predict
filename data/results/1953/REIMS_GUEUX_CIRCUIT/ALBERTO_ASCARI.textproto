@@ -1,7 +1,9 @@
 circuit: REIMS_GUEUX_CIRCUIT
 race_season: 1953
 driver: ALBERTO_ASCARI
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 9863
+  nanos: 200000000
+}
 final_position: 4

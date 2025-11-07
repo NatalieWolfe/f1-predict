@@ -1,7 +1,9 @@
 circuit: CANADA_CIRCUIT
 race_season: 1980
 driver: GILLES_VILLENEUVE
-qualification_time_1 {
-}
 starting_position: 22
+finals_time {
+  seconds: 6460
+  nanos: 760000000
+}
 final_position: 5

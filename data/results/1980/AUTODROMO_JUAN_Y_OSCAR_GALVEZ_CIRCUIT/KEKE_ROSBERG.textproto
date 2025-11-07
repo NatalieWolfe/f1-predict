@@ -1,9 +1,9 @@
 circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
 race_season: 1980
 driver: KEKE_ROSBERG
-qualification_time_1 {
-  seconds: 18
-  nanos: 640000000
-}
 starting_position: 13
+finals_time {
+  seconds: 6283
+  nanos: 20000000
+}
 final_position: 3

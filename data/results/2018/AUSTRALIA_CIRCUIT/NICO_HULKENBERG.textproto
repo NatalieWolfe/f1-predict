@@ -2,6 +2,8 @@ circuit: AUSTRALIA_CIRCUIT
 race_season: 2018
 driver: NICO_HULKENBERG
 qualification_time_1 {
+  seconds: 83
+  nanos: 782000000
 }
 qualification_time_2 {
   seconds: 83
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 532000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5405
+  nanos: 954000000
+}
 final_position: 7

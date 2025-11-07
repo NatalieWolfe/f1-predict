@@ -3,6 +3,8 @@ race_season: 2021
 team: MCLAREN
 driver: LANDO_NORRIS
 qualification_time_1 {
+  seconds: 75
+  nanos: 9000000
 }
 qualification_time_2 {
   seconds: 74

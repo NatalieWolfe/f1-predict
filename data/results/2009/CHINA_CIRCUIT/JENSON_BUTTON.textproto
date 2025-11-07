@@ -2,6 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2009
 driver: JENSON_BUTTON
 qualification_time_1 {
+  seconds: 95
+  nanos: 533000000
 }
 qualification_time_2 {
   seconds: 95
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 532000000
 }
 starting_position: 5
+finals_time {
+  seconds: 7108
+  nanos: 460000000
+}
 final_position: 3

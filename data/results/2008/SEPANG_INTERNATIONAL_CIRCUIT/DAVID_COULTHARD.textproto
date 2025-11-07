@@ -2,12 +2,16 @@ circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 2008
 driver: DAVID_COULTHARD
 qualification_time_1 {
-  seconds: 16
-  nanos: 219000000
+  seconds: 96
+  nanos: 58000000
 }
 qualification_time_2 {
   seconds: 95
   nanos: 408000000
 }
 starting_position: 12
+finals_time {
+  seconds: 5554
+  nanos: 775000000
+}
 final_position: 9

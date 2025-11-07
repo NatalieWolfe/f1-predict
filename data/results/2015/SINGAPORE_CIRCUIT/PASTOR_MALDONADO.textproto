@@ -2,8 +2,12 @@ circuit: SINGAPORE_CIRCUIT
 race_season: 2015
 driver: PASTOR_MALDONADO
 qualification_time_1 {
-  seconds: 37
-  nanos: 718000000
+  seconds: 107
+  nanos: 323000000
 }
 starting_position: 18
+finals_time {
+  seconds: 7379
+  nanos: 836000000
+}
 final_position: 12

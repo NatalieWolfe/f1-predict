@@ -1,9 +1,9 @@
 circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
 race_season: 1972
 driver: CLAY_REGAZZONI
-qualification_time_1 {
-  seconds: 6
-  nanos: 720000000
-}
 starting_position: 6
+finals_time {
+  seconds: 7145
+  nanos: 820000000
+}
 final_position: 4

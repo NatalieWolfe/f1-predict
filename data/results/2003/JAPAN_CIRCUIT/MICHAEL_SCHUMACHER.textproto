@@ -2,6 +2,12 @@ circuit: JAPAN_CIRCUIT
 race_season: 2003
 driver: MICHAEL_SCHUMACHER
 qualification_time_1 {
+  seconds: 94
+  nanos: 302000000
 }
 starting_position: 14
+finals_time {
+  seconds: 5171
+  nanos: 230000000
+}
 final_position: 8

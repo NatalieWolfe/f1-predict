@@ -2,8 +2,12 @@ circuit: BRAZIL_CIRCUIT
 race_season: 2005
 driver: RUBENS_BARRICHELLO
 qualification_time_1 {
-  seconds: 9
-  nanos: 173000000
+  seconds: 73
+  nanos: 183000000
 }
 starting_position: 9
+finals_time {
+  seconds: 5429
+  nanos: 747000000
+}
 final_position: 6

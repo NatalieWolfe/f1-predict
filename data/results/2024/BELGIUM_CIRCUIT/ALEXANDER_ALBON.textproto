@@ -3,8 +3,8 @@ race_season: 2024
 team: WILLIAMS
 driver: ALEXANDER_ALBON
 qualification_time_1 {
-  seconds: 3
-  nanos: 651000000
+  seconds: 115
+  nanos: 722000000
 }
 qualification_time_2 {
   seconds: 114
@@ -12,7 +12,7 @@ qualification_time_2 {
 }
 starting_position: 10
 finals_time {
-  seconds: 63
-  nanos: 651000000
+  seconds: 64
+  nanos: 177000000
 }
 final_position: 12

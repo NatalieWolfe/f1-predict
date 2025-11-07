@@ -2,8 +2,8 @@ circuit: AZERBAIJAN_CIRCUIT
 race_season: 2019
 driver: LANDO_NORRIS
 qualification_time_1 {
-  seconds: 40
-  nanos: 268000000
+  seconds: 102
+  nanos: 371000000
 }
 qualification_time_2 {
   seconds: 102
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 886000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5613
+  nanos: 210000000
+}
 final_position: 8

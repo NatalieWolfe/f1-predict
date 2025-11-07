@@ -2,10 +2,16 @@ circuit: JAPAN_CIRCUIT
 race_season: 2009
 driver: NICO_ROSBERG
 qualification_time_1 {
+  seconds: 91
+  nanos: 286000000
 }
 qualification_time_2 {
   seconds: 91
   nanos: 482000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5309
+  nanos: 236000000
+}
 final_position: 5

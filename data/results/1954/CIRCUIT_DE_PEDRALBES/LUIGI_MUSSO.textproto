@@ -1,9 +1,9 @@
 circuit: CIRCUIT_DE_PEDRALBES
 race_season: 1954
 driver: LUIGI_MUSSO
-qualification_time_1 {
-  seconds: 13
-  nanos: 200000000
-}
 starting_position: 7
+finals_time {
+  seconds: 11705
+  nanos: 300000000
+}
 final_position: 2

@@ -1,7 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 2000
 driver: JENSON_BUTTON
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 5344
+  nanos: 408000000
+}
 final_position: 5

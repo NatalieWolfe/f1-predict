@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1971
 driver: GRAHAM_HILL
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 5472
+  nanos: 340000000
+}
 final_position: 5

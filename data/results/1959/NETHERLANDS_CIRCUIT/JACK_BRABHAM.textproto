@@ -1,7 +1,8 @@
 circuit: NETHERLANDS_CIRCUIT
 race_season: 1959
 driver: JACK_BRABHAM
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 7541
+}
 final_position: 2

@@ -1,7 +1,9 @@
 circuit: DETROIT_STREET_CIRCUIT
 race_season: 1986
 driver: JACQUES_LAFFITE
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 6703
+  nanos: 864000000
+}
 final_position: 2

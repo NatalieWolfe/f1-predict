@@ -1,7 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 1992
 driver: MARTIN_BRUNDLE
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 5191
+  nanos: 386000000
+}
 final_position: 3

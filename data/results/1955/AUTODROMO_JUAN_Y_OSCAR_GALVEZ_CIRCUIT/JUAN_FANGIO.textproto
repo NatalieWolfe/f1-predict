@@ -1,9 +1,9 @@
 circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
 race_season: 1955
 driver: JUAN_FANGIO
-qualification_time_1 {
+starting_position: 3
+finals_time {
   seconds: 10838
   nanos: 600000000
 }
-starting_position: 3
 final_position: 1

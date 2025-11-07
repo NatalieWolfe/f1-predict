@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 2000
 driver: MIKA_HAKKINEN
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 5255
+  nanos: 448000000
+}
 final_position: 2

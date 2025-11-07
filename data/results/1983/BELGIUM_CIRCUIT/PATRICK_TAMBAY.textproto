@@ -1,7 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 1983
 driver: PATRICK_TAMBAY
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 5254
+  nanos: 684000000
+}
 final_position: 2

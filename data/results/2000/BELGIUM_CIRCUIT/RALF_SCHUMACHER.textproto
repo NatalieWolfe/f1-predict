@@ -1,7 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 2000
 driver: RALF_SCHUMACHER
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 5332
+  nanos: 590000000
+}
 final_position: 3

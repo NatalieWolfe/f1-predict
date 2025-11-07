@@ -1,7 +1,9 @@
 circuit: MONACO_CIRCUIT
 race_season: 1975
 driver: RONNIE_PETERSON
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 7319
+  nanos: 760000000
+}
 final_position: 4

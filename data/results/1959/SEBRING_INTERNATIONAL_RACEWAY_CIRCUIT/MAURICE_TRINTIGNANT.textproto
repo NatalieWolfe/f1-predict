@@ -1,7 +1,9 @@
 circuit: SEBRING_INTERNATIONAL_RACEWAY_CIRCUIT
 race_season: 1959
 driver: MAURICE_TRINTIGNANT
-qualification_time_1 {
-}
 starting_position: 5
+finals_time {
+  seconds: 7956
+  nanos: 300000000
+}
 final_position: 2

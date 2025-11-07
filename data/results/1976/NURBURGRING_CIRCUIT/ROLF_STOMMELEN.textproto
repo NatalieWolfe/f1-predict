@@ -1,9 +1,8 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1976
 driver: ROLF_STOMMELEN
-qualification_time_1 {
-  seconds: 30
-  nanos: 300000000
-}
 starting_position: 15
+finals_time {
+  seconds: 6253
+}
 final_position: 6

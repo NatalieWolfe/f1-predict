@@ -1,9 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1991
 driver: NIGEL_MANSELL
-qualification_time_1 {
+starting_position: 4
+finals_time {
   seconds: 5880
   nanos: 56000000
 }
-starting_position: 4
 final_position: 1

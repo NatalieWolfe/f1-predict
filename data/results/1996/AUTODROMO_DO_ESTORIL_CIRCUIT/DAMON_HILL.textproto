@@ -1,7 +1,9 @@
 circuit: AUTODROMO_DO_ESTORIL_CIRCUIT
 race_season: 1996
 driver: DAMON_HILL
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 6042
+  nanos: 881000000
+}
 final_position: 2

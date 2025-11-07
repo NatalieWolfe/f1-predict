@@ -2,10 +2,16 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2012
 driver: JEAN_ERIC_VERGNE
 qualification_time_1 {
+  seconds: 109
+  nanos: 763000000
 }
 qualification_time_2 {
   seconds: 109
   nanos: 354000000
 }
 starting_position: 15
+finals_time {
+  seconds: 5407
+  nanos: 395000000
+}
 final_position: 8

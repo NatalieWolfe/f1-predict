@@ -1,9 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 1970
 driver: ROLF_STOMMELEN
-qualification_time_1 {
-  seconds: 31
-  nanos: 800000000
-}
 starting_position: 7
+finals_time {
+  seconds: 6101
+  nanos: 900000000
+}
 final_position: 5

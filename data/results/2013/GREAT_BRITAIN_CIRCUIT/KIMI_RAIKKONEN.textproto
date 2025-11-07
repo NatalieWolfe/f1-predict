@@ -2,6 +2,8 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2013
 driver: KIMI_RAIKKONEN
 qualification_time_1 {
+  seconds: 91
+  nanos: 400000000
 }
 qualification_time_2 {
   seconds: 91
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 962000000
 }
 starting_position: 8
+finals_time {
+  seconds: 5590
+  nanos: 713000000
+}
 final_position: 5

@@ -1,7 +1,9 @@
 circuit: SCANDINAVIAN_RACEWAY_CIRCUIT
 race_season: 1975
 driver: MARIO_ANDRETTI
-qualification_time_1 {
-}
 starting_position: 15
+finals_time {
+  seconds: 7202
+  nanos: 699000000
+}
 final_position: 4

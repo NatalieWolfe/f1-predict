@@ -3,8 +3,8 @@ race_season: 2022
 team: HAAS
 driver: MICK_SCHUMACHER
 qualification_time_1 {
-  seconds: 13
-  nanos: 305000000
+  seconds: 90
+  nanos: 645000000
 }
 qualification_time_2 {
   seconds: 90

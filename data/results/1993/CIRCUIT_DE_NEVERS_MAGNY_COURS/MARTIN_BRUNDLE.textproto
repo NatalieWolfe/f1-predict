@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1993
 driver: MARTIN_BRUNDLE
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 5949
+  nanos: 36000000
+}
 final_position: 5

@@ -1,7 +1,9 @@
 circuit: BRAZIL_CIRCUIT
 race_season: 1993
 driver: JOHNNY_HERBERT
-qualification_time_1 {
-}
 starting_position: 12
+finals_time {
+  seconds: 6722
+  nanos: 42000000
+}
 final_position: 4

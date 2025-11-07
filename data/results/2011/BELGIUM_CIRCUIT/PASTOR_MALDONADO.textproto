@@ -2,12 +2,16 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2011
 driver: PASTOR_MALDONADO
 qualification_time_1 {
-  seconds: 17
-  nanos: 615000000
+  seconds: 125
+  nanos: 621000000
 }
 qualification_time_2 {
   seconds: 128
   nanos: 106000000
 }
 starting_position: 21
+finals_time {
+  seconds: 5282
+  nanos: 508000000
+}
 final_position: 10

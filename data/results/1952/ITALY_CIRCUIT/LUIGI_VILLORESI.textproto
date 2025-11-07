@@ -1,9 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1952
 driver: LUIGI_VILLORESI
-qualification_time_1 {
-  seconds: 4
-  nanos: 200000000
-}
 starting_position: 2
+finals_time {
+  seconds: 10369
+  nanos: 800000000
+}
 final_position: 3

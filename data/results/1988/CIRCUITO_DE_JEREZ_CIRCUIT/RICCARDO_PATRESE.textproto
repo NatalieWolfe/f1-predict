@@ -1,7 +1,9 @@
 circuit: CIRCUITO_DE_JEREZ_CIRCUIT
 race_season: 1988
 driver: RICCARDO_PATRESE
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 6571
+  nanos: 281000000
+}
 final_position: 5

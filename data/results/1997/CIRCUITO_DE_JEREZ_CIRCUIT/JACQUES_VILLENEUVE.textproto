@@ -1,7 +1,9 @@
 circuit: CIRCUITO_DE_JEREZ_CIRCUIT
 race_season: 1997
 driver: JACQUES_VILLENEUVE
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 5939
+  nanos: 574000000
+}
 final_position: 3

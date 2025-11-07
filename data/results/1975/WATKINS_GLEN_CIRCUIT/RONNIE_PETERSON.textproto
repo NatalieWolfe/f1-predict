@@ -1,7 +1,9 @@
 circuit: WATKINS_GLEN_CIRCUIT
 race_season: 1975
 driver: RONNIE_PETERSON
-qualification_time_1 {
-}
 starting_position: 14
+finals_time {
+  seconds: 6228
+  nanos: 161000000
+}
 final_position: 5

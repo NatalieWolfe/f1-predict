@@ -1,7 +1,9 @@
 circuit: NIVELLES_BAULERS_CIRCUIT
 race_season: 1974
 driver: CLAY_REGAZZONI
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 6312
+  nanos: 590000000
+}
 final_position: 4

@@ -1,7 +1,9 @@
 circuit: JARAMA_CIRCUIT
 race_season: 1979
 driver: MARIO_ANDRETTI
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5979
+  nanos: 150000000
+}
 final_position: 3

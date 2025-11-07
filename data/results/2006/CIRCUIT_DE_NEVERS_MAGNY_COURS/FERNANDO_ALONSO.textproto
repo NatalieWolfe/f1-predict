@@ -2,6 +2,8 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2006
 driver: FERNANDO_ALONSO
 qualification_time_1 {
+  seconds: 76
+  nanos: 328000000
 }
 qualification_time_2 {
   seconds: 75
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 785000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5537
+  nanos: 903000000
+}
 final_position: 2

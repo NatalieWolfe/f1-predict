@@ -2,8 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2010
 driver: ADRIAN_SUTIL
 qualification_time_1 {
-  seconds: 2
-  nanos: 874000000
+  seconds: 96
+  nanos: 671000000
 }
 qualification_time_2 {
   seconds: 95
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 963000000
 }
 starting_position: 10
+finals_time {
+  seconds: 6465
+  nanos: 37000000
+}
 final_position: 11

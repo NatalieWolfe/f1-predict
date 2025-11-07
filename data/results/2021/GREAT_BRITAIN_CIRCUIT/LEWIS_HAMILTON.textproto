@@ -3,8 +3,8 @@ race_season: 2021
 team: MERCEDES
 driver: LEWIS_HAMILTON
 qualification_time_1 {
-  seconds: 7103
-  nanos: 284000000
+  seconds: 86
+  nanos: 786000000
 }
 qualification_time_2 {
   seconds: 86

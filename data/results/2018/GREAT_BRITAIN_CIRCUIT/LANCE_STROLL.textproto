@@ -1,7 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2018
 driver: LANCE_STROLL
-qualification_time_1 {
-}
 starting_position: 19
+finals_time {
+  seconds: 5287
+  nanos: 890000000
+}
 final_position: 12

@@ -3,6 +3,8 @@ race_season: 2023
 team: KICK_SAUBER
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
+  seconds: 89
+  nanos: 798000000
 }
 starting_position: 20
 finals_time {

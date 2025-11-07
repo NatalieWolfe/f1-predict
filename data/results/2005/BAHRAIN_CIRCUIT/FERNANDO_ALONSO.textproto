@@ -2,12 +2,16 @@ circuit: BAHRAIN_CIRCUIT
 race_season: 2005
 driver: FERNANDO_ALONSO
 qualification_time_1 {
-  seconds: 5358
-  nanos: 531000000
+  seconds: 89
+  nanos: 848000000
 }
 qualification_time_2 {
   seconds: 92
   nanos: 54000000
 }
 starting_position: 1
+finals_time {
+  seconds: 5358
+  nanos: 531000000
+}
 final_position: 1

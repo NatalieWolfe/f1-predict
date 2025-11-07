@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1957
 driver: JUAN_FANGIO
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 9345
+  nanos: 100000000
+}
 final_position: 2

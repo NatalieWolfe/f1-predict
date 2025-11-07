@@ -1,7 +1,9 @@
 circuit: AUTODROMO_DO_ESTORIL_CIRCUIT
 race_season: 1984
 driver: AYRTON_SENNA
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 6091
+  nanos: 795000000
+}
 final_position: 3

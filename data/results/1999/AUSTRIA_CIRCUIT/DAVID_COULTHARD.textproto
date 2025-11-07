@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1999
 driver: DAVID_COULTHARD
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 5292
+  nanos: 751000000
+}
 final_position: 2

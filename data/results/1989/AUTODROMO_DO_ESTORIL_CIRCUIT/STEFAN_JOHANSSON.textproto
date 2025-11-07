@@ -1,7 +1,9 @@
 circuit: AUTODROMO_DO_ESTORIL_CIRCUIT
 race_season: 1989
 driver: STEFAN_JOHANSSON
-qualification_time_1 {
-}
 starting_position: 12
+finals_time {
+  seconds: 5863
+  nanos: 871000000
+}
 final_position: 3

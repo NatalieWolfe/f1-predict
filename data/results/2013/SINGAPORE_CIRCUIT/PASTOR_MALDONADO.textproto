@@ -2,8 +2,12 @@ circuit: SINGAPORE_CIRCUIT
 race_season: 2013
 driver: PASTOR_MALDONADO
 qualification_time_1 {
-  seconds: 28
-  nanos: 479000000
+  seconds: 106
+  nanos: 619000000
 }
 starting_position: 18
+finals_time {
+  seconds: 7241
+  nanos: 611000000
+}
 final_position: 11

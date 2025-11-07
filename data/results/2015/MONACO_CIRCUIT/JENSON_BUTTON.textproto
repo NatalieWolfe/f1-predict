@@ -2,10 +2,16 @@ circuit: MONACO_CIRCUIT
 race_season: 2015
 driver: JENSON_BUTTON
 qualification_time_1 {
+  seconds: 77
+  nanos: 492000000
 }
 qualification_time_2 {
   seconds: 77
   nanos: 93000000
 }
 starting_position: 10
+finals_time {
+  seconds: 6574
+  nanos: 483000000
+}
 final_position: 8

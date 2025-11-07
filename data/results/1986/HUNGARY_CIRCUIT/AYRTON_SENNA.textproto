@@ -1,7 +1,9 @@
 circuit: HUNGARY_CIRCUIT
 race_season: 1986
 driver: AYRTON_SENNA
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 7252
+  nanos: 181000000
+}
 final_position: 2

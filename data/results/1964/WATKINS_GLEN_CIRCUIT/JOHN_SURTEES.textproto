@@ -1,7 +1,9 @@
 circuit: WATKINS_GLEN_CIRCUIT
 race_season: 1964
 driver: JOHN_SURTEES
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 8228
+  nanos: 500000000
+}
 final_position: 2

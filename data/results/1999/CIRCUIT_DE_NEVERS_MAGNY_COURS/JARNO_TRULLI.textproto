@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1999
 driver: JARNO_TRULLI
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 7162
+  nanos: 114000000
+}
 final_position: 7

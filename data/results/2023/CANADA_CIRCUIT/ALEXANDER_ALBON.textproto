@@ -3,13 +3,12 @@ race_season: 2023
 team: WILLIAMS
 driver: ALEXANDER_ALBON
 qualification_time_1 {
-  nanos: 813000000
+  seconds: 81
+  nanos: 938000000
 }
 qualification_time_2 {
   seconds: 78
   nanos: 725000000
-}
-qualification_time_3 {
 }
 starting_position: 9
 finals_time {

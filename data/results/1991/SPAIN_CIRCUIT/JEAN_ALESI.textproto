@@ -1,7 +1,9 @@
 circuit: SPAIN_CIRCUIT
 race_season: 1991
 driver: JEAN_ALESI
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 5944
+  nanos: 313000000
+}
 final_position: 4

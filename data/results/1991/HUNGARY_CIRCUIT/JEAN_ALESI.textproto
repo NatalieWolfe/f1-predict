@@ -1,7 +1,9 @@
 circuit: HUNGARY_CIRCUIT
 race_season: 1991
 driver: JEAN_ALESI
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 6584
+  nanos: 185000000
+}
 final_position: 5

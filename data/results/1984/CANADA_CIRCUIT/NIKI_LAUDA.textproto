@@ -1,7 +1,9 @@
 circuit: CANADA_CIRCUIT
 race_season: 1984
 driver: NIKI_LAUDA
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 6386
+  nanos: 360000000
+}
 final_position: 2

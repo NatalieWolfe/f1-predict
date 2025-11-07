@@ -1,7 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 2016
 driver: FERNANDO_ALONSO
-qualification_time_1 {
-}
 starting_position: 22
+finals_time {
+  seconds: 6350
+  nanos: 503000000
+}
 final_position: 7

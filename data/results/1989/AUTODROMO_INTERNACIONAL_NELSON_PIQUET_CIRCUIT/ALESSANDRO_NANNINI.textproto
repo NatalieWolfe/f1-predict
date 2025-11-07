@@ -1,7 +1,9 @@
 circuit: AUTODROMO_INTERNACIONAL_NELSON_PIQUET_CIRCUIT
 race_season: 1989
 driver: ALESSANDRO_NANNINI
-qualification_time_1 {
-}
 starting_position: 11
+finals_time {
+  seconds: 5956
+  nanos: 985000000
+}
 final_position: 6

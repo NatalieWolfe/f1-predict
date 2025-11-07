@@ -2,10 +2,16 @@ circuit: AZERBAIJAN_CIRCUIT
 race_season: 2018
 driver: LANCE_STROLL
 qualification_time_1 {
+  seconds: 104
+  nanos: 359000000
 }
 qualification_time_2 {
   seconds: 103
   nanos: 585000000
 }
 starting_position: 10
+finals_time {
+  seconds: 6236
+  nanos: 837000000
+}
 final_position: 8

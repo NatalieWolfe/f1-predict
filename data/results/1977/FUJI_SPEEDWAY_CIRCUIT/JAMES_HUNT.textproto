@@ -1,9 +1,9 @@
 circuit: FUJI_SPEEDWAY_CIRCUIT
 race_season: 1977
 driver: JAMES_HUNT
-qualification_time_1 {
+starting_position: 2
+finals_time {
   seconds: 5511
   nanos: 680000000
 }
-starting_position: 2
 final_position: 1

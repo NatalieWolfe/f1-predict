@@ -1,9 +1,9 @@
 circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
 race_season: 1953
 driver: BILL_VUKOVICH
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 13981
   nanos: 690000000
 }
-starting_position: 1
 final_position: 1

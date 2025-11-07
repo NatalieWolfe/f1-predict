@@ -2,12 +2,16 @@ circuit: ITALY_CIRCUIT
 race_season: 2014
 driver: NICO_HULKENBERG
 qualification_time_1 {
-  seconds: 12
-  nanos: 606000000
+  seconds: 86
+  nanos: 371000000
 }
 qualification_time_2 {
   seconds: 86
   nanos: 279000000
 }
 starting_position: 13
+finals_time {
+  seconds: 4822
+  nanos: 842000000
+}
 final_position: 12

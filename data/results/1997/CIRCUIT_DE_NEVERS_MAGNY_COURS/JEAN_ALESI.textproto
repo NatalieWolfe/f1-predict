@@ -2,8 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1997
 driver: JEAN_ALESI
 qualification_time_1 {
-  seconds: 22
-  nanos: 735000000
+  seconds: 75
+  nanos: 228000000
 }
 starting_position: 8
+finals_time {
+  seconds: 6013
+  nanos: 227000000
+}
 final_position: 5

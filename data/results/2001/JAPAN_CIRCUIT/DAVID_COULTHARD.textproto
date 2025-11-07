@@ -1,7 +1,9 @@
 circuit: JAPAN_CIRCUIT
 race_season: 2001
 driver: DAVID_COULTHARD
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 5276
+  nanos: 560000000
+}
 final_position: 3

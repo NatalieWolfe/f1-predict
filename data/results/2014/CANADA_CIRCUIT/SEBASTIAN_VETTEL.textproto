@@ -2,6 +2,8 @@ circuit: CANADA_CIRCUIT
 race_season: 2014
 driver: SEBASTIAN_VETTEL
 qualification_time_1 {
+  seconds: 77
+  nanos: 470000000
 }
 qualification_time_2 {
   seconds: 76
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 548000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5958
+  nanos: 77000000
+}
 final_position: 3

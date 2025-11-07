@@ -2,6 +2,8 @@ circuit: ABU_DHABI_CIRCUIT
 race_season: 2017
 driver: SEBASTIAN_VETTEL
 qualification_time_1 {
+  seconds: 97
+  nanos: 817000000
 }
 qualification_time_2 {
   seconds: 97
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 777000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5673
+  nanos: 392000000
+}
 final_position: 3

@@ -2,6 +2,8 @@ circuit: BAHRAIN_CIRCUIT
 race_season: 2020
 driver: LANDO_NORRIS
 qualification_time_1 {
+  seconds: 54
+  nanos: 194000000
 }
 qualification_time_2 {
   seconds: 54
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 542000000
 }
 starting_position: 9
+finals_time {
+  seconds: 10798
+  nanos: 852000000
+}
 final_position: 4

@@ -1,7 +1,9 @@
 circuit: WATKINS_GLEN_CIRCUIT
 race_season: 1971
 driver: RONNIE_PETERSON
-qualification_time_1 {
-}
 starting_position: 11
+finals_time {
+  seconds: 6276
+  nanos: 61000000
+}
 final_position: 3

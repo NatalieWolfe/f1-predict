@@ -1,9 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 1969
 driver: JACKIE_STEWART
-qualification_time_1 {
+starting_position: 2
+finals_time {
   seconds: 6955
   nanos: 600000000
 }
-starting_position: 2
 final_position: 1

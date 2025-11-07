@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1955
 driver: EUGENIO_CASTELLOTTI
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 8750
+  nanos: 600000000
+}
 final_position: 3

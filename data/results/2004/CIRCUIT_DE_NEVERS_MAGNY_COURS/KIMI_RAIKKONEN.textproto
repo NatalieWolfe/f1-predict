@@ -2,6 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2004
 driver: KIMI_RAIKKONEN
 qualification_time_1 {
+  seconds: 74
+  nanos: 346000000
 }
 starting_position: 9
+finals_time {
+  seconds: 5454
+  nanos: 363000000
+}
 final_position: 7

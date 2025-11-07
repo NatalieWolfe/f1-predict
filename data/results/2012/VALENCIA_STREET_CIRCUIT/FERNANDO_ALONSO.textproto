@@ -2,12 +2,16 @@ circuit: VALENCIA_STREET_CIRCUIT
 race_season: 2012
 driver: FERNANDO_ALONSO
 qualification_time_1 {
-  seconds: 6256
-  nanos: 649000000
+  seconds: 99
+  nanos: 409000000
 }
 qualification_time_2 {
   seconds: 98
   nanos: 707000000
 }
 starting_position: 11
+finals_time {
+  seconds: 6256
+  nanos: 649000000
+}
 final_position: 1

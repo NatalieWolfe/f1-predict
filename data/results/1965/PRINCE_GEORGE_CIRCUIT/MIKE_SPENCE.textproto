@@ -1,7 +1,9 @@
 circuit: PRINCE_GEORGE_CIRCUIT
 race_season: 1965
 driver: MIKE_SPENCE
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 7660
+  nanos: 400000000
+}
 final_position: 4

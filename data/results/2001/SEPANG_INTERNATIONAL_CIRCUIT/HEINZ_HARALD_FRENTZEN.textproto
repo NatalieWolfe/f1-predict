@@ -1,7 +1,9 @@
 circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 2001
 driver: HEINZ_HARALD_FRENTZEN
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 6501
+  nanos: 344000000
+}
 final_position: 4

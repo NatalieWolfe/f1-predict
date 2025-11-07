@@ -2,8 +2,12 @@ circuit: MONACO_CIRCUIT
 race_season: 2004
 driver: RUBENS_BARRICHELLO
 qualification_time_1 {
-  seconds: 15
-  nanos: 766000000
+  seconds: 74
+  nanos: 716000000
 }
 starting_position: 6
+finals_time {
+  seconds: 6422
+  nanos: 367000000
+}
 final_position: 3

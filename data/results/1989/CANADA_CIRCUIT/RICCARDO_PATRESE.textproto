@@ -1,7 +1,9 @@
 circuit: CANADA_CIRCUIT
 race_season: 1989
 driver: RICCARDO_PATRESE
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 7314
+  nanos: 80000000
+}
 final_position: 2

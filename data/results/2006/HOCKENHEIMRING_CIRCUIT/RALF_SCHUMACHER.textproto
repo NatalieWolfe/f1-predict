@@ -2,6 +2,8 @@ circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 2006
 driver: RALF_SCHUMACHER
 qualification_time_1 {
+  seconds: 75
+  nanos: 789000000
 }
 qualification_time_2 {
   seconds: 74
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 923000000
 }
 starting_position: 8
+finals_time {
+  seconds: 5331
+  nanos: 993000000
+}
 final_position: 9

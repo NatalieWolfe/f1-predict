@@ -1,9 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 1983
 driver: ALAIN_PROST
-qualification_time_1 {
+starting_position: 3
+finals_time {
   seconds: 5079
   nanos: 780000000
 }
-starting_position: 3
 final_position: 1

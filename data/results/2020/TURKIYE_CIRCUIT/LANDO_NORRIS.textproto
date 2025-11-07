@@ -2,12 +2,16 @@ circuit: TURKIYE_CIRCUIT
 race_season: 2020
 driver: LANDO_NORRIS
 qualification_time_1 {
-  seconds: 1
-  nanos: 259000000
+  seconds: 127
+  nanos: 167000000
 }
 qualification_time_2 {
   seconds: 114
   nanos: 945000000
 }
 starting_position: 14
+finals_time {
+  seconds: 6200
+  nanos: 572000000
+}
 final_position: 8

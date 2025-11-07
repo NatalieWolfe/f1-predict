@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1971
 driver: CLAY_REGAZZONI
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5393
+  nanos: 400000000
+}
 final_position: 3

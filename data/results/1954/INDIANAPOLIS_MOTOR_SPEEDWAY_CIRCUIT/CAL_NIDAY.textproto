@@ -1,9 +1,9 @@
 circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
 race_season: 1954
 driver: CAL_NIDAY
-qualification_time_1 {
-  seconds: 7
-  nanos: 690000000
-}
 starting_position: 13
+finals_time {
+  seconds: 14184
+  nanos: 960000000
+}
 final_position: 10

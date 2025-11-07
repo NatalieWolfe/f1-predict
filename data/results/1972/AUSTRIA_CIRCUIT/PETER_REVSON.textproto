@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1972
 driver: PETER_REVSON
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5393
+  nanos: 190000000
+}
 final_position: 3

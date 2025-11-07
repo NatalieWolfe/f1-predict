@@ -1,7 +1,9 @@
 circuit: CANADA_CIRCUIT
 race_season: 1979
 driver: GILLES_VILLENEUVE
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 6727
+  nanos: 972000000
+}
 final_position: 2

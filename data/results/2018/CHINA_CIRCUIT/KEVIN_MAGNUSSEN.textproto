@@ -2,10 +2,16 @@ circuit: CHINA_CIRCUIT
 race_season: 2018
 driver: KEVIN_MAGNUSSEN
 qualification_time_1 {
+  seconds: 93
+  nanos: 359000000
 }
 qualification_time_2 {
   seconds: 92
   nanos: 986000000
 }
 starting_position: 11
+finals_time {
+  seconds: 5775
+  nanos: 974000000
+}
 final_position: 10

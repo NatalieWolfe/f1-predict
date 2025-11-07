@@ -2,8 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1995
 driver: MARTIN_BRUNDLE
 qualification_time_1 {
-  seconds: 3
-  nanos: 293000000
+  seconds: 79
+  nanos: 384000000
 }
 starting_position: 9
+finals_time {
+  seconds: 5971
+  nanos: 722000000
+}
 final_position: 4

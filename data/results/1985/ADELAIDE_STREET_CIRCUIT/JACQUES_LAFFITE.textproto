@@ -1,7 +1,9 @@
 circuit: ADELAIDE_STREET_CIRCUIT
 race_season: 1985
 driver: JACQUES_LAFFITE
-qualification_time_1 {
-}
 starting_position: 20
+finals_time {
+  seconds: 7283
+  nanos: 603000000
+}
 final_position: 2

@@ -2,8 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2008
 driver: SEBASTIAN_VETTEL
 qualification_time_1 {
-  seconds: 4
-  nanos: 339000000
+  seconds: 95
+  nanos: 752000000
 }
 qualification_time_2 {
   seconds: 95
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 685000000
 }
 starting_position: 6
+finals_time {
+  seconds: 5581
+  nanos: 742000000
+}
 final_position: 9

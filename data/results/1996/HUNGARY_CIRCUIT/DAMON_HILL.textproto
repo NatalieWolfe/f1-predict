@@ -1,7 +1,9 @@
 circuit: HUNGARY_CIRCUIT
 race_season: 1996
 driver: DAMON_HILL
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 6381
+  nanos: 905000000
+}
 final_position: 2

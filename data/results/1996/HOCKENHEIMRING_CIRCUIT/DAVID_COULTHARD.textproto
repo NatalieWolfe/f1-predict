@@ -1,7 +1,9 @@
 circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1996
 driver: DAVID_COULTHARD
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 4945
+  nanos: 613000000
+}
 final_position: 5

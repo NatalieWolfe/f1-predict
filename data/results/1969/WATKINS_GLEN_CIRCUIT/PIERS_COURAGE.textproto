@@ -1,7 +1,9 @@
 circuit: WATKINS_GLEN_CIRCUIT
 race_season: 1969
 driver: PIERS_COURAGE
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 7123
+  nanos: 830000000
+}
 final_position: 2

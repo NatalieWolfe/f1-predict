@@ -1,9 +1,9 @@
 circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
 race_season: 1952
 driver: CLIFF_GRIFFITH
-qualification_time_1 {
-  seconds: 23
-  nanos: 760000000
-}
 starting_position: 9
+finals_time {
+  seconds: 14705
+  nanos: 640000000
+}
 final_position: 9

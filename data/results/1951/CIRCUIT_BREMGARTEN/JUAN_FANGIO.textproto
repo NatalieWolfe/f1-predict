@@ -1,9 +1,9 @@
 circuit: CIRCUIT_BREMGARTEN
 race_season: 1951
 driver: JUAN_FANGIO
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 7673
   nanos: 640000000
 }
-starting_position: 1
 final_position: 1

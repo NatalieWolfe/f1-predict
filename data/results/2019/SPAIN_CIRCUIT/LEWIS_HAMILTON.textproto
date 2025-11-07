@@ -2,8 +2,8 @@ circuit: SPAIN_CIRCUIT
 race_season: 2019
 driver: LEWIS_HAMILTON
 qualification_time_1 {
-  seconds: 5750
-  nanos: 443000000
+  seconds: 77
+  nanos: 292000000
 }
 qualification_time_2 {
   seconds: 76
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 40000000
 }
 starting_position: 2
+finals_time {
+  seconds: 5750
+  nanos: 443000000
+}
 final_position: 1

@@ -2,8 +2,8 @@ circuit: SPAIN_CIRCUIT
 race_season: 2010
 driver: ROBERT_KUBICA
 qualification_time_1 {
-  seconds: 13
-  nanos: 677000000
+  seconds: 82
+  nanos: 488000000
 }
 qualification_time_2 {
   seconds: 81
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 353000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5817
+  nanos: 778000000
+}
 final_position: 8

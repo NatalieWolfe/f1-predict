@@ -1,7 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 1996
 driver: MIKA_HAKKINEN
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 5310
+  nanos: 835000000
+}
 final_position: 3

@@ -1,9 +1,9 @@
 circuit: CANADA_CIRCUIT
 race_season: 1989
 driver: THIERRY_BOUTSEN
-qualification_time_1 {
+starting_position: 6
+finals_time {
   seconds: 7284
   nanos: 73000000
 }
-starting_position: 6
 final_position: 1

@@ -1,9 +1,9 @@
 circuit: NETHERLANDS_CIRCUIT
 race_season: 1952
 driver: LUIGI_VILLORESI
-qualification_time_1 {
-  seconds: 34
-  nanos: 400000000
-}
 starting_position: 4
+finals_time {
+  seconds: 10502
+  nanos: 900000000
+}
 final_position: 3

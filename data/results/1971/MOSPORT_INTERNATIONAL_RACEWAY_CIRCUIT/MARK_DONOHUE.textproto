@@ -1,9 +1,9 @@
 circuit: MOSPORT_INTERNATIONAL_RACEWAY_CIRCUIT
 race_season: 1971
 driver: MARK_DONOHUE
-qualification_time_1 {
-  seconds: 35
-  nanos: 800000000
-}
 starting_position: 8
+finals_time {
+  seconds: 7008
+  nanos: 900000000
+}
 final_position: 3

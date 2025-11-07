@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1967
 driver: JOCHEN_RINDT
-qualification_time_1 {
-}
 starting_position: 11
+finals_time {
+  seconds: 6281
+  nanos: 600000000
+}
 final_position: 4

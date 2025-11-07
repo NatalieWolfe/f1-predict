@@ -2,12 +2,16 @@ circuit: AUSTRALIA_CIRCUIT
 race_season: 2016
 driver: NICO_HULKENBERG
 qualification_time_1 {
-  seconds: 14
-  nanos: 199000000
+  seconds: 86
+  nanos: 550000000
 }
 qualification_time_2 {
   seconds: 85
   nanos: 865000000
 }
 starting_position: 10
+finals_time {
+  seconds: 6569
+  nanos: 764000000
+}
 final_position: 7

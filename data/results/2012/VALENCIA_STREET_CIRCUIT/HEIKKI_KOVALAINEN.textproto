@@ -2,12 +2,16 @@ circuit: VALENCIA_STREET_CIRCUIT
 race_season: 2012
 driver: HEIKKI_KOVALAINEN
 qualification_time_1 {
-  seconds: 34
-  nanos: 654000000
+  seconds: 100
+  nanos: 87000000
 }
 qualification_time_2 {
   seconds: 100
   nanos: 295000000
 }
 starting_position: 16
+finals_time {
+  seconds: 6351
+  nanos: 303000000
+}
 final_position: 14

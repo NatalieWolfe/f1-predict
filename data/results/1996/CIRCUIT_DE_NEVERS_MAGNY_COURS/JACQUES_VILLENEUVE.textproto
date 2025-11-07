@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1996
 driver: JACQUES_VILLENEUVE
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 5797
+  nanos: 327000000
+}
 final_position: 2

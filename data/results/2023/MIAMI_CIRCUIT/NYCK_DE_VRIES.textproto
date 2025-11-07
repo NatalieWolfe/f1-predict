@@ -3,8 +3,8 @@ race_season: 2023
 team: RB
 driver: NYCK_DE_VRIES
 qualification_time_1 {
-  seconds: 28
-  nanos: 949000000
+  seconds: 88
+  nanos: 325000000
 }
 qualification_time_2 {
   seconds: 88

@@ -1,9 +1,9 @@
 circuit: HUNGARY_CIRCUIT
 race_season: 1993
 driver: DAMON_HILL
-qualification_time_1 {
+starting_position: 2
+finals_time {
   seconds: 6459
   nanos: 98000000
 }
-starting_position: 2
 final_position: 1

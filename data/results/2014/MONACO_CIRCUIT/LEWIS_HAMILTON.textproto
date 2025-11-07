@@ -2,6 +2,8 @@ circuit: MONACO_CIRCUIT
 race_season: 2014
 driver: LEWIS_HAMILTON
 qualification_time_1 {
+  seconds: 77
+  nanos: 823000000
 }
 qualification_time_2 {
   seconds: 76
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 47000000
 }
 starting_position: 2
+finals_time {
+  seconds: 6576
+  nanos: 871000000
+}
 final_position: 2

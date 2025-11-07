@@ -1,7 +1,9 @@
 circuit: AUTODROMO_INTERNACIONAL_NELSON_PIQUET_CIRCUIT
 race_season: 1984
 driver: KEKE_ROSBERG
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 6195
+  nanos: 6000000
+}
 final_position: 2

@@ -1,9 +1,9 @@
 circuit: BRANDS_HATCH_CIRCUIT
 race_season: 1982
 driver: NIKI_LAUDA
-qualification_time_1 {
+starting_position: 5
+finals_time {
   seconds: 5733
   nanos: 812000000
 }
-starting_position: 5
 final_position: 1

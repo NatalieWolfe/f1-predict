@@ -3,6 +3,8 @@ race_season: 2021
 team: RB
 driver: YUKI_TSUNODA
 qualification_time_1 {
+  seconds: 102
+  nanos: 521000000
 }
 qualification_time_2 {
   seconds: 101

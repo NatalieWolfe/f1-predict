@@ -2,6 +2,8 @@ circuit: AUSTRIA_CIRCUIT
 race_season: 2016
 driver: MAX_VERSTAPPEN
 qualification_time_1 {
+  seconds: 67
+  nanos: 131000000
 }
 qualification_time_2 {
   seconds: 66
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 153000000
 }
 starting_position: 8
+finals_time {
+  seconds: 5263
+  nanos: 826000000
+}
 final_position: 2

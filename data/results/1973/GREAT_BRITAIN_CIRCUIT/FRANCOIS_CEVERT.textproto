@@ -1,7 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 1973
 driver: FRANCOIS_CEVERT
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 5395
+  nanos: 100000000
+}
 final_position: 5

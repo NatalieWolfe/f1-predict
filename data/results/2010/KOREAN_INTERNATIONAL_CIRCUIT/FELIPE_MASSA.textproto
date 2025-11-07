@@ -2,6 +2,8 @@ circuit: KOREAN_INTERNATIONAL_CIRCUIT
 race_season: 2010
 driver: FELIPE_MASSA
 qualification_time_1 {
+  seconds: 97
+  nanos: 515000000
 }
 qualification_time_2 {
   seconds: 96
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 571000000
 }
 starting_position: 6
+finals_time {
+  seconds: 10131
+  nanos: 678000000
+}
 final_position: 3

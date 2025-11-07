@@ -1,9 +1,9 @@
 circuit: ADELAIDE_STREET_CIRCUIT
 race_season: 1986
 driver: ALAIN_PROST
-qualification_time_1 {
+starting_position: 4
+finals_time {
   seconds: 6860
   nanos: 388000000
 }
-starting_position: 4
 final_position: 1

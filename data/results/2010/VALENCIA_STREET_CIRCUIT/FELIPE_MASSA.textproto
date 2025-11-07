@@ -2,6 +2,8 @@ circuit: VALENCIA_STREET_CIRCUIT
 race_season: 2010
 driver: FELIPE_MASSA
 qualification_time_1 {
+  seconds: 98
+  nanos: 657000000
 }
 qualification_time_2 {
   seconds: 98
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 127000000
 }
 starting_position: 5
+finals_time {
+  seconds: 6076
+  nanos: 192000000
+}
 final_position: 11

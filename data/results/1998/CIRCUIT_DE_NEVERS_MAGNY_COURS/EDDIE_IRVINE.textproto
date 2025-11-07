@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1998
 driver: EDDIE_IRVINE
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5704
+  nanos: 575000000
+}
 final_position: 2

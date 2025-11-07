@@ -2,12 +2,16 @@ circuit: TURKIYE_CIRCUIT
 race_season: 2011
 driver: FELIPE_MASSA
 qualification_time_1 {
-  seconds: 19
-  nanos: 823000000
+  seconds: 87
+  nanos: 13000000
 }
 qualification_time_2 {
   seconds: 86
   nanos: 395000000
 }
 starting_position: 10
+finals_time {
+  seconds: 5497
+  nanos: 381000000
+}
 final_position: 11

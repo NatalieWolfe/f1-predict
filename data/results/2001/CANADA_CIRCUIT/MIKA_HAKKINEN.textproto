@@ -1,7 +1,9 @@
 circuit: CANADA_CIRCUIT
 race_season: 2001
 driver: MIKA_HAKKINEN
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 5712
+  nanos: 194000000
+}
 final_position: 3

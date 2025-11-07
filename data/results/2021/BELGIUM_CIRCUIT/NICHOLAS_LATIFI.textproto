@@ -3,6 +3,8 @@ race_season: 2021
 team: WILLIAMS
 driver: NICHOLAS_LATIFI
 qualification_time_1 {
+  seconds: 120
+  nanos: 966000000
 }
 qualification_time_2 {
   seconds: 118
@@ -11,6 +13,6 @@ qualification_time_2 {
 starting_position: 10
 finals_time {
   seconds: 222
-  nanos: 555000000
+  nanos: 556000000
 }
 final_position: 9

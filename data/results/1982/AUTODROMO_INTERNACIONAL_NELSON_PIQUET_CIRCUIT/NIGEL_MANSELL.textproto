@@ -1,7 +1,9 @@
 circuit: AUTODROMO_INTERNACIONAL_NELSON_PIQUET_CIRCUIT
 race_season: 1982
 driver: NIGEL_MANSELL
-qualification_time_1 {
-}
 starting_position: 14
+finals_time {
+  seconds: 6309
+  nanos: 993000000
+}
 final_position: 3

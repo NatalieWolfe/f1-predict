@@ -1,7 +1,8 @@
 circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1970
 driver: JACKY_ICKX
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 6121
+}
 final_position: 2

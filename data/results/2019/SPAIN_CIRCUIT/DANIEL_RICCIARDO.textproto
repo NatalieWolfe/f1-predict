@@ -2,6 +2,8 @@ circuit: SPAIN_CIRCUIT
 race_season: 2019
 driver: DANIEL_RICCIARDO
 qualification_time_1 {
+  seconds: 78
+  nanos: 385000000
 }
 qualification_time_2 {
   seconds: 77
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 106000000
 }
 starting_position: 13
+finals_time {
+  seconds: 5787
+  nanos: 201000000
+}
 final_position: 12

@@ -2,7 +2,8 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2011
 driver: NICO_ROSBERG
 qualification_time_1 {
-  nanos: 665000000
+  seconds: 94
+  nanos: 186000000
 }
 qualification_time_2 {
   seconds: 92
@@ -13,4 +14,8 @@ qualification_time_3 {
   nanos: 209000000
 }
 starting_position: 9
+finals_time {
+  seconds: 5381
+  nanos: 861000000
+}
 final_position: 6

@@ -2,8 +2,8 @@ circuit: ABU_DHABI_CIRCUIT
 race_season: 2019
 driver: ALEXANDER_ALBON
 qualification_time_1 {
-  seconds: 9
-  nanos: 205000000
+  seconds: 96
+  nanos: 102000000
 }
 qualification_time_2 {
   seconds: 96
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 682000000
 }
 starting_position: 5
+finals_time {
+  seconds: 5714
+  nanos: 920000000
+}
 final_position: 6

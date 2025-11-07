@@ -2,6 +2,8 @@ circuit: CANADA_CIRCUIT
 race_season: 2010
 driver: MARK_WEBBER
 qualification_time_1 {
+  seconds: 76
+  nanos: 423000000
 }
 qualification_time_2 {
   seconds: 75
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 373000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5672
+  nanos: 747000000
+}
 final_position: 5

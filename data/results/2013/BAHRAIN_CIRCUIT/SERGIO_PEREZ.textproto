@@ -2,10 +2,16 @@ circuit: BAHRAIN_CIRCUIT
 race_season: 2013
 driver: SERGIO_PEREZ
 qualification_time_1 {
+  seconds: 94
+  nanos: 310000000
 }
 qualification_time_2 {
   seconds: 93
   nanos: 914000000
 }
 starting_position: 12
+finals_time {
+  seconds: 5796
+  nanos: 496000000
+}
 final_position: 6

@@ -1,7 +1,9 @@
 circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
 race_season: 1979
 driver: CARLOS_REUTEMANN
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 5778
+  nanos: 150000000
+}
 final_position: 2

@@ -1,7 +1,9 @@
 circuit: KYALAMI_CIRCUIT
 race_season: 1978
 driver: JOHN_WATSON
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 6140
+  nanos: 209000000
+}
 final_position: 3

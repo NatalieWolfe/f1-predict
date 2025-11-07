@@ -1,9 +1,9 @@
 circuit: AUTODROMO_DO_ESTORIL_CIRCUIT
 race_season: 1985
 driver: MICHELE_ALBORETO
-qualification_time_1 {
-  seconds: 2
-  nanos: 978000000
-}
 starting_position: 5
+finals_time {
+  seconds: 7290
+  nanos: 984000000
+}
 final_position: 2

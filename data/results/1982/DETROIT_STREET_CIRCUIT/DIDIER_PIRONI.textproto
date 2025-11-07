@@ -1,7 +1,9 @@
 circuit: DETROIT_STREET_CIRCUIT
 race_season: 1982
 driver: DIDIER_PIRONI
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 7149
+  nanos: 120000000
+}
 final_position: 3

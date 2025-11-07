@@ -2,12 +2,16 @@ circuit: KOREAN_INTERNATIONAL_CIRCUIT
 race_season: 2010
 driver: NICK_HEIDFELD
 qualification_time_1 {
-  seconds: 20
-  nanos: 107000000
+  seconds: 98
+  nanos: 171000000
 }
 qualification_time_2 {
   seconds: 97
   nanos: 715000000
 }
 starting_position: 13
+finals_time {
+  seconds: 10180
+  nanos: 917000000
+}
 final_position: 9

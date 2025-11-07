@@ -2,8 +2,8 @@ circuit: ITALY_CIRCUIT
 race_season: 2017
 driver: LEWIS_HAMILTON
 qualification_time_1 {
-  seconds: 4532
-  nanos: 311000000
+  seconds: 96
+  nanos: 9000000
 }
 qualification_time_2 {
   seconds: 94
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 554000000
 }
 starting_position: 1
+finals_time {
+  seconds: 4532
+  nanos: 312000000
+}
 final_position: 1

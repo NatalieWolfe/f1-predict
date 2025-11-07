@@ -2,6 +2,8 @@ circuit: MONACO_CIRCUIT
 race_season: 2017
 driver: SERGIO_PEREZ
 qualification_time_1 {
+  seconds: 73
+  nanos: 530000000
 }
 qualification_time_2 {
   seconds: 73
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 329000000
 }
 starting_position: 7
+finals_time {
+  seconds: 6323
+  nanos: 429000000
+}
 final_position: 13

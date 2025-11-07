@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1962
 driver: JOHN_SURTEES
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 9527
+  nanos: 800000000
+}
 final_position: 2

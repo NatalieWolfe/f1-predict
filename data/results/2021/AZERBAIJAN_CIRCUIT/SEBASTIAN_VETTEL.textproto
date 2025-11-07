@@ -3,6 +3,8 @@ race_season: 2021
 team: ASTON_MARTIN
 driver: SEBASTIAN_VETTEL
 qualification_time_1 {
+  seconds: 102
+  nanos: 460000000
 }
 qualification_time_2 {
   seconds: 102

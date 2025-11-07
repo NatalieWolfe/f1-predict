@@ -2,6 +2,8 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2017
 driver: KIMI_RAIKKONEN
 qualification_time_1 {
+  seconds: 100
+  nanos: 455000000
 }
 qualification_time_2 {
   seconds: 88
@@ -12,4 +14,7 @@ qualification_time_3 {
   nanos: 147000000
 }
 starting_position: 2
+finals_time {
+  seconds: 4924
+}
 final_position: 3

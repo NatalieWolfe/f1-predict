@@ -1,7 +1,9 @@
 circuit: JARAMA_CIRCUIT
 race_season: 1979
 driver: DIDIER_PIRONI
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 6000
+  nanos: 270000000
+}
 final_position: 6

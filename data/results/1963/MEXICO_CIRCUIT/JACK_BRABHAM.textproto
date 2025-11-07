@@ -1,9 +1,9 @@
 circuit: MEXICO_CIRCUIT
 race_season: 1963
 driver: JACK_BRABHAM
-qualification_time_1 {
-  seconds: 41
-  nanos: 100000000
-}
 starting_position: 10
+finals_time {
+  seconds: 7893
+  nanos: 200000000
+}
 final_position: 2

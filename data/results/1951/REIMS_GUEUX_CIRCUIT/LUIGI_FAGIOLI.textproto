@@ -1,8 +1,8 @@
 circuit: REIMS_GUEUX_CIRCUIT
 race_season: 1951
 driver: LUIGI_FAGIOLI
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 12131
 }
-starting_position: 1
 final_position: 11

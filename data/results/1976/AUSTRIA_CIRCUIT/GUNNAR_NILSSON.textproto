@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1976
 driver: GUNNAR_NILSSON
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5419
+  nanos: 840000000
+}
 final_position: 3

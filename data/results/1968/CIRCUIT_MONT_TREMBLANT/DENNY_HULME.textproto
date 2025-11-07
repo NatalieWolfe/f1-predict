@@ -1,9 +1,9 @@
 circuit: CIRCUIT_MONT_TREMBLANT
 race_season: 1968
 driver: DENNY_HULME
-qualification_time_1 {
+starting_position: 6
+finals_time {
   seconds: 8831
   nanos: 200000000
 }
-starting_position: 6
 final_position: 1

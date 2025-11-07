@@ -2,12 +2,16 @@ circuit: SPAIN_CIRCUIT
 race_season: 2010
 driver: ADRIAN_SUTIL
 qualification_time_1 {
-  seconds: 12
-  nanos: 941000000
+  seconds: 82
+  nanos: 628000000
 }
 qualification_time_2 {
   seconds: 81
   nanos: 985000000
 }
 starting_position: 11
+finals_time {
+  seconds: 5817
+  nanos: 42000000
+}
 final_position: 7

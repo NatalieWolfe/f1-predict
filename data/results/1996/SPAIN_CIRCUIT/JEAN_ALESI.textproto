@@ -2,6 +2,12 @@ circuit: SPAIN_CIRCUIT
 race_season: 1996
 driver: JEAN_ALESI
 qualification_time_1 {
+  seconds: 82
+  nanos: 61000000
 }
 starting_position: 4
+finals_time {
+  seconds: 7234
+  nanos: 609000000
+}
 final_position: 2

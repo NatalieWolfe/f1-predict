@@ -1,7 +1,9 @@
 circuit: REIMS_GUEUX_CIRCUIT
 race_season: 1960
 driver: BRUCE_MCLAREN
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 7096
+  nanos: 800000000
+}
 final_position: 3

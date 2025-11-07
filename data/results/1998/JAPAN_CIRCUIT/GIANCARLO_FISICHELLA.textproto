@@ -1,9 +1,9 @@
 circuit: JAPAN_CIRCUIT
 race_season: 1998
 driver: GIANCARLO_FISICHELLA
-qualification_time_1 {
-  seconds: 41
-  nanos: 302000000
-}
 starting_position: 10
+finals_time {
+  seconds: 5344
+  nanos: 702000000
+}
 final_position: 8

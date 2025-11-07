@@ -1,9 +1,9 @@
 circuit: LONG_BEACH_CIRCUIT
 race_season: 1980
 driver: EMERSON_FITTIPALDI
-qualification_time_1 {
-  seconds: 18
-  nanos: 563000000
-}
 starting_position: 24
+finals_time {
+  seconds: 6697
+  nanos: 963000000
+}
 final_position: 3

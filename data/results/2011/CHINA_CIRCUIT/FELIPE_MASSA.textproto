@@ -2,6 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2011
 driver: FELIPE_MASSA
 qualification_time_1 {
+  seconds: 95
+  nanos: 478000000
 }
 qualification_time_2 {
   seconds: 95
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 145000000
 }
 starting_position: 6
+finals_time {
+  seconds: 5834
+  nanos: 66000000
+}
 final_position: 6

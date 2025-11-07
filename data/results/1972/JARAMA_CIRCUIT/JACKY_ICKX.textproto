@@ -1,7 +1,9 @@
 circuit: JARAMA_CIRCUIT
 race_season: 1972
 driver: JACKY_ICKX
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 7440
+  nanos: 120000000
+}
 final_position: 2

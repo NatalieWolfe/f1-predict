@@ -2,6 +2,12 @@ circuit: SPAIN_CIRCUIT
 race_season: 1997
 driver: JEAN_ALESI
 qualification_time_1 {
+  seconds: 77
+  nanos: 717000000
 }
 starting_position: 4
+finals_time {
+  seconds: 5448
+  nanos: 430000000
+}
 final_position: 3

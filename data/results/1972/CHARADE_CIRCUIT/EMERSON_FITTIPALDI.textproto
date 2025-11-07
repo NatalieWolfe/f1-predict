@@ -1,7 +1,9 @@
 circuit: CHARADE_CIRCUIT
 race_season: 1972
 driver: EMERSON_FITTIPALDI
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 6770
+  nanos: 200000000
+}
 final_position: 2

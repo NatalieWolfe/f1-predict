@@ -2,12 +2,16 @@ circuit: JAPAN_CIRCUIT
 race_season: 2011
 driver: KAMUI_KOBAYASHI
 qualification_time_1 {
-  seconds: 3
-  nanos: 705000000
+  seconds: 92
+  nanos: 625000000
 }
 qualification_time_2 {
   seconds: 92
   nanos: 380000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5517
+  nanos: 132000000
+}
 final_position: 13

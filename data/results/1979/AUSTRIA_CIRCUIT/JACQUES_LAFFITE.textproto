@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1979
 driver: JACQUES_LAFFITE
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 5304
+  nanos: 780000000
+}
 final_position: 3

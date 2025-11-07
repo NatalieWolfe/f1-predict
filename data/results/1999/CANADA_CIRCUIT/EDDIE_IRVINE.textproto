@@ -1,7 +1,9 @@
 circuit: CANADA_CIRCUIT
 race_season: 1999
 driver: EDDIE_IRVINE
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 6097
+  nanos: 524000000
+}
 final_position: 3

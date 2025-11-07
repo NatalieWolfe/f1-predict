@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1965
 driver: DAN_GURNEY
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 7509
+  nanos: 300000000
+}
 final_position: 3

@@ -1,9 +1,9 @@
 circuit: CIRCUIT_DE_PEDRALBES
 race_season: 1951
 driver: JUAN_FANGIO
-qualification_time_1 {
+starting_position: 2
+finals_time {
   seconds: 10014
   nanos: 100000000
 }
-starting_position: 2
 final_position: 1

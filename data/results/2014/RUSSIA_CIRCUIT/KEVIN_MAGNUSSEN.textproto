@@ -2,6 +2,8 @@ circuit: RUSSIA_CIRCUIT
 race_season: 2014
 driver: KEVIN_MAGNUSSEN
 qualification_time_1 {
+  seconds: 99
+  nanos: 735000000
 }
 qualification_time_2 {
   seconds: 99
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 629000000
 }
 starting_position: 11
+finals_time {
+  seconds: 5564
+  nanos: 360000000
+}
 final_position: 5

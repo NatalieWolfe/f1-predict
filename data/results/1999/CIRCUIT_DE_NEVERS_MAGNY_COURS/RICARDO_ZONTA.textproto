@@ -1,9 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1999
 driver: RICARDO_ZONTA
-qualification_time_1 {
-  seconds: 28
-  nanos: 764000000
-}
 starting_position: 10
+finals_time {
+  seconds: 7193
+  nanos: 107000000
+}
 final_position: 9

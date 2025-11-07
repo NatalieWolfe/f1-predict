@@ -1,7 +1,9 @@
 circuit: JARAMA_CIRCUIT
 race_season: 1978
 driver: RONNIE_PETERSON
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 6126
+  nanos: 620000000
+}
 final_position: 2

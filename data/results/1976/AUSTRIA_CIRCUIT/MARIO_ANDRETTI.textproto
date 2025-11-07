@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1976
 driver: MARIO_ANDRETTI
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 5429
+  nanos: 350000000
+}
 final_position: 5

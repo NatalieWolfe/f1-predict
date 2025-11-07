@@ -1,9 +1,9 @@
 circuit: ADELAIDE_STREET_CIRCUIT
 race_season: 1985
 driver: KEKE_ROSBERG
-qualification_time_1 {
+starting_position: 3
+finals_time {
   seconds: 7240
   nanos: 473000000
 }
-starting_position: 3
 final_position: 1

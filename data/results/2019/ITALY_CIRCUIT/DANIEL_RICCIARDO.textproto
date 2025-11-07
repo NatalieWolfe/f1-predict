@@ -2,6 +2,8 @@ circuit: ITALY_CIRCUIT
 race_season: 2019
 driver: DANIEL_RICCIARDO
 qualification_time_1 {
+  seconds: 80
+  nanos: 374000000
 }
 qualification_time_2 {
   seconds: 79
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 839000000
 }
 starting_position: 5
+finals_time {
+  seconds: 4572
+  nanos: 180000000
+}
 final_position: 4

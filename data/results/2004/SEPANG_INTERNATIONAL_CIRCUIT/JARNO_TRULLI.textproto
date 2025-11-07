@@ -2,6 +2,12 @@ circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 2004
 driver: JARNO_TRULLI
 qualification_time_1 {
+  seconds: 94
+  nanos: 413000000
 }
 starting_position: 8
+finals_time {
+  seconds: 5504
+  nanos: 850000000
+}
 final_position: 5

@@ -1,7 +1,9 @@
 circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1984
 driver: NIKI_LAUDA
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 5086
+  nanos: 359000000
+}
 final_position: 2

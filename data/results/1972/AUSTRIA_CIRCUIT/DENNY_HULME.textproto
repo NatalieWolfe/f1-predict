@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1972
 driver: DENNY_HULME
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 5357
+  nanos: 840000000
+}
 final_position: 2

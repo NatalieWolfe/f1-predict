@@ -1,7 +1,9 @@
 circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
 race_season: 2004
 driver: JARNO_TRULLI
-qualification_time_1 {
-}
 starting_position: 20
+finals_time {
+  seconds: 6064
+  nanos: 458000000
+}
 final_position: 4

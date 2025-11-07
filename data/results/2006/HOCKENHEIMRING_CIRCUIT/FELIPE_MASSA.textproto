@@ -2,6 +2,8 @@ circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 2006
 driver: FELIPE_MASSA
 qualification_time_1 {
+  seconds: 74
+  nanos: 412000000
 }
 qualification_time_2 {
   seconds: 74
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 569000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5272
+  nanos: 393000000
+}
 final_position: 2

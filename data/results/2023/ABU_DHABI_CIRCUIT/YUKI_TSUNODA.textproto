@@ -3,6 +3,8 @@ race_season: 2023
 team: RB
 driver: YUKI_TSUNODA
 qualification_time_1 {
+  seconds: 84
+  nanos: 286000000
 }
 qualification_time_2 {
   seconds: 84

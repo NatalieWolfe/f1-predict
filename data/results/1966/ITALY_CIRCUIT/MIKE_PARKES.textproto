@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1966
 driver: MIKE_PARKES
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 6440
+  nanos: 600000000
+}
 final_position: 2

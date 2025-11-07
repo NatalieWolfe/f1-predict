@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1999
 driver: RALF_SCHUMACHER
-qualification_time_1 {
-}
 starting_position: 16
+finals_time {
+  seconds: 7149
+  nanos: 818000000
+}
 final_position: 4

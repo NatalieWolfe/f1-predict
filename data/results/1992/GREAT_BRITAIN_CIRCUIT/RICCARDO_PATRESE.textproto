@@ -1,7 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 1992
 driver: RICCARDO_PATRESE
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 5182
+  nanos: 85000000
+}
 final_position: 2

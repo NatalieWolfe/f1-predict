@@ -1,7 +1,9 @@
 circuit: MOSPORT_INTERNATIONAL_RACEWAY_CIRCUIT
 race_season: 1974
 driver: JAMES_HUNT
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 6041
+  nanos: 805000000
+}
 final_position: 4

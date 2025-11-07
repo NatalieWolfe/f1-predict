@@ -1,7 +1,9 @@
 circuit: DETROIT_STREET_CIRCUIT
 race_season: 1987
 driver: NELSON_PIQUET
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 6650
+  nanos: 177000000
+}
 final_position: 2

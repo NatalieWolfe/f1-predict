@@ -2,6 +2,8 @@ circuit: AUSTRALIA_CIRCUIT
 race_season: 2011
 driver: MARK_WEBBER
 qualification_time_1 {
+  seconds: 85
+  nanos: 900000000
 }
 qualification_time_2 {
   seconds: 84
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 395000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5408
+  nanos: 430000000
+}
 final_position: 5

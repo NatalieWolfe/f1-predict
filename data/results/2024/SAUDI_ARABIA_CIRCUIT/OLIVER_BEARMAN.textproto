@@ -3,6 +3,8 @@ race_season: 2024
 team: FERRARI
 driver: OLIVER_BEARMAN
 qualification_time_1 {
+  seconds: 88
+  nanos: 984000000
 }
 qualification_time_2 {
   seconds: 88

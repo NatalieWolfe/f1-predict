@@ -1,7 +1,9 @@
 circuit: ZOLDER_CIRCUIT
 race_season: 1979
 driver: JACQUES_LAFFITE
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 6014
+  nanos: 890000000
+}
 final_position: 2

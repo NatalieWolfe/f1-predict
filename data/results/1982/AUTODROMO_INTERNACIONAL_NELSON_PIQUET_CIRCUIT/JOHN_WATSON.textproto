@@ -1,7 +1,9 @@
 circuit: AUTODROMO_INTERNACIONAL_NELSON_PIQUET_CIRCUIT
 race_season: 1982
 driver: JOHN_WATSON
-qualification_time_1 {
-}
 starting_position: 12
+finals_time {
+  seconds: 6276
+  nanos: 124000000
+}
 final_position: 2

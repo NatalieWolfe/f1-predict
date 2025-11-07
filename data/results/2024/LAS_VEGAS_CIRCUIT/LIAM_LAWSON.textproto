@@ -3,8 +3,8 @@ race_season: 2024
 team: RB
 driver: LIAM_LAWSON
 qualification_time_1 {
-  seconds: 31
-  nanos: 5000000
+  seconds: 94
+  nanos: 87000000
 }
 qualification_time_2 {
   seconds: 94

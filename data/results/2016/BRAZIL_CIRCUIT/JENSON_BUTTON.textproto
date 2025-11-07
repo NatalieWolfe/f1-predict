@@ -2,8 +2,12 @@ circuit: BRAZIL_CIRCUIT
 race_season: 2016
 driver: JENSON_BUTTON
 qualification_time_1 {
-  seconds: 21
-  nanos: 994000000
+  seconds: 73
+  nanos: 276000000
 }
 starting_position: 17
+finals_time {
+  seconds: 10943
+  nanos: 329000000
+}
 final_position: 16

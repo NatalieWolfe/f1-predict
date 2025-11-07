@@ -2,8 +2,12 @@ circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
 race_season: 1995
 driver: DAMON_HILL
 qualification_time_1 {
+  seconds: 114
+  nanos: 57000000
+}
+starting_position: 2
+finals_time {
   seconds: 6794
   nanos: 532000000
 }
-starting_position: 2
 final_position: 1

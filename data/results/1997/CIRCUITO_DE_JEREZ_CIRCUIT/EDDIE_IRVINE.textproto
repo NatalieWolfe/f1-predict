@@ -1,7 +1,9 @@
 circuit: CIRCUITO_DE_JEREZ_CIRCUIT
 race_season: 1997
 driver: EDDIE_IRVINE
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 5941
+  nanos: 560000000
+}
 final_position: 5

@@ -1,9 +1,9 @@
 circuit: BRAZIL_CIRCUIT
 race_season: 1975
 driver: CARLOS_REUTEMANN
-qualification_time_1 {
-  seconds: 39
-  nanos: 620000000
-}
 starting_position: 3
+finals_time {
+  seconds: 6380
+  nanos: 790000000
+}
 final_position: 8

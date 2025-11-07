@@ -2,8 +2,12 @@ circuit: EMILIA_ROMAGNA_CIRCUIT
 race_season: 1997
 driver: EDDIE_IRVINE
 qualification_time_1 {
-  seconds: 18
-  nanos: 343000000
+  seconds: 84
+  nanos: 862000000
 }
 starting_position: 9
+finals_time {
+  seconds: 5539
+  nanos: 16000000
+}
 final_position: 3

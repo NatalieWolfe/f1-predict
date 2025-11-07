@@ -1,7 +1,9 @@
 circuit: FRANCE_CIRCUIT
 race_season: 1985
 driver: ALAIN_PROST
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5515
+  nanos: 551000000
+}
 final_position: 3

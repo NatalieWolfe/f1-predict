@@ -1,9 +1,9 @@
 circuit: MOSPORT_INTERNATIONAL_RACEWAY_CIRCUIT
 race_season: 1969
 driver: JACKY_ICKX
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 7165
   nanos: 700000000
 }
-starting_position: 1
 final_position: 1

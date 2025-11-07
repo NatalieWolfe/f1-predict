@@ -2,6 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1997
 driver: HEINZ_HARALD_FRENTZEN
 qualification_time_1 {
+  seconds: 74
+  nanos: 749000000
 }
 starting_position: 2
+finals_time {
+  seconds: 5954
+  nanos: 29000000
+}
 final_position: 2

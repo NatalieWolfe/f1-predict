@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1971
 driver: CHRIS_AMON
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 4724
+  nanos: 960000000
+}
 final_position: 6

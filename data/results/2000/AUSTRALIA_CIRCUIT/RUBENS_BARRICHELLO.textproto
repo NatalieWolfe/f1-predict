@@ -2,6 +2,12 @@ circuit: AUSTRALIA_CIRCUIT
 race_season: 2000
 driver: RUBENS_BARRICHELLO
 qualification_time_1 {
+  seconds: 91
+  nanos: 102000000
 }
 starting_position: 4
+finals_time {
+  seconds: 5653
+  nanos: 402000000
+}
 final_position: 2

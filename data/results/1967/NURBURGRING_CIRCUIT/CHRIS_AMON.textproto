@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1967
 driver: CHRIS_AMON
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 7594
+  nanos: 700000000
+}
 final_position: 3

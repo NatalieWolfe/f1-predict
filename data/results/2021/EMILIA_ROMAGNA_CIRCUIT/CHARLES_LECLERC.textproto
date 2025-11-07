@@ -3,6 +3,8 @@ race_season: 2021
 team: FERRARI
 driver: CHARLES_LECLERC
 qualification_time_1 {
+  seconds: 75
+  nanos: 413000000
 }
 qualification_time_2 {
   seconds: 74

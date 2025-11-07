@@ -1,7 +1,8 @@
 circuit: MONACO_CIRCUIT
 race_season: 1969
 driver: JO_SIFFERT
-qualification_time_1 {
-}
 starting_position: 5
+finals_time {
+  seconds: 7054
+}
 final_position: 3

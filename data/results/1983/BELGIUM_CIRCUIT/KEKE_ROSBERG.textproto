@@ -1,7 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 1983
 driver: KEKE_ROSBERG
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 5281
+  nanos: 982000000
+}
 final_position: 5

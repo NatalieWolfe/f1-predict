@@ -1,9 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1976
 driver: EMERSON_FITTIPALDI
-qualification_time_1 {
-  seconds: 25
-  nanos: 200000000
-}
 starting_position: 20
+finals_time {
+  seconds: 6427
+  nanos: 900000000
+}
 final_position: 13

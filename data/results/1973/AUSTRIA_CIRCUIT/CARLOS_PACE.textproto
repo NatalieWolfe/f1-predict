@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1973
 driver: CARLOS_PACE
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 5375
+  nanos: 420000000
+}
 final_position: 3

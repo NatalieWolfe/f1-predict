@@ -1,7 +1,9 @@
 circuit: NETHERLANDS_CIRCUIT
 race_season: 1969
 driver: CHRIS_AMON
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 7632
+  nanos: 590000000
+}
 final_position: 3

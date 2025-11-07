@@ -3,8 +3,8 @@ race_season: 2021
 team: MCLAREN
 driver: LANDO_NORRIS
 qualification_time_1 {
-  seconds: 24
-  nanos: 395000000
+  seconds: 94
+  nanos: 551000000
 }
 qualification_time_2 {
   seconds: 93
@@ -16,7 +16,7 @@ qualification_time_3 {
 }
 starting_position: 7
 finals_time {
-  seconds: 5770
+  seconds: 5760
   nanos: 947000000
 }
 final_position: 8

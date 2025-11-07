@@ -2,10 +2,16 @@ circuit: CANADA_CIRCUIT
 race_season: 2008
 driver: JARNO_TRULLI
 qualification_time_1 {
+  seconds: 78
+  nanos: 39000000
 }
 qualification_time_2 {
   seconds: 78
   nanos: 327000000
 }
 starting_position: 14
+finals_time {
+  seconds: 5832
+  nanos: 2000000
+}
 final_position: 6

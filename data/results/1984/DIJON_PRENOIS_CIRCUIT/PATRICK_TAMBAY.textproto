@@ -1,7 +1,9 @@
 circuit: DIJON_PRENOIS_CIRCUIT
 race_season: 1984
 driver: PATRICK_TAMBAY
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 5479
+  nanos: 105000000
+}
 final_position: 2

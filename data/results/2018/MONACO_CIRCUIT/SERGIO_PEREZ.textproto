@@ -2,8 +2,8 @@ circuit: MONACO_CIRCUIT
 race_season: 2018
 driver: SERGIO_PEREZ
 qualification_time_1 {
-  seconds: 10
-  nanos: 461000000
+  seconds: 72
+  nanos: 848000000
 }
 qualification_time_2 {
   seconds: 72
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 154000000
 }
 starting_position: 9
+finals_time {
+  seconds: 6245
+  nanos: 268000000
+}
 final_position: 12

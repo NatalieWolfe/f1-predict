@@ -1,7 +1,9 @@
 circuit: NETHERLANDS_CIRCUIT
 race_season: 1980
 driver: CARLOS_REUTEMANN
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 5909
+  nanos: 120000000
+}
 final_position: 4

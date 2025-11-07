@@ -1,7 +1,9 @@
 circuit: FRANCE_CIRCUIT
 race_season: 1982
 driver: ALAIN_PROST
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 5630
+  nanos: 525000000
+}
 final_position: 2

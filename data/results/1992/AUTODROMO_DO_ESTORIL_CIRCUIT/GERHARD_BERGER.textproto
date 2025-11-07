@@ -1,7 +1,9 @@
 circuit: AUTODROMO_DO_ESTORIL_CIRCUIT
 race_season: 1992
 driver: GERHARD_BERGER
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5724
+  nanos: 192000000
+}
 final_position: 2

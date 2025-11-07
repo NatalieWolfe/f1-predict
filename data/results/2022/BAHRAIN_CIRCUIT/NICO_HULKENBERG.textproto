@@ -3,8 +3,8 @@ race_season: 2022
 team: ASTON_MARTIN
 driver: NICO_HULKENBERG
 qualification_time_1 {
-  seconds: 3
-  nanos: 829000000
+  seconds: 92
+  nanos: 777000000
 }
 starting_position: 17
 finals_time {

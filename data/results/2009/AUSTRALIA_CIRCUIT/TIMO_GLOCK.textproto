@@ -2,6 +2,8 @@ circuit: AUSTRALIA_CIRCUIT
 race_season: 2009
 driver: TIMO_GLOCK
 qualification_time_1 {
+  seconds: 85
+  nanos: 499000000
 }
 qualification_time_2 {
   seconds: 85
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 975000000
 }
 starting_position: 19
+finals_time {
+  seconds: 5660
+  nanos: 219000000
+}
 final_position: 4

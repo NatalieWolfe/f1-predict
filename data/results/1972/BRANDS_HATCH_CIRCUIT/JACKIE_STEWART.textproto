@@ -1,7 +1,9 @@
 circuit: BRANDS_HATCH_CIRCUIT
 race_season: 1972
 driver: JACKIE_STEWART
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 6474
+  nanos: 300000000
+}
 final_position: 2

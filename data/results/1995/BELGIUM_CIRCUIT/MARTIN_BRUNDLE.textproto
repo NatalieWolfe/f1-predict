@@ -2,6 +2,12 @@ circuit: BELGIUM_CIRCUIT
 race_season: 1995
 driver: MARTIN_BRUNDLE
 qualification_time_1 {
+  seconds: 118
+  nanos: 314000000
 }
 starting_position: 13
+finals_time {
+  seconds: 5832
+  nanos: 873000000
+}
 final_position: 3

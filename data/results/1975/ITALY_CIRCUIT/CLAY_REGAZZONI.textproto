@@ -1,9 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1975
 driver: CLAY_REGAZZONI
-qualification_time_1 {
+starting_position: 2
+finals_time {
   seconds: 4962
   nanos: 600000000
 }
-starting_position: 2
 final_position: 1

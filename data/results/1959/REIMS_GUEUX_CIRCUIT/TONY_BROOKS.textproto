@@ -1,9 +1,9 @@
 circuit: REIMS_GUEUX_CIRCUIT
 race_season: 1959
 driver: TONY_BROOKS
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 7286
   nanos: 500000000
 }
-starting_position: 1
 final_position: 1

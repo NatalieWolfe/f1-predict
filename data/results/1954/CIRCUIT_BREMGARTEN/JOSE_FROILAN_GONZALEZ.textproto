@@ -1,7 +1,9 @@
 circuit: CIRCUIT_BREMGARTEN
 race_season: 1954
 driver: JOSE_FROILAN_GONZALEZ
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 10892
+  nanos: 300000000
+}
 final_position: 2

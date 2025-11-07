@@ -1,8 +1,9 @@
 circuit: WATKINS_GLEN_CIRCUIT
 race_season: 1971
 driver: JACKIE_STEWART
-qualification_time_1 {
-  nanos: 3000000
-}
 starting_position: 1
+finals_time {
+  seconds: 6291
+  nanos: 994000000
+}
 final_position: 5

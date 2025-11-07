@@ -2,6 +2,8 @@ circuit: CANADA_CIRCUIT
 race_season: 2012
 driver: MARK_WEBBER
 qualification_time_1 {
+  seconds: 74
+  nanos: 956000000
 }
 qualification_time_2 {
   seconds: 74
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 346000000
 }
 starting_position: 4
+finals_time {
+  seconds: 5564
+  nanos: 671000000
+}
 final_position: 7

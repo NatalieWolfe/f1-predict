@@ -1,9 +1,9 @@
 circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1980
 driver: JACQUES_LAFFITE
-qualification_time_1 {
+starting_position: 5
+finals_time {
   seconds: 5039
   nanos: 730000000
 }
-starting_position: 5
 final_position: 1

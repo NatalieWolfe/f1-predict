@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1973
 driver: CARLOS_REUTEMANN
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 5416
+  nanos: 800000000
+}
 final_position: 6

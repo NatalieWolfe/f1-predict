@@ -1,7 +1,9 @@
 circuit: WATKINS_GLEN_CIRCUIT
 race_season: 1967
 driver: GRAHAM_HILL
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 7399
+  nanos: 500000000
+}
 final_position: 2

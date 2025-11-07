@@ -2,6 +2,8 @@ circuit: AUSTRIA_CIRCUIT
 race_season: 2017
 driver: SEBASTIAN_VETTEL
 qualification_time_1 {
+  seconds: 65
+  nanos: 585000000
 }
 qualification_time_2 {
   seconds: 64
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 293000000
 }
 starting_position: 2
+finals_time {
+  seconds: 4909
+  nanos: 181000000
+}
 final_position: 2

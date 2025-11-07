@@ -1,7 +1,9 @@
 circuit: MONACO_CIRCUIT
 race_season: 1986
 driver: AYRTON_SENNA
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 6994
+  nanos: 706000000
+}
 final_position: 3

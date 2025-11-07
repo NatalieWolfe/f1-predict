@@ -1,7 +1,9 @@
 circuit: MOSPORT_INTERNATIONAL_RACEWAY_CIRCUIT
 race_season: 1974
 driver: RONNIE_PETERSON
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 6040
+  nanos: 630000000
+}
 final_position: 3

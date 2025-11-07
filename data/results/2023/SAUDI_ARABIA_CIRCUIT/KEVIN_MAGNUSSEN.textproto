@@ -3,8 +3,8 @@ race_season: 2023
 team: HAAS
 driver: KEVIN_MAGNUSSEN
 qualification_time_1 {
-  seconds: 4
-  nanos: 826000000
+  seconds: 89
+  nanos: 744000000
 }
 qualification_time_2 {
   seconds: 89
@@ -13,6 +13,6 @@ qualification_time_2 {
 starting_position: 13
 finals_time {
   seconds: 4939
-  nanos: 719000000
+  nanos: 720000000
 }
 final_position: 10

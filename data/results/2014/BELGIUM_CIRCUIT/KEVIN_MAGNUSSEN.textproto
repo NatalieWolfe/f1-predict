@@ -2,8 +2,8 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2014
 driver: KEVIN_MAGNUSSEN
 qualification_time_1 {
-  seconds: 14
-  nanos: 262000000
+  seconds: 131
+  nanos: 81000000
 }
 qualification_time_2 {
   seconds: 128
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 679000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5150
+  nanos: 818000000
+}
 final_position: 12

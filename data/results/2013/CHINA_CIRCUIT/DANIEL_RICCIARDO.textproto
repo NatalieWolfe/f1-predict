@@ -2,6 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2013
 driver: DANIEL_RICCIARDO
 qualification_time_1 {
+  seconds: 96
+  nanos: 993000000
 }
 qualification_time_2 {
   seconds: 96
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 998000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5829
+  nanos: 636000000
+}
 final_position: 7

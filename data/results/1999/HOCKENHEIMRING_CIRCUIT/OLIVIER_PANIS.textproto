@@ -1,7 +1,9 @@
 circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1999
 driver: OLIVIER_PANIS
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 4948
+  nanos: 473000000
+}
 final_position: 6

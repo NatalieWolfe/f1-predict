@@ -1,9 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1987
 driver: NELSON_PIQUET
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 4487
   nanos: 707000000
 }
-starting_position: 1
 final_position: 1

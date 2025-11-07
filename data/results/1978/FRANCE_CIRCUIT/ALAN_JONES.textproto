@@ -1,7 +1,9 @@
 circuit: FRANCE_CIRCUIT
 race_season: 1978
 driver: ALAN_JONES
-qualification_time_1 {
-}
 starting_position: 14
+finals_time {
+  seconds: 5973
+  nanos: 730000000
+}
 final_position: 5

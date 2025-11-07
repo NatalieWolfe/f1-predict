@@ -1,9 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1968
 driver: JACKY_ICKX
-qualification_time_1 {
-  seconds: 55
-  nanos: 200000000
-}
 starting_position: 1
+finals_time {
+  seconds: 8698
+  nanos: 400000000
+}
 final_position: 4

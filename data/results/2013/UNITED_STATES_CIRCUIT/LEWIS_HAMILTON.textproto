@@ -2,6 +2,8 @@ circuit: UNITED_STATES_CIRCUIT
 race_season: 2013
 driver: LEWIS_HAMILTON
 qualification_time_1 {
+  seconds: 97
+  nanos: 959000000
 }
 qualification_time_2 {
   seconds: 97
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 345000000
 }
 starting_position: 5
+finals_time {
+  seconds: 5984
+  nanos: 506000000
+}
 final_position: 4

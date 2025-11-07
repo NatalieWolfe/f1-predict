@@ -2,10 +2,8 @@ circuit: AUSTRALIA_CIRCUIT
 race_season: 2023
 team: RED_BULL_RACING
 driver: SERGIO_PEREZ
-qualification_time_1 {
-}
 finals_time {
-  seconds: 9151
+  seconds: 9161
   nanos: 691000000
 }
 final_position: 5

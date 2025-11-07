@@ -2,10 +2,16 @@ circuit: EMILIA_ROMAGNA_CIRCUIT
 race_season: 2020
 driver: SERGIO_PEREZ
 qualification_time_1 {
+  seconds: 75
+  nanos: 407000000
 }
 qualification_time_2 {
   seconds: 75
   nanos: 61000000
 }
 starting_position: 11
+finals_time {
+  seconds: 5332
+  nanos: 82000000
+}
 final_position: 6

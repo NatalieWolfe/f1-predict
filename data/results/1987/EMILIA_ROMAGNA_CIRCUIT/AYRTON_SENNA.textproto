@@ -1,7 +1,9 @@
 circuit: EMILIA_ROMAGNA_CIRCUIT
 race_season: 1987
 driver: AYRTON_SENNA
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 5511
+  nanos: 621000000
+}
 final_position: 2

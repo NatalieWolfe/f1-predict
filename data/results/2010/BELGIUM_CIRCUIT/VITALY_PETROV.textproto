@@ -1,7 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 2010
 driver: VITALY_PETROV
-qualification_time_1 {
-}
 starting_position: 23
+finals_time {
+  seconds: 5368
+  nanos: 119000000
+}
 final_position: 9

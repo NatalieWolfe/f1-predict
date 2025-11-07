@@ -2,6 +2,8 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2015
 driver: SEBASTIAN_VETTEL
 qualification_time_1 {
+  seconds: 93
+  nanos: 562000000
 }
 qualification_time_2 {
   seconds: 93
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 547000000
 }
 starting_position: 6
+finals_time {
+  seconds: 5513
+  nanos: 172000000
+}
 final_position: 3

@@ -3,6 +3,8 @@ race_season: 2022
 team: ASTON_MARTIN
 driver: LANCE_STROLL
 qualification_time_1 {
+  seconds: 103
+  nanos: 430000000
 }
 starting_position: 20
 finals_time {

@@ -1,8 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1998
 driver: HEINZ_HARALD_FRENTZEN
-qualification_time_1 {
-  nanos: 247000000
-}
 starting_position: 7
+finals_time {
+  seconds: 5595
+  nanos: 36000000
+}
 final_position: 5

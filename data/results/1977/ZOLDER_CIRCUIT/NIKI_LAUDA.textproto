@@ -1,7 +1,9 @@
 circuit: ZOLDER_CIRCUIT
 race_season: 1977
 driver: NIKI_LAUDA
-qualification_time_1 {
-}
 starting_position: 11
+finals_time {
+  seconds: 6919
+  nanos: 900000000
+}
 final_position: 2

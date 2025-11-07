@@ -1,7 +1,9 @@
 circuit: ZOLDER_CIRCUIT
 race_season: 1975
 driver: JODY_SCHECKTER
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 6253
+  nanos: 200000000
+}
 final_position: 2

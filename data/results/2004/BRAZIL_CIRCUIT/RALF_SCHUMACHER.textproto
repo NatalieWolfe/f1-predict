@@ -2,6 +2,12 @@ circuit: BRAZIL_CIRCUIT
 race_season: 2004
 driver: RALF_SCHUMACHER
 qualification_time_1 {
+  seconds: 71
+  nanos: 131000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5331
+  nanos: 191000000
+}
 final_position: 5

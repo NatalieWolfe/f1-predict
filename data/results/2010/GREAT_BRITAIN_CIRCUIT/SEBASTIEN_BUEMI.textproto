@@ -2,10 +2,16 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2010
 driver: SEBASTIEN_BUEMI
 qualification_time_1 {
+  seconds: 91
+  nanos: 901000000
 }
 qualification_time_2 {
   seconds: 92
   nanos: 12000000
 }
 starting_position: 16
+finals_time {
+  seconds: 5125
+  nanos: 827000000
+}
 final_position: 12

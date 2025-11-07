@@ -2,6 +2,8 @@ circuit: SPAIN_CIRCUIT
 race_season: 2010
 driver: FERNANDO_ALONSO
 qualification_time_1 {
+  seconds: 81
+  nanos: 957000000
 }
 qualification_time_2 {
   seconds: 81
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 937000000
 }
 starting_position: 4
+finals_time {
+  seconds: 5768
+  nanos: 166000000
+}
 final_position: 2

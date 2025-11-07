@@ -1,7 +1,9 @@
 circuit: CHARADE_CIRCUIT
 race_season: 1970
 driver: DENNY_HULME
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 7002
+  nanos: 660000000
+}
 final_position: 4

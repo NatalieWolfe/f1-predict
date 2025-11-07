@@ -1,9 +1,9 @@
 circuit: WATKINS_GLEN_CIRCUIT
 race_season: 1977
 driver: MARIO_ANDRETTI
-qualification_time_1 {
-  seconds: 2
-  nanos: 25000000
-}
 starting_position: 4
+finals_time {
+  seconds: 7105
+  nanos: 293000000
+}
 final_position: 2

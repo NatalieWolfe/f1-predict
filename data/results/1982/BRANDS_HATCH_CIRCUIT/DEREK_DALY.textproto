@@ -1,7 +1,9 @@
 circuit: BRANDS_HATCH_CIRCUIT
 race_season: 1982
 driver: DEREK_DALY
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 5775
+  nanos: 242000000
+}
 final_position: 5

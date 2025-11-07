@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2001
 driver: RALF_SCHUMACHER
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 5626
+  nanos: 35000000
+}
 final_position: 2

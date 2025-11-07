@@ -1,7 +1,9 @@
 circuit: BRANDS_HATCH_CIRCUIT
 race_season: 1982
 driver: ELIO_DE_ANGELIS
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 5775
+  nanos: 54000000
+}
 final_position: 4

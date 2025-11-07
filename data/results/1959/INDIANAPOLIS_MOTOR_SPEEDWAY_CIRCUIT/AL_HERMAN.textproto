@@ -1,9 +1,9 @@
 circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
 race_season: 1959
 driver: AL_HERMAN
-qualification_time_1 {
-  seconds: 40
-  nanos: 400000000
-}
 starting_position: 23
+finals_time {
+  seconds: 13649
+  nanos: 600000000
+}
 final_position: 13

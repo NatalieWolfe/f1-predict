@@ -1,8 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1985
 driver: AYRTON_SENNA
-qualification_time_1 {
-  nanos: 390000000
-}
 starting_position: 1
+finals_time {
+  seconds: 4739
+  nanos: 841000000
+}
 final_position: 3

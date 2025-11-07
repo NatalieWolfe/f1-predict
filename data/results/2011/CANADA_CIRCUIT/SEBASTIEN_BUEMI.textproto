@@ -2,10 +2,16 @@ circuit: CANADA_CIRCUIT
 race_season: 2011
 driver: SEBASTIEN_BUEMI
 qualification_time_1 {
+  seconds: 75
+  nanos: 901000000
 }
 qualification_time_2 {
   seconds: 75
   nanos: 334000000
 }
 starting_position: 15
+finals_time {
+  seconds: 14726
+  nanos: 593000000
+}
 final_position: 10

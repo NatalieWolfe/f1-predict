@@ -1,9 +1,9 @@
 circuit: LE_MANS_CIRCUIT
 race_season: 1967
 driver: JACK_BRABHAM
-qualification_time_1 {
+starting_position: 2
+finals_time {
   seconds: 8001
   nanos: 300000000
 }
-starting_position: 2
 final_position: 1

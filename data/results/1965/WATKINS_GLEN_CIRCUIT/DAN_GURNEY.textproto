@@ -1,7 +1,9 @@
 circuit: WATKINS_GLEN_CIRCUIT
 race_season: 1965
 driver: DAN_GURNEY
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 8448
+  nanos: 600000000
+}
 final_position: 2

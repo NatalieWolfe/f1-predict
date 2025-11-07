@@ -1,7 +1,9 @@
 circuit: ADELAIDE_STREET_CIRCUIT
 race_season: 1993
 driver: DAMON_HILL
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 6241
+  nanos: 378000000
+}
 final_position: 3

@@ -2,8 +2,8 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2012
 driver: MARK_WEBBER
 qualification_time_1 {
-  seconds: 5111
-  nanos: 288000000
+  seconds: 107
+  nanos: 276000000
 }
 qualification_time_2 {
   seconds: 115
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 793000000
 }
 starting_position: 2
+finals_time {
+  seconds: 5111
+  nanos: 288000000
+}
 final_position: 1

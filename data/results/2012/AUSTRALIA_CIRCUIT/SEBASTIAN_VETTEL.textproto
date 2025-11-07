@@ -2,6 +2,8 @@ circuit: AUSTRALIA_CIRCUIT
 race_season: 2012
 driver: SEBASTIAN_VETTEL
 qualification_time_1 {
+  seconds: 86
+  nanos: 773000000
 }
 qualification_time_2 {
   seconds: 85
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 668000000
 }
 starting_position: 6
+finals_time {
+  seconds: 5651
+  nanos: 704000000
+}
 final_position: 2

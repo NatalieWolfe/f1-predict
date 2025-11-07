@@ -1,9 +1,9 @@
 circuit: BRANDS_HATCH_CIRCUIT
 race_season: 1966
 driver: JACK_BRABHAM
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 7993
   nanos: 400000000
 }
-starting_position: 1
 final_position: 1

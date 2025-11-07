@@ -3,6 +3,8 @@ race_season: 2021
 team: KICK_SAUBER
 driver: KIMI_RAIKKONEN
 qualification_time_1 {
+  seconds: 124
+  nanos: 452000000
 }
 finals_time {
   seconds: 243

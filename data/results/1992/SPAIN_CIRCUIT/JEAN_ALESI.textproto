@@ -1,7 +1,9 @@
 circuit: SPAIN_CIRCUIT
 race_season: 1992
 driver: JEAN_ALESI
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 6997
+  nanos: 136000000
+}
 final_position: 3

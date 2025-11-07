@@ -1,7 +1,9 @@
 circuit: NETHERLANDS_CIRCUIT
 race_season: 1976
 driver: VITTORIO_BRAMBILLA
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 6337
+  nanos: 120000000
+}
 final_position: 6

@@ -1,7 +1,9 @@
 circuit: NETHERLANDS_CIRCUIT
 race_season: 1965
 driver: GRAHAM_HILL
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 7484
+  nanos: 200000000
+}
 final_position: 4

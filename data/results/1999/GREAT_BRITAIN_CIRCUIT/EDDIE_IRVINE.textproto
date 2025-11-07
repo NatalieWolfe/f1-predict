@@ -1,7 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 1999
 driver: EDDIE_IRVINE
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5551
+  nanos: 973000000
+}
 final_position: 2

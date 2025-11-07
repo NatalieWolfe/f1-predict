@@ -1,7 +1,9 @@
 circuit: BRANDS_HATCH_CIRCUIT
 race_season: 1986
 driver: NELSON_PIQUET
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 5444
+  nanos: 45000000
+}
 final_position: 2

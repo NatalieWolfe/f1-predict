@@ -1,7 +1,9 @@
 circuit: ADELAIDE_STREET_CIRCUIT
 race_season: 1991
 driver: EMANUELE_PIRRO
-qualification_time_1 {
-}
 starting_position: 13
+finals_time {
+  seconds: 1527
+  nanos: 260000000
+}
 final_position: 7

@@ -2,10 +2,16 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2007
 driver: FERNANDO_ALONSO
 qualification_time_1 {
+  seconds: 75
+  nanos: 322000000
 }
 qualification_time_2 {
   seconds: 75
   nanos: 84000000
 }
 starting_position: 10
+finals_time {
+  seconds: 5510
+  nanos: 716000000
+}
 final_position: 7

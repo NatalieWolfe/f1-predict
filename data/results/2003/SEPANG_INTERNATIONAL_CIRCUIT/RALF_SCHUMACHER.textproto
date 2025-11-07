@@ -2,8 +2,12 @@ circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 2003
 driver: RALF_SCHUMACHER
 qualification_time_1 {
-  seconds: 28
-  nanos: 26000000
+  seconds: 98
+  nanos: 789000000
 }
 starting_position: 17
+finals_time {
+  seconds: 5630
+  nanos: 221000000
+}
 final_position: 4

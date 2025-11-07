@@ -2,6 +2,8 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2012
 driver: KIMI_RAIKKONEN
 qualification_time_1 {
+  seconds: 109
+  nanos: 546000000
 }
 qualification_time_2 {
   seconds: 108
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 205000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5373
+  nanos: 864000000
+}
 final_position: 3

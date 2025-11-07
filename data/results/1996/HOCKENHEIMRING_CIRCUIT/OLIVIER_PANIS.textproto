@@ -1,7 +1,9 @@
 circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1996
 driver: OLIVIER_PANIS
-qualification_time_1 {
-}
 starting_position: 12
+finals_time {
+  seconds: 5007
+  nanos: 329000000
+}
 final_position: 7

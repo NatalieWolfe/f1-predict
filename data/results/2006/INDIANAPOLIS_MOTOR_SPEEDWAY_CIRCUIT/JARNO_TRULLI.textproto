@@ -2,6 +2,12 @@ circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
 race_season: 2006
 driver: JARNO_TRULLI
 qualification_time_1 {
+  seconds: 73
+  nanos: 787000000
 }
 starting_position: 22
+finals_time {
+  seconds: 5698
+  nanos: 803000000
+}
 final_position: 4

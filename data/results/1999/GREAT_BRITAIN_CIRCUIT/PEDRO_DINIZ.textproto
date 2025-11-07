@@ -1,7 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 1999
 driver: PEDRO_DINIZ
-qualification_time_1 {
-}
 starting_position: 12
+finals_time {
+  seconds: 5603
+  nanos: 787000000
+}
 final_position: 6

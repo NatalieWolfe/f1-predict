@@ -1,9 +1,9 @@
 circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
 race_season: 1960
 driver: RED_AMICK
-qualification_time_1 {
-  seconds: 10
-  nanos: 580000000
-}
 starting_position: 22
+finals_time {
+  seconds: 13641
+  nanos: 940000000
+}
 final_position: 11

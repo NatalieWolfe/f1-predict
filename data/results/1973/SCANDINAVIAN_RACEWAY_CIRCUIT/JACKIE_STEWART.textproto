@@ -1,7 +1,9 @@
 circuit: SCANDINAVIAN_RACEWAY_CIRCUIT
 race_season: 1973
 driver: JACKIE_STEWART
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 7032
+  nanos: 47000000
+}
 final_position: 5

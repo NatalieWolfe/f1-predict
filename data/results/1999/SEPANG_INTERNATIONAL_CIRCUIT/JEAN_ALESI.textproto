@@ -1,7 +1,9 @@
 circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 1999
 driver: JEAN_ALESI
-qualification_time_1 {
-}
 starting_position: 15
+finals_time {
+  seconds: 5852
+  nanos: 902000000
+}
 final_position: 7

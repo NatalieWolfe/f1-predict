@@ -2,8 +2,12 @@ circuit: EMILIA_ROMAGNA_CIRCUIT
 race_season: 1997
 driver: GIANCARLO_FISICHELLA
 qualification_time_1 {
-  seconds: 23
-  nanos: 388000000
+  seconds: 84
+  nanos: 596000000
 }
 starting_position: 6
+finals_time {
+  seconds: 5544
+  nanos: 61000000
+}
 final_position: 4

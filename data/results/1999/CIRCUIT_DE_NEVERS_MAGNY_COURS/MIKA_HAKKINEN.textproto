@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1999
 driver: MIKA_HAKKINEN
-qualification_time_1 {
-}
 starting_position: 14
+finals_time {
+  seconds: 7115
+  nanos: 435000000
+}
 final_position: 2

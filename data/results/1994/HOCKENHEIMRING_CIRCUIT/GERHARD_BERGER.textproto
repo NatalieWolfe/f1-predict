@@ -2,8 +2,12 @@ circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1994
 driver: GERHARD_BERGER
 qualification_time_1 {
+  seconds: 103
+  nanos: 582000000
+}
+starting_position: 1
+finals_time {
   seconds: 4957
   nanos: 200000000
 }
-starting_position: 1
 final_position: 1

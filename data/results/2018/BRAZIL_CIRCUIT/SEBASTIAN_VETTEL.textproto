@@ -2,6 +2,8 @@ circuit: BRAZIL_CIRCUIT
 race_season: 2018
 driver: SEBASTIAN_VETTEL
 qualification_time_1 {
+  seconds: 68
+  nanos: 452000000
 }
 qualification_time_2 {
   seconds: 67
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 374000000
 }
 starting_position: 2
+finals_time {
+  seconds: 5256
+  nanos: 63000000
+}
 final_position: 6

@@ -2,6 +2,8 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2006
 driver: GIANCARLO_FISICHELLA
 qualification_time_1 {
+  seconds: 76
+  nanos: 825000000
 }
 qualification_time_2 {
   seconds: 75
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 344000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5573
+  nanos: 3000000
+}
 final_position: 6

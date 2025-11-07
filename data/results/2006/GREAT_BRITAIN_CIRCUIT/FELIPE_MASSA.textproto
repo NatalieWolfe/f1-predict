@@ -2,6 +2,8 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2006
 driver: FELIPE_MASSA
 qualification_time_1 {
+  seconds: 81
+  nanos: 647000000
 }
 qualification_time_2 {
   seconds: 80
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 764000000
 }
 starting_position: 4
+finals_time {
+  seconds: 5183
+  nanos: 486000000
+}
 final_position: 5

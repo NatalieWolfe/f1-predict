@@ -2,8 +2,12 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2020
 driver: KIMI_RAIKKONEN
 qualification_time_1 {
-  seconds: 11
-  nanos: 504000000
+  seconds: 103
+  nanos: 743000000
 }
 starting_position: 16
+finals_time {
+  seconds: 5120
+  nanos: 265000000
+}
 final_position: 12

@@ -2,6 +2,8 @@ circuit: ITALY_CIRCUIT
 race_season: 2018
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
+  seconds: 81
+  nanos: 381000000
 }
 qualification_time_2 {
   seconds: 80
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 656000000
 }
 starting_position: 4
+finals_time {
+  seconds: 4628
+  nanos: 550000000
+}
 final_position: 3

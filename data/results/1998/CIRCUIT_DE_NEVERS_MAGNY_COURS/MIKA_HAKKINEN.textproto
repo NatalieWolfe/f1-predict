@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1998
 driver: MIKA_HAKKINEN
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 5704
+  nanos: 747000000
+}
 final_position: 3

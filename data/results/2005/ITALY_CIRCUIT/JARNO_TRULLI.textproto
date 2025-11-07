@@ -2,6 +2,12 @@ circuit: ITALY_CIRCUIT
 race_season: 2005
 driver: JARNO_TRULLI
 qualification_time_1 {
+  seconds: 81
+  nanos: 640000000
 }
 starting_position: 5
+finals_time {
+  seconds: 4502
+  nanos: 445000000
+}
 final_position: 5

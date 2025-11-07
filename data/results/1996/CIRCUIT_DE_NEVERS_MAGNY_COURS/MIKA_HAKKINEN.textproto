@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1996
 driver: MIKA_HAKKINEN
-qualification_time_1 {
-}
 starting_position: 5
+finals_time {
+  seconds: 5851
+  nanos: 974000000
+}
 final_position: 5

@@ -1,9 +1,9 @@
 circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
 race_season: 1952
 driver: JOHNNIE_PARSONS
-qualification_time_1 {
-  seconds: 37
-  nanos: 780000000
-}
 starting_position: 31
+finals_time {
+  seconds: 14779
+  nanos: 660000000
+}
 final_position: 10

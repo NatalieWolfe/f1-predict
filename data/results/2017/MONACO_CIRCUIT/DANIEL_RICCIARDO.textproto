@@ -2,6 +2,8 @@ circuit: MONACO_CIRCUIT
 race_season: 2017
 driver: DANIEL_RICCIARDO
 qualification_time_1 {
+  seconds: 73
+  nanos: 219000000
 }
 qualification_time_2 {
   seconds: 73
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 998000000
 }
 starting_position: 5
+finals_time {
+  seconds: 6288
+  nanos: 85000000
+}
 final_position: 3

@@ -2,6 +2,8 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2015
 driver: ROMAIN_GROSJEAN
 qualification_time_1 {
+  seconds: 109
+  nanos: 353000000
 }
 qualification_time_2 {
   seconds: 108
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 561000000
 }
 starting_position: 9
+finals_time {
+  seconds: 5058
+  nanos: 375000000
+}
 final_position: 3

@@ -1,7 +1,9 @@
 circuit: JAPAN_CIRCUIT
 race_season: 1997
 driver: EDDIE_IRVINE
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 5414
+  nanos: 830000000
+}
 final_position: 3

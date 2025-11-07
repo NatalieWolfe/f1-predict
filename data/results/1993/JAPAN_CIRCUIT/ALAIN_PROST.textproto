@@ -1,7 +1,9 @@
 circuit: JAPAN_CIRCUIT
 race_season: 1993
 driver: ALAIN_PROST
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 6039
+  nanos: 347000000
+}
 final_position: 2

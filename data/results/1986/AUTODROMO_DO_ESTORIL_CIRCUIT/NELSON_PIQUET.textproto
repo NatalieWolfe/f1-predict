@@ -1,7 +1,9 @@
 circuit: AUTODROMO_DO_ESTORIL_CIRCUIT
 race_season: 1986
 driver: NELSON_PIQUET
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 5891
+  nanos: 174000000
+}
 final_position: 3

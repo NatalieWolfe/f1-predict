@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1962
 driver: JIM_CLARK
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 9567
+  nanos: 400000000
+}
 final_position: 4

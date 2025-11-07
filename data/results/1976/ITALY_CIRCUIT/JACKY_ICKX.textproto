@@ -1,9 +1,8 @@
 circuit: ITALY_CIRCUIT
 race_season: 1976
 driver: JACKY_ICKX
-qualification_time_1 {
-  seconds: 12
-  nanos: 400000000
-}
 starting_position: 10
+finals_time {
+  seconds: 5508
+}
 final_position: 10

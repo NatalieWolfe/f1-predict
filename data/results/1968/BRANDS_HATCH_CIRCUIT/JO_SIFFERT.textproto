@@ -1,9 +1,9 @@
 circuit: BRANDS_HATCH_CIRCUIT
 race_season: 1968
 driver: JO_SIFFERT
-qualification_time_1 {
+starting_position: 4
+finals_time {
   seconds: 7280
   nanos: 300000000
 }
-starting_position: 4
 final_position: 1

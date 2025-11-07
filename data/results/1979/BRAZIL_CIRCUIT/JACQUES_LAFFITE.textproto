@@ -1,9 +1,9 @@
 circuit: BRAZIL_CIRCUIT
 race_season: 1979
 driver: JACQUES_LAFFITE
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 6009
   nanos: 640000000
 }
-starting_position: 1
 final_position: 1

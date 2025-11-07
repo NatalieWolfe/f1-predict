@@ -1,7 +1,9 @@
 circuit: MEXICO_CIRCUIT
 race_season: 1986
 driver: ALAIN_PROST
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 5624
+  nanos: 138000000
+}
 final_position: 2

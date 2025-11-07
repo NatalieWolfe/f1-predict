@@ -2,6 +2,8 @@ circuit: ITALY_CIRCUIT
 race_season: 2016
 driver: MAX_VERSTAPPEN
 qualification_time_1 {
+  seconds: 83
+  nanos: 229000000
 }
 qualification_time_2 {
   seconds: 82
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 411000000
 }
 starting_position: 7
+finals_time {
+  seconds: 4702
+  nanos: 325000000
+}
 final_position: 7

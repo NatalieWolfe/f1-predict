@@ -2,8 +2,8 @@ circuit: HUNGARY_CIRCUIT
 race_season: 2018
 driver: PIERRE_GASLY
 qualification_time_1 {
-  seconds: 13
-  nanos: 273000000
+  seconds: 78
+  nanos: 577000000
 }
 qualification_time_2 {
   seconds: 91
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 591000000
 }
 starting_position: 6
+finals_time {
+  seconds: 5909
+  nanos: 700000000
+}
 final_position: 6

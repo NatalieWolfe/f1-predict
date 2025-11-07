@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1971
 driver: REINE_WISELL
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 5455
+  nanos: 780000000
+}
 final_position: 4

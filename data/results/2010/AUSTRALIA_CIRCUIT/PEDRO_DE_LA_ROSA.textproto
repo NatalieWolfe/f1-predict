@@ -2,12 +2,16 @@ circuit: AUSTRALIA_CIRCUIT
 race_season: 2010
 driver: PEDRO_DE_LA_ROSA
 qualification_time_1 {
-  seconds: 14
-  nanos: 84000000
+  seconds: 86
+  nanos: 89000000
 }
 qualification_time_2 {
   seconds: 85
   nanos: 747000000
 }
 starting_position: 14
+finals_time {
+  seconds: 5690
+  nanos: 615000000
+}
 final_position: 12

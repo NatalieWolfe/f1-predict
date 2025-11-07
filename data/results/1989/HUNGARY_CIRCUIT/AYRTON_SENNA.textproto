@@ -1,7 +1,9 @@
 circuit: HUNGARY_CIRCUIT
 race_season: 1989
 driver: AYRTON_SENNA
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 6604
+  nanos: 617000000
+}
 final_position: 2

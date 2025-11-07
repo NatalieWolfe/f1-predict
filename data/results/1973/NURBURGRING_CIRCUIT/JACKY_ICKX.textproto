@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1973
 driver: JACKY_ICKX
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 6164
+  nanos: 200000000
+}
 final_position: 3

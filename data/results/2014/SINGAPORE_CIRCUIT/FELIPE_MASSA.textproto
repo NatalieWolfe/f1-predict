@@ -2,6 +2,8 @@ circuit: SINGAPORE_CIRCUIT
 race_season: 2014
 driver: FELIPE_MASSA
 qualification_time_1 {
+  seconds: 107
+  nanos: 615000000
 }
 qualification_time_2 {
   seconds: 106
@@ -11,4 +13,8 @@ qualification_time_3 {
   seconds: 106
 }
 starting_position: 6
+finals_time {
+  seconds: 7246
+  nanos: 956000000
+}
 final_position: 5

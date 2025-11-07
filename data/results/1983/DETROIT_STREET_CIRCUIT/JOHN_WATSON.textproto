@@ -1,7 +1,9 @@
 circuit: DETROIT_STREET_CIRCUIT
 race_season: 1983
 driver: JOHN_WATSON
-qualification_time_1 {
-}
 starting_position: 21
+finals_time {
+  seconds: 6662
+  nanos: 952000000
+}
 final_position: 3

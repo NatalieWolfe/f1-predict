@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1997
 driver: JEAN_ALESI
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 5499
+  nanos: 613000000
+}
 final_position: 2

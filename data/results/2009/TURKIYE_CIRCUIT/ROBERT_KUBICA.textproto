@@ -2,6 +2,8 @@ circuit: TURKIYE_CIRCUIT
 race_season: 2009
 driver: ROBERT_KUBICA
 qualification_time_1 {
+  seconds: 87
+  nanos: 788000000
 }
 qualification_time_2 {
   seconds: 87
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 357000000
 }
 starting_position: 10
+finals_time {
+  seconds: 5231
+  nanos: 95000000
+}
 final_position: 7

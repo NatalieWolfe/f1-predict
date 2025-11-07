@@ -3,14 +3,12 @@ race_season: 2023
 team: RED_BULL_RACING
 driver: MAX_VERSTAPPEN
 qualification_time_1 {
-  seconds: 5258
-  nanos: 241000000
+  seconds: 87
+  nanos: 363000000
 }
 qualification_time_2 {
   seconds: 86
   nanos: 814000000
-}
-qualification_time_3 {
 }
 starting_position: 9
 finals_time {

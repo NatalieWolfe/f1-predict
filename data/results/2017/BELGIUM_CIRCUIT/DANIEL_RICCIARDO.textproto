@@ -2,6 +2,8 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2017
 driver: DANIEL_RICCIARDO
 qualification_time_1 {
+  seconds: 105
+  nanos: 114000000
 }
 qualification_time_2 {
   seconds: 104
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 863000000
 }
 starting_position: 6
+finals_time {
+  seconds: 5093
+  nanos: 611000000
+}
 final_position: 3

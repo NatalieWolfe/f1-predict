@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1985
 driver: AYRTON_SENNA
-qualification_time_1 {
-}
 starting_position: 14
+finals_time {
+  seconds: 4842
+  nanos: 585000000
+}
 final_position: 2

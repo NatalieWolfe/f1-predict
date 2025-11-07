@@ -1,7 +1,9 @@
 circuit: BRAZIL_CIRCUIT
 race_season: 1991
 driver: ALAIN_PROST
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 5926
+  nanos: 497000000
+}
 final_position: 4

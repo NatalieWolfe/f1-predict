@@ -1,7 +1,9 @@
 circuit: NETHERLANDS_CIRCUIT
 race_season: 1979
 driver: JODY_SCHECKTER
-qualification_time_1 {
-}
 starting_position: 5
+finals_time {
+  seconds: 6101
+  nanos: 558000000
+}
 final_position: 2

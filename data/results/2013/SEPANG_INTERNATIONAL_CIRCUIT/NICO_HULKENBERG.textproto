@@ -2,10 +2,16 @@ circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 2013
 driver: NICO_HULKENBERG
 qualification_time_1 {
+  seconds: 97
+  nanos: 931000000
 }
 qualification_time_2 {
   seconds: 98
   nanos: 125000000
 }
 starting_position: 12
+finals_time {
+  seconds: 5989
+  nanos: 725000000
+}
 final_position: 8

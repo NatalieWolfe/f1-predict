@@ -2,6 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2013
 driver: JENSON_BUTTON
 qualification_time_1 {
+  seconds: 96
+  nanos: 667000000
 }
 qualification_time_2 {
   seconds: 95
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 673000000
 }
 starting_position: 8
+finals_time {
+  seconds: 5822
+  nanos: 230000000
+}
 final_position: 5

@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2002
 driver: JUAN_PABLO_MONTOYA
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 5570
+  nanos: 512000000
+}
 final_position: 4

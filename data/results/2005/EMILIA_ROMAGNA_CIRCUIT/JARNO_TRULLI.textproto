@@ -2,12 +2,16 @@ circuit: EMILIA_ROMAGNA_CIRCUIT
 race_season: 2005
 driver: JARNO_TRULLI
 qualification_time_1 {
-  seconds: 10
-  nanos: 258000000
+  seconds: 80
+  nanos: 492000000
 }
 qualification_time_2 {
   seconds: 84
   nanos: 26000000
 }
 starting_position: 5
+finals_time {
+  seconds: 5332
+  nanos: 179000000
+}
 final_position: 5

@@ -2,8 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1997
 driver: MICHAEL_SCHUMACHER
 qualification_time_1 {
+  seconds: 74
+  nanos: 548000000
+}
+starting_position: 1
+finals_time {
   seconds: 5930
   nanos: 492000000
 }
-starting_position: 1
 final_position: 1

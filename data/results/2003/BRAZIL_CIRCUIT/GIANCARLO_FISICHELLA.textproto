@@ -2,8 +2,12 @@ circuit: BRAZIL_CIRCUIT
 race_season: 2003
 driver: GIANCARLO_FISICHELLA
 qualification_time_1 {
+  seconds: 74
+  nanos: 191000000
+}
+starting_position: 8
+finals_time {
   seconds: 5478
   nanos: 200000000
 }
-starting_position: 8
 final_position: 1

@@ -1,9 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1961
 driver: DAN_GURNEY
-qualification_time_1 {
-  seconds: 23
-  nanos: 100000000
-}
 starting_position: 7
+finals_time {
+  seconds: 8495
+  nanos: 500000000
+}
 final_position: 7

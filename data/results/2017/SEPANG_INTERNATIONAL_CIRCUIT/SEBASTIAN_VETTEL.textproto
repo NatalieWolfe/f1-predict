@@ -1,7 +1,9 @@
 circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 2017
 driver: SEBASTIAN_VETTEL
-qualification_time_1 {
-}
 starting_position: 20
+finals_time {
+  seconds: 5438
+  nanos: 652000000
+}
 final_position: 4

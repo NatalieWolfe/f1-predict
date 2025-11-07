@@ -1,9 +1,9 @@
 circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1992
 driver: JEAN_ALESI
-qualification_time_1 {
-  seconds: 12
-  nanos: 607000000
-}
 starting_position: 5
+finals_time {
+  seconds: 4774
+  nanos: 639000000
+}
 final_position: 5

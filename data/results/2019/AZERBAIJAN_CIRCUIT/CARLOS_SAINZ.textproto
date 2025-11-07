@@ -2,12 +2,16 @@ circuit: AZERBAIJAN_CIRCUIT
 race_season: 2019
 driver: CARLOS_SAINZ
 qualification_time_1 {
-  seconds: 23
-  nanos: 826000000
+  seconds: 101
+  nanos: 936000000
 }
 qualification_time_2 {
   seconds: 102
   nanos: 398000000
 }
 starting_position: 9
+finals_time {
+  seconds: 5596
+  nanos: 768000000
+}
 final_position: 7

@@ -3,6 +3,8 @@ race_season: 2024
 team: RED_BULL_RACING
 driver: SERGIO_PEREZ
 qualification_time_1 {
+  seconds: 88
+  nanos: 638000000
 }
 qualification_time_2 {
   seconds: 88
@@ -14,7 +16,7 @@ qualification_time_3 {
 }
 starting_position: 3
 finals_time {
-  seconds: 4856
-  nanos: 916000000
+  seconds: 4862
+  nanos: 704000000
 }
 final_position: 2

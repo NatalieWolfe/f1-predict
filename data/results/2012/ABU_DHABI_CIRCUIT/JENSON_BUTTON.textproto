@@ -2,6 +2,8 @@ circuit: ABU_DHABI_CIRCUIT
 race_season: 2012
 driver: JENSON_BUTTON
 qualification_time_1 {
+  seconds: 102
+  nanos: 342000000
 }
 qualification_time_2 {
   seconds: 101
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 290000000
 }
 starting_position: 5
+finals_time {
+  seconds: 6366
+  nanos: 454000000
+}
 final_position: 4

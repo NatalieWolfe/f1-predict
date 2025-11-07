@@ -2,8 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2016
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
-  seconds: 26
-  nanos: 192000000
+  seconds: 97
+  nanos: 537000000
 }
 qualification_time_2 {
   seconds: 96
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 296000000
 }
 starting_position: 5
+finals_time {
+  seconds: 6020
+  nanos: 83000000
+}
 final_position: 10

@@ -1,7 +1,9 @@
 circuit: EMILIA_ROMAGNA_CIRCUIT
 race_season: 1982
 driver: GILLES_VILLENEUVE
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 5799
+  nanos: 253000000
+}
 final_position: 2

@@ -1,7 +1,9 @@
 circuit: MONACO_CIRCUIT
 race_season: 1969
 driver: RICHARD_ATTWOOD
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 7072
+  nanos: 300000000
+}
 final_position: 4

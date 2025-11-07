@@ -1,7 +1,9 @@
 circuit: FRANCE_CIRCUIT
 race_season: 1983
 driver: EDDIE_CHEEVER
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 5694
+  nanos: 145000000
+}
 final_position: 3

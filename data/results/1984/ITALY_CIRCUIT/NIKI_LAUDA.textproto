@@ -1,9 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1984
 driver: NIKI_LAUDA
-qualification_time_1 {
+starting_position: 4
+finals_time {
   seconds: 4829
   nanos: 65000000
 }
-starting_position: 4
 final_position: 1

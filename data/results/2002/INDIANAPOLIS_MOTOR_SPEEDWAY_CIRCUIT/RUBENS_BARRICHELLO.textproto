@@ -5,4 +5,7 @@ qualification_time_1 {
   seconds: 5468
 }
 starting_position: 2
+finals_time {
+  seconds: 5468
+}
 final_position: 1

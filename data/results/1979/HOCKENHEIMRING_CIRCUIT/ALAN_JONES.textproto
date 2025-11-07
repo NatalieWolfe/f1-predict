@@ -1,9 +1,9 @@
 circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1979
 driver: ALAN_JONES
-qualification_time_1 {
+starting_position: 2
+finals_time {
   seconds: 5088
   nanos: 830000000
 }
-starting_position: 2
 final_position: 1

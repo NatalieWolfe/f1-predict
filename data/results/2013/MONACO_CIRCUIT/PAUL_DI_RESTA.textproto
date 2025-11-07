@@ -2,6 +2,12 @@ circuit: MONACO_CIRCUIT
 race_season: 2013
 driver: PAUL_DI_RESTA
 qualification_time_1 {
+  seconds: 86
+  nanos: 322000000
 }
 starting_position: 17
+finals_time {
+  seconds: 8299
+  nanos: 664000000
+}
 final_position: 9

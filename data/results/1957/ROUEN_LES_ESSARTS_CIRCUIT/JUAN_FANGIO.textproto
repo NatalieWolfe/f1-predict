@@ -1,9 +1,9 @@
 circuit: ROUEN_LES_ESSARTS_CIRCUIT
 race_season: 1957
 driver: JUAN_FANGIO
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 11266
   nanos: 400000000
 }
-starting_position: 1
 final_position: 1

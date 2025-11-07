@@ -1,7 +1,9 @@
 circuit: JAPAN_CIRCUIT
 race_season: 1998
 driver: EDDIE_IRVINE
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5249
+  nanos: 891000000
+}
 final_position: 2

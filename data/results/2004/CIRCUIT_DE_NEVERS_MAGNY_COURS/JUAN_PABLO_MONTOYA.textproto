@@ -2,6 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2004
 driver: JUAN_PABLO_MONTOYA
 qualification_time_1 {
+  seconds: 74
+  nanos: 172000000
 }
 starting_position: 6
+finals_time {
+  seconds: 5461
+  nanos: 552000000
+}
 final_position: 8

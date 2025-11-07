@@ -1,7 +1,9 @@
 circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
 race_season: 1957
 driver: JIM_RATHMANN
-qualification_time_1 {
-}
 starting_position: 32
+finals_time {
+  seconds: 13295
+  nanos: 710000000
+}
 final_position: 2

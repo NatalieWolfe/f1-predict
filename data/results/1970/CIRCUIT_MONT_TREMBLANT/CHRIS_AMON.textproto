@@ -1,7 +1,9 @@
 circuit: CIRCUIT_MONT_TREMBLANT
 race_season: 1970
 driver: CHRIS_AMON
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 4936
+  nanos: 300000000
+}
 final_position: 3

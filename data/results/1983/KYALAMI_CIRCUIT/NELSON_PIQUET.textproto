@@ -1,7 +1,9 @@
 circuit: KYALAMI_CIRCUIT
 race_season: 1983
 driver: NELSON_PIQUET
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 5627
+  nanos: 677000000
+}
 final_position: 3

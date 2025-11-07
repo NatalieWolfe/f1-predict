@@ -1,7 +1,9 @@
 circuit: AUTODROMO_INTERNACIONAL_NELSON_PIQUET_CIRCUIT
 race_season: 1989
 driver: MAURICIO_GUGELMIN
-qualification_time_1 {
-}
 starting_position: 12
+finals_time {
+  seconds: 5948
+  nanos: 114000000
+}
 final_position: 3

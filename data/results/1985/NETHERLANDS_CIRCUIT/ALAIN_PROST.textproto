@@ -1,7 +1,9 @@
 circuit: NETHERLANDS_CIRCUIT
 race_season: 1985
 driver: ALAIN_PROST
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 5549
+  nanos: 495000000
+}
 final_position: 2

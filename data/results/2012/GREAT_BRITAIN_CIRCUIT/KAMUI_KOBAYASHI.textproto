@@ -2,10 +2,16 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2012
 driver: KAMUI_KOBAYASHI
 qualification_time_1 {
+  seconds: 106
+  nanos: 649000000
 }
 qualification_time_2 {
   seconds: 117
   nanos: 71000000
 }
 starting_position: 17
+finals_time {
+  seconds: 5156
+  nanos: 658000000
+}
 final_position: 11

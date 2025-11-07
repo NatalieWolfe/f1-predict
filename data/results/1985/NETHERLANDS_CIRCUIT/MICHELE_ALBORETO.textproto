@@ -1,7 +1,9 @@
 circuit: NETHERLANDS_CIRCUIT
 race_season: 1985
 driver: MICHELE_ALBORETO
-qualification_time_1 {
-}
 starting_position: 16
+finals_time {
+  seconds: 5598
+  nanos: 100000000
+}
 final_position: 4

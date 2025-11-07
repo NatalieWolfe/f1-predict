@@ -1,7 +1,9 @@
 circuit: ADELAIDE_STREET_CIRCUIT
 race_season: 1993
 driver: ALAIN_PROST
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 6216
+  nanos: 735000000
+}
 final_position: 2

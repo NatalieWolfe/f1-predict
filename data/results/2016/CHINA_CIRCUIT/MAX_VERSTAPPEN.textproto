@@ -2,8 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2016
 driver: MAX_VERSTAPPEN
 qualification_time_1 {
-  seconds: 19
-  nanos: 268000000
+  seconds: 98
+  nanos: 181000000
 }
 qualification_time_2 {
   seconds: 97
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 194000000
 }
 starting_position: 9
+finals_time {
+  seconds: 6013
+  nanos: 159000000
+}
 final_position: 8

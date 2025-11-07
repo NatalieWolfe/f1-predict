@@ -1,7 +1,9 @@
 circuit: CIRCUIT_BREMGARTEN
 race_season: 1951
 driver: PIERO_TARUFFI
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 7728
+  nanos: 880000000
+}
 final_position: 2

@@ -1,7 +1,9 @@
 circuit: BRAZIL_CIRCUIT
 race_season: 2019
 driver: CARLOS_SAINZ
-qualification_time_1 {
-}
 starting_position: 20
+finals_time {
+  seconds: 5603
+  nanos: 574000000
+}
 final_position: 3

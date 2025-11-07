@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1993
 driver: AYRTON_SENNA
-qualification_time_1 {
-}
 starting_position: 5
+finals_time {
+  seconds: 5947
+  nanos: 646000000
+}
 final_position: 4

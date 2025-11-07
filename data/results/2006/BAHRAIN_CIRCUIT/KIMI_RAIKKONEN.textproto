@@ -1,7 +1,9 @@
 circuit: BAHRAIN_CIRCUIT
 race_season: 2006
 driver: KIMI_RAIKKONEN
-qualification_time_1 {
-}
 starting_position: 22
+finals_time {
+  seconds: 5405
+  nanos: 565000000
+}
 final_position: 3

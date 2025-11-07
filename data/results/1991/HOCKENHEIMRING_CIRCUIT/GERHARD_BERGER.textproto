@@ -1,7 +1,9 @@
 circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1991
 driver: GERHARD_BERGER
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 4802
+  nanos: 312000000
+}
 final_position: 4

@@ -1,7 +1,9 @@
 circuit: MONACO_CIRCUIT
 race_season: 1983
 driver: NELSON_PIQUET
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 7016
+  nanos: 596000000
+}
 final_position: 2

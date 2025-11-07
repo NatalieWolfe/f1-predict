@@ -1,7 +1,9 @@
 circuit: CANADA_CIRCUIT
 race_season: 1990
 driver: ALAIN_PROST
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 6192
+  nanos: 220000000
+}
 final_position: 5

@@ -1,7 +1,9 @@
 circuit: BRAZIL_CIRCUIT
 race_season: 2002
 driver: DAVID_COULTHARD
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5562
+  nanos: 771000000
+}
 final_position: 3

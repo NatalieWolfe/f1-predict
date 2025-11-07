@@ -1,7 +1,9 @@
 circuit: BRAZIL_CIRCUIT
 race_season: 1975
 driver: JOCHEN_MASS
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 6307
+  nanos: 830000000
+}
 final_position: 3

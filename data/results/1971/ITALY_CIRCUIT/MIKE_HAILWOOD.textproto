@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1971
 driver: MIKE_HAILWOOD
-qualification_time_1 {
-}
 starting_position: 17
+finals_time {
+  seconds: 4692
+  nanos: 780000000
+}
 final_position: 4

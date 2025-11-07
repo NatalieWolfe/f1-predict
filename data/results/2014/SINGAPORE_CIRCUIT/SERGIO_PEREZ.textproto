@@ -2,10 +2,16 @@ circuit: SINGAPORE_CIRCUIT
 race_season: 2014
 driver: SERGIO_PEREZ
 qualification_time_1 {
+  seconds: 108
+  nanos: 143000000
 }
 qualification_time_2 {
   seconds: 107
   nanos: 575000000
 }
 starting_position: 15
+finals_time {
+  seconds: 7263
+  nanos: 833000000
+}
 final_position: 7

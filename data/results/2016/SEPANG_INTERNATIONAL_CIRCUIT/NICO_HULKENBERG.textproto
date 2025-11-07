@@ -2,8 +2,8 @@ circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 2016
 driver: NICO_HULKENBERG
 qualification_time_1 {
-  seconds: 14
-  nanos: 62000000
+  seconds: 94
+  nanos: 827000000
 }
 qualification_time_2 {
   seconds: 94
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 489000000
 }
 starting_position: 8
+finals_time {
+  seconds: 5906
+  nanos: 838000000
+}
 final_position: 8

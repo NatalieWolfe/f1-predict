@@ -1,7 +1,9 @@
 circuit: SINGAPORE_CIRCUIT
 race_season: 2019
 driver: DANIEL_RICCIARDO
-qualification_time_1 {
-}
 starting_position: 20
+finals_time {
+  seconds: 7151
+  nanos: 327000000
+}
 final_position: 14

@@ -2,6 +2,12 @@ circuit: JAPAN_CIRCUIT
 race_season: 2003
 driver: CRISTIANO_DA_MATTA
 qualification_time_1 {
+  seconds: 92
+  nanos: 418000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5168
+  nanos: 537000000
+}
 final_position: 7

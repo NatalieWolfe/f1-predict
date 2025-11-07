@@ -2,6 +2,8 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2019
 driver: DANIEL_RICCIARDO
 qualification_time_1 {
+  seconds: 86
+  nanos: 428000000
 }
 qualification_time_2 {
   seconds: 86
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 182000000
 }
 starting_position: 7
+finals_time {
+  seconds: 4922
+  nanos: 853000000
+}
 final_position: 7

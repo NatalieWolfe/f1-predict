@@ -1,9 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1966
 driver: LORENZO_BANDINI
-qualification_time_1 {
-  seconds: 56
+starting_position: 6
+finals_time {
+  seconds: 9479
   nanos: 400000000
 }
-starting_position: 6
 final_position: 6

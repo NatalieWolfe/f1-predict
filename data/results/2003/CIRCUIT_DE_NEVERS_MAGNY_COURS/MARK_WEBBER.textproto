@@ -2,8 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2003
 driver: MARK_WEBBER
 qualification_time_1 {
-  seconds: 6
-  nanos: 380000000
+  seconds: 76
+  nanos: 308000000
 }
 starting_position: 9
+finals_time {
+  seconds: 5515
+  nanos: 593000000
+}
 final_position: 6

@@ -2,8 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2005
 driver: FERNANDO_ALONSO
 qualification_time_1 {
+  seconds: 74
+  nanos: 412000000
+}
+starting_position: 1
+finals_time {
   seconds: 5482
   nanos: 232000000
 }
-starting_position: 1
 final_position: 1

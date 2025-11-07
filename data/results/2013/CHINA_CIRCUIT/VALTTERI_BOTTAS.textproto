@@ -2,8 +2,12 @@ circuit: CHINA_CIRCUIT
 race_season: 2013
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
-  seconds: 33
-  nanos: 861000000
+  seconds: 97
+  nanos: 769000000
 }
 starting_position: 16
+finals_time {
+  seconds: 5880
+  nanos: 806000000
+}
 final_position: 13

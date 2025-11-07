@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1997
 driver: DAMON_HILL
-qualification_time_1 {
-}
 starting_position: 13
+finals_time {
+  seconds: 5532
+  nanos: 620000000
+}
 final_position: 8

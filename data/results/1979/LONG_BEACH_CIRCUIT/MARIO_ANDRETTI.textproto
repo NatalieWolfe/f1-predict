@@ -1,9 +1,9 @@
 circuit: LONG_BEACH_CIRCUIT
 race_season: 1979
 driver: MARIO_ANDRETTI
-qualification_time_1 {
-  seconds: 4
-  nanos: 330000000
-}
 starting_position: 6
+finals_time {
+  seconds: 6689
+  nanos: 730000000
+}
 final_position: 4

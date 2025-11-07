@@ -2,8 +2,8 @@ circuit: TURKIYE_CIRCUIT
 race_season: 2020
 driver: LEWIS_HAMILTON
 qualification_time_1 {
-  seconds: 6139
-  nanos: 313000000
+  seconds: 127
+  nanos: 599000000
 }
 qualification_time_2 {
   seconds: 112
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 560000000
 }
 starting_position: 6
+finals_time {
+  seconds: 6139
+  nanos: 313000000
+}
 final_position: 1

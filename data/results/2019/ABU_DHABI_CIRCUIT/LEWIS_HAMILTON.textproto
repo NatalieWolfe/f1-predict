@@ -2,8 +2,8 @@ circuit: ABU_DHABI_CIRCUIT
 race_season: 2019
 driver: LEWIS_HAMILTON
 qualification_time_1 {
-  seconds: 5645
-  nanos: 715000000
+  seconds: 95
+  nanos: 851000000
 }
 qualification_time_2 {
   seconds: 95
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 779000000
 }
 starting_position: 1
+finals_time {
+  seconds: 5645
+  nanos: 715000000
+}
 final_position: 1

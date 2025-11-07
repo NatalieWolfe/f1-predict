@@ -2,8 +2,8 @@ circuit: ITALY_CIRCUIT
 race_season: 2016
 driver: SERGIO_PEREZ
 qualification_time_1 {
-  seconds: 4
-  nanos: 954000000
+  seconds: 83
+  nanos: 439000000
 }
 qualification_time_2 {
   seconds: 82
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 814000000
 }
 starting_position: 8
+finals_time {
+  seconds: 4713
+  nanos: 43000000
+}
 final_position: 8

@@ -2,8 +2,12 @@ circuit: HUNGARY_CIRCUIT
 race_season: 2004
 driver: JENSON_BUTTON
 qualification_time_1 {
-  seconds: 7
-  nanos: 439000000
+  seconds: 79
+  nanos: 700000000
 }
 starting_position: 4
+finals_time {
+  seconds: 5793
+  nanos: 570000000
+}
 final_position: 5

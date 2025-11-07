@@ -1,7 +1,9 @@
 circuit: SPAIN_CIRCUIT
 race_season: 2001
 driver: JARNO_TRULLI
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 5514
+  nanos: 558000000
+}
 final_position: 4

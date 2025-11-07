@@ -1,7 +1,9 @@
 circuit: BRANDS_HATCH_CIRCUIT
 race_season: 1983
 driver: ANDREA_DE_CESARIS
-qualification_time_1 {
-}
 starting_position: 14
+finals_time {
+  seconds: 5840
+  nanos: 261000000
+}
 final_position: 4

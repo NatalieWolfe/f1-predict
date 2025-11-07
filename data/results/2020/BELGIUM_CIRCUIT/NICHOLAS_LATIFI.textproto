@@ -2,8 +2,12 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2020
 driver: NICHOLAS_LATIFI
 qualification_time_1 {
-  seconds: 17
-  nanos: 795000000
+  seconds: 104
+  nanos: 138000000
 }
 starting_position: 19
+finals_time {
+  seconds: 5126
+  nanos: 556000000
+}
 final_position: 16

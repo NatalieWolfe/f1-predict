@@ -1,9 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 1986
 driver: ALAIN_PROST
-qualification_time_1 {
-  seconds: 17
-  nanos: 772000000
-}
 starting_position: 3
+finals_time {
+  seconds: 5415
+  nanos: 697000000
+}
 final_position: 6

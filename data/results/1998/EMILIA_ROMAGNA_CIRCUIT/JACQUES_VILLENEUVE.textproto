@@ -1,7 +1,9 @@
 circuit: EMILIA_ROMAGNA_CIRCUIT
 race_season: 1998
 driver: JACQUES_VILLENEUVE
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 5719
+  nanos: 990000000
+}
 final_position: 4

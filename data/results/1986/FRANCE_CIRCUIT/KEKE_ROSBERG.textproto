@@ -1,7 +1,9 @@
 circuit: FRANCE_CIRCUIT
 race_season: 1986
 driver: KEKE_ROSBERG
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 5887
+  nanos: 975000000
+}
 final_position: 4

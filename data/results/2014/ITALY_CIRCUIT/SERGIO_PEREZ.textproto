@@ -2,8 +2,8 @@ circuit: ITALY_CIRCUIT
 race_season: 2014
 driver: SERGIO_PEREZ
 qualification_time_1 {
-  seconds: 2
-  nanos: 518000000
+  seconds: 86
+  nanos: 569000000
 }
 qualification_time_2 {
   seconds: 85
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 944000000
 }
 starting_position: 10
+finals_time {
+  seconds: 4812
+  nanos: 754000000
+}
 final_position: 7

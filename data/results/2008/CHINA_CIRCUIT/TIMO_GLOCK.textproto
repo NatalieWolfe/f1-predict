@@ -2,10 +2,16 @@ circuit: CHINA_CIRCUIT
 race_season: 2008
 driver: TIMO_GLOCK
 qualification_time_1 {
+  seconds: 96
+  nanos: 210000000
 }
 qualification_time_2 {
   seconds: 95
   nanos: 937000000
 }
 starting_position: 12
+finals_time {
+  seconds: 5559
+  nanos: 125000000
+}
 final_position: 7

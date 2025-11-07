@@ -1,7 +1,9 @@
 circuit: BRANDS_HATCH_CIRCUIT
 race_season: 1983
 driver: ALAIN_PROST
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 5812
+  nanos: 436000000
+}
 final_position: 2

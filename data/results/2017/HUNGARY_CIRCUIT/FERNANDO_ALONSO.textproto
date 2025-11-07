@@ -2,8 +2,8 @@ circuit: HUNGARY_CIRCUIT
 race_season: 2017
 driver: FERNANDO_ALONSO
 qualification_time_1 {
-  seconds: 11
-  nanos: 223000000
+  seconds: 78
+  nanos: 395000000
 }
 qualification_time_2 {
   seconds: 77
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 549000000
 }
 starting_position: 7
+finals_time {
+  seconds: 6057
+  nanos: 936000000
+}
 final_position: 6

@@ -2,6 +2,8 @@ circuit: TURKIYE_CIRCUIT
 race_season: 2011
 driver: NICO_ROSBERG
 qualification_time_1 {
+  seconds: 87
+  nanos: 514000000
 }
 qualification_time_2 {
   seconds: 85
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 574000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5465
+  nanos: 97000000
+}
 final_position: 5

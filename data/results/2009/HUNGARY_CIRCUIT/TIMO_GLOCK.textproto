@@ -2,10 +2,16 @@ circuit: HUNGARY_CIRCUIT
 race_season: 2009
 driver: TIMO_GLOCK
 qualification_time_1 {
+  seconds: 81
+  nanos: 584000000
 }
 qualification_time_2 {
   seconds: 81
   nanos: 242000000
 }
 starting_position: 13
+finals_time {
+  seconds: 5939
+  nanos: 113000000
+}
 final_position: 6

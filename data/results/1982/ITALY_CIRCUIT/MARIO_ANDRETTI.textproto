@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1982
 driver: MARIO_ANDRETTI
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 4994
+  nanos: 186000000
+}
 final_position: 3

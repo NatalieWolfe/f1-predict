@@ -1,7 +1,9 @@
 circuit: BRAZIL_CIRCUIT
 race_season: 1975
 driver: CLAY_REGAZZONI
-qualification_time_1 {
-}
 starting_position: 5
+finals_time {
+  seconds: 6324
+  nanos: 450000000
+}
 final_position: 4

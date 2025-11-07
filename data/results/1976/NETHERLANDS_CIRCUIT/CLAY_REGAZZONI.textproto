@@ -1,7 +1,9 @@
 circuit: NETHERLANDS_CIRCUIT
 race_season: 1976
 driver: CLAY_REGAZZONI
-qualification_time_1 {
-}
 starting_position: 5
+finals_time {
+  seconds: 6293
+  nanos: 10000000
+}
 final_position: 2

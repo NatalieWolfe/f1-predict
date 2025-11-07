@@ -2,10 +2,16 @@ circuit: ITALY_CIRCUIT
 race_season: 2006
 driver: JARNO_TRULLI
 qualification_time_1 {
+  seconds: 82
+  nanos: 93000000
 }
 qualification_time_2 {
   seconds: 81
   nanos: 924000000
 }
 starting_position: 11
+finals_time {
+  seconds: 4536
+  nanos: 637000000
+}
 final_position: 7

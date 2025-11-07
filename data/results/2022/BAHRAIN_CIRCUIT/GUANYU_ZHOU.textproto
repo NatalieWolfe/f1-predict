@@ -3,6 +3,8 @@ race_season: 2022
 team: KICK_SAUBER
 driver: GUANYU_ZHOU
 qualification_time_1 {
+  seconds: 92
+  nanos: 493000000
 }
 qualification_time_2 {
   seconds: 93

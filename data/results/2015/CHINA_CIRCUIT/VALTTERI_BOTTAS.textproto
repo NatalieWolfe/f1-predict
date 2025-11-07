@@ -2,6 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2015
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
+  seconds: 98
+  nanos: 14000000
 }
 qualification_time_2 {
   seconds: 97
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 143000000
 }
 starting_position: 5
+finals_time {
+  seconds: 5991
+  nanos: 893000000
+}
 final_position: 6

@@ -2,8 +2,8 @@ circuit: JAPAN_CIRCUIT
 race_season: 2014
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
-  seconds: 53
-  nanos: 773000000
+  seconds: 94
+  nanos: 301000000
 }
 qualification_time_2 {
   seconds: 93
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 128000000
 }
 starting_position: 3
+finals_time {
+  seconds: 6816
+  nanos: 794000000
+}
 final_position: 6

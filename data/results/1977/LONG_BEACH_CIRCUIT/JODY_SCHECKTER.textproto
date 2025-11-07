@@ -1,7 +1,9 @@
 circuit: LONG_BEACH_CIRCUIT
 race_season: 1977
 driver: JODY_SCHECKTER
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 6700
+  nanos: 327000000
+}
 final_position: 3

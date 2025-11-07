@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1970
 driver: ROLF_STOMMELEN
-qualification_time_1 {
-}
 starting_position: 17
+finals_time {
+  seconds: 5953
+  nanos: 510000000
+}
 final_position: 5

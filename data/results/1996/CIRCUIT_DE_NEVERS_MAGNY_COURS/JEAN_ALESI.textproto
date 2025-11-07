@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1996
 driver: JEAN_ALESI
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 5835
+  nanos: 642000000
+}
 final_position: 3

@@ -2,10 +2,16 @@ circuit: BRAZIL_CIRCUIT
 race_season: 2010
 driver: NICO_ROSBERG
 qualification_time_1 {
+  seconds: 80
+  nanos: 153000000
 }
 qualification_time_2 {
   seconds: 79
   nanos: 486000000
 }
 starting_position: 13
+finals_time {
+  seconds: 5627
+  nanos: 123000000
+}
 final_position: 6

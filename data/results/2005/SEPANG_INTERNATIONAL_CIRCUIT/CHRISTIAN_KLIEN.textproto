@@ -2,12 +2,16 @@ circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 2005
 driver: CHRISTIAN_KLIEN
 qualification_time_1 {
-  seconds: 20
-  nanos: 835000000
+  seconds: 93
+  nanos: 724000000
 }
 qualification_time_2 {
   seconds: 95
   nanos: 865000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5574
+  nanos: 571000000
+}
 final_position: 8

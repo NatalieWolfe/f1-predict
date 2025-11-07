@@ -1,7 +1,9 @@
 circuit: FRANCE_CIRCUIT
 race_season: 1985
 driver: STEFAN_JOHANSSON
-qualification_time_1 {
-}
 starting_position: 16
+finals_time {
+  seconds: 5559
+  nanos: 757000000
+}
 final_position: 4

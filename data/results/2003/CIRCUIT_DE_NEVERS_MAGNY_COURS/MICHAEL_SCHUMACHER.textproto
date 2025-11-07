@@ -2,6 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2003
 driver: MICHAEL_SCHUMACHER
 qualification_time_1 {
+  seconds: 75
+  nanos: 480000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5468
+  nanos: 781000000
+}
 final_position: 3

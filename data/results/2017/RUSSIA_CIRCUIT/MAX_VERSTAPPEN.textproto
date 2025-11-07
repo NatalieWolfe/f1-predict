@@ -2,7 +2,8 @@ circuit: RUSSIA_CIRCUIT
 race_season: 2017
 driver: MAX_VERSTAPPEN
 qualification_time_1 {
-  nanos: 416000000
+  seconds: 95
+  nanos: 301000000
 }
 qualification_time_2 {
   seconds: 95
@@ -13,4 +14,8 @@ qualification_time_3 {
   nanos: 161000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5349
+  nanos: 159000000
+}
 final_position: 5

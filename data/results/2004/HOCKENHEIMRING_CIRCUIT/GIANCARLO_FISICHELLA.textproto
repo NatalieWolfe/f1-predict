@@ -2,8 +2,12 @@ circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 2004
 driver: GIANCARLO_FISICHELLA
 qualification_time_1 {
-  seconds: 7
-  nanos: 102000000
+  seconds: 75
+  nanos: 395000000
 }
 starting_position: 14
+finals_time {
+  seconds: 5101
+  nanos: 950000000
+}
 final_position: 9

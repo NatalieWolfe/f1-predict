@@ -1,7 +1,9 @@
 circuit: MOSPORT_INTERNATIONAL_RACEWAY_CIRCUIT
 race_season: 1976
 driver: JODY_SCHECKTER
-qualification_time_1 {
-}
 starting_position: 7
+finals_time {
+  seconds: 6029
+  nanos: 371000000
+}
 final_position: 4

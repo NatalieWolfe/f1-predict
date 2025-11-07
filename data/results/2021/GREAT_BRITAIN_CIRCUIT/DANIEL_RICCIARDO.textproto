@@ -3,6 +3,8 @@ race_season: 2021
 team: MCLAREN
 driver: DANIEL_RICCIARDO
 qualification_time_1 {
+  seconds: 87
+  nanos: 323000000
 }
 qualification_time_2 {
   seconds: 87

@@ -6,4 +6,8 @@ qualification_time_1 {
   nanos: 448000000
 }
 starting_position: 19
+finals_time {
+  seconds: 5628
+  nanos: 549000000
+}
 final_position: 6

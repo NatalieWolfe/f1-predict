@@ -1,9 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1966
 driver: GRAHAM_HILL
-qualification_time_1 {
-  seconds: 41
+starting_position: 10
+finals_time {
+  seconds: 9224
   nanos: 400000000
 }
-starting_position: 10
 final_position: 4

@@ -2,12 +2,16 @@ circuit: JAPAN_CIRCUIT
 race_season: 2016
 driver: FELIPE_MASSA
 qualification_time_1 {
-  seconds: 37
-  nanos: 763000000
+  seconds: 92
+  nanos: 561000000
 }
 qualification_time_2 {
   seconds: 92
   nanos: 380000000
 }
 starting_position: 12
+finals_time {
+  seconds: 5301
+  nanos: 96000000
+}
 final_position: 9

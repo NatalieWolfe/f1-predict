@@ -2,6 +2,8 @@ circuit: MONACO_CIRCUIT
 race_season: 2019
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
+  seconds: 71
+  nanos: 562000000
 }
 qualification_time_2 {
   seconds: 70
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 252000000
 }
 starting_position: 2
+finals_time {
+  seconds: 6211
+  nanos: 599000000
+}
 final_position: 3

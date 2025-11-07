@@ -3,6 +3,8 @@ race_season: 2022
 team: FERRARI
 driver: CHARLES_LECLERC
 qualification_time_1 {
+  seconds: 72
+  nanos: 569000000
 }
 qualification_time_2 {
   seconds: 71

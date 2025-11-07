@@ -2,8 +2,8 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2019
 driver: SERGIO_PEREZ
 qualification_time_1 {
-  seconds: 24
-  nanos: 448000000
+  seconds: 105
+  nanos: 732000000
 }
 qualification_time_2 {
   seconds: 104
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 706000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5110
+  nanos: 158000000
+}
 final_position: 6

@@ -2,6 +2,8 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2008
 driver: LEWIS_HAMILTON
 qualification_time_1 {
+  seconds: 106
+  nanos: 887000000
 }
 qualification_time_2 {
   seconds: 106
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 338000000
 }
 starting_position: 1
+finals_time {
+  seconds: 4989
+  nanos: 933000000
+}
 final_position: 3

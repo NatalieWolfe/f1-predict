@@ -2,8 +2,12 @@ circuit: BRAZIL_CIRCUIT
 race_season: 1998
 driver: MIKA_HAKKINEN
 qualification_time_1 {
+  seconds: 77
+  nanos: 92000000
+}
+starting_position: 1
+finals_time {
   seconds: 5832
   nanos: 200000000
 }
-starting_position: 1
 final_position: 1

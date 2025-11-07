@@ -2,8 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2006
 driver: MICHAEL_SCHUMACHER
 qualification_time_1 {
-  seconds: 5852
-  nanos: 747000000
+  seconds: 107
+  nanos: 366000000
 }
 qualification_time_2 {
   seconds: 105
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 775000000
 }
 starting_position: 6
+finals_time {
+  seconds: 5852
+  nanos: 747000000
+}
 final_position: 1

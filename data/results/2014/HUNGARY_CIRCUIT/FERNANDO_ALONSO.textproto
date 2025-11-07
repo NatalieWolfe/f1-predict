@@ -2,6 +2,8 @@ circuit: HUNGARY_CIRCUIT
 race_season: 2014
 driver: FERNANDO_ALONSO
 qualification_time_1 {
+  seconds: 86
+  nanos: 87000000
 }
 qualification_time_2 {
   seconds: 84
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 909000000
 }
 starting_position: 5
+finals_time {
+  seconds: 6790
+  nanos: 283000000
+}
 final_position: 2

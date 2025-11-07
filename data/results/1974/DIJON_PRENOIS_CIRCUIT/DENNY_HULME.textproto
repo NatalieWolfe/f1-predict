@@ -1,7 +1,9 @@
 circuit: DIJON_PRENOIS_CIRCUIT
 race_season: 1974
 driver: DENNY_HULME
-qualification_time_1 {
-}
 starting_position: 11
+finals_time {
+  seconds: 4953
+  nanos: 160000000
+}
 final_position: 6

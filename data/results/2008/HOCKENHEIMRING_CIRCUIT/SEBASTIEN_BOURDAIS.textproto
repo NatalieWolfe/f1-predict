@@ -2,10 +2,16 @@ circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 2008
 driver: SEBASTIEN_BOURDAIS
 qualification_time_1 {
+  seconds: 75
+  nanos: 927000000
 }
 qualification_time_2 {
   seconds: 75
   nanos: 858000000
 }
 starting_position: 15
+finals_time {
+  seconds: 5519
+  nanos: 985000000
+}
 final_position: 12

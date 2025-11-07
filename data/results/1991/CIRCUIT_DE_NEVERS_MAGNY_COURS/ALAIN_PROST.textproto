@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1991
 driver: ALAIN_PROST
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 5885
+  nanos: 59000000
+}
 final_position: 2

@@ -2,6 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2004
 driver: JENSON_BUTTON
 qualification_time_1 {
+  seconds: 73
+  nanos: 995000000
 }
 starting_position: 4
+finals_time {
+  seconds: 5450
+  nanos: 615000000
+}
 final_position: 5

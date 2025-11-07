@@ -1,9 +1,9 @@
 circuit: BRAZIL_CIRCUIT
 race_season: 1976
 driver: NIKI_LAUDA
-qualification_time_1 {
+starting_position: 2
+finals_time {
   seconds: 6316
   nanos: 780000000
 }
-starting_position: 2
 final_position: 1

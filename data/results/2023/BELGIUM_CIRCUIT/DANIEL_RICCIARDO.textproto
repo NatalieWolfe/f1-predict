@@ -3,8 +3,8 @@ race_season: 2023
 team: RB
 driver: DANIEL_RICCIARDO
 qualification_time_1 {
-  seconds: 43
-  nanos: 71000000
+  seconds: 122
+  nanos: 159000000
 }
 starting_position: 19
 finals_time {

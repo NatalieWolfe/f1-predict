@@ -1,7 +1,9 @@
 circuit: LAS_VEGAS_CIRCUIT
 race_season: 1982
 driver: JOHN_WATSON
-qualification_time_1 {
-}
 starting_position: 9
+finals_time {
+  seconds: 6144
+  nanos: 180000000
+}
 final_position: 2

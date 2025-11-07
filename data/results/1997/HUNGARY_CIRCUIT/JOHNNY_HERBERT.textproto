@@ -1,7 +1,9 @@
 circuit: HUNGARY_CIRCUIT
 race_season: 1997
 driver: JOHNNY_HERBERT
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 6367
+  nanos: 594000000
+}
 final_position: 3

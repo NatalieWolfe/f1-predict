@@ -1,9 +1,9 @@
 circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1992
 driver: MARTIN_BRUNDLE
-qualification_time_1 {
-  seconds: 12
-  nanos: 579000000
-}
 starting_position: 7
+finals_time {
+  seconds: 5961
+  nanos: 38000000
+}
 final_position: 3

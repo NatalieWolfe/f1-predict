@@ -2,6 +2,8 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2019
 driver: MAX_VERSTAPPEN
 qualification_time_1 {
+  seconds: 85
+  nanos: 700000000
 }
 qualification_time_2 {
   seconds: 85
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 276000000
 }
 starting_position: 4
+finals_time {
+  seconds: 4907
+  nanos: 910000000
+}
 final_position: 5

@@ -2,6 +2,8 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2007
 driver: FELIPE_MASSA
 qualification_time_1 {
+  seconds: 79
+  nanos: 790000000
 }
 qualification_time_2 {
   seconds: 79
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 265000000
 }
 starting_position: 4
+finals_time {
+  seconds: 4957
+  nanos: 137000000
+}
 final_position: 5

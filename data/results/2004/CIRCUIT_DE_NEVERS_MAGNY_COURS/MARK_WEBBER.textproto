@@ -2,6 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2004
 driver: MARK_WEBBER
 qualification_time_1 {
+  seconds: 74
+  nanos: 798000000
 }
 starting_position: 12
+finals_time {
+  seconds: 5470
+  nanos: 527000000
+}
 final_position: 9

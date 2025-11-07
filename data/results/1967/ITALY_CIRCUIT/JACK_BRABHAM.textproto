@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1967
 driver: JACK_BRABHAM
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 6225
+  nanos: 200000000
+}
 final_position: 2

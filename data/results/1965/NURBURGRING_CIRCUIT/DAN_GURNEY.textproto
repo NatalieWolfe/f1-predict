@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 1965
 driver: DAN_GURNEY
-qualification_time_1 {
-}
 starting_position: 5
+finals_time {
+  seconds: 7693
+  nanos: 800000000
+}
 final_position: 3

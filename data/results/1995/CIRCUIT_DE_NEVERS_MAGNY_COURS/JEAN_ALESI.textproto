@@ -2,8 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 1995
 driver: JEAN_ALESI
 qualification_time_1 {
-  seconds: 17
-  nanos: 869000000
+  seconds: 78
+  nanos: 761000000
 }
 starting_position: 4
+finals_time {
+  seconds: 5986
+  nanos: 298000000
+}
 final_position: 5

@@ -1,9 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 1990
 driver: NELSON_PIQUET
-qualification_time_1 {
-  seconds: 24
-  nanos: 3000000
-}
 starting_position: 11
+finals_time {
+  seconds: 4795
+  nanos: 2000000
+}
 final_position: 5

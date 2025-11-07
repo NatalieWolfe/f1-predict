@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1976
 driver: VITTORIO_BRAMBILLA
-qualification_time_1 {
-}
 starting_position: 16
+finals_time {
+  seconds: 5479
+  nanos: 500000000
+}
 final_position: 7

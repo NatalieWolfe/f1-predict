@@ -1,7 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1985
 driver: STEFAN_JOHANSSON
-qualification_time_1 {
-}
 starting_position: 12
+finals_time {
+  seconds: 4851
+  nanos: 656000000
+}
 final_position: 4

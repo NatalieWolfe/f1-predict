@@ -1,7 +1,9 @@
 circuit: BRAZIL_CIRCUIT
 race_season: 2017
 driver: LEWIS_HAMILTON
-qualification_time_1 {
-}
 starting_position: 20
+finals_time {
+  seconds: 5491
+  nanos: 730000000
+}
 final_position: 4

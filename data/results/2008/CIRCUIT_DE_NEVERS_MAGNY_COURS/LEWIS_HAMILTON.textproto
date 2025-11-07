@@ -2,6 +2,8 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2008
 driver: LEWIS_HAMILTON
 qualification_time_1 {
+  seconds: 75
+  nanos: 634000000
 }
 qualification_time_2 {
   seconds: 75
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 693000000
 }
 starting_position: 13
+finals_time {
+  seconds: 5564
+  nanos: 783000000
+}
 final_position: 10

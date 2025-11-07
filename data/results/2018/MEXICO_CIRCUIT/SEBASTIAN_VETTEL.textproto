@@ -2,6 +2,8 @@ circuit: MEXICO_CIRCUIT
 race_season: 2018
 driver: SEBASTIAN_VETTEL
 qualification_time_1 {
+  seconds: 76
+  nanos: 88000000
 }
 qualification_time_2 {
   seconds: 75
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 970000000
 }
 starting_position: 4
+finals_time {
+  seconds: 5926
+  nanos: 167000000
+}
 final_position: 2

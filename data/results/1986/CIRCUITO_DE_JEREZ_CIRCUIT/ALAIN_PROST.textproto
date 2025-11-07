@@ -1,7 +1,9 @@
 circuit: CIRCUITO_DE_JEREZ_CIRCUIT
 race_season: 1986
 driver: ALAIN_PROST
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 6549
+  nanos: 287000000
+}
 final_position: 3

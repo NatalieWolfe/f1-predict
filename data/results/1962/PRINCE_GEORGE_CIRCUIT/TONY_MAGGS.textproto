@@ -1,7 +1,9 @@
 circuit: PRINCE_GEORGE_CIRCUIT
 race_season: 1962
 driver: TONY_MAGGS
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 7733
+  nanos: 600000000
+}
 final_position: 3

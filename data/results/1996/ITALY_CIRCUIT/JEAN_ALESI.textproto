@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1996
 driver: JEAN_ALESI
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 4681
+  nanos: 897000000
+}
 final_position: 2

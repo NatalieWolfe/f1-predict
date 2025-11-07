@@ -1,9 +1,9 @@
 circuit: INDIANAPOLIS_MOTOR_SPEEDWAY_CIRCUIT
 race_season: 1959
 driver: JIMMY_DAYWALT
-qualification_time_1 {
-  seconds: 41
-  nanos: 540000000
-}
 starting_position: 13
+finals_time {
+  seconds: 13650
+  nanos: 740000000
+}
 final_position: 14

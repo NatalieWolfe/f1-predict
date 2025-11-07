@@ -2,6 +2,8 @@ circuit: BAHRAIN_CIRCUIT
 race_season: 2007
 driver: NICK_HEIDFELD
 qualification_time_1 {
+  seconds: 93
+  nanos: 164000000
 }
 qualification_time_2 {
   seconds: 92
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 404000000
 }
 starting_position: 5
+finals_time {
+  seconds: 5621
+  nanos: 346000000
+}
 final_position: 4

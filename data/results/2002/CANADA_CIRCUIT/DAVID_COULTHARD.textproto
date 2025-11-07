@@ -1,7 +1,9 @@
 circuit: CANADA_CIRCUIT
 race_season: 2002
 driver: DAVID_COULTHARD
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 5617
+  nanos: 243000000
+}
 final_position: 2

@@ -1,7 +1,9 @@
 circuit: NURBURGRING_CIRCUIT
 race_season: 2002
 driver: KIMI_RAIKKONEN
-qualification_time_1 {
-}
 starting_position: 6
+finals_time {
+  seconds: 5753
+  nanos: 861000000
+}
 final_position: 3

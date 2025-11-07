@@ -2,6 +2,12 @@ circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
 race_season: 1996
 driver: JEAN_ALESI
 qualification_time_1 {
+  seconds: 91
+  nanos: 38000000
 }
 starting_position: 4
+finals_time {
+  seconds: 6910
+  nanos: 76000000
+}
 final_position: 3

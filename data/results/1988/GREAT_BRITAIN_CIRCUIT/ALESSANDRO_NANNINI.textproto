@@ -1,7 +1,9 @@
 circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 1988
 driver: ALESSANDRO_NANNINI
-qualification_time_1 {
-}
 starting_position: 8
+finals_time {
+  seconds: 5647
+  nanos: 581000000
+}
 final_position: 3

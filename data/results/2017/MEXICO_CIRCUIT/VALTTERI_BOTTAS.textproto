@@ -2,6 +2,8 @@ circuit: MEXICO_CIRCUIT
 race_season: 2017
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
+  seconds: 77
+  nanos: 578000000
 }
 qualification_time_2 {
   seconds: 77
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 958000000
 }
 starting_position: 4
+finals_time {
+  seconds: 5806
+  nanos: 230000000
+}
 final_position: 2

@@ -1,9 +1,9 @@
 circuit: AUSTRIA_CIRCUIT
 race_season: 1980
 driver: ALAIN_PROST
-qualification_time_1 {
-  seconds: 33
-  nanos: 410000000
-}
 starting_position: 12
+finals_time {
+  seconds: 5269
+  nanos: 140000000
+}
 final_position: 7

@@ -1,7 +1,9 @@
 circuit: BRANDS_HATCH_CIRCUIT
 race_season: 1983
 driver: BRUNO_GIACOMELLI
-qualification_time_1 {
-}
 starting_position: 12
+finals_time {
+  seconds: 5858
+  nanos: 55000000
+}
 final_position: 6

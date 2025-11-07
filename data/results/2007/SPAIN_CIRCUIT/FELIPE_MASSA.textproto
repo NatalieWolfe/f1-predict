@@ -2,8 +2,8 @@ circuit: SPAIN_CIRCUIT
 race_season: 2007
 driver: FELIPE_MASSA
 qualification_time_1 {
-  seconds: 5496
-  nanos: 230000000
+  seconds: 81
+  nanos: 375000000
 }
 qualification_time_2 {
   seconds: 80
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 421000000
 }
 starting_position: 1
+finals_time {
+  seconds: 5496
+  nanos: 230000000
+}
 final_position: 1

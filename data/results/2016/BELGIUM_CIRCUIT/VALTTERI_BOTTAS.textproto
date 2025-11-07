@@ -2,7 +2,8 @@ circuit: BELGIUM_CIRCUIT
 race_season: 2016
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
-  nanos: 151000000
+  seconds: 108
+  nanos: 655000000
 }
 qualification_time_2 {
   seconds: 107
@@ -13,4 +14,8 @@ qualification_time_3 {
   nanos: 612000000
 }
 starting_position: 8
+finals_time {
+  seconds: 6351
+  nanos: 209000000
+}
 final_position: 8

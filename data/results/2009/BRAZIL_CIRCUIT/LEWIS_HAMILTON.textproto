@@ -2,6 +2,12 @@ circuit: BRAZIL_CIRCUIT
 race_season: 2009
 driver: LEWIS_HAMILTON
 qualification_time_1 {
+  seconds: 85
+  nanos: 192000000
 }
 starting_position: 17
+finals_time {
+  seconds: 5562
+  nanos: 25000000
+}
 final_position: 3

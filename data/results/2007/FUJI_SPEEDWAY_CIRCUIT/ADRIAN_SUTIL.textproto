@@ -2,7 +2,12 @@ circuit: FUJI_SPEEDWAY_CIRCUIT
 race_season: 2007
 driver: ADRIAN_SUTIL
 qualification_time_1 {
-  nanos: 129000000
+  seconds: 88
+  nanos: 628000000
 }
 starting_position: 20
+finals_time {
+  seconds: 7294
+  nanos: 708000000
+}
 final_position: 8

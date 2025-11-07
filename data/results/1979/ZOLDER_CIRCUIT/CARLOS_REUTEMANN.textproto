@@ -1,7 +1,9 @@
 circuit: ZOLDER_CIRCUIT
 race_season: 1979
 driver: CARLOS_REUTEMANN
-qualification_time_1 {
-}
 starting_position: 10
+finals_time {
+  seconds: 6046
+  nanos: 20000000
+}
 final_position: 4

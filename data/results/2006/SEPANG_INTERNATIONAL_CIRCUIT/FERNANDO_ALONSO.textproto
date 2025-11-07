@@ -2,6 +2,8 @@ circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 2006
 driver: FERNANDO_ALONSO
 qualification_time_1 {
+  seconds: 95
+  nanos: 514000000
 }
 qualification_time_2 {
   seconds: 93
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 747000000
 }
 starting_position: 7
+finals_time {
+  seconds: 5445
+  nanos: 114000000
+}
 final_position: 2

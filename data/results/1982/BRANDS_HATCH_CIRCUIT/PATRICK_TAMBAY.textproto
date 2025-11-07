@@ -1,7 +1,9 @@
 circuit: BRANDS_HATCH_CIRCUIT
 race_season: 1982
 driver: PATRICK_TAMBAY
-qualification_time_1 {
-}
 starting_position: 13
+finals_time {
+  seconds: 5772
+  nanos: 248000000
+}
 final_position: 3

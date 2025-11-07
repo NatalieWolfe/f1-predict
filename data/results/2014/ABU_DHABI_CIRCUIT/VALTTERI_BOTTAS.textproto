@@ -2,6 +2,8 @@ circuit: ABU_DHABI_CIRCUIT
 race_season: 2014
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
+  seconds: 102
+  nanos: 346000000
 }
 qualification_time_2 {
   seconds: 101
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 25000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5971
+  nanos: 499000000
+}
 final_position: 3

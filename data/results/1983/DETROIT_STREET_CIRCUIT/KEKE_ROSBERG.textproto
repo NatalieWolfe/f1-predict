@@ -1,7 +1,9 @@
 circuit: DETROIT_STREET_CIRCUIT
 race_season: 1983
 driver: KEKE_ROSBERG
-qualification_time_1 {
-}
 starting_position: 12
+finals_time {
+  seconds: 6661
+  nanos: 371000000
+}
 final_position: 2

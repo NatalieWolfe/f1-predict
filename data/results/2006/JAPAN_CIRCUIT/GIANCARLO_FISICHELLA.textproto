@@ -2,6 +2,8 @@ circuit: JAPAN_CIRCUIT
 race_season: 2006
 driver: GIANCARLO_FISICHELLA
 qualification_time_1 {
+  seconds: 91
+  nanos: 696000000
 }
 qualification_time_2 {
   seconds: 90
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 599000000
 }
 starting_position: 6
+finals_time {
+  seconds: 5056
+  nanos: 366000000
+}
 final_position: 3

@@ -2,8 +2,12 @@ circuit: CIRCUIT_DE_NEVERS_MAGNY_COURS
 race_season: 2005
 driver: MICHAEL_SCHUMACHER
 qualification_time_1 {
-  seconds: 21
-  nanos: 900000000
+  seconds: 74
+  nanos: 572000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5564
+  nanos: 132000000
+}
 final_position: 3

@@ -2,8 +2,12 @@ circuit: SPAIN_CIRCUIT
 race_season: 1997
 driver: GERHARD_BERGER
 qualification_time_1 {
-  seconds: 5
-  nanos: 670000000
+  seconds: 78
+  nanos: 41000000
 }
 starting_position: 6
+finals_time {
+  seconds: 5501
+  nanos: 566000000
+}
 final_position: 10

@@ -2,10 +2,16 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2018
 driver: SERGIO_PEREZ
 qualification_time_1 {
+  seconds: 88
+  nanos: 210000000
 }
 qualification_time_2 {
   seconds: 87
   nanos: 928000000
 }
 starting_position: 12
+finals_time {
+  seconds: 5284
+  nanos: 492000000
+}
 final_position: 10

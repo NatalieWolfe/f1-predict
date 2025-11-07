@@ -1,7 +1,9 @@
 circuit: JAPAN_CIRCUIT
 race_season: 1992
 driver: GERHARD_BERGER
-qualification_time_1 {
-}
 starting_position: 4
+finals_time {
+  seconds: 5603
+  nanos: 262000000
+}
 final_position: 2

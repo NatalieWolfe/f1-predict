@@ -2,6 +2,12 @@ circuit: AUSTRALIA_CIRCUIT
 race_season: 2012
 driver: SERGIO_PEREZ
 qualification_time_1 {
+  seconds: 86
+  nanos: 596000000
 }
 starting_position: 22
+finals_time {
+  seconds: 5689
+  nanos: 23000000
+}
 final_position: 8

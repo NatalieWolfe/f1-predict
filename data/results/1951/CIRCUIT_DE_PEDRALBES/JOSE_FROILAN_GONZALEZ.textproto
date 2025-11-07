@@ -1,7 +1,9 @@
 circuit: CIRCUIT_DE_PEDRALBES
 race_season: 1951
 driver: JOSE_FROILAN_GONZALEZ
-qualification_time_1 {
-}
 starting_position: 3
+finals_time {
+  seconds: 10068
+  nanos: 380000000
+}
 final_position: 2

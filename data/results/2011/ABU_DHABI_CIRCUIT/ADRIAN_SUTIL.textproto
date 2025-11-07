@@ -2,8 +2,8 @@ circuit: ABU_DHABI_CIRCUIT
 race_season: 2011
 driver: ADRIAN_SUTIL
 qualification_time_1 {
-  seconds: 17
-  nanos: 122000000
+  seconds: 100
+  nanos: 595000000
 }
 qualification_time_2 {
   seconds: 100
@@ -14,4 +14,8 @@ qualification_time_3 {
   nanos: 768000000
 }
 starting_position: 9
+finals_time {
+  seconds: 5909
+  nanos: 8000000
+}
 final_position: 8

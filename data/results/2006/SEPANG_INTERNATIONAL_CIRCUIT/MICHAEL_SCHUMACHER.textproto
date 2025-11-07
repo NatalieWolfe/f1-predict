@@ -2,6 +2,8 @@ circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 2006
 driver: MICHAEL_SCHUMACHER
 qualification_time_1 {
+  seconds: 95
+  nanos: 810000000
 }
 qualification_time_2 {
   seconds: 94
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 668000000
 }
 starting_position: 14
+finals_time {
+  seconds: 5484
+  nanos: 383000000
+}
 final_position: 6

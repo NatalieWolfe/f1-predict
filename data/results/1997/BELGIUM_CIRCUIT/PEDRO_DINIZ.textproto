@@ -1,9 +1,9 @@
 circuit: BELGIUM_CIRCUIT
 race_season: 1997
 driver: PEDRO_DINIZ
-qualification_time_1 {
-  seconds: 25
-  nanos: 931000000
-}
 starting_position: 8
+finals_time {
+  seconds: 5712
+  nanos: 648000000
+}
 final_position: 7

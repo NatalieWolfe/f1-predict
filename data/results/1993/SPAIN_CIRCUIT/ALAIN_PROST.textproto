@@ -1,9 +1,9 @@
 circuit: SPAIN_CIRCUIT
 race_season: 1993
 driver: ALAIN_PROST
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 5547
   nanos: 685000000
 }
-starting_position: 1
 final_position: 1

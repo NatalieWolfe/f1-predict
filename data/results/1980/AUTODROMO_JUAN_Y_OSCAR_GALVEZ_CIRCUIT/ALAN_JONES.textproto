@@ -1,9 +1,9 @@
 circuit: AUTODROMO_JUAN_Y_OSCAR_GALVEZ_CIRCUIT
 race_season: 1980
 driver: ALAN_JONES
-qualification_time_1 {
+starting_position: 1
+finals_time {
   seconds: 6204
   nanos: 380000000
 }
-starting_position: 1
 final_position: 1

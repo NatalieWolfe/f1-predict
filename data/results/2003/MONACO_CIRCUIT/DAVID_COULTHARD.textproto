@@ -2,6 +2,12 @@ circuit: MONACO_CIRCUIT
 race_season: 2003
 driver: DAVID_COULTHARD
 qualification_time_1 {
+  seconds: 75
+  nanos: 700000000
 }
 starting_position: 6
+finals_time {
+  seconds: 6180
+  nanos: 237000000
+}
 final_position: 7

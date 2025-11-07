@@ -2,10 +2,16 @@ circuit: ITALY_CIRCUIT
 race_season: 2012
 driver: BRUNO_SENNA
 qualification_time_1 {
+  seconds: 85
+  nanos: 135000000
 }
 qualification_time_2 {
   seconds: 85
   nanos: 42000000
 }
 starting_position: 13
+finals_time {
+  seconds: 4829
+  nanos: 365000000
+}
 final_position: 10

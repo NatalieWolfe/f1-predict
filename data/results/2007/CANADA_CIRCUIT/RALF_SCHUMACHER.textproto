@@ -2,6 +2,12 @@ circuit: CANADA_CIRCUIT
 race_season: 2007
 driver: RALF_SCHUMACHER
 qualification_time_1 {
+  seconds: 77
+  nanos: 634000000
 }
 starting_position: 18
+finals_time {
+  seconds: 6274
+  nanos: 180000000
+}
 final_position: 8

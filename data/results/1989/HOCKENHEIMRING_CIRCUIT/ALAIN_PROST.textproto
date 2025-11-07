@@ -1,7 +1,9 @@
 circuit: HOCKENHEIMRING_CIRCUIT
 race_season: 1989
 driver: ALAIN_PROST
-qualification_time_1 {
-}
 starting_position: 2
+finals_time {
+  seconds: 4921
+  nanos: 453000000
+}
 final_position: 2

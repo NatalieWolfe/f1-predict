@@ -2,6 +2,8 @@ circuit: AUSTRALIA_CIRCUIT
 race_season: 2017
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
+  seconds: 84
+  nanos: 514000000
 }
 qualification_time_2 {
   seconds: 83
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 481000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5062
+  nanos: 922000000
+}
 final_position: 3

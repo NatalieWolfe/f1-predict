@@ -2,6 +2,12 @@ circuit: GREAT_BRITAIN_CIRCUIT
 race_season: 2004
 driver: JENSON_BUTTON
 qualification_time_1 {
+  seconds: 78
+  nanos: 580000000
 }
 starting_position: 3
+finals_time {
+  seconds: 5093
+  nanos: 383000000
+}
 final_position: 4

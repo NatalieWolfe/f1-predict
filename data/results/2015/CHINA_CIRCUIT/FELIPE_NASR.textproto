@@ -2,6 +2,8 @@ circuit: CHINA_CIRCUIT
 race_season: 2015
 driver: FELIPE_NASR
 qualification_time_1 {
+  seconds: 98
+  nanos: 521000000
 }
 qualification_time_2 {
   seconds: 98
@@ -12,4 +14,8 @@ qualification_time_3 {
   nanos: 67000000
 }
 starting_position: 9
+finals_time {
+  seconds: 6004
+  nanos: 633000000
+}
 final_position: 8

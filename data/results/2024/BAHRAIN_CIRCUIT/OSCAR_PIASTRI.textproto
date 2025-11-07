@@ -3,6 +3,8 @@ race_season: 2024
 team: MCLAREN
 driver: OSCAR_PIASTRI
 qualification_time_1 {
+  seconds: 90
+  nanos: 531000000
 }
 qualification_time_2 {
   seconds: 90

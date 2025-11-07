@@ -2,8 +2,12 @@ circuit: BAHRAIN_CIRCUIT
 race_season: 2014
 driver: PASTOR_MALDONADO
 qualification_time_1 {
-  seconds: 2
-  nanos: 803000000
+  seconds: 96
+  nanos: 663000000
 }
 starting_position: 17
+finals_time {
+  seconds: 6045
+  nanos: 546000000
+}
 final_position: 14

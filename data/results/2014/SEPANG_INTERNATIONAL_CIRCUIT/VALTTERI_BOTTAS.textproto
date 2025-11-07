@@ -2,12 +2,16 @@ circuit: SEPANG_INTERNATIONAL_CIRCUIT
 race_season: 2014
 driver: VALTTERI_BOTTAS
 qualification_time_1 {
-  seconds: 25
-  nanos: 537000000
+  seconds: 119
+  nanos: 709000000
 }
 qualification_time_2 {
   seconds: 122
   nanos: 756000000
 }
 starting_position: 18
+finals_time {
+  seconds: 6111
+  nanos: 511000000
+}
 final_position: 8

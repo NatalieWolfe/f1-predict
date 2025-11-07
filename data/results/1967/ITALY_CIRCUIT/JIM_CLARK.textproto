@@ -1,7 +1,9 @@
 circuit: ITALY_CIRCUIT
 race_season: 1967
 driver: JIM_CLARK
-qualification_time_1 {
-}
 starting_position: 1
+finals_time {
+  seconds: 6248
+  nanos: 100000000
+}
 final_position: 3
