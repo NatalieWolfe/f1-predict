@@ -43,6 +43,7 @@ constexpr std::string POSITION_COLUMN = "position";
 constexpr std::string FINAL_POSITION_COLUMN = "positionOrder";
 constexpr std::string STARTING_POSITION_COLUMN = "grid";
 constexpr std::string FINAL_TIME_COLUMN = "time";
+constexpr std::string FINAL_TIME_MSEC_COLUMN = "milliseconds";
 constexpr std::string QUAL_1_COLUMN = "q1";
 constexpr std::string QUAL_2_COLUMN = "q2";
 constexpr std::string QUAL_3_COLUMN = "q3";
@@ -59,6 +60,7 @@ using ::f1_predict::parse_int;
 using ::f1_predict::save_result;
 using ::f1_predict::to_proto_duration;
 using ::f1_predict::trim;
+using ::std::chrono::milliseconds;
 
 struct IdMaps {
   std::unordered_map<int, f1_predict::constants::Circuit> circuit_map;
@@ -148,8 +150,8 @@ void save_finals_results(
 
   if (!finals_result.at(FINAL_TIME_COLUMN).empty() &&
       finals_result.at(FINAL_TIME_COLUMN) != NULL_VALUE) {
-    *result.mutable_qualification_time_1() =
-        to_proto_duration(parse_duration(finals_result.at(FINAL_TIME_COLUMN)));
+    *result.mutable_finals_time() = to_proto_duration(
+        milliseconds(parse_int(finals_result.at(FINAL_TIME_MSEC_COLUMN))));
   }
 
   save_result(results_file, result);
