@@ -50,6 +50,10 @@ f1_predict::DriverResult load_result(const fs::path& file_path) {
   if (result.has_finals_time() && zero_duration(result.finals_time())) {
     result.clear_finals_time();
   }
+  if (result.has_finals_fastest_lap_time() &&
+      zero_duration(result.finals_fastest_lap_time())) {
+    result.clear_finals_fastest_lap_time();
+  }
 
   return result;
 }

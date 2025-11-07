@@ -47,6 +47,8 @@ constexpr std::string FINAL_TIME_MSEC_COLUMN = "milliseconds";
 constexpr std::string QUAL_1_COLUMN = "q1";
 constexpr std::string QUAL_2_COLUMN = "q2";
 constexpr std::string QUAL_3_COLUMN = "q3";
+constexpr std::string FINALS_LAP_COUNT_COLUMN = "laps";
+constexpr std::string FINALS_FASTEST_LAP_TIME_COLUMN = "fastestLapTime";
 
 constexpr std::string_view NULL_VALUE = "N";
 
@@ -147,6 +149,14 @@ void save_finals_results(
   result.set_starting_position(
       parse_int(finals_result.at(STARTING_POSITION_COLUMN)));
   result.set_final_position(parse_int(finals_result.at(FINAL_POSITION_COLUMN)));
+  result.set_finals_lap_count(
+      parse_int(finals_result.at(FINALS_LAP_COUNT_COLUMN)));
+
+  if (!finals_result.at(FINALS_FASTEST_LAP_TIME_COLUMN).empty() &&
+      finals_result.at(FINALS_FASTEST_LAP_TIME_COLUMN) != NULL_VALUE) {
+    *result.mutable_finals_fastest_lap_time() = to_proto_duration(
+        parse_duration(finals_result.at(FINALS_FASTEST_LAP_TIME_COLUMN)));
+  }
 
   if (!finals_result.at(FINAL_TIME_COLUMN).empty() &&
       finals_result.at(FINAL_TIME_COLUMN) != NULL_VALUE) {

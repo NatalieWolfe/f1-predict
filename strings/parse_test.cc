@@ -26,6 +26,7 @@ TEST(ParseDuration, ParsesMinutes) {
   EXPECT_EQ(parse_duration("1:23"), 1min + 23000ms);
   EXPECT_EQ(parse_duration("12:3"), 12min + 3000ms);
   EXPECT_EQ(parse_duration("12:03"), 12min + 3000ms);
+  EXPECT_EQ(parse_duration("1:55.018"), 1min + 55018ms);
 
   EXPECT_EQ(parse_duration("1:"), 1min);
   EXPECT_EQ(parse_duration(":1:23"), 1min + 23000ms);

@@ -13,9 +13,12 @@ message DriverResult {
   google.protobuf.Duration qualification_time_1 = 5;
   google.protobuf.Duration qualification_time_2 = 6;
   google.protobuf.Duration qualification_time_3 = 7;
-  int32 starting_position = 8;
-  google.protobuf.Duration finals_time = 9;
-  int32 final_position = 10;
+  google.protobuf.Duration qualification_fastest_lap_time = 8;
+  int32 starting_position = 9;
+  google.protobuf.Duration finals_time = 10;
+  int32 final_position = 11;
+  int32 finals_lap_count = 12;
+  google.protobuf.Duration finals_fastest_lap_time = 13;
 }
 
 message RaceResult {
