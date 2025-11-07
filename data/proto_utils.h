@@ -15,4 +15,7 @@ void save_result(
 google::protobuf::Duration
 to_proto_duration(std::chrono::milliseconds duration);
 
+std::chrono::milliseconds
+to_milliseconds(const google::protobuf::Duration& duration);
+
 } // namespace f1_predict

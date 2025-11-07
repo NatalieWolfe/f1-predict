@@ -45,4 +45,9 @@ to_proto_duration(std::chrono::milliseconds duration) {
   return TimeUtil::MillisecondsToDuration(duration.count());
 }
 
+std::chrono::milliseconds
+to_milliseconds(const google::protobuf::Duration& duration) {
+  return std::chrono::milliseconds{TimeUtil::DurationToMilliseconds(duration)};
+}
+
 } // namespace f1_predict
