@@ -1,2 +1,3 @@
-build --cxxopt='-std=c++23' --cxxopt='-Wall'
+
+build --crosstool_top=//tools/cpp:gcc_toolchain_suite --cxxopt='-std=c++23' --host_cxxopt='-std=c++23' --features=cxx_23
 test --test_output=errors --compilation_mode=dbg

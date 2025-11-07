@@ -1,0 +1,113 @@
+# This file is a text proto defining the entire toolchain configuration.
+# It uses GCC 14 and is configured to support C++23 via the 'cxx_23' feature.
+
+toolchain_config {
+    # This must match the 'toolchain_identifier' in tools/cpp/BUILD
+    toolchain_identifier: "gcc-14-linux"
+    host_system_name: "local"
+    target_system_name: "local"
+    target_cpu: "k8" # Matches typical x86_64 Linux systems
+    target_libc: "unknown"
+    compiler: "gcc-14"
+    abi_version: "v1"
+    abi_libc_version: "unknown"
+
+    # --- Tool Paths (Absolute Paths for Host System) ---
+    tool_path { name: "gcc" path: "/usr/bin/gcc-14" }
+    tool_path { name: "g++" path: "/usr/bin/g++-14" }
+    tool_path { name: "ld" path: "/usr/bin/ld" }
+    tool_path { name: "ar" path: "/usr/bin/ar" }
+    tool_path { name: "objdump" path: "/usr/bin/objdump" }
+    tool_path { name: "strip" path: "/usr/bin/strip" }
+    tool_path { name: "dwp" path: "/usr/bin/dwp" }
+
+    # --- Compiler-Internal Headers (Fix for stdint.h, etc.) ---
+    # This path contains the compiler's own headers (like stddef.h, stdint.h).
+    compiler_built_in_include_directory: "/usr/lib/gcc/x86_64-linux-gnu/14/include"
+
+    # --- C++ Standard Library Include Directories ---
+    # These paths contain the C++ headers (like iostream, vector)
+    cxx_builtin_include_directory: "/usr/include/c++/14"
+    cxx_builtin_include_directory: "/usr/include/x86_64-linux-gnu/c++/14"
+    cxx_builtin_include_directory: "/usr/include/c++/14/backward"
+    cxx_builtin_include_directory: "/usr/local/include"
+    cxx_builtin_include_directory: "/usr/include/x86_64-linux-gnu"
+    cxx_builtin_include_directory: "/usr/include"
+
+    # --- Mandatory Action Configurations (Binds actions to tools) ---
+    # These are required to ensure Bazel knows which tool to run for which action,
+    # allowing feature flags (like C++23) to be correctly injected.
+
+    # C++ Compilation Action (used for cc_library, cc_binary sources)
+    action_config {
+        action_name: "c++-compile"
+        tool {
+            tool_path: "/usr/bin/g++-14"
+        }
+    }
+
+    # C Compilation Action
+    action_config {
+        action_name: "c-compile"
+        tool {
+            tool_path: "/usr/bin/gcc-14"
+        }
+    }
+
+    # C++ Link Action (Executables and Dynamic Libraries)
+    action_config {
+        action_name: "cc-link"
+        tool {
+            tool_path: "/usr/bin/g++-14"
+        }
+    }
+
+    # Static Library Archiving Action
+    action_config {
+        action_name: "c++-link-static-library"
+        tool {
+            tool_path: "/usr/bin/ar"
+        }
+    }
+
+    # Strip Action
+    action_config {
+        action_name: "strip"
+        tool {
+            tool_path: "/usr/bin/strip"
+        }
+    }
+
+    # --- Feature: C++23 ---
+    # This feature enables the -std=c++23 flag. It is activated by the
+    # '--features=cxx_23' flag in the .bazelrc file.
+    feature {
+        name: "cxx_23"
+        enabled: false # Disabled by default, activated via --features=cxx_23
+        flag_set {
+            action: "c++-compile"
+            flag: "-std=c++23"
+        }
+        flag_set {
+            action: "c++-module-compile"
+            flag: "-std=c++23"
+        }
+    }
+
+    # --- Default Features ---
+    # Required for modern features like PCH, Modules, and position-independent code (PIC).
+    feature { name: "default_compiler_flags" }
+    feature { name: "no_legacy_features" }
+    feature { name: "supports_pic" }
+    feature { name: "static_libgcc" }
+    feature { name: "header_modules" }
+    feature { name: "module_maps" }
+    feature { name: "no_canonical_prefixes" }
+    feature { name: "thin_archives" }
+    feature { name: "dbg" }
+    feature { name: "fdo_instrument" }
+    feature { name: "autofdo" }
+    feature { name: "per_object_debug_info" }
+    feature { name: "target_defaults" }
+    feature { name: "fully_static_link" }
+    feature { name: "fastbuild" }
