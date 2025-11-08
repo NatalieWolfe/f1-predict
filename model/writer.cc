@@ -7,6 +7,7 @@
 #include <ostream>
 #include <span>
 #include <string>
+#include <type_traits>
 #include <utility>
 #include <vector>
 
@@ -23,7 +24,8 @@ using ::google::protobuf::Duration;
 using ::std::chrono::duration_cast;
 using ::std::chrono::milliseconds;
 
-constexpr milliseconds DEFAULT_TIME{9999999};
+constexpr int64_t DEFAULT_NUMBER = 999999999;
+constexpr milliseconds DEFAULT_TIME{DEFAULT_NUMBER};
 constexpr milliseconds ZERO_MS{0};
 
 struct aggregate_data {
@@ -40,9 +42,10 @@ struct result_data {
   const DriverResult& driver;
 };
 
-milliseconds time_or_default(const Duration& duration) {
+milliseconds time_or_default(
+    const Duration& duration, milliseconds default_value = DEFAULT_TIME) {
   milliseconds mils = to_milliseconds(duration);
-  return mils.count() > 0 ? mils : DEFAULT_TIME;
+  return mils.count() > 0 ? mils : default_value;
 }
 
 milliseconds best_qual_time(const DriverResult& result) {
@@ -50,6 +53,27 @@ milliseconds best_qual_time(const DriverResult& result) {
       {time_or_default(result.qualification_time_1()),
        time_or_default(result.qualification_time_2()),
        time_or_default(result.qualification_time_3())});
+}
+
+template <
+    std::ranges::range Values,
+    std::enable_if_t<!std::is_integral_v<std::ranges::range_value_t<Values>>>* =
+        nullptr>
+auto average(const Values& values) {
+  using namespace std::ranges;
+  return std::accumulate(begin(values), end(values), range_value_t<Values>{0}) /
+      size(values);
+}
+
+template <
+    std::ranges::range Values,
+    std::enable_if_t<std::is_integral_v<std::ranges::range_value_t<Values>>>* =
+        nullptr>
+double average(const Values& values) {
+  using namespace std::ranges;
+  return static_cast<double>(std::accumulate(
+             begin(values), end(values), range_value_t<Values>{0})) /
+      size(values);
 }
 
 } // namespace
@@ -64,7 +88,8 @@ public:
   virtual void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data& aggregate) const = 0;
+      const aggregate_data& aggregate,
+      const historical_data& historical) const = 0;
 };
 
 } // namespace writer_internal
@@ -79,7 +104,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data& aggregate) const override {
+      const aggregate_data& aggregate,
+      const historical_data&) const override {
     out << (aggregate.race_size - result.index);
   }
 };
@@ -90,7 +116,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data&,
-      const aggregate_data& aggregate) const override {
+      const aggregate_data& aggregate,
+      const historical_data&) const override {
     out << aggregate.race_id;
   }
 };
@@ -101,7 +128,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data&) const override {
+      const aggregate_data&,
+      const historical_data&) const override {
     out << result.driver.circuit();
   }
 };
@@ -112,7 +140,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data&) const override {
+      const aggregate_data&,
+      const historical_data&) const override {
     out << (result.driver.race_season() - 1900);
   }
 };
@@ -123,7 +152,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data&) const override {
+      const aggregate_data&,
+      const historical_data&) const override {
     out << result.driver.team();
   }
 };
@@ -134,7 +164,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data&) const override {
+      const aggregate_data&,
+      const historical_data&) const override {
     out << result.driver.driver();
   }
 };
@@ -147,7 +178,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data& aggregate) const override {
+      const aggregate_data& aggregate,
+      const historical_data&) const override {
     out << duration_cast<milliseconds>(
                aggregate.worst_qual_time - aggregate.best_qual_time)
                .count();
@@ -162,7 +194,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data&) const override {
+      const aggregate_data&,
+      const historical_data&) const override {
     out << result.driver.starting_position();
   }
 };
@@ -173,7 +206,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data&) const override {
+      const aggregate_data&,
+      const historical_data&) const override {
     out << time_or_default(result.driver.qualification_time_1()).count();
   }
 };
@@ -184,7 +218,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data&) const override {
+      const aggregate_data&,
+      const historical_data&) const override {
     out << time_or_default(result.driver.qualification_time_2()).count();
   }
 };
@@ -195,7 +230,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data&) const override {
+      const aggregate_data&,
+      const historical_data&) const override {
     out << time_or_default(result.driver.qualification_time_3()).count();
   }
 };
@@ -208,7 +244,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data&) const override {
+      const aggregate_data&,
+      const historical_data&) const override {
     out << best_qual_time(result.driver).count();
   }
 };
@@ -221,7 +258,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data& aggregate) const override {
+      const aggregate_data& aggregate,
+      const historical_data&) const override {
     out << best_qual_time(result.driver).count() -
             duration_cast<milliseconds>(aggregate.best_qual_time).count();
   }
@@ -235,7 +273,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data& aggregate) const override {
+      const aggregate_data& aggregate,
+      const historical_data&) const override {
     out << best_qual_time(result.driver).count() -
             duration_cast<milliseconds>(aggregate.median_qual_time).count();
   }
@@ -249,7 +288,8 @@ public:
   void write_column(
       std::ostream& out,
       const result_data& result,
-      const aggregate_data&) const override {
+      const aggregate_data&,
+      const historical_data&) const override {
     std::vector<double> qual_times;
     if (to_milliseconds(result.driver.qualification_time_1()) != ZERO_MS) {
       qual_times.push_back(
@@ -280,6 +320,108 @@ public:
   }
 };
 
+class driver_average_result_column : public writer_internal::column_writer {
+public:
+  void write_header(std::ostream& out) const override {
+    out << "driver_average_result";
+  }
+  void write_column(
+      std::ostream& out,
+      const result_data& result,
+      const aggregate_data&,
+      const historical_data& historical) const override {
+    if (historical.circuit_drivers.contains(result.driver.circuit()) &&
+        historical.circuit_drivers.at(result.driver.circuit())
+            .contains(result.driver.driver())) {
+      out << average(historical.circuit_drivers.at(result.driver.circuit())
+                         .at(result.driver.driver())
+                         .finals_positions);
+    } else {
+      out << DEFAULT_NUMBER;
+    }
+  }
+};
+
+class driver_recent_average_result_column :
+    public writer_internal::column_writer {
+public:
+  void write_header(std::ostream& out) const override {
+    out << "driver_recent_average_result";
+  }
+  void write_column(
+      std::ostream& out,
+      const result_data& result,
+      const aggregate_data&,
+      const historical_data& historical) const override {
+    if (historical.circuit_drivers.contains(result.driver.circuit()) &&
+        historical.circuit_drivers.at(result.driver.circuit())
+            .contains(result.driver.driver())) {
+      const auto& positions =
+          historical.circuit_drivers.at(result.driver.circuit())
+              .at(result.driver.driver())
+              .finals_positions;
+      out << average(
+          std::ranges::subrange(
+              positions.begin() +
+                  std::max(0l, static_cast<int64_t>(positions.size()) - 3),
+              positions.end()));
+    } else {
+      out << DEFAULT_NUMBER;
+    }
+  }
+};
+
+class team_average_result_column : public writer_internal::column_writer {
+public:
+  void write_header(std::ostream& out) const override {
+    out << "team_average_result";
+  }
+  void write_column(
+      std::ostream& out,
+      const result_data& result,
+      const aggregate_data&,
+      const historical_data& historical) const override {
+    if (historical.circuit_teams.contains(result.driver.circuit()) &&
+        historical.circuit_teams.at(result.driver.circuit())
+            .contains(result.driver.team())) {
+      out << average(historical.circuit_teams.at(result.driver.circuit())
+                         .at(result.driver.team())
+                         .finals_positions);
+    } else {
+      out << DEFAULT_NUMBER;
+    }
+  }
+};
+
+class team_recent_average_result_column :
+    public writer_internal::column_writer {
+public:
+  void write_header(std::ostream& out) const override {
+    out << "team_recent_average_result";
+  }
+  void write_column(
+      std::ostream& out,
+      const result_data& result,
+      const aggregate_data&,
+      const historical_data& historical) const override {
+    if (historical.circuit_teams.contains(result.driver.circuit()) &&
+        historical.circuit_teams.at(result.driver.circuit())
+            .contains(result.driver.team())) {
+      const auto& positions =
+          historical.circuit_teams.at(result.driver.circuit())
+              .at(result.driver.team())
+              .finals_positions;
+      out << average(
+          std::ranges::subrange(
+              positions.begin() +
+                  std::max(0l, static_cast<int64_t>(positions.size()) - 6),
+              positions.end()));
+    } else {
+      out << DEFAULT_NUMBER;
+    }
+  }
+};
+
 template <typename... ColumnWriters>
 std::vector<std::shared_ptr<writer_internal::column_writer>> make_columns() {
   std::vector<std::shared_ptr<writer_internal::column_writer>> columns;
@@ -305,7 +447,11 @@ writer::writer(std::filesystem::path output_path, writer_options opts)
                               q3_time_column,
                               driver_best_qual_time_column,
                               gap_to_best_qual_time_column,
-                              qual_consistency_column>()} {}
+                              qual_consistency_column,
+                              driver_average_result_column,
+                              driver_recent_average_result_column,
+                              team_average_result_column,
+                              team_recent_average_result_column>()} {}
 
 void writer::write_header() {
   int column_counter = 0;
@@ -316,7 +462,9 @@ void writer::write_header() {
   _out << '\n' << std::flush;
 }
 
-void writer::write_race(std::span<const DriverResult> race_results) {
+void writer::write_race(
+    std::span<const DriverResult> race_results,
+    const historical_data& historical) {
   if (race_results.empty()) return;
 
   aggregate_data aggregate{
@@ -368,7 +516,10 @@ void writer::write_race(std::span<const DriverResult> race_results) {
     for (const auto& column : _columns) {
       if (++column_counter > 1) _out << _options.delim;
       column->write_column(
-          _out, {.index = i, .driver = *results_span[i]}, aggregate);
+          _out,
+          {.index = i, .driver = *results_span[i]},
+          aggregate,
+          historical);
     }
     _out << '\n';
   }

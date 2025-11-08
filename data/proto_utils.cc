@@ -47,6 +47,10 @@ f1_predict::DriverResult load_result(const fs::path& file_path) {
       zero_duration(result.qualification_time_3())) {
     result.clear_qualification_time_3();
   }
+  if (result.has_qualification_fastest_lap_time() &&
+      zero_duration(result.qualification_fastest_lap_time())) {
+    result.clear_qualification_fastest_lap_time();
+  }
   if (result.has_finals_time() && zero_duration(result.finals_time())) {
     result.clear_finals_time();
   }

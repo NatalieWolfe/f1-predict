@@ -1,4 +1,4 @@
-load("@rules_cc//cc:defs.bzl", "cc_binary")
+load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
 
 genrule(
     name = "training_data",
@@ -19,10 +19,17 @@ genrule(
     tools = [":generate_training_files"],
 )
 
+cc_library(
+    name = "data_aggregates",
+    hdrs = ["data_aggregates.h"],
+    deps = ["//data:constants_cc_proto"],
+)
+
 cc_binary(
     name = "generate_training_files",
     srcs = ["generate_training_files.cc"],
     deps = [
+        ":data_aggregates",
         ":writer",
         "//data:constants_cc_proto",
         "//data:proto_utils",
@@ -38,6 +45,7 @@ cc_library(
     srcs = ["writer.cc"],
     hdrs = ["writer.h"],
     deps = [
+        ":data_aggregates",
         "//data:constants_cc_proto",
         "//data:proto_utils",
         "//data:race_results_cc_proto",

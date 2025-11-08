@@ -7,6 +7,7 @@
 #include <vector>
 
 #include "data/race_results.pb.h"
+#include "model/data_aggregates.h"
 
 namespace f1_predict {
 namespace writer_internal {
@@ -25,7 +26,9 @@ public:
   explicit writer(std::filesystem::path output_path, writer_options opts = {});
 
   void write_header();
-  void write_race(std::span<const DriverResult> race_results);
+  void write_race(
+      std::span<const DriverResult> race_results,
+      const historical_data& historical = {});
 
 private:
   writer_options _options;

@@ -15,6 +15,7 @@
 #include "data/constants.pb.h"
 #include "data/proto_utils.h"
 #include "data/race_results.pb.h"
+#include "model/data_aggregates.h"
 #include "model/writer.h"
 
 ABSL_FLAG(
@@ -27,17 +28,18 @@ ABSL_FLAG(std::string, tests_file, "tests.csv", "Path to save test data.");
 
 namespace fs = ::std::filesystem;
 
+using ::f1_predict::constants::Circuit;
+using ::f1_predict::constants::Driver;
+using ::f1_predict::constants::Team;
 using ::f1_predict::load_result;
 using ::f1_predict::to_milliseconds;
 
-using driver_to_results_map_t = ::std::
-    unordered_map<::f1_predict::constants::Driver, ::f1_predict::DriverResult>;
-using circuit_to_drivers_map_t = ::std::
-    unordered_map<::f1_predict::constants::Circuit, ::driver_to_results_map_t>;
+using driver_to_results_map_t =
+    ::std::unordered_map<Driver, ::f1_predict::DriverResult>;
+using circuit_to_drivers_map_t =
+    ::std::unordered_map<Circuit, ::driver_to_results_map_t>;
 using season_to_circuit_map_t =
     ::std::unordered_map<int, ::circuit_to_drivers_map_t>;
-
-constexpr int64_t PLACEHOLDER_TIME = 99999999;
 
 std::vector<f1_predict::DriverResult>
 load_all_data(std::span<char*> file_paths) {
@@ -113,16 +115,20 @@ season_to_circuit_map_t extract_tests(season_to_circuit_map_t& data) {
   return tests;
 }
 
-int to_duration_training_value(const google::protobuf::Duration& duration) {
-  if (duration.seconds() > 0 || duration.nanos() > 0) {
-    return to_milliseconds(duration).count();
+template <std::ranges::range ResultList>
+void add_race(f1_predict::historical_data& historical, const ResultList& race) {
+  for (const f1_predict::DriverResult& result : race) {
+    historical.circuit_drivers[result.circuit()][result.driver()]
+        .finals_positions.push_back(result.final_position());
+    historical.circuit_teams[result.circuit()][result.team()]
+        .finals_positions.push_back(result.final_position());
   }
-  return PLACEHOLDER_TIME;
 }
 
 void save_data(
     const season_to_circuit_map_t& data, const fs::path& output_path) {
   f1_predict::writer out{output_path};
+  f1_predict::historical_data historical;
   out.write_header();
 
   auto [first_season, last_season] =
@@ -133,7 +139,9 @@ void save_data(
     if (itr == data.end()) continue;
     for (const auto& results : itr->second | std::views::values) {
       out.write_race(
-          results | std::views::values | std::ranges::to<std::vector>());
+          results | std::views::values | std::ranges::to<std::vector>(),
+          historical);
+      add_race(historical, results | std::views::values);
     }
   }
 }
