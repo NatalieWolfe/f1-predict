@@ -76,6 +76,53 @@ double average(const Values& values) {
       size(values);
 }
 
+const historical_data::circuit_stats* find_historical_driver_data(
+    const historical_data& data, const DriverResult& race) {
+  auto circuit_itr = data.circuit_drivers.find(race.circuit());
+  if (circuit_itr != data.circuit_drivers.end()) {
+    auto drivers_itr = circuit_itr->second.find(race.driver());
+    if (drivers_itr != circuit_itr->second.end()) return &drivers_itr->second;
+  }
+  return nullptr;
+}
+
+const historical_data::circuit_stats* find_historical_team_data(
+    const historical_data& data, const DriverResult& race) {
+  auto circuit_itr = data.circuit_teams.find(race.circuit());
+  if (circuit_itr != data.circuit_teams.end()) {
+    auto team_itr = circuit_itr->second.find(race.team());
+    if (team_itr != circuit_itr->second.end()) return &team_itr->second;
+  }
+  return nullptr;
+}
+
+template <std::ranges::range Container>
+auto last_n(Container&& container, int64_t n) {
+  return std::ranges::subrange(
+      std::ranges::begin(container) +
+          std::max(0l, static_cast<int64_t>(std::ranges::size(container)) - n),
+      std::ranges::end(container));
+}
+
+template <std::ranges::range Container>
+double standard_deviation(const Container& container) {
+  const auto size = std::ranges::size(container);
+  if (size <= 1) { return 0.0; }
+  double mean =
+      std::accumulate(
+          std::ranges::begin(container), std::ranges::end(container), 0.0) /
+      size;
+  double sq_diff_sum = std::accumulate(
+      std::ranges::begin(container),
+      std::ranges::end(container),
+      0.0,
+      [mean](double x, double v) {
+        double diff = v - mean;
+        return x + (diff * diff);
+      });
+  return std::sqrt(sq_diff_sum / size);
+}
+
 } // namespace
 
 namespace writer_internal {
@@ -307,14 +354,7 @@ public:
       out << 0;
       return;
     }
-    double mean = std::accumulate(qual_times.begin(), qual_times.end(), 0.0) /
-        qual_times.size();
-    double sq_diff_sum = std::accumulate(
-        qual_times.begin(), qual_times.end(), 0, [mean](double x, double v) {
-          double diff = v - mean;
-          return x + (diff * diff);
-        });
-    double stddev = std::sqrt(sq_diff_sum / qual_times.size());
+    double stddev = standard_deviation(qual_times);
     out << std::setprecision(6) << std::fixed
         << (std::isnan(stddev) ? 0.0 : stddev);
   }
@@ -330,12 +370,10 @@ public:
       const result_data& result,
       const aggregate_data&,
       const historical_data& historical) const override {
-    if (historical.circuit_drivers.contains(result.driver.circuit()) &&
-        historical.circuit_drivers.at(result.driver.circuit())
-            .contains(result.driver.driver())) {
-      out << average(historical.circuit_drivers.at(result.driver.circuit())
-                         .at(result.driver.driver())
-                         .finals_positions);
+    const auto* driver_stats =
+        find_historical_driver_data(historical, result.driver);
+    if (driver_stats) {
+      out << average(driver_stats->finals_positions);
     } else {
       out << DEFAULT_NUMBER;
     }
@@ -353,18 +391,10 @@ public:
       const result_data& result,
       const aggregate_data&,
       const historical_data& historical) const override {
-    if (historical.circuit_drivers.contains(result.driver.circuit()) &&
-        historical.circuit_drivers.at(result.driver.circuit())
-            .contains(result.driver.driver())) {
-      const auto& positions =
-          historical.circuit_drivers.at(result.driver.circuit())
-              .at(result.driver.driver())
-              .finals_positions;
-      out << average(
-          std::ranges::subrange(
-              positions.begin() +
-                  std::max(0l, static_cast<int64_t>(positions.size()) - 3),
-              positions.end()));
+    const auto* driver_stats =
+        find_historical_driver_data(historical, result.driver);
+    if (driver_stats) {
+      out << average(last_n(driver_stats->finals_positions, 3));
     } else {
       out << DEFAULT_NUMBER;
     }
@@ -381,12 +411,10 @@ public:
       const result_data& result,
       const aggregate_data&,
       const historical_data& historical) const override {
-    if (historical.circuit_teams.contains(result.driver.circuit()) &&
-        historical.circuit_teams.at(result.driver.circuit())
-            .contains(result.driver.team())) {
-      out << average(historical.circuit_teams.at(result.driver.circuit())
-                         .at(result.driver.team())
-                         .finals_positions);
+    const auto* team_stats =
+        find_historical_team_data(historical, result.driver);
+    if (team_stats) {
+      out << average(team_stats->finals_positions);
     } else {
       out << DEFAULT_NUMBER;
     }
@@ -404,18 +432,10 @@ public:
       const result_data& result,
       const aggregate_data&,
       const historical_data& historical) const override {
-    if (historical.circuit_teams.contains(result.driver.circuit()) &&
-        historical.circuit_teams.at(result.driver.circuit())
-            .contains(result.driver.team())) {
-      const auto& positions =
-          historical.circuit_teams.at(result.driver.circuit())
-              .at(result.driver.team())
-              .finals_positions;
-      out << average(
-          std::ranges::subrange(
-              positions.begin() +
-                  std::max(0l, static_cast<int64_t>(positions.size()) - 6),
-              positions.end()));
+    const auto* team_stats =
+        find_historical_team_data(historical, result.driver);
+    if (team_stats) {
+      out << average(last_n(team_stats->finals_positions, 6));
     } else {
       out << DEFAULT_NUMBER;
     }
