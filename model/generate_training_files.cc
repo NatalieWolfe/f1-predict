@@ -122,6 +122,8 @@ void add_race(f1_predict::historical_data& historical, const ResultList& race) {
         .finals_positions.push_back(result.final_position());
     historical.circuit_teams[result.circuit()][result.team()]
         .finals_positions.push_back(result.final_position());
+    historical.driver_career[result.driver()].finals_positions.push_back(
+        result.final_position());
   }
 }
 

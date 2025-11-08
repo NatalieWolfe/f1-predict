@@ -76,7 +76,7 @@ double average(const Values& values) {
       size(values);
 }
 
-const historical_data::circuit_stats* find_historical_driver_data(
+const historical_data::stats* find_historical_circuit_driver_data(
     const historical_data& data, const DriverResult& race) {
   auto circuit_itr = data.circuit_drivers.find(race.circuit());
   if (circuit_itr != data.circuit_drivers.end()) {
@@ -86,13 +86,20 @@ const historical_data::circuit_stats* find_historical_driver_data(
   return nullptr;
 }
 
-const historical_data::circuit_stats* find_historical_team_data(
+const historical_data::stats* find_historical_circuit_team_data(
     const historical_data& data, const DriverResult& race) {
   auto circuit_itr = data.circuit_teams.find(race.circuit());
   if (circuit_itr != data.circuit_teams.end()) {
     auto team_itr = circuit_itr->second.find(race.team());
     if (team_itr != circuit_itr->second.end()) return &team_itr->second;
   }
+  return nullptr;
+}
+
+const historical_data::stats* find_historical_driver_career_data(
+    const historical_data& data, const DriverResult& race) {
+  auto driver_itr = data.driver_career.find(race.driver());
+  if (driver_itr != data.driver_career.end()) { return &driver_itr->second; }
   return nullptr;
 }
 
@@ -371,9 +378,51 @@ public:
       const aggregate_data&,
       const historical_data& historical) const override {
     const auto* driver_stats =
-        find_historical_driver_data(historical, result.driver);
+        find_historical_circuit_driver_data(historical, result.driver);
     if (driver_stats) {
       out << average(driver_stats->finals_positions);
+    } else {
+      out << DEFAULT_NUMBER;
+    }
+  }
+};
+
+class driver_circuit_result_stddev_column :
+    public writer_internal::column_writer {
+public:
+  void write_header(std::ostream& out) const override {
+    out << "driver_circuit_result_stddev";
+  }
+  void write_column(
+      std::ostream& out,
+      const result_data& result,
+      const aggregate_data&,
+      const historical_data& historical) const override {
+    const auto* driver_stats =
+        find_historical_circuit_driver_data(historical, result.driver);
+    if (driver_stats) {
+      out << standard_deviation(driver_stats->finals_positions);
+    } else {
+      out << DEFAULT_NUMBER;
+    }
+  }
+};
+
+class driver_recent_circuit_result_stddev_column :
+    public writer_internal::column_writer {
+public:
+  void write_header(std::ostream& out) const override {
+    out << "driver_recent_circuit_result_stddev";
+  }
+  void write_column(
+      std::ostream& out,
+      const result_data& result,
+      const aggregate_data&,
+      const historical_data& historical) const override {
+    const auto* driver_stats =
+        find_historical_circuit_driver_data(historical, result.driver);
+    if (driver_stats) {
+      out << standard_deviation(last_n(driver_stats->finals_positions, 3));
     } else {
       out << DEFAULT_NUMBER;
     }
@@ -392,9 +441,29 @@ public:
       const aggregate_data&,
       const historical_data& historical) const override {
     const auto* driver_stats =
-        find_historical_driver_data(historical, result.driver);
+        find_historical_circuit_driver_data(historical, result.driver);
     if (driver_stats) {
       out << average(last_n(driver_stats->finals_positions, 3));
+    } else {
+      out << DEFAULT_NUMBER;
+    }
+  }
+};
+
+class driver_career_stddev_column : public writer_internal::column_writer {
+public:
+  void write_header(std::ostream& out) const override {
+    out << "driver_career_stddev";
+  }
+  void write_column(
+      std::ostream& out,
+      const result_data& result,
+      const aggregate_data&,
+      const historical_data& historical) const override {
+    const auto* driver_stats =
+        find_historical_driver_career_data(historical, result.driver);
+    if (driver_stats) {
+      out << standard_deviation(last_n(driver_stats->finals_positions, 3));
     } else {
       out << DEFAULT_NUMBER;
     }
@@ -412,7 +481,7 @@ public:
       const aggregate_data&,
       const historical_data& historical) const override {
     const auto* team_stats =
-        find_historical_team_data(historical, result.driver);
+        find_historical_circuit_team_data(historical, result.driver);
     if (team_stats) {
       out << average(team_stats->finals_positions);
     } else {
@@ -433,7 +502,7 @@ public:
       const aggregate_data&,
       const historical_data& historical) const override {
     const auto* team_stats =
-        find_historical_team_data(historical, result.driver);
+        find_historical_circuit_team_data(historical, result.driver);
     if (team_stats) {
       out << average(last_n(team_stats->finals_positions, 6));
     } else {
@@ -470,6 +539,7 @@ writer::writer(std::filesystem::path output_path, writer_options opts)
                               qual_consistency_column,
                               driver_average_result_column,
                               driver_recent_average_result_column,
+                              driver_career_stddev_column,
                               team_average_result_column,
                               team_recent_average_result_column>()} {}
 
