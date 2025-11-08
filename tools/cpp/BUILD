@@ -1,34 +1,34 @@
+load(":cc_toolchain_config.bzl", "cc_toolchain_config")
+
 package(default_visibility = ["//visibility:public"])
 
-cc_toolchain_suite(
-    name = "gcc_toolchain_suite",
-    toolchains = {
-        "k8|linux": ":gcc_14_toolchain",
-        "k8|linux|gcc": ":gcc_14_toolchain",
-        "x86_64|linux": ":gcc_14_toolchain",
-        "x86_64|linux|gcc": ":gcc_14_toolchain",
-    },
-)
+filegroup(name = "empty")
 
 cc_toolchain(
-    name = "gcc_14_toolchain",
+    name = "linux_x86_64_toolchain",
     all_files = ":empty",
     compiler_files = ":empty",
     dwp_files = ":empty",
     linker_files = ":empty",
     objcopy_files = ":empty",
     strip_files = ":empty",
-    supports_param_files = True,
-    toolchain_config = ":gcc_14_crosstool",
-    toolchain_identifier = "gcc-14-linux",
+    supports_param_files = 0,
+    toolchain_config = ":linux_x86_64_toolchain_config",
+    toolchain_identifier = "linux_x86_64-toolchain",
 )
 
-filegroup(
-    name = "gcc_14_crosstool",
-    srcs = ["CROSSTOOL"],
+toolchain(
+    name = "cc_toolchain_for_linux_x86_64",
+    exec_compatible_with = [
+        "@platforms//cpu:x86_64",
+        "@platforms//os:linux",
+    ],
+    target_compatible_with = [
+        "@platforms//cpu:x86_64",
+        "@platforms//os:linux",
+    ],
+    toolchain = ":linux_x86_64_toolchain",
+    toolchain_type = "@bazel_tools//tools/cpp:toolchain_type",
 )
 
-filegroup(
-    name = "empty",
-    srcs = [],
-)
+cc_toolchain_config(name = "linux_x86_64_toolchain_config")
