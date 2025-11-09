@@ -19,6 +19,23 @@ genrule(
     tools = [":generate_training_files"],
 )
 
+genrule(
+    name = "f1_lambdarank_model",
+    srcs = [
+        ":training.csv",
+        ":tests.csv",
+        ":training.conf",
+    ],
+    outs = ["f1_lambdarank_model.txt"],
+    cmd = (
+        "lightgbm" +
+        "  config=$(location :training.conf)" +
+        "  output_model=$(OUTS)" +
+        "  train=$(location :training.csv)" +
+        "  valid=$(location :tests.csv)"
+    ),
+)
+
 cc_library(
     name = "data_aggregates",
     hdrs = ["data_aggregates.h"],

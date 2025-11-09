@@ -27,6 +27,7 @@ using ::std::chrono::milliseconds;
 constexpr int64_t DEFAULT_NUMBER = 999999999;
 constexpr milliseconds DEFAULT_TIME{DEFAULT_NUMBER};
 constexpr milliseconds ZERO_MS{0};
+constexpr std::string NA = "NA";
 
 struct aggregate_data {
   size_t race_id;
@@ -46,6 +47,11 @@ milliseconds time_or_default(
     const Duration& duration, milliseconds default_value = DEFAULT_TIME) {
   milliseconds mils = to_milliseconds(duration);
   return mils.count() > 0 ? mils : default_value;
+}
+
+std::string time_or_na(const Duration& duration) {
+  milliseconds ms = time_or_default(duration);
+  return ms == DEFAULT_TIME ? NA : std::to_string(ms.count());
 }
 
 milliseconds best_qual_time(const DriverResult& result) {
@@ -262,7 +268,7 @@ public:
       const result_data& result,
       const aggregate_data&,
       const historical_data&) const override {
-    out << time_or_default(result.driver.qualification_time_1()).count();
+    out << time_or_na(result.driver.qualification_time_1());
   }
 };
 
@@ -274,7 +280,7 @@ public:
       const result_data& result,
       const aggregate_data&,
       const historical_data&) const override {
-    out << time_or_default(result.driver.qualification_time_2()).count();
+    out << time_or_na(result.driver.qualification_time_2());
   }
 };
 
@@ -286,7 +292,7 @@ public:
       const result_data& result,
       const aggregate_data&,
       const historical_data&) const override {
-    out << time_or_default(result.driver.qualification_time_3()).count();
+    out << time_or_na(result.driver.qualification_time_3());
   }
 };
 
@@ -358,7 +364,7 @@ public:
           to_milliseconds(result.driver.qualification_time_3()).count());
     }
     if (qual_times.size() <= 1) {
-      out << 0;
+      out << NA;
       return;
     }
     double stddev = standard_deviation(qual_times);
@@ -382,7 +388,7 @@ public:
     if (driver_stats) {
       out << average(driver_stats->finals_positions);
     } else {
-      out << DEFAULT_NUMBER;
+      out << NA;
     }
   }
 };
@@ -400,10 +406,10 @@ public:
       const historical_data& historical) const override {
     const auto* driver_stats =
         find_historical_circuit_driver_data(historical, result.driver);
-    if (driver_stats) {
+    if (driver_stats && driver_stats->finals_positions.size() > 1) {
       out << standard_deviation(driver_stats->finals_positions);
     } else {
-      out << DEFAULT_NUMBER;
+      out << NA;
     }
   }
 };
@@ -421,10 +427,10 @@ public:
       const historical_data& historical) const override {
     const auto* driver_stats =
         find_historical_circuit_driver_data(historical, result.driver);
-    if (driver_stats) {
+    if (driver_stats && driver_stats->finals_positions.size() > 1) {
       out << standard_deviation(last_n(driver_stats->finals_positions, 3));
     } else {
-      out << DEFAULT_NUMBER;
+      out << NA;
     }
   }
 };
@@ -445,7 +451,7 @@ public:
     if (driver_stats) {
       out << average(last_n(driver_stats->finals_positions, 3));
     } else {
-      out << DEFAULT_NUMBER;
+      out << NA;
     }
   }
 };
@@ -462,10 +468,10 @@ public:
       const historical_data& historical) const override {
     const auto* driver_stats =
         find_historical_driver_career_data(historical, result.driver);
-    if (driver_stats) {
+    if (driver_stats && driver_stats->finals_positions.size() > 1) {
       out << standard_deviation(last_n(driver_stats->finals_positions, 3));
     } else {
-      out << DEFAULT_NUMBER;
+      out << NA;
     }
   }
 };
@@ -485,7 +491,7 @@ public:
     if (team_stats) {
       out << average(team_stats->finals_positions);
     } else {
-      out << DEFAULT_NUMBER;
+      out << NA;
     }
   }
 };
@@ -506,7 +512,7 @@ public:
     if (team_stats) {
       out << average(last_n(team_stats->finals_positions, 6));
     } else {
-      out << DEFAULT_NUMBER;
+      out << NA;
     }
   }
 };
