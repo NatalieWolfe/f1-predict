@@ -139,11 +139,11 @@ void save_data(
   for (int season = *first_season; season <= *last_season; ++season) {
     auto itr = data.find(season);
     if (itr == data.end()) continue;
-    for (const auto& results : itr->second | std::views::values) {
+    for (const auto& race : itr->second | std::views::values) {
       out.write_race(
-          results | std::views::values | std::ranges::to<std::vector>(),
+          race | std::views::values | std::ranges::to<std::vector>(),
           historical);
-      add_race(historical, results | std::views::values);
+      add_race(historical, race | std::views::values);
     }
   }
 }

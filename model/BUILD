@@ -24,15 +24,17 @@ genrule(
     srcs = [
         ":training.csv",
         ":tests.csv",
-        ":training.conf",
+        "training.conf",
     ],
     outs = ["f1_lambdarank_model.txt"],
     cmd = (
         "lightgbm" +
-        "  config=$(location :training.conf)" +
+        "  config=$(location training.conf)" +
         "  output_model=$(OUTS)" +
         "  train=$(location :training.csv)" +
-        "  valid=$(location :tests.csv)"
+        "  valid=$(location :tests.csv)" +
+        "  2>&1" +
+        "  | tail"
     ),
 )
 
