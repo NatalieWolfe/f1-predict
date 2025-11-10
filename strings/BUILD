@@ -3,6 +3,21 @@ load("@rules_cc//cc:defs.bzl", "cc_library", "cc_test")
 package(default_visibility = ["//:__subpackages__"])
 
 cc_library(
+    name = "levenshtein",
+    srcs = ["levenshtein.cc"],
+    hdrs = ["levenshtein.h"],
+)
+
+cc_test(
+    name = "levenshtein_test",
+    srcs = ["levenshtein_test.cc"],
+    deps = [
+        ":levenshtein",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_library(
     name = "parse",
     srcs = ["parse.cc"],
     hdrs = ["parse.h"],
