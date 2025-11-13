@@ -587,6 +587,7 @@ void writer::write_race(
     if (a->final_position() == b->final_position()) {
       return a->starting_position() < b->starting_position();
     }
+    if (!b->final_position()) return true;
     return a->final_position() < b->final_position();
   });
 
@@ -603,8 +604,7 @@ void writer::write_race(
   std::span<const f1_predict::DriverResult*> results_span{
       sorted_results.begin(), sorted_results.end()};
   if (results_span.size() > _options.race_size_limit) {
-    results_span =
-        results_span.subspan(results_span.size() - _options.race_size_limit);
+    results_span = results_span.subspan(0, _options.race_size_limit);
   }
 
   for (size_t i = 0; i < results_span.size(); ++i) {

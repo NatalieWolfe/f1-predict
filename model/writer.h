@@ -17,7 +17,7 @@ class column_writer;
 } // namespace writer_internal
 
 struct writer_options {
-  size_t race_size_limit = 30;
+  size_t race_size_limit = 20;
   char delim = ',';
 };
 
