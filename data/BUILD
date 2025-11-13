@@ -66,6 +66,22 @@ cc_binary(
 )
 
 cc_binary(
+    name = "insert",
+    srcs = ["insert.cc"],
+    deps = [
+        ":constants_cc_proto",
+        ":proto_utils",
+        ":race_results_cc_proto",
+        "//cli:autocomplete",
+        "//strings:parse",
+        "@abseil-cpp//absl/flags:flag",
+        "@abseil-cpp//absl/flags:parse",
+        "@abseil-cpp//absl/strings",
+        "@protobuf",
+    ],
+)
+
+cc_binary(
     name = "kaggle_importer",
     srcs = ["kaggle_importer.cc"],
     deps = [
