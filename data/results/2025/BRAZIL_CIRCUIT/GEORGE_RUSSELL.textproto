@@ -1,0 +1,17 @@
+circuit: BRAZIL_CIRCUIT
+race_season: 2025
+team: MERCEDES
+driver: GEORGE_RUSSELL
+qualification_time_1 {
+  seconds: 69
+  nanos: 935000000
+}
+qualification_time_2 {
+  seconds: 69
+  nanos: 880000000
+}
+qualification_time_3 {
+  seconds: 69
+  nanos: 942000000
+}
+starting_position: 6
