@@ -14,7 +14,7 @@ genrule(
         "$(location :generate_training_files)" +
         "  --training_file=$${TRAINING_FILE}" +
         "  --tests_file=$${TESTS_FILE}" +
-        "  $(SRCS)"
+        "  --results_dir=data/results"
     ),
     tools = [":generate_training_files"],
 )
@@ -24,18 +24,19 @@ genrule(
     srcs = [
         ":training.csv",
         ":tests.csv",
-        "training.conf",
+        ":training.conf",
     ],
     outs = ["f1_lambdarank_model.txt"],
     cmd = (
-        "lightgbm" +
-        "  config=$(location training.conf)" +
+        "$(location //third_party/lightgbm:binary)" +
+        "  config=$(location :training.conf)" +
         "  output_model=$(OUTS)" +
         "  train=$(location :training.csv)" +
         "  valid=$(location :tests.csv)" +
         "  2>&1" +
         "  | tail"
     ),
+    tools = ["//third_party/lightgbm:binary"],
 )
 
 cc_library(
