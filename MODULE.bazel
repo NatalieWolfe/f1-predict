@@ -3,32 +3,19 @@
 module(name = "f1-predict", version = "1.0")
 
 bazel_dep(name = "abseil-cpp", version = "20250814.1")
+bazel_dep(name = "bazel_lib", version = "3.0.0")
 bazel_dep(name = "googletest", version = "1.17.0.bcr.1")
 bazel_dep(name = "protobuf", version = "33.0")
 bazel_dep(name = "rules_cc", version = "0.2.11")
 bazel_dep(name = "rules_foreign_cc", version = "0.15.1")
 bazel_dep(name = "platforms", version = "1.0.0")
 
+lightgbm_extension = use_extension(
+    "//:lightgbm_extension.bzl",
+    "lightgbm_extension",
+)
+use_repo(lightgbm_extension, "lightgbm")
+
 # register_toolchains(
 #     "//tools/cpp:cc_toolchain_for_linux_x86_64",
 # )
-
-cmake = use_extension("@rules_foreign_cc//foreign_cc:extensions.bzl", "cmake")
-cmake.repository(
-    name = "lightgbm",
-    url = "https://github.com/microsoft/LightGBM",
-    tag = "v4.6.0",
-    submodules = True,
-
-    # `_lightgbm` is the c-library, `lightgbm` is the CLI executable.s
-    cmake_targets = ["_lightgbm", "lightgbm"],
-    cache_entries = {
-        "BUILD_CLI": "ON",
-        "BUILD_STATIC_LIB": "ON",
-        "USE_MPI": "OFF",
-        "USE_GPU": "OFF",
-        "USE_OPENMP": "ON",
-    },
-)
-
-use_repo(cmake, "cmake_toolchains")
