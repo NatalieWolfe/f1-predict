@@ -584,6 +584,7 @@ void writer::write_race(
   }
 
   std::ranges::sort(sorted_results, [](const auto* a, const auto* b) {
+    if (!a->final_position() && b->final_position()) return false;
     if (a->final_position() == b->final_position()) {
       return a->starting_position() < b->starting_position();
     }
