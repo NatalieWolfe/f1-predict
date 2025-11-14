@@ -25,6 +25,8 @@ ABSL_FLAG(
     "Path to save the training data.");
 
 ABSL_FLAG(std::string, tests_file, "tests.csv", "Path to save test data.");
+ABSL_FLAG(
+    std::string, results_dir, "", "Path to directory containing race results.");
 
 namespace fs = ::std::filesystem;
 
@@ -41,8 +43,25 @@ using circuit_to_drivers_map_t =
 using season_to_circuit_map_t =
     ::std::unordered_map<int, ::circuit_to_drivers_map_t>;
 
+std::vector<std::string> enumerate_files(const fs::path& root) {
+  if (!fs::is_directory(root)) {
+    if (!fs::exists(root)) return {};
+    return {root};
+  }
+
+  std::vector<std::string> files;
+  for (const fs::directory_entry& child : fs::directory_iterator(root)) {
+    if (child.is_directory()) {
+      std::ranges::move(
+          enumerate_files(child.path()), std::back_inserter(files));
+    }
+    files.push_back(child.path());
+  }
+  return files;
+}
+
 std::vector<f1_predict::DriverResult>
-load_all_data(std::span<char*> file_paths) {
+load_all_data(std::span<std::string> file_paths) {
   std::vector<f1_predict::DriverResult> data;
   int error_count = 0;
   for (fs::path file_path : file_paths) {
@@ -150,8 +169,13 @@ void save_data(
 
 int main(int argc, char** argv) {
   std::vector<char*> args = absl::ParseCommandLine(argc, argv);
-  std::span<char*> input_files{args.begin(), args.end()};
-  input_files = input_files.subspan(1);
+  auto input_files =
+      args | std::views::drop(1) | std::ranges::to<std::vector<std::string>>();
+  if (input_files.empty() && !absl::GetFlag(FLAGS_results_dir).empty()) {
+    input_files = enumerate_files(absl::GetFlag(FLAGS_results_dir));
+    std::cout << "Found " << input_files.size() << " files under "
+              << absl::GetFlag(FLAGS_results_dir) << std::endl;
+  }
   if (input_files.empty()) {
     std::cerr << "Must specify at least 1 source file." << std::endl;
     return 1;
