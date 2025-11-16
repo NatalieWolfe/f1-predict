@@ -51,5 +51,11 @@ TEST(ParseGap, ParsesPlusPrefix) { EXPECT_EQ(parse_gap("+1.234"), 1234ms); }
 
 TEST(ParseInt, ParsesInteger) { EXPECT_EQ(parse_int("1"), 1); }
 
+// MARK: parse_double
+
+TEST(ParseDouble, ParsesFloatingPointNumber) {
+  EXPECT_EQ(parse_double("1.234"), 1.234);
+}
+
 } // namespace
 } // namespace f1_predict

@@ -72,4 +72,13 @@ int parse_int(std::string_view int_str) {
   return i;
 }
 
+double parse_double(std::string_view double_str) {
+  double d;
+  if (!from_chars(double_str, d)) {
+    std::cerr << "Failed to parse double: \"" << double_str << '"' << std::endl;
+    std::exit(1);
+  }
+  return d;
+}
+
 } // namespace f1_predict
