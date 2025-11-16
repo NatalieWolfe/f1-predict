@@ -20,6 +20,18 @@ genrule(
 )
 
 genrule(
+    name = "prediction_data",
+    srcs = ["//data:results"],
+    outs = ["prediction_data.csv"],
+    cmd = (
+        "$(location :generate_training_files)" +
+        "  --prediction_file=$(OUTS)" +
+        "  --results_dir=data/results"
+    ),
+    tools = [":generate_training_files"],
+)
+
+genrule(
     name = "f1_lambdarank_model",
     srcs = [
         ":training.csv",
@@ -37,6 +49,28 @@ genrule(
         "  | tail"
     ),
     tools = ["//third_party/lightgbm:binary"],
+    visibility = ["//visibility:public"],
+)
+
+genrule(
+    name = "raw_predictions",
+    srcs = [
+        ":f1_lambdarank_model.txt",
+        ":predict.conf",
+        ":prediction_data.csv",
+    ],
+    outs = ["f1_lambdarank_predictions.txt"],
+    cmd = (
+        "$(location //third_party/lightgbm:binary)" +
+        "  config=$(location :predict.conf)" +
+        "  input_model=$(location :f1_lambdarank_model.txt)" +
+        "  data=$(location :prediction_data.csv)" +
+        "  output_result=$(OUTS)" +
+        "  2>&1" +
+        "  | tail"
+    ),
+    tools = ["//third_party/lightgbm:binary"],
+)
 
 cc_binary(
     name = "apply_prediction",
