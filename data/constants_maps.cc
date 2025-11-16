@@ -4,6 +4,7 @@
 #include <unordered_map>
 
 #include "data/constants.pb.h"
+#include "strings/parse.h"
 
 namespace f1_predict {
 namespace {
@@ -1273,6 +1274,33 @@ constants::Driver lookup_driver(std::string_view driver_name) {
 
 constants::Team lookup_team(std::string_view team_name) {
   return do_lookup(team_name, NAME_TO_TEAM_MAP, "team");
+}
+
+constants::Circuit lookup_circuit_id(std::string_view circuit_id) {
+  int id = parse_int(circuit_id);
+  if (!constants::Circuit_IsValid(id)) {
+    std::cerr << "Invalid Circuit ID: " << circuit_id << std::endl;
+    std::exit(1);
+  }
+  return static_cast<constants::Circuit>(id);
+}
+
+constants::Driver lookup_driver_id(std::string_view driver_id) {
+  int id = parse_int(driver_id);
+  if (!constants::Driver_IsValid(id)) {
+    std::cerr << "Invalid Driver ID: " << driver_id << std::endl;
+    std::exit(1);
+  }
+  return static_cast<constants::Driver>(id);
+}
+
+constants::Team lookup_team_id(std::string_view team_id) {
+  int id = parse_int(team_id);
+  if (!constants::Team_IsValid(id)) {
+    std::cerr << "Invalid Team ID: " << team_id << std::endl;
+    std::exit(1);
+  }
+  return static_cast<constants::Team>(id);
 }
 
 } // namespace f1_predict

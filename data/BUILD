@@ -24,7 +24,11 @@ cc_library(
     name = "constants_maps",
     srcs = ["constants_maps.cc"],
     hdrs = ["constants_maps.h"],
-    deps = [":constants_cc_proto"],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":constants_cc_proto",
+        "//strings:parse",
+    ],
 )
 
 cc_library(
