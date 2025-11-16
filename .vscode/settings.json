@@ -22,6 +22,7 @@
     "filegroup",
     "Francorchamps",
     "Gasly",
+    "genrule",
     "Gilles",
     "Giovinazzi",
     "googletest",
