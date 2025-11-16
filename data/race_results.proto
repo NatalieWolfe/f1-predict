@@ -21,8 +21,17 @@ message DriverResult {
   google.protobuf.Duration finals_fastest_lap_time = 13;
 }
 
-message RaceResult {
+message DriverPrediction {
+  constants.Driver driver = 1;
+  int32 position = 2;
+  double p1_confidence = 3;
+  double top_3_confidence = 4;
+  int32 real_position = 5;
+  double raw_prediction = 6;
+}
+
+message RacePrediction {
   constants.Circuit circuit = 1;
   int32 race_season = 2;
-  repeated DriverResult results = 3;
+  repeated DriverPrediction predictions = 3;
 }
