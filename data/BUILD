@@ -1,6 +1,12 @@
 load("@protobuf//bazel:cc_proto_library.bzl", "cc_proto_library")
 load("@protobuf//bazel:proto_library.bzl", "proto_library")
 load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
+load("//model:prediction.bzl", "genprediction")
+
+_RESULTS_RACES = [path.split("/") for path in set([
+    "/".join(path.split("/")[1:-1])
+    for path in glob(["results/**/*.textproto"])
+])]
 
 filegroup(
     name = "results",
@@ -8,6 +14,25 @@ filegroup(
     data = glob(["results/**/*.textproto"]),
     visibility = ["//model:__subpackages__"],
 )
+
+[
+    filegroup(
+        name = "%s_%s_results" % (year, circuit),
+        srcs = glob(["results/%s/%s/*.textproto" % (year, circuit)]),
+        data = glob(["results/%s/%s/*.textproto" % (year, circuit)]),
+        visibility = ["//model:__subpackages__"],
+    )
+    for (year, circuit) in _RESULTS_RACES
+]
+
+[
+    genprediction(
+        name = "%s_%s_prediction" % (year, circuit),
+        circuit = circuit,
+        year = year,
+    )
+    for (year, circuit) in _RESULTS_RACES
+]
 
 proto_library(
     name = "constants_proto",
@@ -35,6 +60,7 @@ cc_library(
     name = "csv",
     srcs = ["csv.cc"],
     hdrs = ["csv.h"],
+    visibility = ["//visibility:public"],
     deps = ["//strings:trim"],
 )
 

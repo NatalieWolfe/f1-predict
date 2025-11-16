@@ -1,4 +1,10 @@
+load("@bazel_lib//:bzl_library.bzl", "bzl_library")
 load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
+
+exports_files(
+    ["predict.conf"],
+    visibility = ["//visibility:public"],
+)
 
 genrule(
     name = "training_data",
@@ -97,6 +103,7 @@ cc_library(
 cc_binary(
     name = "generate_training_files",
     srcs = ["generate_training_files.cc"],
+    visibility = ["//visibility:public"],
     deps = [
         ":data_aggregates",
         ":writer",
@@ -107,6 +114,12 @@ cc_binary(
         "@abseil-cpp//absl/flags:parse",
         "@abseil-cpp//absl/random",
     ],
+)
+
+bzl_library(
+    name = "prediction_bzl",
+    srcs = ["prediction.bzl"],
+    visibility = ["//visibility:public"],
 )
 
 cc_library(
