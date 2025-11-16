@@ -26,6 +26,13 @@ ABSL_FLAG(
 
 ABSL_FLAG(std::string, tests_file, "tests.csv", "Path to save test data.");
 ABSL_FLAG(
+    std::string,
+    prediction_file,
+    "",
+    "Path to where all data will be written. When specified, all input files "
+    "will be used regardless of completeness. The `training_file` and "
+    "`tests_file` flags will be ignored.");
+ABSL_FLAG(
     std::string, results_dir, "", "Path to directory containing race results.");
 
 namespace fs = ::std::filesystem;
@@ -33,7 +40,7 @@ namespace fs = ::std::filesystem;
 using ::f1_predict::constants::Circuit;
 using ::f1_predict::constants::Driver;
 using ::f1_predict::constants::Team;
-using ::f1_predict::load_result;
+using ::f1_predict::load_all_results;
 using ::f1_predict::to_milliseconds;
 
 using driver_to_results_map_t =
@@ -43,13 +50,13 @@ using circuit_to_drivers_map_t =
 using season_to_circuit_map_t =
     ::std::unordered_map<int, ::circuit_to_drivers_map_t>;
 
-std::vector<std::string> enumerate_files(const fs::path& root) {
+std::vector<fs::path> enumerate_files(const fs::path& root) {
   if (!fs::is_directory(root)) {
     if (!fs::exists(root)) return {};
     return {root};
   }
 
-  std::vector<std::string> files;
+  std::vector<fs::path> files;
   for (const fs::directory_entry& child : fs::directory_iterator(root)) {
     if (child.is_directory()) {
       std::ranges::move(
@@ -58,26 +65,6 @@ std::vector<std::string> enumerate_files(const fs::path& root) {
     files.push_back(child.path());
   }
   return files;
-}
-
-std::vector<f1_predict::DriverResult>
-load_all_data(std::span<std::string> file_paths) {
-  std::vector<f1_predict::DriverResult> data;
-  int error_count = 0;
-  for (fs::path file_path : file_paths) {
-    if (!fs::exists(file_path)) {
-      std::cerr << "File not found: " << file_path << std::endl;
-      ++error_count;
-      continue;
-    }
-    data.push_back(load_result(file_path));
-  }
-
-  if (error_count > 0) {
-    std::cerr << "Encountered " << error_count << " errors." << std::endl;
-    std::exit(1);
-  }
-  return data;
 }
 
 season_to_circuit_map_t
@@ -170,7 +157,7 @@ void save_data(
 int main(int argc, char** argv) {
   std::vector<char*> args = absl::ParseCommandLine(argc, argv);
   auto input_files =
-      args | std::views::drop(1) | std::ranges::to<std::vector<std::string>>();
+      args | std::views::drop(1) | std::ranges::to<std::vector<fs::path>>();
   if (input_files.empty() && !absl::GetFlag(FLAGS_results_dir).empty()) {
     input_files = enumerate_files(absl::GetFlag(FLAGS_results_dir));
     std::cout << "Found " << input_files.size() << " files under "
@@ -180,14 +167,27 @@ int main(int argc, char** argv) {
     std::cerr << "Must specify at least 1 source file." << std::endl;
     return 1;
   }
+
+  auto raw_data = load_all_results(input_files);
+  season_to_circuit_map_t data = organize_data(std::move(raw_data));
+
+  fs::path prediction_file = absl::GetFlag(FLAGS_prediction_file);
+  if (!prediction_file.empty()) {
+    if (prediction_file.has_parent_path()) {
+      fs::create_directories(prediction_file.parent_path());
+    }
+    save_data(data, prediction_file);
+    return 0;
+  }
+
   fs::path training_file = absl::GetFlag(FLAGS_training_file);
+  fs::path tests_file = absl::GetFlag(FLAGS_tests_file);
   if (training_file.empty()) {
     std::cerr << "Output training file must be specified." << std::endl;
     return 1;
   }
-  fs::path tests_file = absl::GetFlag(FLAGS_tests_file);
   if (tests_file.empty()) {
-    std::cerr << "Output training file must be specified." << std::endl;
+    std::cerr << "Output test file must be specified." << std::endl;
     return 1;
   }
   if (training_file.has_parent_path()) {
@@ -197,8 +197,6 @@ int main(int argc, char** argv) {
     fs::create_directories(tests_file.parent_path());
   }
 
-  auto raw_data = load_all_data(input_files);
-  season_to_circuit_map_t data = organize_data(std::move(raw_data));
   filter_data(data);
   season_to_circuit_map_t tests = extract_tests(data);
 
