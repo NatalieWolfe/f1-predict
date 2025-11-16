@@ -37,6 +37,21 @@ genrule(
         "  | tail"
     ),
     tools = ["//third_party/lightgbm:binary"],
+
+cc_binary(
+    name = "apply_prediction",
+    srcs = ["apply_prediction.cc"],
+    visibility = ["//visibility:public"],
+    deps = [
+        "//data:constants_cc_proto",
+        "//data:constants_maps",
+        "//data:csv",
+        "//data:proto_utils",
+        "//data:race_results_cc_proto",
+        "//strings:parse",
+        "@abseil-cpp//absl/flags:flag",
+        "@abseil-cpp//absl/flags:parse",
+    ],
 )
 
 cc_library(
