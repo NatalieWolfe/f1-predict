@@ -4,7 +4,9 @@
 #include <filesystem>
 #include <fstream>
 #include <iostream>
+#include <span>
 #include <system_error>
+#include <vector>
 
 #include "data/race_results.pb.h"
 #include "google/protobuf/duration.pb.h"
@@ -25,11 +27,11 @@ bool zero_duration(const google::protobuf::Duration& duration) {
 
 } // namespace
 
-f1_predict::DriverResult load_result(const fs::path& file_path) {
+DriverResult load_result(const fs::path& file_path) {
   std::ifstream stream(file_path);
   std::stringstream data;
   data << stream.rdbuf();
-  f1_predict::DriverResult result;
+  DriverResult result;
   if (!TextFormat::ParseFromString(data.str(), &result)) {
     std::cerr << "Failed to parse result from " << file_path << std::endl;
     std::exit(1);
@@ -62,10 +64,53 @@ f1_predict::DriverResult load_result(const fs::path& file_path) {
   return result;
 }
 
+DriverResult load_result(
+    const fs::path& root_dir,
+    int year,
+    constants::Circuit circuit,
+    constants::Driver driver) {
+  fs::path path = root_dir / std::to_string(year) /
+      constants::Circuit_Name(circuit) / constants::Driver_Name(driver);
+  path += ".textproto";
+  return load_result(path);
+}
+
+std::vector<DriverResult> load_all_results(std::span<const fs::path> paths) {
+  std::vector<DriverResult> data;
+  data.reserve(paths.size());
+
+  int error_count = 0;
+  for (fs::path path : paths) {
+    if (!fs::exists(path)) {
+      std::cerr << "File not found: " << path << std::endl;
+      ++error_count;
+      continue;
+    }
+    data.push_back(load_result(path));
+  }
+
+  if (error_count > 0) {
+    std::cerr << "Encountered " << error_count << " errors." << std::endl;
+    std::exit(1);
+  }
+  return data;
+}
+
 void save_result(const fs::path& file_path, const DriverResult& results) {
   std::string output;
   if (!TextFormat::PrintToString(results, &output)) {
     std::cerr << "Failed to print out race results.";
+    std::exit(1);
+  }
+  std::ofstream out_stream{file_path};
+  out_stream << output;
+}
+
+void save_prediction(
+    const fs::path& file_path, const RacePrediction& prediction) {
+  std::string output;
+  if (!TextFormat::PrintToString(prediction, &output)) {
+    std::cerr << "Failed to print out race predictions.";
     std::exit(1);
   }
   std::ofstream out_stream{file_path};
